@@ -25,4 +25,4 @@
 - This site is open source, under a [MIT License](https://opensource.org/licenses/MIT)
 - Source code available on [GitHub](https://github.com/cdinu/cdinu.github.io)
 
-- There is no tracking, no analytics, besides some requests and bandwith logs provided by CloudFlare
+- There is no tracking and no analytics enabled. I can look at some network request summaries and bandwith logs provided by CloudFlare.
