@@ -26,5 +26,5 @@
 - Source code available on [GitHub](https://github.com/cdinu/cdinu.github.io)
 
 - There is no tracking and no analytics enabled. I can look at some network request summaries and bandwith logs provided by CloudFlare.
-- To contact me over the phone or WhatsApp, my number is the result of base 64 decoding this string `KzQ0Nzc3NDE5OTk0OQ==`
+- To contact me over the phone or WhatsApp, my number is the result of Base64 decoding this string: `KzQ0Nzc3NDE5OTk0OQ==`
 
