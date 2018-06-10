@@ -18,7 +18,9 @@ layout = handlebars.compile(
 );
 
 const renderer = new marked.Renderer();
-renderer.link = ( href, title, text ) => `<a target="_blank" href="${href}" title="open in new tab">${text}</a>`;
+renderer.link = ( href = '', title, text ) => href.indexOf('http') === 0
+  ? `<a target="_blank" href="${href}" title="open in new tab" rel="noopener">${text}</a>`
+  : `<a href="${href}">${text}</a>`;
 
 
 const build = () => {
