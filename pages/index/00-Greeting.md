@@ -14,5 +14,5 @@ Despite being fairly pragmatic, I am still quite an idealist, actively assuming 
 
 I write code, Star Trek is high in my preferences, and I get Sheldon's science jokes, but i am a friendly and easygoing geek: science and computers are my things, but I enjoy talking about languages, history, literature, social media, science, and of course cycling.
 
-Thanks for stopping by and let’s chat (find me also on [Facebook](https://www.facebook.com/cristian.dinu.infoideea), [LinkedIn](httpd://linkedin.com/in/cdinu) or email, first and last name at gmail).
+Thanks for stopping by and let’s chat (find me also on [Facebook](https://www.facebook.com/cristian.dinu.infoideea), [LinkedIn](https://linkedin.com/in/cdinu) or email, first and last name at gmail).
 
