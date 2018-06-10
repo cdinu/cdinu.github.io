@@ -12,7 +12,7 @@ I am always striving to learn new things, not only in management and technology.
 
 Despite being fairly pragmatic, I am still quite an idealist, actively assuming I can change the world.
 
-I write code, Star Trek is high in my preferences, and I get Sheldon's science jokes, but I am a friendly and easygoing geek: science and computers are my things, but I also enjoy talking about languages, history, literature, social media, science, and of course cycling.
+I write code, Star Trek ranks high in my preferences, and I get Sheldon's science jokes, but i am a friendly and easygoing geek: science and computers are my thing, but I enjoy talking about all things: language, history, literature - and of course cycling.
 
-Thanks for stopping by and let’s chat (find me on [Facebook](https://www.facebook.com/cristian.dinu.infoideea), [LinkedIn](https://linkedin.com/in/cdinu) or email, first and last name at gmail).
+Thanks for stopping by and let’s chat! Find me on [Facebook](https://www.facebook.com/cristian.dinu.infoideea), [LinkedIn](https://linkedin.com/in/cdinu) or email, first and last name at gmail. Phone number hidden in credits.
 
