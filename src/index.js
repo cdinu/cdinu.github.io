@@ -17,6 +17,10 @@ layout = handlebars.compile(
   ).toString()
 );
 
+const renderer = new marked.Renderer();
+renderer.link = ( href, title, text ) => `<a target="_blank" href="${href}" title="open in new tab">${text}</a>`;
+
+
 const build = () => {
   const pagesDir = path.join(__dirname, '..', 'pages');
   const pages = fs.readdirSync(pagesDir);
@@ -28,7 +32,7 @@ const build = () => {
       .filter(fileName => fileName.match(/\.md$/i))
       .sort()
       .map(fileName => fs.readFileSync(path.join(pagesDir, page, fileName)).toString())
-      .map(fileContents => marked(fileContents))
+      .map(fileContents => marked(fileContents, { renderer }))
       .join('\n');
 
     const canonical = page == 'index' ? defaults.baseUrl : `${defaults.baseUrl}/${page}.html`
