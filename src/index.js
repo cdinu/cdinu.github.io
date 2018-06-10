@@ -8,7 +8,7 @@ const defaults = {
   description: 'Cristian Dinu\'s official page. Short bio and some of the latest noteworthy happenings',
   outputDir: path.join(__dirname, '..'),
   style: fs.readFileSync(path.join(__dirname, 'style.css')).toString(),
-  baseUrl: 'http://localhost:3000',
+  baseUrl: 'https://cristiandinu.org',
 }
 
 layout = handlebars.compile(
