@@ -1,2 +1,3 @@
-# cdinu.github.io
-My personal greeting web page
+# cdinu.github.io / cristiandinu.org
+
+My personal greeting web page, hosted at https://cristiandinu.org
