@@ -10,12 +10,17 @@
 
 ### Technologies used:
 
+- [Accelerated Mobile Pages (AMP)](https://www.ampproject.org/)
 - [Handlebars](http://handlebarsjs.com/)
 - [Markdown](https://daringfireball.net/projects/markdown/) and [Marked](https://github.com/markedjs/marked)
 - [Node.js](https://nodejs.org)
+
+### Netoworking, cookies, etc.
+
+- Hosted free at [github.io](https://pages.github.com/)
+- Proxied / protected by [CoudFlare](https://cloudflare.com/) (they also gave your browser a cookie)
 
 ### License
 
 - This site is open source, under a [MIT License](https://opensource.org/licenses/MIT)
 - Source code available on [GitHub](https://github.com/cdinu/cdinu.github.io)
-- Hosted free at [github.io](https://pages.github.com/)
