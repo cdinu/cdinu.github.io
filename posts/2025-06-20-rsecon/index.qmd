@@ -1,0 +1,28 @@
+---
+title: "RSECon25: Beyond Traditional Apps with LLMs"
+date: 2025-06-20
+categories: [AI & Technology, Research & Software]
+image: "RSECon25-logo.png"
+description: "My accepted talk for RSECon25 on how Large Language Models might replace traditional app interfaces through conversational agents"
+bibliography: references.bib
+---
+
+My talk just got accepted for RSECon25 [@rsecon25] in September! I'm going to share how Large Language Models (LLMs) might just ditch the need for traditional "apps" and programs.
+
+Most software still talks in buttons, charts, forms, pop-ups. But what if you could skip them entirely and get your data or perform actions the way you talk to a person?
+
+In the walkthrough, I'll show how LLMs (like ChatGPT) can become your front-end, powered by a new thing called the Model Context Protocol (MCP) [@model_context_protocol]. It lets you plug in real-time, structured data directly into a conversational agent.
+
+I'll demo how to build an MCP server, show what works (and what doesn't), and share patterns I've seen when replacing traditional apps with this approach.
+
+If you're into data, software, or just curious where interfaces are going next -- come by and say hi.
+
+🗓 9 to 11 September 2025  
+📍 University of Warwick  
+🎤 RSECon25 -- Ninth Annual Conference for Research Software Engineering
+
+---
+
+*Originally posted on [LinkedIn](https://www.linkedin.com/posts/cdinu_rsecon25-activity-7344341145956626432-ZnDU)* [@rsecon_original]
+
+## References

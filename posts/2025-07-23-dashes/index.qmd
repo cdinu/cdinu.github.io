@@ -1,0 +1,16 @@
+---
+title: "Dashed --- Writing Like a Machine"
+date: 2025-07-23
+categories: [AI & Technology, Writing & Communication]
+bibliography: references.bib
+---
+
+I like dashes of all kinds: the hyphen, the syllable-breaking dash, the dialogue dash. I like diacritics, I like commas. Whenever I can, I use non-breaking spaces between words that belong together. I've been using them for decades, on my own, as consistently as I can. 
+
+But lately, using these writing "delicacies" is seen as a sure sign the text was written by GPT. What should I do? Write worse? Or investigate whether I, too, might be a stochastic parrot [@bender_stochastic_2021]?
+
+---
+
+*Originally posted on LinkedIn[@dashes_original]*
+
+## References

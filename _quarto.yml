@@ -22,7 +22,7 @@ website:
     center: "© 2025 Cristian Dinu [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) | Built with [Quarto](https://quarto.org)"
 format:
   html:
-    theme: united
+    theme: lux
     css: styles.css
     toc: false
     link-external-newwindow: true
