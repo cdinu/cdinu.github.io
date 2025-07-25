@@ -1,7 +1,18 @@
 ---
-title: "Cristian Dinu – Building Research Software for a Decarbonised Future"
+title: "Cristian Dinu"
+subtitle: "Building Research Software for a Decarbonised Future"
 format: html
 description: "Cristian Dinu is a Senior Research Software Engineer at UCL, building human-centred data systems for climate and energy research, including SERL and EDOL."
+about:
+  template: solana
+  image: images/favicon.png
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com
+    - icon: github
+      text: Github
+      href: https://github.com
 ---
 
 I am Cristian Dinu — a software engineer working at the boundary between climate, data, and research. I help make energy data more accessible to researchers through secure, reliable, human-focused software. Currently, I am a Senior Research Software Engineer at [UCL](https://www.ucl.ac.uk), contributing to the [Smart Energy Research Lab (SERL)](https://serl.ac.uk) and [Energy Demand Observatory and Laboratory (EDOL)](https://edol.ac.uk), where I lead the technical development of systems that support energy research at scale.

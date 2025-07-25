@@ -1,0 +1,20 @@
+---
+title: "What I Am Doing Lately: EDOL and Energy Research"
+date: 2025-01-15
+categories: [Research & Software, Energy & Climate]
+image: "edol-logo.svg"
+description: "Leading the development of EDOL (Energy Demand Observatory and Laboratory) to understand home energy use patterns"
+bibliography: references.bib
+---
+
+I wanted to share a bit about what keeps me busy these days. I'm leading the development of a project called EDOL (Energy Demand Observatory and Laboratory) [@edol], which builds on our previous work with SERL [@serl]. At its heart, it's about understanding how we all use energy in our homes, something that's become increasingly important as we navigate climate change.
+
+We work with wonderful participants who've agreed to share their smart meter [@smart_meters] readings and experiences with us. It's incredible -- we've collected over a billion readings already, giving us insights into real-world energy use patterns that we can share with interested energy researchers. Each data point tells a story about how families heat their homes, or how they adapt to changing weather.
+
+What makes me particularly excited is our next step - working with some households to install additional sensors, from simple temperature monitors to more detailed systems that track heat pump performance. It's all voluntary, and the privacy of our participants always comes first.
+
+![]({{< meta image >}}){fig-align="center" fig-alt="EDOL logo. Blue dots and EDOL text in blue"}
+
+*Originally posted on LinkedIn* [@edol_update_original]
+
+## References

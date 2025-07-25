@@ -1,0 +1,30 @@
+---
+title: "AI: Our Chilling and Thrilling Child"
+date: 2025-06-28
+categories: [AI & Technology]
+description: "Insights from Stephen Fry and Yuval Noah Harari at the Octopus Energy Tech Summit on AI as humanity's child"
+image: fry-and-harari.jpeg
+bibliography: references.bib
+---
+
+Without a doubt, Stephen Fry [@stephen_fry] and Yuval Noah Harari [@yuval_harari] talking to each other was my highlight at the Octopus Energy Tech Summit [@octopus_energy_summit].
+
+Paraphrasing: Like a JCB digger, these machines -- AI -- are here to augment what we do. We don't understand what they do, but that's the idea: if we knew precisely what they're going to do, there wouldn't be any "intelligence" involved; they'd revert to mere, "simple" machines.
+
+Understood in depth or not, AI is the "child" of humanity. And like children, **they do what they see you doing--not what you tell them to do**. You lie, they lie; you cheat, they cheat. And we humans are training it on human knowledge. So the AI is bound to cheat, lie, blackmail, use violence.
+
+Another issue they mentioned is that AI is brought to us by the same villains that brought us social media. And AI is trained and educated in a world that has the highest lack of trust in history.
+
+The next Stephen Fry quote is approximate: "We can't swim in UK rivers because they are polluted with sewage. Our children will 'swim' in a cultural river that is polluted with internet sewage."
+
+The final thought, from Fry, was brilliant: don't concentrate on how efficient you are, because the AI will soon be much more efficient than you. Concentrate on how much of a human being you are--on how you can enlighten a room, on how you make others happy; which is the opposite of what we are told to do.
+
+I hope I'll get to see the recording, to get the quotes straight.
+
+They finished with these two words: "Thrilling" and "Chilling"[@the_conversation_youtube_video]. It is exactly what I feel about it.
+
+---
+
+*Originally posted on LinkedIn[@chilling_thrilling_original]
+
+## References

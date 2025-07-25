@@ -1,0 +1,27 @@
+---
+title: "The Green Transition Should Not Be About Sacrifice"
+date: 2025-06-26
+categories: [Energy & Climate]
+description: "Insights from Octopus Energy on making decarbonisation about abundance and better quality of life, not sacrifice"
+bibliography: references.bib
+---
+
+Just back from the Energy Tech Summit [@octopus_energy_summit], where I heard the boss of Octopus [@greg_jackson] challenging the dominant narrative that the path to decarbonisation must be one of "sacrifice."
+
+Instead, he argued, the transition should make life better for people.
+
+Initially, I thought it was just rhetoric, because in my mind, reform requires sacrifice. But then I realised this might actually be a valid idea.
+
+For example, Octopus has an initiative called "Zero Bills" [@zero_bills] -- guaranteeing no energy bills for homes equipped with solar and batteries. Sure, if you pay for solar panels, a battery and a heat pump[@heat_pump] anyway, you could get a better deal if you manage everything yourself, by timing your electricity use and selling the excess back to the grid.
+
+But that takes knowledge and effort. In exchange for giving up some control and opportunity, you get peace of mind, which is, indeed, invaluable.
+
+Octopus is also experimenting with using electric cars as "batteries on wheels", based on the new _Vehicle to Grid_ (aka V2G) [@v2g_technology] set of technologies. Because it helps increase the grid's flexibility, Octopus offers a cheap-ish leasing option for a V2G-capable vehicle. Thumbs up for that, too -- despite some worrying but understandable geostrategic options.
+
+It's great to send the message that Net Zero means abundance, not austerity -- and that sustainability and quality of life aren't mutually exclusive. That message is becoming less and less wishful thinking -- and it can genuinely become a reality.
+
+---
+
+*Originally posted on [LinkedIn](https://www.linkedin.com/posts/cdinu_energytech-netzero-v2g-activity-7343970682424180737-RnMi)* [@green_transition_original]
+
+## References
