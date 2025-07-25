@@ -1,7 +1,42 @@
-.content .description {
+#title-block-header .description {
   display: none;
 }
 
+#title-block-header .quarto-title-banner.page-columns.page-full .description,
+.quarto-about-jolla #title-block-header .description {
+  display: block;
+}
+
+
 .quarto-post.image-right .thumbnail {
     max-width: 10rem;
+}
+
+.quarto-about-jolla {
+  margin-top: 0 !important;
+}
+
+.quarto-about-jolla .quarto-title-block {
+  text-align: center;
+}
+
+.quarto-listing-container-table table {
+  border: none;
+}
+
+.quarto-listing-container-table table td {
+  border: none;
+}
+
+.quarto-listing-container-table thead {
+  display: none;
+}
+
+.quarto-about-jolla .about-sep {
+  display: none;
+}
+
+#homepage h2 {
+  margin-top: 0 !important;
+  border-bottom: 0px !important;
 }

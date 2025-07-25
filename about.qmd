@@ -1,0 +1,29 @@
+---
+title: "Cristian Dinu"
+subtitle: "Building Research Software for a Decarbonised Future"
+format: html
+---
+
+I am Cristian Dinu — a software engineer working at the boundary between climate, data, and research. I help make energy data more accessible to researchers through secure, reliable, human-focused software. Currently, I am a Senior Research Software Engineer at [UCL](https://www.ucl.ac.uk), contributing to the [Smart Energy Research Lab (SERL)](https://serl.ac.uk) and [Energy Demand Observatory and Laboratory (EDOL)](https://edol.ac.uk), where I lead the technical development of systems that support energy research at scale.
+
+## Work
+
+I am part of [Advanced Research Computing Centre](https://www.ucl.ac.uk/advanced-research-computing/) and [Smart Energy Research Group](https://www.linkedin.com/company/ucl-smart-energy-research-group/) at the UCL Energy Institute. My work focuses on designing and building data infrastructure to enable UK researchers to access rich energy datasets while maintaining strong privacy protections.
+
+I lead the technical development of two flagship projects: SERL and EDOL. These platforms securely collect and enrich household energy data from smart meters, environmental sensors, surveys, and IoT devices. They are designed to comply with strict data governance and smart meter regulations while remaining useful to a wide range of researchers.
+
+Before UCL, I co-founded [Hypersay](https://hypersay.com), a platform for online events and real-time presentation engagement. That experience continues to shape my belief that software should be not only functional but intuitive, human-centred, and robust.
+
+I'm currently exploring how emerging AI technologies — especially language models (LLMs), diffusion models, and the Model Context Protocol (MCP) — can transform how people interact with computers, moving beyond traditional user interfaces.
+
+## Research Interests
+
+- Decarbonisation through high-resolution energy monitoring
+- Appliance-level energy insights, with focus on heat pumps
+- Demand flexibility and optimisation via grid-aware protocols (e.g., OpenADR)
+- Human-centred energy data infrastructure, with strong privacy controls
+- Natural language as an interface: LLMs, MCP, and generative UX for research tools
+
+## Connect
+
+You can connect with me on [LinkedIn](https://linkedin.com/in/cdinu), or view my [UCL profile](https://profiles.ucl.ac.uk/69550-cristian-dinu). If you want to meet online, [book here](https://outlook.office.com/bookwithme/user/51ab13ffeaa1421c862387ecad39b1db@ucl.ac.uk?anonymous&ismsaljsauthenabled&ep=plink).
