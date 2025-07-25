@@ -6,7 +6,7 @@ description: "Insights from Octopus Energy on making decarbonisation about abund
 bibliography: references.bib
 ---
 
-Just back from the Energy Tech Summit [@octopus_energy_summit], where I heard the boss of Octopus [@greg_jackson] challenging the dominant narrative that the path to decarbonisation must be one of "sacrifice."
+I was in the audience at the Energy Tech Summit [@octopus_energy_summit], where I heard the boss of Octopus [@greg_jackson] challenging the dominant narrative that the path to decarbonisation must be one of "sacrifice."
 
 Instead, he argued, the transition should make life better for people.
 
@@ -19,9 +19,5 @@ But that takes knowledge and effort. In exchange for giving up some control and 
 Octopus is also experimenting with using electric cars as "batteries on wheels", based on the new _Vehicle to Grid_ (aka V2G) [@v2g_technology] set of technologies. Because it helps increase the grid's flexibility, Octopus offers a cheap-ish leasing option for a V2G-capable vehicle. Thumbs up for that, too -- despite some worrying but understandable geostrategic options.
 
 It's great to send the message that Net Zero means abundance, not austerity -- and that sustainability and quality of life aren't mutually exclusive. That message is becoming less and less wishful thinking -- and it can genuinely become a reality.
-
----
-
-*Originally posted on [LinkedIn](https://www.linkedin.com/posts/cdinu_energytech-netzero-v2g-activity-7343970682424180737-RnMi)* [@green_transition_original]
 
 ## References

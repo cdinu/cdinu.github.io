@@ -6,7 +6,7 @@ description: "How Ukraine maintained their power grid through three winters of a
 bibliography: references.bib
 ---
 
-Another very interesting session at the Octopus Energy Tech Summit [@octopus_energy_summit] featured Maxim Timchenko, CEO of a Ukrainian energy company called DTEK [@dtek]. He spoke about how they have maintained their power grid through three winters of relentless attacks.
+A very interesting session at the Octopus Summit [@octopus_energy_summit] featured Maxim Timchenko, CEO of a Ukrainian energy company called DTEK [@dtek]. He spoke about how they have maintained their power grid through three winters of relentless attacks.
 
 He spoke about how they managed to keep the lights on and survive three winters, despite their energy infrastructure being pounded day and night by Russian Iskander missiles [@iskander_missile]. It took Ukraine only one year to install rooftop solar panels that provide 4% of their energy needs. He also mentioned the strategic advantage of green energy production: it takes only one Iskander missile to destroy a coal power plant, but fifty to take down a wind farm.
 
@@ -15,9 +15,5 @@ Everyone on the stage agreed that the knowledge and experience the Ukrainians ga
 Not that I had any doubt, but **energy security is national security**, and there is a correlation between energy security and fossil fuel.
 
 It is good to be reminded why I am doing this. Decarbonising means freedom, too. And less financial support for the meanies.
-
----
-
-*Originally posted on LinkedIn* [@light_under_fire_original]
 
 ## References

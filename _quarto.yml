@@ -4,12 +4,17 @@ project:
 website:
   title: "Cristian Dinu"
   favicon: images/favicon.png
+  image: images/favicon.jpg
   navbar:
     left:
       - href: index.qmd
         text: Home
+      - href: about.qmd
+        text: About
       - href: posts/index.qmd
         text: Articles
+      - href: /2025-07-ARC-Festival/
+        text: MCP Talk
   site-url: https://cdi.nu
   description: "Cristian Dinu is a Senior Research Software Engineer at UCL, building human-centred data systems for climate and energy research, including SERL and EDOL."
   open-graph:
@@ -22,7 +27,10 @@ website:
     center: "© 2025 Cristian Dinu [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) | Built with [Quarto](https://quarto.org)"
 format:
   html:
-    theme: lux
+    respect-user-color-scheme: true
+    theme:
+      light: [journal, theme-light.scss]
+      dark: [darkly, theme-dark.scss]
     css: styles.css
     toc: false
     link-external-newwindow: true

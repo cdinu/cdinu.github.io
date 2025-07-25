@@ -1,8 +1,0 @@
----
-title: Hello, World
-date: 2025-07-23
-format: html
-image: https://quarto.org/quarto.png
----
-
-Welcome to my new site. It’s built with [Quarto](https://quarto.org), written in Markdown, and designed to be minimal, fast, and long-lived.

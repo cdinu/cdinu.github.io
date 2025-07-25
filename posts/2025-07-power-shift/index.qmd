@@ -1,7 +1,9 @@
 ---
 title: "Power Shift: From Passive Consumers to Grid Players"
+title-block-banner: true
 date: "2025-07-22"
-categories: [energy, grid, technology, sustainability]
+toc: true
+categories: [Energy & Climate]
 image: "power-balance-gemini.png"
 description: "Energy flexibility means the ability to adjust power generation and demand, so that they match exactly. It's going to be a big topic in the following years, and it is very likely to impact our comfort, our wallets, but also our climate."
 ---

@@ -1,10 +1,9 @@
-# toc: true
 number-sections: false
 page-navigation: true
+page-layout: article
 csl: footnotes.csl
 website: 
   reader-mode: true
 format:
   html:
-    html-metadata:
-      body-attributes: "class=path-posts"
+    toc: false

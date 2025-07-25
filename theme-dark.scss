@@ -1,0 +1,24 @@
+/*-- scss:defaults --*/
+$body-bg: #181818;
+
+$navbar-bg: #550000;
+$navbar-fg: #ddd;
+$navbar-hl: #fff;
+
+$link-color: #fff;
+$footer-bg: #550000;
+$footer-fg: #fff;
+
+/*-- scss:rules --*/
+
+.content .description {
+  display: none;
+}
+
+.quarto-post.image-right .thumbnail {
+    max-width: 10rem;
+}
+
+.quarto-about-jolla .quarto-listing-container-table thead {
+  display: none;
+}
