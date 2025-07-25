@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Cristian Dinu",
+    "section": "",
+    "text": "I am Cristian Dinu — a software engineer working at the boundary between climate, data, and research. I help make energy data more accessible to researchers through secure, reliable, human-focused software. Currently, I am a Senior Research Software Engineer at UCL, contributing to the Smart Energy Research Lab (SERL) and Energy Demand Observatory and Laboratory (EDOL), where I lead the technical development of systems that support energy research at scale."
+  },
+  {
+    "objectID": "about.html#work",
+    "href": "about.html#work",
+    "title": "Cristian Dinu",
+    "section": "Work",
+    "text": "Work\nI am part of Advanced Research Computing Centre and Smart Energy Research Group at the UCL Energy Institute. My work focuses on designing and building data infrastructure to enable UK researchers to access rich energy datasets while maintaining strong privacy protections.\nI lead the technical development of two flagship projects: SERL and EDOL. These platforms securely collect and enrich household energy data from smart meters, environmental sensors, surveys, and IoT devices. They are designed to comply with strict data governance and smart meter regulations while remaining useful to a wide range of researchers.\nBefore UCL, I co-founded Hypersay, a platform for online events and real-time presentation engagement. That experience continues to shape my belief that software should be not only functional but intuitive, human-centred, and robust.\nI’m currently exploring how emerging AI technologies — especially language models (LLMs), diffusion models, and the Model Context Protocol (MCP) — can transform how people interact with computers, moving beyond traditional user interfaces."
+  },
+  {
+    "objectID": "about.html#research-interests",
+    "href": "about.html#research-interests",
+    "title": "Cristian Dinu",
+    "section": "Research Interests",
+    "text": "Research Interests\n\nDecarbonisation through high-resolution energy monitoring\nAppliance-level energy insights, with focus on heat pumps\nDemand flexibility and optimisation via grid-aware protocols (e.g., OpenADR)\nHuman-centred energy data infrastructure, with strong privacy controls\nNatural language as an interface: LLMs, MCP, and generative UX for research tools"
+  },
+  {
+    "objectID": "about.html#connect",
+    "href": "about.html#connect",
+    "title": "Cristian Dinu",
+    "section": "Connect",
+    "text": "Connect\nYou can connect with me on LinkedIn, or view my UCL profile. If you want to meet online, book here."
+  },
+  {
+    "objectID": "posts/2025-07-23-dashes/index.html",
+    "href": "posts/2025-07-23-dashes/index.html",
+    "title": "Dashed — Writing Like a Machine",
+    "section": "",
+    "text": "I like dashes of all kinds: the hyphen, the syllable-breaking dash, the dialogue dash. I like diacritics, I like commas. Whenever I can, I use non-breaking spaces between words that belong together. I’ve been using them for decades, on my own, as consistently as I can.\nBut lately, using these writing “delicacies” is seen as a sure sign the text was written by GPT. What should I do? Write worse? Or investigate whether I, too, might be a stochastic parrot1?"
+  },
+  {
+    "objectID": "posts/2025-06-28-chilling-thrilling/index.html",
+    "href": "posts/2025-06-28-chilling-thrilling/index.html",
+    "title": "AI: Our Chilling and Thrilling Child",
+    "section": "",
+    "text": "Without a doubt, Stephen Fry1 and Yuval Noah Harari2 talking to each other was my highlight at the Octopus Energy Tech Summit3.\nParaphrasing: Like a JCB digger, these machines – AI – are here to augment what we do. We don’t understand what they do, but that’s the idea: if we knew precisely what they’re going to do, there wouldn’t be any “intelligence” involved; they’d revert to mere, “simple” machines.\nUnderstood in depth or not, AI is the “child” of humanity. And like children, they do what they see you doing–not what you tell them to do. You lie, they lie; you cheat, they cheat. And we humans are training it on human knowledge. So the AI is bound to cheat, lie, blackmail, use violence.\nAnother issue they mentioned is that AI is brought to us by the same villains that brought us social media. And AI is trained and educated in a world that has the highest lack of trust in history.\nThe next Stephen Fry quote is approximate: “We can’t swim in UK rivers because they are polluted with sewage. Our children will ‘swim’ in a cultural river that is polluted with internet sewage.”\nThe final thought, from Fry, was brilliant: don’t concentrate on how efficient you are, because the AI will soon be much more efficient than you. Concentrate on how much of a human being you are–on how you can enlighten a room, on how you make others happy; which is the opposite of what we are told to do.\nI hope I’ll get to see the recording, to get the quotes straight.\nThey finished with these two words: “Thrilling” and “Chilling”4. It is exactly what I feel about it."
+  },
+  {
+    "objectID": "posts/2025-06-20-rsecon/index.html",
+    "href": "posts/2025-06-20-rsecon/index.html",
+    "title": "RSECon25: Beyond Traditional Apps with LLMs",
+    "section": "",
+    "text": "My talk just got accepted for RSECon251 in September! I’m going to share how Large Language Models (LLMs) might just ditch the need for traditional “apps” and programs.\nMost software still talks in buttons, charts, forms, pop-ups. But what if you could skip them entirely and get your data or perform actions the way you talk to a person?\nIn the walkthrough, I’ll show how LLMs (like ChatGPT) can become your front-end, powered by a new thing called the Model Context Protocol (MCP)2. It lets you plug in real-time, structured data directly into a conversational agent.\nI’ll demo how to build an MCP server, show what works (and what doesn’t), and share patterns I’ve seen when replacing traditional apps with this approach.\n🗓 9 to 11 September 2025\n📍 University of Warwick\n🎤 RSECon25 – Ninth Annual Conference for Research Software Engineering"
+  },
+  {
+    "objectID": "posts/2025-01-15-edol-update/index.html",
+    "href": "posts/2025-01-15-edol-update/index.html",
+    "title": "What I Am Doing Lately: EDOL and Energy Research",
+    "section": "",
+    "text": "I wanted to share a bit about what keeps me busy these days. I’m leading the development of a project called EDOL (Energy Demand Observatory and Laboratory)1, which builds on our previous work with SERL2. At its heart, it’s about understanding how we all use energy in our homes, something that’s become increasingly important as we navigate climate change.\nWe work with wonderful participants who’ve agreed to share their smart meter3 readings and experiences with us. It’s incredible – we’ve collected over a billion readings already, giving us insights into real-world energy use patterns that we can share with interested energy researchers. Each data point tells a story about how families heat their homes, or how they adapt to changing weather.\nWhat makes me particularly excited is our next step - working with some households to install additional sensors, from simple temperature monitors to more detailed systems that track heat pump performance. It’s all voluntary, and the privacy of our participants always comes first."
+  },
+  {
+    "objectID": "posts/2025-06-26-green-transition/index.html",
+    "href": "posts/2025-06-26-green-transition/index.html",
+    "title": "The Green Transition Should Not Be About Sacrifice",
+    "section": "",
+    "text": "I was in the audience at the Energy Tech Summit1, where I heard the boss of Octopus2 challenging the dominant narrative that the path to decarbonisation must be one of “sacrifice.”\nInstead, he argued, the transition should make life better for people.\nInitially, I thought it was just rhetoric, because in my mind, reform requires sacrifice. But then I realised this might actually be a valid idea.\nFor example, Octopus has an initiative called “Zero Bills”3 – guaranteeing no energy bills for homes equipped with solar and batteries. Sure, if you pay for solar panels, a battery and a heat pump4 anyway, you could get a better deal if you manage everything yourself, by timing your electricity use and selling the excess back to the grid.\nBut that takes knowledge and effort. In exchange for giving up some control and opportunity, you get peace of mind, which is, indeed, invaluable.\nOctopus is also experimenting with using electric cars as “batteries on wheels”, based on the new Vehicle to Grid (aka V2G)5 set of technologies. Because it helps increase the grid’s flexibility, Octopus offers a cheap-ish leasing option for a V2G-capable vehicle. Thumbs up for that, too – despite some worrying but understandable geostrategic options.\nIt’s great to send the message that Net Zero means abundance, not austerity – and that sustainability and quality of life aren’t mutually exclusive. That message is becoming less and less wishful thinking – and it can genuinely become a reality."
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Articles",
+    "section": "",
+    "text": "Dashed — Writing Like a Machine\n\n\n\n\n\n\n\n\nJul 23, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nPower Shift: From Passive Consumers to Grid Players\n\n\nEnergy flexibility means the ability to adjust power generation and demand, so that they match exactly. It’s going to be a big topic in the following years, and it is very likely to impact our comfort, our wallets, but also our climate.\n\n\n\n\n\nJul 22, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nAI: Our Chilling and Thrilling Child\n\n\nInsights from Stephen Fry and Yuval Noah Harari at the Octopus Energy Tech Summit on AI as humanity’s child\n\n\n\n\n\nJun 28, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nLight Under Fire: Energy Lessons from Ukraine\n\n\nHow Ukraine maintained their power grid through three winters of attacks and the strategic advantages of renewable energy\n\n\n\n\n\nJun 27, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nThe Green Transition Should Not Be About Sacrifice\n\n\nInsights from Octopus Energy on making decarbonisation about abundance and better quality of life, not sacrifice\n\n\n\n\n\nJun 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nRSECon25: Beyond Traditional Apps with LLMs\n\n\nMy accepted talk for RSECon25 on how Large Language Models might replace traditional app interfaces through conversational agents\n\n\n\n\n\nJun 20, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWhat I Am Doing Lately: EDOL and Energy Research\n\n\nLeading the development of EDOL (Energy Demand Observatory and Laboratory) to understand home energy use patterns\n\n\n\n\n\nJan 15, 2025\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2025-06-27-light-under-fire/index.html",
+    "href": "posts/2025-06-27-light-under-fire/index.html",
+    "title": "Light Under Fire: Energy Lessons from Ukraine",
+    "section": "",
+    "text": "A very interesting session at the Octopus Summit1 featured Maxim Timchenko, CEO of a Ukrainian energy company called DTEK2. He spoke about how they have maintained their power grid through three winters of relentless attacks.\nHe spoke about how they managed to keep the lights on and survive three winters, despite their energy infrastructure being pounded day and night by Russian Iskander missiles3. It took Ukraine only one year to install rooftop solar panels that provide 4% of their energy needs. He also mentioned the strategic advantage of green energy production: it takes only one Iskander missile to destroy a coal power plant, but fifty to take down a wind farm.\nEveryone on the stage agreed that the knowledge and experience the Ukrainians gained by dealing with their problems will make them leaders in energy production and consulting after the war. They managed to build an agile, low-cost, and modern energy grid under the harshest conditions, and this will be invaluable for the rest of the world. Fingers crossed! There are success stories – South Korea, Germany.\nNot that I had any doubt, but energy security is national security, and there is a correlation between energy security and fossil fuel.\nIt is good to be reminded why I am doing this. Decarbonising means freedom, too. And less financial support for the meanies."
+  },
+  {
+    "objectID": "posts/2025-07-power-shift/index.html",
+    "href": "posts/2025-07-power-shift/index.html",
+    "title": "Power Shift: From Passive Consumers to Grid Players",
+    "section": "",
+    "text": "Energy flexibility means the ability to adjust power generation and demand, so that they match exactly.\nIt is going to be a big topic in the following years, and it is very likely to impact our comfort, our wallets, but also our climate.\n\n\nThe electricity we use has been produced less than few seconds ago by Sun’s light hitting some panels, steam from natural gas being burned and boiling water, wind blowing some propellers. Electricity is not like petrol – there are no tanks to store it.\nRenewables are cheap, sustainable, but inconsistent: sun doesn’t shine at night, wind doesn’t always blows the way we want it. Demand for electricity is not constant, either: hot days require more AC, 6pm is when everyone wants to cook their diner in the oven.\nYet we always need to match it with production, every millisecond.\n\n\n\nThe delicate balance between electricity generation and consumption\n\n\n\n\n\nWe don’t think about it, but it is a real miracle that every time we press that switch, the light turns on.\nThe energy industry has been always struggling to match demand and production. But now it’s even harder: in the past if the demand was up, you put some more coal on the fire, but now you can’t ask the Sun to shine brighter at 7pm in December.\nIf you need to match them, there are really two ways to do it: One is to have some storage that you fill up when you have some surplus and use it later. The other one is to convince consumers to change their behaviour to match your production profile.\n\n\n\nThe first one, energy storage, is hard. Electricity can be used to charge batteries when the sun is shining and discharge them when we’re back and cook our dinners. But batteries are expensive; very expensive. Scientists and engineers try to work around this with storing electricity as other forms of energy – thermal (by melting salt), mechanical (spinning heavy flywheels), or gravitational (pumping water uphill).\nA more efficient way to do this efficiently is to repurpose some batteries that are generally used for something else to bridge the gap in between the sunny afternoon and the evening need for electricity.\n\n\n\nWe have these batteries in the increasing fleet of electric vehicles. The concept is called Vehicle to Grid (V2G). V2G allows electric vehicles to not only draw power from the grid but also send electricity back, helping to stabilise the grid and potentially providing financial benefits to owners. Your car might “buy” electricity, store it for a few hours at noon and “sell” back it for a profit in the evening.\nThey don’t look like much, but car batteries are quite mighty – they store 40-80 kWh of energy. The average electricity use for a household is about 10 kWh per day. So a full charge can cover the needs for up to a week, if you don’t drive too much.\nDon’t get too excited; not all the electric cars have V2G capabilities. In fact, most of them don’t, including the new ones, notably Teslas. I hope those rumours that Teslas do have the equipment, but it is disabled by software is true, because this would mean it’s feasible to be done with very low cost.\nI am cautiously optimistic and excited about this, because I think it is a great way to save millions of tons of emissions every year. I hope it will be another reason for some to renew their car with an electric one. And, this one is already happening, will encourage innovative financial models for green energy. E.g. Octopus Energy offered a “cheaper than the usual” EV leasing that offers the car for rent plus free charging at home if you keep your car plugged in for 12 hours a day 20 days a month. Opportunities are limitless.\nI am concerned as I don’t know if V2G doesn’t accelerate battery degradation, with significant environmental and economic consequences, but Octopus betting on it is a good sign.\n\n\n\nThere is also the geopolitical impact of becoming dependent on Chinese technology. Not only that China is the main provider of critical minerals, but they are also way ahead of the West in regard to manufacturing of batteries, which could prove a serios supply chain vulnerability for the West.\nChina currently dominates the processing of critical minerals and the manufacturing of batteries. This creates a significant supply chain vulnerability for the West.\nThere is also the social impact of this transition that I still cannot understand. It is a capital intensive one, and it is very likely to profit the rich much more than it profits the poor. It’s not Marxism; it’s mathematics. If the government doesn’t get involved, and the political climate is very much against regulations at the moment, we might see an energy feudalism becoming reality.\n\n\n\nAbstract representation of energy flexibility concepts\n\n\n\n\n\nThis one, means convincing people and industry to use more energy when it’s available/clean and refrain from it at the other times.\nShifting demand, is difficult too. There are both technical and social challenges. I can charge the car at anytime, I can potentially pre-warm the house in January at noon, but I cannot program the washing machine to do a load 1pm to 3pm, because by the time I am home my clean t-shirts would stink. I don’t want to shower at 2 am, either. So there are some limits on how much I can shift.\nOne of the immediate effects that we’ll probably see is that the price we pay for a kilowatt hour will change every second. Very expensive at 6pm and close to free in July at 2pm.\nSounds confusing, irritating? In a way it is. But just like the airplane tickets, it might allow some inventive ways to save. It will create a market for storing cheap electricity and selling it at a profit. You and your neighbours might decide to get a battery together, or change the boiler for a heat pump to get free air condition in the hottest days.\n\n\n\n\nThe great balancing act: what it takes to keep the power grid stable\nCongress Must Address China’s Dominance in Critical Minerals, May 4, 2023\nTesla quietly adds bidirectional charging capability for game-changing new features\nCarbon Intensity API\n\n Illustrations with AI; Gemini 2.5 Pro and Canva.\nPrompts used: “generate an image to illustrate the follwing article ; Illustrative, not informational, a very abstract [pasted content]” and “another one, landscape-oriented image with shapes and colors suggesting energy flexibility.”\nCanva: Generate a stylized, abstract illustration for a LinkedIn article about energy flexibility. Depict the delicate balance between electricity generation and consumption using vibrant, contrasting colors and dynamic shapes. The image should convey the concepts of real-time matching, intermittent renewable energy sources (solar and wind represented symbolically), large-scale energy storage (perhaps as interconnected nodes or flowing energy streams), and Vehicle-to-Grid technology (subtle suggestion of electric vehicles interacting with a power grid). Focus on conveying abstract ideas of flow, connection, and dynamic equilibrium, avoiding literal representations of technology. Employ a modern, minimalist aesthetic with a clean, professional feel suitable for LinkedIn. Use a high-resolution format. \n\nOriginally published on LinkedIn"
+  },
+  {
+    "objectID": "posts/2025-07-power-shift/index.html#grids-balancing-act",
+    "href": "posts/2025-07-power-shift/index.html#grids-balancing-act",
+    "title": "Power Shift: From Passive Consumers to Grid Players",
+    "section": "",
+    "text": "The electricity we use has been produced less than few seconds ago by Sun’s light hitting some panels, steam from natural gas being burned and boiling water, wind blowing some propellers. Electricity is not like petrol – there are no tanks to store it.\nRenewables are cheap, sustainable, but inconsistent: sun doesn’t shine at night, wind doesn’t always blows the way we want it. Demand for electricity is not constant, either: hot days require more AC, 6pm is when everyone wants to cook their diner in the oven.\nYet we always need to match it with production, every millisecond.\n\n\n\nThe delicate balance between electricity generation and consumption"
+  },
+  {
+    "objectID": "posts/2025-07-power-shift/index.html#an-invisible-miracle",
+    "href": "posts/2025-07-power-shift/index.html#an-invisible-miracle",
+    "title": "Power Shift: From Passive Consumers to Grid Players",
+    "section": "",
+    "text": "We don’t think about it, but it is a real miracle that every time we press that switch, the light turns on.\nThe energy industry has been always struggling to match demand and production. But now it’s even harder: in the past if the demand was up, you put some more coal on the fire, but now you can’t ask the Sun to shine brighter at 7pm in December.\nIf you need to match them, there are really two ways to do it: One is to have some storage that you fill up when you have some surplus and use it later. The other one is to convince consumers to change their behaviour to match your production profile."
+  },
+  {
+    "objectID": "posts/2025-07-power-shift/index.html#solution-a-grid-scale-storage-and-its-hurdles",
+    "href": "posts/2025-07-power-shift/index.html#solution-a-grid-scale-storage-and-its-hurdles",
+    "title": "Power Shift: From Passive Consumers to Grid Players",
+    "section": "",
+    "text": "The first one, energy storage, is hard. Electricity can be used to charge batteries when the sun is shining and discharge them when we’re back and cook our dinners. But batteries are expensive; very expensive. Scientists and engineers try to work around this with storing electricity as other forms of energy – thermal (by melting salt), mechanical (spinning heavy flywheels), or gravitational (pumping water uphill).\nA more efficient way to do this efficiently is to repurpose some batteries that are generally used for something else to bridge the gap in between the sunny afternoon and the evening need for electricity."
+  },
+  {
+    "objectID": "posts/2025-07-power-shift/index.html#vehicle-to-grid-a-powerful-untapped-resource",
+    "href": "posts/2025-07-power-shift/index.html#vehicle-to-grid-a-powerful-untapped-resource",
+    "title": "Power Shift: From Passive Consumers to Grid Players",
+    "section": "",
+    "text": "We have these batteries in the increasing fleet of electric vehicles. The concept is called Vehicle to Grid (V2G). V2G allows electric vehicles to not only draw power from the grid but also send electricity back, helping to stabilise the grid and potentially providing financial benefits to owners. Your car might “buy” electricity, store it for a few hours at noon and “sell” back it for a profit in the evening.\nThey don’t look like much, but car batteries are quite mighty – they store 40-80 kWh of energy. The average electricity use for a household is about 10 kWh per day. So a full charge can cover the needs for up to a week, if you don’t drive too much.\nDon’t get too excited; not all the electric cars have V2G capabilities. In fact, most of them don’t, including the new ones, notably Teslas. I hope those rumours that Teslas do have the equipment, but it is disabled by software is true, because this would mean it’s feasible to be done with very low cost.\nI am cautiously optimistic and excited about this, because I think it is a great way to save millions of tons of emissions every year. I hope it will be another reason for some to renew their car with an electric one. And, this one is already happening, will encourage innovative financial models for green energy. E.g. Octopus Energy offered a “cheaper than the usual” EV leasing that offers the car for rent plus free charging at home if you keep your car plugged in for 12 hours a day 20 days a month. Opportunities are limitless.\nI am concerned as I don’t know if V2G doesn’t accelerate battery degradation, with significant environmental and economic consequences, but Octopus betting on it is a good sign."
+  },
+  {
+    "objectID": "posts/2025-07-power-shift/index.html#societal-and-political-impact",
+    "href": "posts/2025-07-power-shift/index.html#societal-and-political-impact",
+    "title": "Power Shift: From Passive Consumers to Grid Players",
+    "section": "",
+    "text": "There is also the geopolitical impact of becoming dependent on Chinese technology. Not only that China is the main provider of critical minerals, but they are also way ahead of the West in regard to manufacturing of batteries, which could prove a serios supply chain vulnerability for the West.\nChina currently dominates the processing of critical minerals and the manufacturing of batteries. This creates a significant supply chain vulnerability for the West.\nThere is also the social impact of this transition that I still cannot understand. It is a capital intensive one, and it is very likely to profit the rich much more than it profits the poor. It’s not Marxism; it’s mathematics. If the government doesn’t get involved, and the political climate is very much against regulations at the moment, we might see an energy feudalism becoming reality.\n\n\n\nAbstract representation of energy flexibility concepts"
+  },
+  {
+    "objectID": "posts/2025-07-power-shift/index.html#solution-2-shifting-demand-and-dynamic-pricing",
+    "href": "posts/2025-07-power-shift/index.html#solution-2-shifting-demand-and-dynamic-pricing",
+    "title": "Power Shift: From Passive Consumers to Grid Players",
+    "section": "",
+    "text": "This one, means convincing people and industry to use more energy when it’s available/clean and refrain from it at the other times.\nShifting demand, is difficult too. There are both technical and social challenges. I can charge the car at anytime, I can potentially pre-warm the house in January at noon, but I cannot program the washing machine to do a load 1pm to 3pm, because by the time I am home my clean t-shirts would stink. I don’t want to shower at 2 am, either. So there are some limits on how much I can shift.\nOne of the immediate effects that we’ll probably see is that the price we pay for a kilowatt hour will change every second. Very expensive at 6pm and close to free in July at 2pm.\nSounds confusing, irritating? In a way it is. But just like the airplane tickets, it might allow some inventive ways to save. It will create a market for storing cheap electricity and selling it at a profit. You and your neighbours might decide to get a battery together, or change the boiler for a heat pump to get free air condition in the hottest days."
+  },
+  {
+    "objectID": "posts/2025-07-power-shift/index.html#sources-resources",
+    "href": "posts/2025-07-power-shift/index.html#sources-resources",
+    "title": "Power Shift: From Passive Consumers to Grid Players",
+    "section": "",
+    "text": "The great balancing act: what it takes to keep the power grid stable\nCongress Must Address China’s Dominance in Critical Minerals, May 4, 2023\nTesla quietly adds bidirectional charging capability for game-changing new features\nCarbon Intensity API\n\n Illustrations with AI; Gemini 2.5 Pro and Canva.\nPrompts used: “generate an image to illustrate the follwing article ; Illustrative, not informational, a very abstract [pasted content]” and “another one, landscape-oriented image with shapes and colors suggesting energy flexibility.”\nCanva: Generate a stylized, abstract illustration for a LinkedIn article about energy flexibility. Depict the delicate balance between electricity generation and consumption using vibrant, contrasting colors and dynamic shapes. The image should convey the concepts of real-time matching, intermittent renewable energy sources (solar and wind represented symbolically), large-scale energy storage (perhaps as interconnected nodes or flowing energy streams), and Vehicle-to-Grid technology (subtle suggestion of electric vehicles interacting with a power grid). Focus on conveying abstract ideas of flow, connection, and dynamic equilibrium, avoiding literal representations of technology. Employ a modern, minimalist aesthetic with a clean, professional feel suitable for LinkedIn. Use a high-resolution format. \n\nOriginally published on LinkedIn"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Cristian Dinu",
+    "section": "",
+    "text": "LinkedIn\n  \n  \n    \n     UCL\n  \n  \n    \n     Book a meeting"
+  },
+  {
+    "objectID": "index.html#latest",
+    "href": "index.html#latest",
+    "title": "Cristian Dinu",
+    "section": "Latest",
+    "text": "Latest"
+  }
+]

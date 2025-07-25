@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Cristian Dinu</title>
+<link>https://cdi.nu/posts/</link>
+<atom:link href="https://cdi.nu/posts/index.xml" rel="self" type="application/rss+xml"/>
+<description>Cristian Dinu is a Senior Research Software Engineer at UCL, building human-centred data systems for climate and energy research, including SERL and EDOL.</description>
+<image>
+<url>https://cdi.nu/images/favicon.jpg</url>
+<title>Cristian Dinu</title>
+<link>https://cdi.nu/posts/</link>
+</image>
+<generator>quarto-1.7.31</generator>
+<lastBuildDate>Tue, 22 Jul 2025 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Dashed — Writing Like a Machine</title>
+  <link>https://cdi.nu/posts/2025-07-23-dashes/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I like dashes of all kinds: the hyphen, the syllable-breaking dash, the dialogue dash. I like diacritics, I like commas. Whenever I can, I use non-breaking spaces between words that belong together. I’ve been using them for decades, on my own, as consistently as I can.</p>
+<p>But lately, using these writing “delicacies” is seen as a sure sign the text was written by GPT. What should I do? Write worse? Or investigate whether I, too, might be a stochastic parrot<span class="citation" data-cites="bender_stochastic_2021"><sup>1</sup></span>?</p>
+<section id="references" class="level2">
+
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" data-line-spacing="2">
+<div id="ref-bender_stochastic_2021" class="csl-entry">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Bender, E. M., Gebru, T., McMillan-Major, A. &amp; Shmitchell, S. On the <span>Dangers</span> of <span>Stochastic Parrots</span>: <span>Can Language Models Be Too Big</span>? in <em>Proceedings of the 2021 <span>ACM Conference</span> on <span>Fairness</span>, <span>Accountability</span>, and <span>Transparency</span></em> 610–623 (<span>ACM</span>, 2021) doi:<a href="https://doi.org/10.1145/3442188.3445922">10.1145/3442188.3445922</a>.</div>
+</div>
+</div></section></div> ]]></description>
+  <category>AI &amp; Technology</category>
+  <category>Writing &amp; Communication</category>
+  <category>Thoughts</category>
+  <guid>https://cdi.nu/posts/2025-07-23-dashes/</guid>
+  <pubDate>Tue, 22 Jul 2025 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Power Shift: From Passive Consumers to Grid Players</title>
+  <link>https://cdi.nu/posts/2025-07-power-shift/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<section id="what-is-energy-flexibility-and-why-should-you-care" class="level1">
+<h1>What is Energy Flexibility, and why should you care?</h1>
+<p>Energy flexibility means the ability to adjust power generation and demand, so that they match exactly.</p>
+<p>It is going to be a big topic in the following years, and it is very likely to impact our comfort, our wallets, but also our climate.</p>
+<section id="grids-balancing-act" class="level2">
+<h2 class="anchored" data-anchor-id="grids-balancing-act">Grid’s balancing act</h2>
+<p>The electricity we use has been produced less than few seconds ago by Sun’s light hitting some panels, steam from natural gas being burned and boiling water, wind blowing some propellers. Electricity is not like petrol – there are no tanks to store it.</p>
+<p>Renewables are cheap, sustainable, but inconsistent: sun doesn’t shine at night, wind doesn’t always blows the way we want it. Demand for electricity is not constant, either: hot days require more AC, 6pm is when everyone wants to cook their diner in the oven.</p>
+<p>Yet we always need to match it with production, every millisecond.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://cdi.nu/posts/2025-07-power-shift/power-balance-gemini.png" class="img-fluid figure-img"></p>
+<figcaption>The delicate balance between electricity generation and consumption</figcaption>
+</figure>
+</div>
+</section>
+<section id="an-invisible-miracle" class="level2">
+<h2 class="anchored" data-anchor-id="an-invisible-miracle">An invisible miracle</h2>
+<p>We don’t think about it, but it is a real miracle that every time we press that switch, the light turns on.</p>
+<p>The energy industry has been always struggling to match demand and production. But now it’s even harder: in the past if the demand was up, you put some more coal on the fire, but now you can’t ask the Sun to shine brighter at 7pm in December.</p>
+<p>If you need to match them, there are really two ways to do it: One is to have some storage that you fill up when you have some surplus and use it later. The other one is to convince consumers to change their behaviour to match your production profile.</p>
+</section>
+<section id="solution-a-grid-scale-storage-and-its-hurdles" class="level2">
+<h2 class="anchored" data-anchor-id="solution-a-grid-scale-storage-and-its-hurdles">Solution A: grid-scale storage and its hurdles</h2>
+<p>The first one, energy storage, is hard. Electricity can be used to charge batteries when the sun is shining and discharge them when we’re back and cook our dinners. But batteries are expensive; very expensive. Scientists and engineers try to work around this with storing electricity as other forms of energy – thermal (by melting salt), mechanical (spinning heavy flywheels), or gravitational (pumping water uphill).</p>
+<p>A more efficient way to do this efficiently is to repurpose some batteries that are generally used for something else to bridge the gap in between the sunny afternoon and the evening need for electricity.</p>
+</section>
+<section id="vehicle-to-grid-a-powerful-untapped-resource" class="level2">
+<h2 class="anchored" data-anchor-id="vehicle-to-grid-a-powerful-untapped-resource">Vehicle to grid, a powerful untapped resource</h2>
+<p>We have these batteries in the increasing fleet of electric vehicles. The concept is called Vehicle to Grid (V2G). V2G allows electric vehicles to not only draw power from the grid but also send electricity back, helping to stabilise the grid and potentially providing financial benefits to owners. Your car might “buy” electricity, store it for a few hours at noon and “sell” back it for a profit in the evening.</p>
+<p>They don’t look like much, but car batteries are quite mighty – they store 40-80 kWh of energy. The average electricity use for a household is about 10 kWh per day. So a full charge can cover the needs for up to a week, if you don’t drive too much.</p>
+<p>Don’t get too excited; not all the electric cars have V2G capabilities. In fact, most of them don’t, including the new ones, notably Teslas. I hope those rumours that Teslas do have the equipment, but it is disabled by software is true, because this would mean it’s feasible to be done with very low cost.</p>
+<p>I am cautiously optimistic and excited about this, because I think it is a great way to save millions of tons of emissions every year. I hope it will be another reason for some to renew their car with an electric one. And, this one is already happening, will encourage innovative financial models for green energy. E.g. Octopus Energy offered a “cheaper than the usual” EV leasing that offers the car for rent plus free charging at home if you keep your car plugged in for 12 hours a day 20 days a month. Opportunities are limitless.</p>
+<p>I am concerned as I don’t know if V2G doesn’t accelerate battery degradation, with significant environmental and economic consequences, but Octopus betting on it is a good sign.</p>
+</section>
+<section id="societal-and-political-impact" class="level2">
+<h2 class="anchored" data-anchor-id="societal-and-political-impact">Societal and Political Impact</h2>
+<p>There is also the geopolitical impact of becoming dependent on Chinese technology. Not only that China is the main provider of critical minerals, but they are also way ahead of the West in regard to manufacturing of batteries, which could prove a serios supply chain vulnerability for the West.</p>
+<p>China currently dominates the processing of critical minerals and the manufacturing of batteries. This creates a significant supply chain vulnerability for the West.</p>
+<p>There is also the social impact of this transition that I still cannot understand. It is a capital intensive one, and it is very likely to profit the rich much more than it profits the poor. It’s not Marxism; it’s mathematics. If the government doesn’t get involved, and the political climate is very much against regulations at the moment, we might see an energy feudalism becoming reality.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://cdi.nu/posts/2025-07-power-shift/enegy-flex-canva.jpg" class="img-fluid figure-img"></p>
+<figcaption>Abstract representation of energy flexibility concepts</figcaption>
+</figure>
+</div>
+</section>
+<section id="solution-2-shifting-demand-and-dynamic-pricing" class="level2">
+<h2 class="anchored" data-anchor-id="solution-2-shifting-demand-and-dynamic-pricing">Solution 2: Shifting demand and dynamic pricing</h2>
+<p>This one, means convincing people and industry to use more energy when it’s available/clean and refrain from it at the other times.</p>
+<p>Shifting demand, is difficult too. There are both technical and social challenges. I can charge the car at anytime, I can potentially pre-warm the house in January at noon, but I cannot program the washing machine to do a load 1pm to 3pm, because by the time I am home my clean t-shirts would stink. I don’t want to shower at 2 am, either. So there are some limits on how much I can shift.</p>
+<p>One of the immediate effects that we’ll probably see is that the price we pay for a kilowatt hour will change every second. Very expensive at 6pm and close to free in July at 2pm.</p>
+<p>Sounds confusing, irritating? In a way it is. But just like the airplane tickets, it might allow some inventive ways to save. It will create a market for storing cheap electricity and selling it at a profit. You and your neighbours might decide to get a battery together, or change the boiler for a heat pump to get free air condition in the hottest days.</p>
+</section>
+<section id="sources-resources" class="level2">
+<h2 class="anchored" data-anchor-id="sources-resources">Sources / resources</h2>
+<ul>
+<li><a href="https://www.drax.com/power-generation/great-balancing-act-takes-keep-power-grid-stable/">The great balancing act: what it takes to keep the power grid stable</a></li>
+<li><a href="https://www.cornyn.senate.gov/news/cornyn-congress-must-address-chinas-dominance-in-critical-minerals">Congress Must Address China’s Dominance in Critical Minerals, May 4, 2023</a></li>
+<li><a href="https://electrek.co/2020/05/19/tesla-bidirectional-charging-ready-game-changing-features/">Tesla quietly adds bidirectional charging capability for game-changing new features</a></li>
+<li><a href="https://www.carbonintensity.org.uk/">Carbon Intensity API</a></li>
+</ul>
+<p><small> Illustrations with AI; Gemini 2.5 Pro and Canva.</small></p><small>
+<p>Prompts used: “generate an image to illustrate the follwing article ; Illustrative, not informational, a very abstract [pasted content]” and “another one, landscape-oriented image with shapes and colors suggesting energy flexibility.”</p>
+</small><p><small>Canva: Generate a stylized, abstract illustration for a LinkedIn article about energy flexibility. Depict the delicate balance between electricity generation and consumption using vibrant, contrasting colors and dynamic shapes. The image should convey the concepts of real-time matching, intermittent renewable energy sources (solar and wind represented symbolically), large-scale energy storage (perhaps as interconnected nodes or flowing energy streams), and Vehicle-to-Grid technology (subtle suggestion of electric vehicles interacting with a power grid). Focus on conveying abstract ideas of flow, connection, and dynamic equilibrium, avoiding literal representations of technology. Employ a modern, minimalist aesthetic with a clean, professional feel suitable for LinkedIn. Use a high-resolution format. </small></p>
+<hr>
+<p><em>Originally published on <a href="https://www.linkedin.com/pulse/power-shift-from-passive-consumers-grid-players-cristian-dinu-5ptye/">LinkedIn</a></em></p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>Energy &amp; Climate</category>
+  <guid>https://cdi.nu/posts/2025-07-power-shift/</guid>
+  <pubDate>Mon, 21 Jul 2025 23:00:00 GMT</pubDate>
+  <media:content url="https://cdi.nu/posts/2025-07-power-shift/power-balance-gemini.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>AI: Our Chilling and Thrilling Child</title>
+  <link>https://cdi.nu/posts/2025-06-28-chilling-thrilling/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Without a doubt, Stephen Fry<span class="citation" data-cites="stephen_fry"><sup>1</sup></span> and Yuval Noah Harari<span class="citation" data-cites="yuval_harari"><sup>2</sup></span> talking to each other was my highlight at the Octopus Energy Tech Summit<span class="citation" data-cites="octopus_energy_summit"><sup>3</sup></span>.</p>
+<p>Paraphrasing: Like a JCB digger, these machines – AI – are here to augment what we do. We don’t understand what they do, but that’s the idea: if we knew precisely what they’re going to do, there wouldn’t be any “intelligence” involved; they’d revert to mere, “simple” machines.</p>
+<p>Understood in depth or not, AI is the “child” of humanity. And like children, <strong>they do what they see you doing–not what you tell them to do</strong>. You lie, they lie; you cheat, they cheat. And we humans are training it on human knowledge. So the AI is bound to cheat, lie, blackmail, use violence.</p>
+<p>Another issue they mentioned is that AI is brought to us by the same villains that brought us social media. And AI is trained and educated in a world that has the highest lack of trust in history.</p>
+<p>The next Stephen Fry quote is approximate: “We can’t swim in UK rivers because they are polluted with sewage. Our children will ‘swim’ in a cultural river that is polluted with internet sewage.”</p>
+<p>The final thought, from Fry, was brilliant: don’t concentrate on how efficient you are, because the AI will soon be much more efficient than you. Concentrate on how much of a human being you are–on how you can enlighten a room, on how you make others happy; which is the opposite of what we are told to do.</p>
+<p>I hope I’ll get to see the recording, to get the quotes straight.</p>
+<p>They finished with these two words: “Thrilling” and “Chilling”<span class="citation" data-cites="the_conversation_youtube_video"><sup>4</sup></span>. It is exactly what I feel about it.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://cdi.nu/posts/2025-06-28-chilling-thrilling/fry-and-harari.jpeg" class="img-fluid figure-img" alt="Fry and Harari at the Octopus Energy Tech Summit"></p>
+<figcaption>Fry and Harari at the Octopus Energy Tech Summit. Personal Archive</figcaption>
+</figure>
+</div>
+<section id="references" class="level2">
+
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" data-line-spacing="2">
+<div id="ref-stephen_fry" class="csl-entry">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline"><span>Stephen Fry</span>. (British actor, comedian, writer, and broadcaster; known for his wit, erudition, and work on television, stage, and in literature).</div>
+</div>
+<div id="ref-yuval_harari" class="csl-entry">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline"><span>Yuval Noah Harari</span>. (Historian and public intellectual; author of *Nexus*, *Sapiens*, *Homo Deus*, and *21 Lessons for the 21st Century*, exploring history, technology, and the future of humanity).</div>
+</div>
+<div id="ref-octopus_energy_summit" class="csl-entry">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline"><em><a href="https://energytechsummit.co.uk/"><span>Octopus Energy Tech Summit</span></a></em>. (Octopus Energy, 2025) (Energy technology conference in London featuring Stephen Fry and Yuval Noah Harari).</div>
+</div>
+<div id="ref-the_conversation_youtube_video" class="csl-entry">
+<div class="csl-left-margin">4. </div><div class="csl-right-inline"><em><a href="https://youtu.be/Q6NvWGN2pNA?si=H26OucbnHHJVQIML&amp;t=2509"><span class="nocase">Stephen Fry - The Conversation 2024, YouTube video</span></a></em>. (YouTube Video starting at timestamp 41:49).</div>
+</div>
+</div></section></div> ]]></description>
+  <category>AI &amp; Technology</category>
+  <guid>https://cdi.nu/posts/2025-06-28-chilling-thrilling/</guid>
+  <pubDate>Fri, 27 Jun 2025 23:00:00 GMT</pubDate>
+  <media:content url="https://cdi.nu/posts/2025-06-28-chilling-thrilling/fry-and-harari.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Light Under Fire: Energy Lessons from Ukraine</title>
+  <link>https://cdi.nu/posts/2025-06-27-light-under-fire/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>A very interesting session at the Octopus Summit<span class="citation" data-cites="octopus_energy_summit"><sup>1</sup></span> featured Maxim Timchenko, CEO of a Ukrainian energy company called DTEK<span class="citation" data-cites="dtek"><sup>2</sup></span>. He spoke about how they have maintained their power grid through three winters of relentless attacks.</p>
+<p>He spoke about how they managed to keep the lights on and survive three winters, despite their energy infrastructure being pounded day and night by Russian Iskander missiles<span class="citation" data-cites="iskander_missile"><sup>3</sup></span>. It took Ukraine only one year to install rooftop solar panels that provide 4% of their energy needs. He also mentioned the strategic advantage of green energy production: it takes only one Iskander missile to destroy a coal power plant, but fifty to take down a wind farm.</p>
+<p>Everyone on the stage agreed that the knowledge and experience the Ukrainians gained by dealing with their problems will make them leaders in energy production and consulting after the war. They managed to build an agile, low-cost, and modern energy grid under the harshest conditions, and this will be invaluable for the rest of the world. Fingers crossed! There are success stories – South Korea, Germany.</p>
+<p>Not that I had any doubt, but <strong>energy security is national security</strong>, and there is a correlation between energy security and fossil fuel.</p>
+<p>It is good to be reminded why I am doing this. Decarbonising means freedom, too. And less financial support for the meanies.</p>
+<section id="references" class="level2">
+
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" data-line-spacing="2">
+<div id="ref-octopus_energy_summit" class="csl-entry">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline"><em><a href="https://energytechsummit.co.uk/"><span>Octopus Energy Tech Summit, 2025</span></a></em>. (Octopus Energy, 2025) (Energy technology conference in London featuring Stephen Fry and Yuval Noah Harari).</div>
+</div>
+<div id="ref-dtek" class="csl-entry">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline"><em><a href="https://dtek.com/en/">DTEK</a></em>. (DTEK Energy) (Ukrainian energy company led by CEO Maxim Timchenko).</div>
+</div>
+<div id="ref-iskander_missile" class="csl-entry">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline"><span>9K720 Iskander</span>. (The 9K720 Iskander is a Russian mobile short-range ballistic missile system).</div>
+</div>
+</div></section></div> ]]></description>
+  <category>Energy &amp; Climate</category>
+  <guid>https://cdi.nu/posts/2025-06-27-light-under-fire/</guid>
+  <pubDate>Thu, 26 Jun 2025 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The Green Transition Should Not Be About Sacrifice</title>
+  <link>https://cdi.nu/posts/2025-06-26-green-transition/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I was in the audience at the Energy Tech Summit<span class="citation" data-cites="octopus_energy_summit"><sup>1</sup></span>, where I heard the boss of Octopus<span class="citation" data-cites="greg_jackson"><sup>2</sup></span> challenging the dominant narrative that the path to decarbonisation must be one of “sacrifice.”</p>
+<p>Instead, he argued, the transition should make life better for people.</p>
+<p>Initially, I thought it was just rhetoric, because in my mind, reform requires sacrifice. But then I realised this might actually be a valid idea.</p>
+<p>For example, Octopus has an initiative called “Zero Bills”<span class="citation" data-cites="zero_bills"><sup>3</sup></span> – guaranteeing no energy bills for homes equipped with solar and batteries. Sure, if you pay for solar panels, a battery and a heat pump<span class="citation" data-cites="heat_pump"><sup>4</sup></span> anyway, you could get a better deal if you manage everything yourself, by timing your electricity use and selling the excess back to the grid.</p>
+<p>But that takes knowledge and effort. In exchange for giving up some control and opportunity, you get peace of mind, which is, indeed, invaluable.</p>
+<p>Octopus is also experimenting with using electric cars as “batteries on wheels”, based on the new <em>Vehicle to Grid</em> (aka V2G)<span class="citation" data-cites="v2g_technology"><sup>5</sup></span> set of technologies. Because it helps increase the grid’s flexibility, Octopus offers a cheap-ish leasing option for a V2G-capable vehicle. Thumbs up for that, too – despite some worrying but understandable geostrategic options.</p>
+<p>It’s great to send the message that Net Zero means abundance, not austerity – and that sustainability and quality of life aren’t mutually exclusive. That message is becoming less and less wishful thinking – and it can genuinely become a reality.</p>
+<section id="references" class="level2">
+
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" data-line-spacing="2">
+<div id="ref-octopus_energy_summit" class="csl-entry">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline"><em><a href="https://energytechsummit.co.uk/"><span>Octopus Energy Tech Summit, 2025</span></a></em>. (Octopus Energy, 2025) (Energy technology conference in London featuring Stephen Fry and Yuval Noah Harari).</div>
+</div>
+<div id="ref-greg_jackson" class="csl-entry">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Jackson, G. <em><a href="https://www.linkedin.com/in/gregsjackson/">Greg jackson - LinkedIn profile</a></em>. (CEO and Founder of Octopus Energy).</div>
+</div>
+<div id="ref-zero_bills" class="csl-entry">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline"><em><a href="https://octopus.energy/zero-bills/">Zero bills initiative</a></em>. (Octopus Energy) (Program guaranteeing no energy bills for homes with solar and batteries).</div>
+</div>
+<div id="ref-heat_pump" class="csl-entry">
+<div class="csl-left-margin">4. </div><div class="csl-right-inline">Heat pump technology. (it’s a highly efficient device that moves heat rather than generating it – essentially working like a fridge in reverse, heating your home using electricity instead of fossil fuels, often with much lower carbon emissions than traditional boilers.).</div>
+</div>
+<div id="ref-v2g_technology" class="csl-entry">
+<div class="csl-left-margin">5. </div><div class="csl-right-inline">Wikipedia. Vehicle-to-grid (V2G) technology. (<a href="https://en.wikipedia.org/wiki/Vehicle-to-grid">https://en.wikipedia.org/wiki/Vehicle-to-grid</a>) (Technology allowing electric vehicles to return electricity to the grid, using their batteries as energy storage).</div>
+</div>
+</div></section></div> ]]></description>
+  <category>Energy &amp; Climate</category>
+  <guid>https://cdi.nu/posts/2025-06-26-green-transition/</guid>
+  <pubDate>Wed, 25 Jun 2025 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>RSECon25: Beyond Traditional Apps with LLMs</title>
+  <link>https://cdi.nu/posts/2025-06-20-rsecon/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>My talk just got accepted for RSECon25<span class="citation" data-cites="rsecon25"><sup>1</sup></span> in September! I’m going to share how Large Language Models (LLMs) might just ditch the need for traditional “apps” and programs.</p>
+<p>Most software still talks in buttons, charts, forms, pop-ups. But what if you could skip them entirely and get your data or perform actions the way you talk to a person?</p>
+<p>In the walkthrough, I’ll show how LLMs (like ChatGPT) can become your front-end, powered by a new thing called the Model Context Protocol (MCP)<span class="citation" data-cites="model_context_protocol"><sup>2</sup></span>. It lets you plug in real-time, structured data directly into a conversational agent.</p>
+<p>I’ll demo how to build an MCP server, show what works (and what doesn’t), and share patterns I’ve seen when replacing traditional apps with this approach.</p>
+<p>🗓 9 to 11 September 2025<br>
+📍 University of Warwick<br>
+🎤 RSECon25 – Ninth Annual Conference for Research Software Engineering</p>
+<section id="references" class="level2">
+
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" data-line-spacing="2">
+<div id="ref-rsecon25" class="csl-entry">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline"><em><a href="https://rsecon25.society-rse.org/">RSECon25 – ninth annual conference for research software engineering</a></em>. (Society of Research Software Engineering, 2025) (Conference details).</div>
+</div>
+<div id="ref-model_context_protocol" class="csl-entry">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline"><em><a href="https://modelcontextprotocol.io/"><span>Model Context Protocol</span></a></em>. (Anthropic) (Protocol for connecting LLMs to structured data sources).</div>
+</div>
+</div></section></div> ]]></description>
+  <category>AI &amp; Technology</category>
+  <category>Research &amp; Software</category>
+  <guid>https://cdi.nu/posts/2025-06-20-rsecon/</guid>
+  <pubDate>Thu, 19 Jun 2025 23:00:00 GMT</pubDate>
+  <media:content url="https://cdi.nu/posts/2025-06-20-rsecon/RSECon25-logo.png" medium="image" type="image/png" height="159" width="144"/>
+</item>
+<item>
+  <title>What I Am Doing Lately: EDOL and Energy Research</title>
+  <link>https://cdi.nu/posts/2025-01-15-edol-update/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I wanted to share a bit about what keeps me busy these days. I’m leading the development of a project called EDOL (Energy Demand Observatory and Laboratory)<span class="citation" data-cites="edol"><sup>1</sup></span>, which builds on our previous work with SERL<span class="citation" data-cites="serl"><sup>2</sup></span>. At its heart, it’s about understanding how we all use energy in our homes, something that’s become increasingly important as we navigate climate change.</p>
+<p>We work with wonderful participants who’ve agreed to share their smart meter<span class="citation" data-cites="smart_meters"><sup>3</sup></span> readings and experiences with us. It’s incredible – we’ve collected over a billion readings already, giving us insights into real-world energy use patterns that we can share with interested energy researchers. Each data point tells a story about how families heat their homes, or how they adapt to changing weather.</p>
+<p>What makes me particularly excited is our next step - working with some households to install additional sensors, from simple temperature monitors to more detailed systems that track heat pump performance. It’s all voluntary, and the privacy of our participants always comes first.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://cdi.nu/posts/2025-01-15-edol-update/edol-logo.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="EDOL logo. Blue dots and EDOL text in blue"></p>
+</figure>
+</div>
+<section id="references" class="level2">
+
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" data-line-spacing="2">
+<div id="ref-edol" class="csl-entry">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline"><em><a href="https://www.ucl.ac.uk/bartlett/energy/"><span class="nocase">Energy Demand Observatory and Laboratory</span> (<span>EDOL</span>)</a></em>. (UCL Energy Institute) (Research project for understanding residential energy use patterns).</div>
+</div>
+<div id="ref-serl" class="csl-entry">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline"><em><a href="https://serl.ac.uk/"><span>Smart Energy Research Lab</span> (<span>SERL</span>)</a></em>. (UCL Energy Institute) (Previous energy research project that EDOL builds upon).</div>
+</div>
+<div id="ref-smart_meters" class="csl-entry">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">Smart meters. (Advanced electricity or gas meters that record consumption in real-time and communicate with the energy supplier or third parties, with consent).</div>
+</div>
+</div></section></div> ]]></description>
+  <category>Research &amp; Software</category>
+  <category>Energy &amp; Climate</category>
+  <guid>https://cdi.nu/posts/2025-01-15-edol-update/</guid>
+  <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://cdi.nu/posts/2025-01-15-edol-update/edol-logo.svg" medium="image" type="image/svg+xml"/>
+</item>
+</channel>
+</rss>

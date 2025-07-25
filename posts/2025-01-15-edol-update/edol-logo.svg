@@ -1,0 +1,82 @@
+<svg class="logo" viewBox="0 0 60 60" width="200px"
+   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+   <style>
+    /* c1-c6 are the colours of the logo from in to out */
+    :root {
+      --cText: rgb(  0,   0, 255);
+      --c6:    rgb(  0,   0, 255);
+      --c5:    rgb( 30,  60, 255);
+      --c4:    rgb( 60, 120, 255);
+      --c3:    rgb( 90, 160, 255);
+      --c2:    rgb(120, 200, 255);
+      --c1:    rgb(150, 255, 255);
+    }
+
+    .logo-text { fill: var(--cText); }
+    /* r1-r6 assign the dot-size and colours of the rings
+     * radii of the 'orbits' are set in svg */
+    .r6 { r: 2.2; fill: var(--c6); }
+    .r5 { r: 1.8; fill: var(--c5); }
+    .r4 { r: 1.5; fill: var(--c4); }
+    .r3 { r: 1.2; fill: var(--c3); }
+    .r2 { r: 1.0; fill: var(--c2); }
+    .r1 { r: 0.8; fill: var(--c1); }
+
+    .o1 { stop-color: rgb(255,255,255); }
+    .o2 { stop-color: var(--c1); }
+    .o3 { stop-color: var(--c6); }
+
+    }
+   </style>
+   <link xmlns="http://www.w3.org/1999/xhtml" rel="stylesheet" href="logo.css" type="text/css"/>
+  <defs>
+    <radialGradient id="o-grad" r="4.5" cx="50%" cy="50%" fx="50%" fy="50%" >
+      <stop class="o1" offest="4%" style="stop-color:rgb(255,255,255)" />
+      <stop class="o2" offset="6%" style="stop-color:rgb( 90,160,255)" />
+      <stop class="o3" offset="8%" style="stop-color:rgb(  0,  0,255)" />
+    </radialGradient>
+  </defs>
+   <g transform="translate(30,30)">
+     <g transform="rotate(45)">    <g transform="translate(8,0)">  <circle class="r2" r="1.0" fill="rgb(120, 200, 255)" /> </g>
+                                   <g transform="translate(12,0)"> <circle class="r4" r="1.5" fill="rgb( 60, 120, 255)" /> </g>
+                                   <g transform="translate(18,0)"> <circle class="r6" r="2.2" fill="rgb(  0,   0, 255)" /> </g> </g>
+     <g transform="rotate(67.5)">  <g transform="translate(6,0)">  <circle class="r1" r="0.8" fill="rgb(150, 255, 255)" /> </g>
+                                   <g transform="translate(10,0)"> <circle class="r3" r="1.2" fill="rgb( 90, 160, 255)" /> </g>
+                                   <g transform="translate(15,0)"> <circle class="r5" r="1.8" fill="rgb( 30,  60, 255)" /> </g> </g>
+     <g transform="rotate(90)">    <g transform="translate(8,0)">  <circle class="r2" r="1.0" fill="rgb(120, 200, 255)" /> </g>
+                                   <g transform="translate(12,0)"> <circle class="r4" r="1.5" fill="rgb( 60, 120, 255)" /> </g>
+                                   <g transform="translate(18,0)"> <circle class="r6" r="2.2" fill="rgb(  0,   0, 255)" /> </g> </g>
+     <g transform="rotate(112.5)"> <g transform="translate(6,0)">  <circle class="r1" r="0.8" fill="rgb(150, 255, 255)" /> </g>
+                                   <g transform="translate(10,0)"> <circle class="r3" r="1.2" fill="rgb( 90, 160, 255)" /> </g>
+                                   <g transform="translate(15,0)"> <circle class="r5" r="1.8" fill="rgb( 30,  60, 255)" /> </g> </g>
+     <g transform="rotate(135)">   <g transform="translate(8,0)">  <circle class="r2" r="1.0" fill="rgb(120, 200, 255)" /> </g>
+                                   <g transform="translate(12,0)"> <circle class="r4" r="1.5" fill="rgb( 60, 120, 255)" /> </g>
+                                   <g transform="translate(18,0)"> <circle class="r6" r="2.2" fill="rgb(  0,   0, 255)" /> </g> </g>
+     <g transform="rotate(157.5)"> <g transform="translate(6,0)">  <circle class="r1" r="0.8" fill="rgb(150, 255, 255)" /> </g>
+                                   <g transform="translate(10,0)"> <circle class="r3" r="1.2" fill="rgb( 90, 160, 255)" /> </g>
+                                   <g transform="translate(15,0)"> <circle class="r5" r="1.8" fill="rgb( 30,  60, 255)" /> </g> </g>
+     <g transform="rotate(180)">   <g transform="translate(8,0)">  <circle class="r2" r="1.0" fill="rgb(120, 200, 255)" /> </g>
+                                   <g transform="translate(12,0)"> <circle class="r4" r="1.5" fill="rgb( 60, 120, 255)" /> </g>
+                                   <g transform="translate(18,0)"> <circle class="r6" r="2.2" fill="rgb(  0,   0, 255)" /> </g> </g>
+     <g transform="rotate(202.5)"> <g transform="translate(6,0)">  <circle class="r1" r="0.8" fill="rgb(150, 255, 255)" /> </g>
+                                   <g transform="translate(10,0)"> <circle class="r3" r="1.2" fill="rgb( 90, 160, 255)" /> </g>
+                                   <g transform="translate(15,0)"> <circle class="r5" r="1.8" fill="rgb( 30,  60, 255)" /> </g> </g>
+     <g transform="rotate(225)">   <g transform="translate(8,0)">  <circle class="r2" r="1.0" fill="rgb(120, 200, 255)" /> </g>
+                                   <g transform="translate(12,0)"> <circle class="r4" r="1.5" fill="rgb( 60, 120, 255)" /> </g>
+                                   <g transform="translate(18,0)"> <circle class="r6" r="2.2" fill="rgb(  0,   0, 255)" /> </g> </g>
+     <g transform="rotate(247.5)"> <g transform="translate(6,0)">  <circle class="r1" r="0.8" fill="rgb(150, 255, 255)" /> </g>
+                                   <g transform="translate(10,0)"> <circle class="r3" r="1.2" fill="rgb( 90, 160, 255)" /> </g>
+                                   <g transform="translate(15,0)"> <circle class="r5" r="1.8" fill="rgb( 30,  60, 255)" /> </g> </g>
+     <g transform="rotate(270)">   <g transform="translate(8,0)">  <circle class="r2" r="1.0" fill="rgb(120, 200, 255)" /> </g>
+                                   <g transform="translate(12,0)"> <circle class="r4" r="1.5" fill="rgb( 60, 120, 255)" /> </g>
+                                   <g transform="translate(18,0)"> <circle class="r6" r="2.2" fill="rgb(  0,   0, 255)" /> </g> </g>
+     <g transform="rotate(292.5)"> <g transform="translate(6,0)">  <circle class="r1" r="0.8" fill="rgb(150, 255, 255)" /> </g>
+                                   <g transform="translate(10,0)"> <circle class="r3" r="1.2" fill="rgb( 90, 160, 255)" /> </g>
+                                   <g transform="translate(15,0)"> <circle class="r5" r="1.8" fill="rgb( 30,  60, 255)" /> </g> </g>
+     <g transform="rotate(315)">   <g transform="translate(8,0)">  <circle class="r2" r="1.0" fill="rgb(120, 200, 255)" /> </g>
+                                   <g transform="translate(12,0)"> <circle class="r4" r="1.5" fill="rgb( 60, 120, 255)" /> </g>
+                                   <g transform="translate(18,0)"> <circle class="r6" r="2.2" fill="rgb(  0,   0, 255)" /> </g> </g>
+     <path class="logo-text" fill="rgb(  0,   0, 255)" d="m 3.880121,0.03615834 c 0,-2.48335144 -1.1951128,-4.06648754 -3.43012889,-4.06648754 -2.17293241,0 -3.66294341,1.7383455 -3.66294341,4.08200913 0,2.21949507 1.319281,3.98888377 3.80263223,3.98888377 1.69178257,0 2.85585427,-0.7915689 2.90241717,-0.838131 L 2.8091764,1.8676302 C 2.4832358,2.0228397 1.7382308,2.4108638 0.77593163,2.4108638 c -1.52105256,0 -1.98668053,-1.1640711 -1.95563913,-1.72282532 h 5.0287872 c 0,-0.10864652 0.031045,-0.32593961 0.031045,-0.65188014 z M 1.9400032,-0.81749328 h -3.1352314 c 0.1552091,-0.94677752 0.74500579,-1.66074122 1.69178323,-1.66074122 1.28823867,0 1.44344817,1.2416757 1.44344817,1.66074122 z M 12.432144,3.8232706 V -7.4138962 h -2.095328 v 3.6784643 c -0.09313,-0.031045 -0.6829217,-0.2948973 -1.5365737,-0.2948973 -1.9401188,0 -3.6784639,1.6607412 -3.6784639,4.14409273 0,2.29710027 1.3503219,3.91127847 3.4301286,3.91127847 1.2727183,0 1.97116,-0.6053162 2.048766,-0.6673998 V 3.8232706 Z M 10.336816,1.9141931 c -0.04656,0.046563 -0.6208377,0.4035439 -1.2882384,0.4035439 -0.9778197,0 -1.8159507,-0.7915679 -1.8159507,-2.26605707 0,-1.56761623 0.838131,-2.35918433 1.9401183,-2.35918433 0.6053171,0 1.1019868,0.2793767 1.1640708,0.310419 z m 11.438922,-1.98668129 c 0,-2.29709981 -1.567613,-3.95784101 -3.818152,-3.95784101 -2.328147,0 -3.957848,1.7073042 -3.957848,4.08200913 0,2.34366317 1.552103,3.98888377 3.802633,3.98888377 2.359191,0 3.973367,-1.6762629 3.973367,-4.11305189 z m -2.095332,0.0931259 c 0,1.38136409 -0.651882,2.28157859 -1.738347,2.28157859 -1.086466,0 -1.84699,-0.9312567 -1.84699,-2.32814152 0,-1.36584298 0.698443,-2.28157918 1.769391,-2.28157918 1.070947,0 1.815946,0.9312568 1.815946,2.32814211 z M 25.438673,3.8232706 V -7.4138962 H 23.343341 V 3.8232706 Z" />
+     <g transform="translate(18,0)"> <circle id="o-circle" r="4.5" fill="url('#o-grad')" /> </g>
+  </g>
+</svg>
