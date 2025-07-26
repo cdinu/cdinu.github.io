@@ -19,6 +19,7 @@ website:
       - href: /2025-07-ARC-Festival/
         text: MCP Talk
   site-url: https://cdi.nu
+  repo-url: https://github.com/cdinu/cdinu.github.io
   description: "Cristian Dinu is a Senior Research Software Engineer at UCL, building human-centred data systems for climate and energy research, including SERL and EDOL."
   open-graph:
     title: "Cristian Dinu, Building Research Software for a Decarbonised Future"
@@ -27,7 +28,10 @@ website:
     title: "Cristian Dinu, Research Software Engineer"
     description: "I build data platforms for energy and climate research. Currently working on SERL and EDOL at UCL."
   page-footer:
-    center: "© 2025 Cristian Dinu [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) | Built with [Quarto](https://quarto.org)"
+    left: "Copyright 2025, Cristian Dinu"
+    right: 
+      - icon: github
+        href: https://github.com/cdinu/cdinu.github.io
 format:
   html:
     respect-user-color-scheme: true
