@@ -1,6 +1,9 @@
 project:
   type: website
 
+execute:
+  freeze: auto
+
 website:
   title: "Cristian Dinu"
   favicon: images/favicon.png
