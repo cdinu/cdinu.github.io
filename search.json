@@ -1,5 +1,47 @@
 [
   {
+    "objectID": "posts/2025-06-26-green-transition/index.html",
+    "href": "posts/2025-06-26-green-transition/index.html",
+    "title": "The Green Transition Should Not Be About Sacrifice",
+    "section": "",
+    "text": "I was in the audience at the Energy Tech Summit1, where I heard the boss of Octopus2 challenging the dominant narrative that the path to decarbonisation must be one of “sacrifice.”\nInstead, he argued, the transition should make life better for people.\nInitially, I thought it was just rhetoric, because in my mind, reform requires sacrifice. But then I realised this might actually be a valid idea.\nFor example, Octopus has an initiative called “Zero Bills”3 – guaranteeing no energy bills for homes equipped with solar and batteries. Sure, if you pay for solar panels, a battery and a heat pump4 anyway, you could get a better deal if you manage everything yourself, by timing your electricity use and selling the excess back to the grid.\nBut that takes knowledge and effort. In exchange for giving up some control and opportunity, you get peace of mind, which is, indeed, invaluable.\nOctopus is also experimenting with using electric cars as “batteries on wheels”, based on the new Vehicle to Grid (aka V2G)5 set of technologies. Because it helps increase the grid’s flexibility, Octopus offers a cheap-ish leasing option for a V2G-capable vehicle. Thumbs up for that, too – despite some worrying but understandable geostrategic options.\nIt’s great to send the message that Net Zero means abundance, not austerity – and that sustainability and quality of life aren’t mutually exclusive. That message is becoming less and less wishful thinking – and it can genuinely become a reality."
+  },
+  {
+    "objectID": "posts/2025-07-23-dashes/index.html",
+    "href": "posts/2025-07-23-dashes/index.html",
+    "title": "Dashed — Writing Like a Machine",
+    "section": "",
+    "text": "I like dashes of all kinds: the hyphen, the syllable-breaking dash, the dialogue dash. I like diacritics, I like commas. Whenever I can, I use non-breaking spaces between words that belong together. I’ve been using them for decades, on my own, as consistently as I can.\nBut lately, using these writing “delicacies” is seen as a sure sign the text was written by GPT. What should I do? Write worse? Or investigate whether I, too, might be a stochastic parrot1?"
+  },
+  {
+    "objectID": "posts/2025-06-27-light-under-fire/index.html",
+    "href": "posts/2025-06-27-light-under-fire/index.html",
+    "title": "Light Under Fire: Energy Lessons from Ukraine",
+    "section": "",
+    "text": "A very interesting session at the Octopus Summit1 featured Maxim Timchenko, CEO of a Ukrainian energy company called DTEK2. He spoke about how they have maintained their power grid through three winters of relentless attacks.\nHe spoke about how they managed to keep the lights on and survive three winters, despite their energy infrastructure being pounded day and night by Russian Iskander missiles3. It took Ukraine only one year to install rooftop solar panels that provide 4% of their energy needs. He also mentioned the strategic advantage of green energy production: it takes only one Iskander missile to destroy a coal power plant, but fifty to take down a wind farm.\nEveryone on the stage agreed that the knowledge and experience the Ukrainians gained by dealing with their problems will make them leaders in energy production and consulting after the war. They managed to build an agile, low-cost, and modern energy grid under the harshest conditions, and this will be invaluable for the rest of the world. Fingers crossed! There are success stories – South Korea, Germany.\nNot that I had any doubt, but energy security is national security, and there is a correlation between energy security and fossil fuel.\nIt is good to be reminded why I am doing this. Decarbonising means freedom, too. And less financial support for the meanies."
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Articles",
+    "section": "",
+    "text": "Dashed — Writing Like a Machine\n\n\n\n\n\n\n\n\nJul 23, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nPower Shift: From Passive Consumers to Grid Players\n\n\nEnergy flexibility means the ability to adjust power generation and demand, so that they match exactly. It’s going to be a big topic in the following years, and it is very likely to impact our comfort, our wallets, but also our climate.\n\n\n\n\n\nJul 22, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nAI: Our Chilling and Thrilling Child\n\n\nInsights from Stephen Fry and Yuval Noah Harari at the Octopus Energy Tech Summit on AI as humanity’s child\n\n\n\n\n\nJun 28, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nLight Under Fire: Energy Lessons from Ukraine\n\n\nHow Ukraine maintained their power grid through three winters of attacks and the strategic advantages of renewable energy\n\n\n\n\n\nJun 27, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nThe Green Transition Should Not Be About Sacrifice\n\n\nInsights from Octopus Energy on making decarbonisation about abundance and better quality of life, not sacrifice\n\n\n\n\n\nJun 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nRSECon25: Beyond Traditional Apps with LLMs\n\n\nMy accepted talk for RSECon25 on how Large Language Models might replace traditional app interfaces through conversational agents\n\n\n\n\n\nJun 20, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWhat I Am Doing Lately: EDOL and Energy Research\n\n\nLeading the development of EDOL (Energy Demand Observatory and Laboratory) to understand home energy use patterns\n\n\n\n\n\nJan 15, 2025\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Cristian Dinu",
+    "section": "",
+    "text": "LinkedIn\n  \n  \n    \n     UCL\n  \n  \n    \n     Book a meeting"
+  },
+  {
+    "objectID": "index.html#latest",
+    "href": "index.html#latest",
+    "title": "Cristian Dinu",
+    "section": "Latest",
+    "text": "Latest"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Cristian Dinu",
@@ -26,55 +68,6 @@
     "title": "Cristian Dinu",
     "section": "Connect",
     "text": "Connect\nYou can connect with me on LinkedIn, or view my UCL profile. If you want to meet online, book here."
-  },
-  {
-    "objectID": "posts/2025-07-23-dashes/index.html",
-    "href": "posts/2025-07-23-dashes/index.html",
-    "title": "Dashed — Writing Like a Machine",
-    "section": "",
-    "text": "I like dashes of all kinds: the hyphen, the syllable-breaking dash, the dialogue dash. I like diacritics, I like commas. Whenever I can, I use non-breaking spaces between words that belong together. I’ve been using them for decades, on my own, as consistently as I can.\nBut lately, using these writing “delicacies” is seen as a sure sign the text was written by GPT. What should I do? Write worse? Or investigate whether I, too, might be a stochastic parrot1?"
-  },
-  {
-    "objectID": "posts/2025-06-28-chilling-thrilling/index.html",
-    "href": "posts/2025-06-28-chilling-thrilling/index.html",
-    "title": "AI: Our Chilling and Thrilling Child",
-    "section": "",
-    "text": "Without a doubt, Stephen Fry1 and Yuval Noah Harari2 talking to each other was my highlight at the Octopus Energy Tech Summit3.\nParaphrasing: Like a JCB digger, these machines – AI – are here to augment what we do. We don’t understand what they do, but that’s the idea: if we knew precisely what they’re going to do, there wouldn’t be any “intelligence” involved; they’d revert to mere, “simple” machines.\nUnderstood in depth or not, AI is the “child” of humanity. And like children, they do what they see you doing–not what you tell them to do. You lie, they lie; you cheat, they cheat. And we humans are training it on human knowledge. So the AI is bound to cheat, lie, blackmail, use violence.\nAnother issue they mentioned is that AI is brought to us by the same villains that brought us social media. And AI is trained and educated in a world that has the highest lack of trust in history.\nThe next Stephen Fry quote is approximate: “We can’t swim in UK rivers because they are polluted with sewage. Our children will ‘swim’ in a cultural river that is polluted with internet sewage.”\nThe final thought, from Fry, was brilliant: don’t concentrate on how efficient you are, because the AI will soon be much more efficient than you. Concentrate on how much of a human being you are–on how you can enlighten a room, on how you make others happy; which is the opposite of what we are told to do.\nI hope I’ll get to see the recording, to get the quotes straight.\nThey finished with these two words: “Thrilling” and “Chilling”4. It is exactly what I feel about it."
-  },
-  {
-    "objectID": "posts/2025-06-20-rsecon/index.html",
-    "href": "posts/2025-06-20-rsecon/index.html",
-    "title": "RSECon25: Beyond Traditional Apps with LLMs",
-    "section": "",
-    "text": "My talk just got accepted for RSECon251 in September! I’m going to share how Large Language Models (LLMs) might just ditch the need for traditional “apps” and programs.\nMost software still talks in buttons, charts, forms, pop-ups. But what if you could skip them entirely and get your data or perform actions the way you talk to a person?\nIn the walkthrough, I’ll show how LLMs (like ChatGPT) can become your front-end, powered by a new thing called the Model Context Protocol (MCP)2. It lets you plug in real-time, structured data directly into a conversational agent.\nI’ll demo how to build an MCP server, show what works (and what doesn’t), and share patterns I’ve seen when replacing traditional apps with this approach.\n🗓 9 to 11 September 2025\n📍 University of Warwick\n🎤 RSECon25 – Ninth Annual Conference for Research Software Engineering"
-  },
-  {
-    "objectID": "posts/2025-01-15-edol-update/index.html",
-    "href": "posts/2025-01-15-edol-update/index.html",
-    "title": "What I Am Doing Lately: EDOL and Energy Research",
-    "section": "",
-    "text": "I wanted to share a bit about what keeps me busy these days. I’m leading the development of a project called EDOL (Energy Demand Observatory and Laboratory)1, which builds on our previous work with SERL2. At its heart, it’s about understanding how we all use energy in our homes, something that’s become increasingly important as we navigate climate change.\nWe work with wonderful participants who’ve agreed to share their smart meter3 readings and experiences with us. It’s incredible – we’ve collected over a billion readings already, giving us insights into real-world energy use patterns that we can share with interested energy researchers. Each data point tells a story about how families heat their homes, or how they adapt to changing weather.\nWhat makes me particularly excited is our next step - working with some households to install additional sensors, from simple temperature monitors to more detailed systems that track heat pump performance. It’s all voluntary, and the privacy of our participants always comes first."
-  },
-  {
-    "objectID": "posts/2025-06-26-green-transition/index.html",
-    "href": "posts/2025-06-26-green-transition/index.html",
-    "title": "The Green Transition Should Not Be About Sacrifice",
-    "section": "",
-    "text": "I was in the audience at the Energy Tech Summit1, where I heard the boss of Octopus2 challenging the dominant narrative that the path to decarbonisation must be one of “sacrifice.”\nInstead, he argued, the transition should make life better for people.\nInitially, I thought it was just rhetoric, because in my mind, reform requires sacrifice. But then I realised this might actually be a valid idea.\nFor example, Octopus has an initiative called “Zero Bills”3 – guaranteeing no energy bills for homes equipped with solar and batteries. Sure, if you pay for solar panels, a battery and a heat pump4 anyway, you could get a better deal if you manage everything yourself, by timing your electricity use and selling the excess back to the grid.\nBut that takes knowledge and effort. In exchange for giving up some control and opportunity, you get peace of mind, which is, indeed, invaluable.\nOctopus is also experimenting with using electric cars as “batteries on wheels”, based on the new Vehicle to Grid (aka V2G)5 set of technologies. Because it helps increase the grid’s flexibility, Octopus offers a cheap-ish leasing option for a V2G-capable vehicle. Thumbs up for that, too – despite some worrying but understandable geostrategic options.\nIt’s great to send the message that Net Zero means abundance, not austerity – and that sustainability and quality of life aren’t mutually exclusive. That message is becoming less and less wishful thinking – and it can genuinely become a reality."
-  },
-  {
-    "objectID": "posts/index.html",
-    "href": "posts/index.html",
-    "title": "Articles",
-    "section": "",
-    "text": "Dashed — Writing Like a Machine\n\n\n\n\n\n\n\n\nJul 23, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nPower Shift: From Passive Consumers to Grid Players\n\n\nEnergy flexibility means the ability to adjust power generation and demand, so that they match exactly. It’s going to be a big topic in the following years, and it is very likely to impact our comfort, our wallets, but also our climate.\n\n\n\n\n\nJul 22, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nAI: Our Chilling and Thrilling Child\n\n\nInsights from Stephen Fry and Yuval Noah Harari at the Octopus Energy Tech Summit on AI as humanity’s child\n\n\n\n\n\nJun 28, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nLight Under Fire: Energy Lessons from Ukraine\n\n\nHow Ukraine maintained their power grid through three winters of attacks and the strategic advantages of renewable energy\n\n\n\n\n\nJun 27, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nThe Green Transition Should Not Be About Sacrifice\n\n\nInsights from Octopus Energy on making decarbonisation about abundance and better quality of life, not sacrifice\n\n\n\n\n\nJun 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nRSECon25: Beyond Traditional Apps with LLMs\n\n\nMy accepted talk for RSECon25 on how Large Language Models might replace traditional app interfaces through conversational agents\n\n\n\n\n\nJun 20, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWhat I Am Doing Lately: EDOL and Energy Research\n\n\nLeading the development of EDOL (Energy Demand Observatory and Laboratory) to understand home energy use patterns\n\n\n\n\n\nJan 15, 2025\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/2025-06-27-light-under-fire/index.html",
-    "href": "posts/2025-06-27-light-under-fire/index.html",
-    "title": "Light Under Fire: Energy Lessons from Ukraine",
-    "section": "",
-    "text": "A very interesting session at the Octopus Summit1 featured Maxim Timchenko, CEO of a Ukrainian energy company called DTEK2. He spoke about how they have maintained their power grid through three winters of relentless attacks.\nHe spoke about how they managed to keep the lights on and survive three winters, despite their energy infrastructure being pounded day and night by Russian Iskander missiles3. It took Ukraine only one year to install rooftop solar panels that provide 4% of their energy needs. He also mentioned the strategic advantage of green energy production: it takes only one Iskander missile to destroy a coal power plant, but fifty to take down a wind farm.\nEveryone on the stage agreed that the knowledge and experience the Ukrainians gained by dealing with their problems will make them leaders in energy production and consulting after the war. They managed to build an agile, low-cost, and modern energy grid under the harshest conditions, and this will be invaluable for the rest of the world. Fingers crossed! There are success stories – South Korea, Germany.\nNot that I had any doubt, but energy security is national security, and there is a correlation between energy security and fossil fuel.\nIt is good to be reminded why I am doing this. Decarbonising means freedom, too. And less financial support for the meanies."
   },
   {
     "objectID": "posts/2025-07-power-shift/index.html",
@@ -133,17 +126,24 @@
     "text": "The great balancing act: what it takes to keep the power grid stable\nCongress Must Address China’s Dominance in Critical Minerals, May 4, 2023\nTesla quietly adds bidirectional charging capability for game-changing new features\nCarbon Intensity API\n\n Illustrations with AI; Gemini 2.5 Pro and Canva.\nPrompts used: “generate an image to illustrate the follwing article ; Illustrative, not informational, a very abstract [pasted content]” and “another one, landscape-oriented image with shapes and colors suggesting energy flexibility.”\nCanva: Generate a stylized, abstract illustration for a LinkedIn article about energy flexibility. Depict the delicate balance between electricity generation and consumption using vibrant, contrasting colors and dynamic shapes. The image should convey the concepts of real-time matching, intermittent renewable energy sources (solar and wind represented symbolically), large-scale energy storage (perhaps as interconnected nodes or flowing energy streams), and Vehicle-to-Grid technology (subtle suggestion of electric vehicles interacting with a power grid). Focus on conveying abstract ideas of flow, connection, and dynamic equilibrium, avoiding literal representations of technology. Employ a modern, minimalist aesthetic with a clean, professional feel suitable for LinkedIn. Use a high-resolution format. \n\nOriginally published on LinkedIn"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Cristian Dinu",
+    "objectID": "posts/2025-06-20-rsecon/index.html",
+    "href": "posts/2025-06-20-rsecon/index.html",
+    "title": "RSECon25: Beyond Traditional Apps with LLMs",
     "section": "",
-    "text": "LinkedIn\n  \n  \n    \n     UCL\n  \n  \n    \n     Book a meeting"
+    "text": "My talk just got accepted for RSECon251 in September! I’m going to share how Large Language Models (LLMs) might just ditch the need for traditional “apps” and programs.\nMost software still talks in buttons, charts, forms, pop-ups. But what if you could skip them entirely and get your data or perform actions the way you talk to a person?\nIn the walkthrough, I’ll show how LLMs (like ChatGPT) can become your front-end, powered by a new thing called the Model Context Protocol (MCP)2. It lets you plug in real-time, structured data directly into a conversational agent.\nI’ll demo how to build an MCP server, show what works (and what doesn’t), and share patterns I’ve seen when replacing traditional apps with this approach.\n🗓 9 to 11 September 2025\n📍 University of Warwick\n🎤 RSECon25 – Ninth Annual Conference for Research Software Engineering"
   },
   {
-    "objectID": "index.html#latest",
-    "href": "index.html#latest",
-    "title": "Cristian Dinu",
-    "section": "Latest",
-    "text": "Latest"
+    "objectID": "posts/2025-06-28-chilling-thrilling/index.html",
+    "href": "posts/2025-06-28-chilling-thrilling/index.html",
+    "title": "AI: Our Chilling and Thrilling Child",
+    "section": "",
+    "text": "Without a doubt, Stephen Fry1 and Yuval Noah Harari2 talking to each other was my highlight at the Octopus Energy Tech Summit3.\nParaphrasing: Like a JCB digger, these machines – AI – are here to augment what we do. We don’t understand what they do, but that’s the idea: if we knew precisely what they’re going to do, there wouldn’t be any “intelligence” involved; they’d revert to mere, “simple” machines.\nUnderstood in depth or not, AI is the “child” of humanity. And like children, they do what they see you doing–not what you tell them to do. You lie, they lie; you cheat, they cheat. And we humans are training it on human knowledge. So the AI is bound to cheat, lie, blackmail, use violence.\nAnother issue they mentioned is that AI is brought to us by the same villains that brought us social media. And AI is trained and educated in a world that has the highest lack of trust in history.\nThe next Stephen Fry quote is approximate: “We can’t swim in UK rivers because they are polluted with sewage. Our children will ‘swim’ in a cultural river that is polluted with internet sewage.”\nThe final thought, from Fry, was brilliant: don’t concentrate on how efficient you are, because the AI will soon be much more efficient than you. Concentrate on how much of a human being you are–on how you can enlighten a room, on how you make others happy; which is the opposite of what we are told to do.\nI hope I’ll get to see the recording, to get the quotes straight.\nThey finished with these two words: “Thrilling” and “Chilling”4. It is exactly what I feel about it."
+  },
+  {
+    "objectID": "posts/2025-01-15-edol-update/index.html",
+    "href": "posts/2025-01-15-edol-update/index.html",
+    "title": "What I Am Doing Lately: EDOL and Energy Research",
+    "section": "",
+    "text": "I wanted to share a bit about what keeps me busy these days. I’m leading the development of a project called EDOL (Energy Demand Observatory and Laboratory)1, which builds on our previous work with SERL2. At its heart, it’s about understanding how we all use energy in our homes, something that’s become increasingly important as we navigate climate change.\nWe work with wonderful participants who’ve agreed to share their smart meter3 readings and experiences with us. It’s incredible – we’ve collected over a billion readings already, giving us insights into real-world energy use patterns that we can share with interested energy researchers. Each data point tells a story about how families heat their homes, or how they adapt to changing weather.\nWhat makes me particularly excited is our next step - working with some households to install additional sensors, from simple temperature monitors to more detailed systems that track heat pump performance. It’s all voluntary, and the privacy of our participants always comes first."
   }
 ]
