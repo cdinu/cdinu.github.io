@@ -38,7 +38,7 @@
 <h2 class="anchored" data-anchor-id="the-wrong-ones">The Wrong Ones</h2>
 <section id="bitcoin" class="level3">
 <h3 class="anchored" data-anchor-id="bitcoin">Bitcoin</h3>
-<p>In the early 2010s, I read that someone bought a pizza with numbers. “Bitcoin,” they called it. I had read about it before, which made me more amused at the “absurdity” of the whole thing. A bitcoin was $0.0041 at the time. I thought it was $0.0041 too much. Now it’s 30 million times more. What an expensive pizza that was.</p>
+<p>In the early 2010s, I read that someone bought a pizza with numbers<sup>1</sup>. “Bitcoin,” they called it. I had read about it before, which made me more amused at the “absurdity” of the whole thing. A bitcoin was $0.0041 at the time. I thought it was $0.0041 too much. Now it’s 30 million times more. What an expensive pizza that was.</p>
 <p>I still think Bitcoin and blockchain represents a wonderful mathematical model, an elegant cryptography wrapped in economic and social theory. But I also believe it might be one of the greatest scams humanity has ever constructed, never-mind the environmental damage.</p>
 <p>It promised democracy and freedom, but delivered more inequality and criminal payment paths instead. I thoght it would disappear within a few months, consumed by its own contradictions.</p>
 <p>Bitcoin’s price today suggests I was spectacularly wrong.</p>
@@ -53,7 +53,7 @@
 <section id="spotify-for-ebooks-all-you-can-read-ebook-subscription" class="level3">
 <h3 class="anchored" data-anchor-id="spotify-for-ebooks-all-you-can-read-ebook-subscription">Spotify for Ebooks (all-you-can read ebook subscription)</h3>
 <p>I envisioned a service like Spotify, but for books. Unlimited reading for a monthly fee. Authors getting paid per page read. The perfect model.</p>
-<p>Amazon launched Kindle Unlimited, but it’s like Spotify with none of the greatest hits. I tried it twice, it lacks in value. While Spotify struggles to fairly compensate musicians, at least musicians have concerts and merchandise sales. Writers have… their words.</p>
+<p>Amazon launched <em>Kindle Unlimited</em><sup>2</sup>, but it’s like Spotify with none of the greatest hits. I tried it twice, it lacks in value. While Spotify struggles to fairly compensate musicians, at least musicians have concerts and merchandise sales. Writers have… their words.</p>
 <p>This is also why book piracy cuts deeper than music piracy. Both are bad, but when you steal a song, the artist might recoup some losses through live performances. When you steal a book, you steal the writer’s only significant revenue stream.</p>
 <p>My prediction failed because the economics would not work. It would not be fair for the authors, or if fair it would be expensive. I am happy this “prediction” failed.</p>
 </section>
@@ -61,7 +61,7 @@
 <h3 class="anchored" data-anchor-id="childrens-apps-and-digital-textbooks">Children’s Apps and Digital Textbooks</h3>
 <p>I spent nearly a decade programming educational apps for children, and crafting software for wonderful digital textbooks. The potential felt limitless: interactive learning experiences that could adapt to each learner’s needs.</p>
 <p>Children’s iPad apps do offer value, but the price we pay (i.e.&nbsp;screen time for developing minds) is too much. These apps are better than mindless, junk cartoons, but that’s setting the bar too low.</p>
-<p>Digital textbooks, when done well, possess many advantages over their paper versions. At Read Forward, we created textbooks but included with a primitive assistant, too. We called it “the cat” or “the avatar” and it helped children learn, by giving them tips and helping them focus. It was a mini-agent, and the concept still amazes me, but the technology to make it useful wasn’t there.</p>
+<p>Digital textbooks, when done well, possess many advantages over their paper versions. At Read Forward<sup>3</sup>, we created textbooks but included with a primitive assistant, too. We called it “the cat” or “the avatar” and it helped children learn, by giving them tips and helping them focus. It was a mini-agent, and the concept still amazes me, but the technology to make it useful wasn’t there.</p>
 <p>I would revisit digital textbooks a few years into the AI era. They could potentially be generated entirely on the fly, personalised for each learner style and pace.</p>
 <p>My prediction failed then, and for good reasons. The technology wasn’t ready for the vision, and teachers are too busy with their already overwhelming work to put it into practice.</p>
 </section>
@@ -76,15 +76,15 @@
 <section id="predictions-that-actually-happened" class="level2">
 <h2 class="anchored" data-anchor-id="predictions-that-actually-happened">Predictions That Actually Happened</h2>
 <p>Not every crystal ball was faulty. A few of my intuitions were right. The ones that are more about good technology and less about humans.</p>
-<section id="linux" class="level3">
-<h3 class="anchored" data-anchor-id="linux">Linux</h3>
-<p>My parents made enormous sacrifices to buy my first 486 PC in 1996. A few weeks before it arrived, I ordered a computer magazine that came with two CDs—Slackware 2.2 and 3.0. The magazine was in German, which I couldn’t understand, but it had pictures of the interface and some commands. That operating system and its principles cast a spell on me—a spell I’ve been under ever since, with no desire to break free.</p>
+<section id="linux4" class="level3">
+<h3 class="anchored" data-anchor-id="linux4">Linux<sup>4</sup></h3>
+<p>My parents made enormous sacrifices to buy my first 486 PC in 1996. A few weeks before it arrived, I ordered a computer magazine that came with two CDs—Slackware<sup>5</sup> 2.2 and 3.0. The magazine was in German, which I couldn’t understand, but it had pictures of the interface and some commands. That operating system and its principles cast a spell on me—a spell I’ve been under ever since, with no desire to break free.</p>
 <p>I wiped the DOS and Windows 3.1 partition and installed Slackware immediately.</p>
 <p>For practical reasons, I eventually reinstalled Windows, but every machine I’ve owned since has dual-booted. All my servers run Linux. That strange operating system with the penguin mascot conquered the world quietly, powering everything from Android phones to the cloud infrastructure that runs our digital lives.</p>
 </section>
 <section id="the-web" class="level3">
 <h3 class="anchored" data-anchor-id="the-web">The Web</h3>
-<p>This prediction felt easy in retrospect. It was 1997, and I read about a program called “Netscape.” I managed to find the installation kit on a CD, saved money to buy a 14.4 kbps modem (I couldn’t afford faster) and connected to a dial-up Internet Service Provider in my hometown.</p>
+<p>This prediction felt easy in retrospect. It was 1997, and I read about a program called “Netscape.” I managed to find the installation kit on a CD, saved money to buy a 14.4 kbps modem (I couldn’t afford faster) and connected to a dial-up ISP<sup>6</sup> in my hometown.</p>
 <p>Loading my first webpage was pure magic. I called my mother to witness this miracle. “Mom, it only took one minute to get the latest news!” We were all in awe.</p>
 <p>One month later, as I finished my Baccalaureate exams, I created my first webpage for that same ISP. It wasn’t particularly good, but it earned me some free dial-up time.</p>
 <p>The web didn’t just change the world—it became the world. We live inside it now.</p>
@@ -109,7 +109,7 @@
 <section id="small-ones-and-gray-areas" class="level2">
 <h2 class="anchored" data-anchor-id="small-ones-and-gray-areas">Small ones and gray areas</h2>
 <p>Some predictions landed in that gray area between success and failure:</p>
-<p>I thought <strong>Mercurial</strong> was superior to Git for version control. Perhaps it was more elegant, but it wasn’t created by Linus Torvalds. Git won through network effects and timing.</p>
+<p>I thought <strong>Mercurial</strong><sup>7</sup> was superior to Git<sup>8</sup> for version control. Perhaps it was more elegant, but it wasn’t created by Linus Torvalds. Git won through network effects and timing.</p>
 <p>I believed <strong>WebAssembly</strong>, a technology that allows high-performance applications to run in web browsers—would revolutionise web development. It found some niches but never achieved the dominance I predicted. It might have been too little, as it can’t do much and too late, as it arrived after the community had to optimise everything, which makes it not so useful.</p>
 <p>I was certain <strong>Wikipedia</strong> couldn’t exist. I was convinced one cannot ask people to write on their own and expect good quality, reliable results. I’m delighted to have been wrong about human nature and collaborative knowledge.</p>
 <p>I thought <strong>email would die</strong>, replaced by more modern communication tools. Instead, it evolved and persisted, becoming the backbone of digital identity and business communication.</p>
@@ -124,7 +124,20 @@
 
 </section>
 
- ]]></description>
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>The “Bitcoin Pizza” refers to the first known commercial transaction using Bitcoin, where 10,000 BTC were exchanged for two pizzas in 2010. <a href="https://en.bitcoin.it/wiki/Laszlo_Hanyecz">Read more</a>.↩︎</p></li>
+<li id="fn2"><p><a href="https://www.amazon.com/kindleunlimited">Kindle Unlimited</a> is a subscription service by Amazon that offers unlimited access to a selection of eBooks for a monthly fee.↩︎</p></li>
+<li id="fn3"><p><em>Read Forward</em> was a project and a company in Bucharest, Romania focused on creating innovative digital textbooks with interactive features, including primitive AI assistants.↩︎</p></li>
+<li id="fn4"><p><a href="https://www.linux.org/">Linux</a> is an open-source operating system kernel that powers a wide range of devices, from servers to smartphones.↩︎</p></li>
+<li id="fn5"><p><a href="https://www.slackware.com/">Slackware</a> is one of the oldest Linux distributions, known for its simplicity and adherence to Unix principles.↩︎</p></li>
+<li id="fn6"><p>ISP stands for <em>Internet Service Provider</em>, a company that provides individuals and organizations access to the Internet.↩︎</p></li>
+<li id="fn7"><p><a href="https://www.mercurial-scm.org/">Mercurial</a> is a distributed version control system known for its simplicity and performance, often compared to Git.↩︎</p></li>
+<li id="fn8"><p><a href="https://git-scm.com/">Git</a> is a distributed version control system, usually for software code, but also for anything text, created by Linus Torvalds, widely used for tracking changes in source code during software development.↩︎</p></li>
+</ol>
+</section></div> ]]></description>
   <category>AI &amp; Technology</category>
   <guid>https://cdi.nu/posts/2025-07-predictions/</guid>
   <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
