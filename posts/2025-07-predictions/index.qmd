@@ -1,0 +1,144 @@
+---
+title: "From Bitcoin to AI: 9 of My Predictions That Aged Badly (and a Few That Didn’t)"
+title-block-banner: true
+date: "2025-07-29"
+toc: true
+categories: [AI & Technology]
+image: "canva-failed-predictions.jpg"
+description: "I’ve made tech predictions that soared and others that crashed: from laughing at Bitcoin to betting on Linux. Turns out I’m sometimes good at spotting solid tech, bad at predicting people. My next bet? Generative AI + Model Context Protocol will redefine software."
+---
+
+I’ve been wrong before. Often, in fact. One of the benefits of having a lot of “past” behind me is that I get to review my bold predictions and see how they aged. Some were "prophetic", others proved plain silly. Most fell somewhere between good insight and embarrassing miscalculation.
+
+I’m making another prediction now. A big one, which agrees with Silicon Valley: I believe we’re on the brink of a new era in how we build and experience software. Not some apps, or faster tools, but a shift in what software is, and how we interact with it. The buttons we click, the code we write, the way computers respond to us.
+
+But before you take my word for it, let me tell you about all the times I got it wonderfully, utterly wrong.
+
+
+![]({{< meta image >}} "Title: Fuzzy predictions. Source: Canva, AI Generated"){fig-alt="Abstract vector illustration, concept‑art style. Warm, uplifting colours: sky blue, golden amber, soft white. A slightly cracked crystal ball glowing warmly, with abstract shapes inside hinting at pixels, pages, coins, and circuitry" width="80%" fig-align="center"}
+
+## The Wrong Ones
+
+### Bitcoin
+
+In the early 2010s, I read that someone bought a pizza with numbers. "Bitcoin," they called it. I had read about it before, which made me more amused at the "absurdity" of the whole thing. A bitcoin was $0.0041 at the time. I thought it was $0.0041 too much. Now it's 30 million times more. What an expensive pizza that was.
+
+I still think Bitcoin and blockchain represents a wonderful mathematical model, an elegant cryptography wrapped in economic and social theory. But I also believe it might be one of the greatest scams humanity has ever constructed, never-mind the environmental damage.
+
+It promised democracy and freedom, but delivered more inequality and criminal payment paths instead. I thoght it would disappear within a few months, consumed by its own contradictions.
+
+Bitcoin's price today suggests I was spectacularly wrong. 
+
+### Ebooks
+
+I declared loudly that paper books would become artefacts to be sold in antique shops and fancy boutiques. Who needs dead trees when you have re-flowable and resizeable text, instant delivery and all your books in your pocket?
+
+For me, this prediction came true magnificently. All of my reading happens on screens: literature and long-form content on crisp e-ink displays, web articles on whatever device is nearest. My bookshelves gather dust while my digital library grows.
+
+But the rest of the world? They kept buying paper books. Independent bookstores flourished, and large chains, too. People discovered that the smell of new pages and the weight of a hardcover still carried magic that pixels couldn't replicate for them.
+
+I was right about my own future, but catastrophically wrong about everyone else's. I am happy this happened.
+
+### Spotify for Ebooks (all-you-can read ebook subscription)
+
+I envisioned a service like Spotify, but for books. Unlimited reading for a monthly fee. Authors getting paid per page read. The perfect model.
+
+Amazon launched Kindle Unlimited, but it's like Spotify with none of the greatest hits. I tried it twice, it lacks in value. While Spotify struggles to fairly compensate musicians, at least musicians have concerts and merchandise sales. Writers have... their words.
+
+This is also why book piracy cuts deeper than music piracy. Both are bad, but when you steal a song, the artist might recoup some losses through live performances. When you steal a book, you steal the writer's only significant revenue stream.
+
+My prediction failed because the economics would not work. It would not be fair for the authors, or if fair it would be expensive. I am happy this "prediction" failed.
+
+### Children's Apps and Digital Textbooks
+
+I spent nearly a decade programming educational apps for children, and crafting software for wonderful digital textbooks. The potential felt limitless: interactive learning experiences that could adapt to each learner's needs.
+
+Children's iPad apps do offer value, but the price we pay (i.e. screen time for developing minds) is too much. These apps are better than mindless, junk cartoons, but that's setting the bar too low.
+
+Digital textbooks, when done well, possess many advantages over their paper versions. At Read Forward, we created textbooks but included with a primitive assistant, too. We called it "the cat" or "the avatar" and it helped children learn, by giving them tips and helping them focus. It was a mini-agent, and the concept still amazes me, but the technology to make it useful wasn't there.
+
+I would revisit digital textbooks a few years into the AI era. They could potentially be generated entirely on the fly, personalised for each learner style and pace.
+
+My prediction failed then, and for good reasons. The technology wasn't ready for the vision, and teachers are too busy with their already overwhelming work to put it into practice.
+
+
+### Interactive Fiction: The Story That Never Was
+
+In early 2000s I pictured readers not as passive witnesses but as co-authors of living tales. Books that write themselves as you read it. Characters who bend to your choices. Plot twists that emerge from your commands. I was enchanted by interactive fiction in the early 2000s, convinced it would revolutionise storytelling.
+
+But I missed something crucial: authors spend lifetimes crafting story arcs that show how characters evolve, building toward climaxes that deliver emotion and weave in important themes.
+
+You cannot do this with branching narratives. Every choice fractures the arc, and the more interactive it becomes, the less impactful it grows.
+
+This idea might deserve revisiting in our age of generative AI. After "ingesting" (let's be honest—stealing) all of humanity's literature, these models could potentially come up with compelling stories from any starting point.
+
+
+## Predictions That Actually Happened
+
+Not every crystal ball was faulty. A few of my intuitions were right. The ones that are more about good technology and less about humans. 
+
+### Linux
+
+My parents made enormous sacrifices to buy my first 486 PC in 1996. A few weeks before it arrived, I ordered a computer magazine that came with two CDs—Slackware 2.2 and 3.0. The magazine was in German, which I couldn't understand, but it had pictures of the interface and some commands. That operating system and its principles cast a spell on me—a spell I’ve been under ever since, with no desire to break free.
+
+I wiped the DOS and Windows 3.1 partition and installed Slackware immediately.
+
+For practical reasons, I eventually reinstalled Windows, but every machine I've owned since has dual-booted. All my servers run Linux. That strange operating system with the penguin mascot conquered the world quietly, powering everything from Android phones to the cloud infrastructure that runs our digital lives.
+
+### The Web
+
+This prediction felt easy in retrospect. It was 1997, and I read about a program called "Netscape." I managed to find the installation kit on a CD, saved money to buy a 14.4 kbps modem (I couldn't afford faster) and connected to a dial-up Internet Service Provider in my hometown.
+
+Loading my first webpage was pure magic. I called my mother to witness this miracle. "Mom, it only took one minute to get the latest news!" We were all in awe.
+
+One month later, as I finished my Baccalaureate exams, I created my first webpage for that same ISP. It wasn't particularly good, but it earned me some free dial-up time.
+
+The web didn't just change the world—it became the world. We live inside it now.
+
+### PHP and React
+
+I was astonished when I discovered what PHP could accomplish. Creating webpages on the fly—dynamic content that responded to user input—we take this for granted now, but it felt like wielding magic spells.
+
+PHP is a programming language that runs on web servers, generating HTML pages in real-time based on user requests or database information. Before PHP, web pages were static documents. After PHP, they became living, breathing applications.
+
+About ten years later, the web was poised for another transformation. Different technologies competed for dominance. When I first encountered React—a JavaScript framework for building user interfaces—I realized we were about to accomplish so much more.
+
+React allowed developers to create complex, interactive web applications that felt like desktop software but ran in browsers. It changed how we think about building digital experiences.
+
+I haven't used PHP in a while, there are better options. All of them however are likely to be impacted by fast optimised generative AI that could create what's on screen in real-time.
+
+### Docker: Computers Within Computers
+
+Like Hamlet's play within a play, computers can run other computers inside themselves. Virtual Machines started this revolution. I think it's VMware who pioneered the concept of running multiple operating systems on a single physical machine.
+
+Virtual machines are complete computer systems running inside another computer, each with their own operating system, applications, and resources. The host OS is the main operating system running directly on the physical hardware -- a server in a datacenter or a laptop on your desk.
+
+While VMs proved invaluable, someone clever realised you could reuse many parts of the host OS instead of duplicating everything. Docker containers emerged as a lighter, faster alternative—packaging applications with just the components they needed to run, sharing the underlying operating system.
+
+This innovation transformed how we build and deploy software, making applications more portable and efficient.
+
+---
+
+## Small ones and gray areas
+
+Some predictions landed in that gray area between success and failure:
+
+I thought **Mercurial** was superior to Git for version control. Perhaps it was more elegant, but it wasn't created by Linus Torvalds. Git won through network effects and timing.
+
+I believed **WebAssembly**, a technology that allows high-performance applications to run in web browsers—would revolutionise web development. It found some niches but never achieved the dominance I predicted. It might have been too little, as it can't do much and too late, as it arrived after the community had to optimise everything, which makes it not so useful.
+
+I was certain **Wikipedia** couldn't exist. I was convinced one cannot ask people to write on their own and expect good quality, reliable results. I'm delighted to have been wrong about human nature and collaborative knowledge.
+
+I thought **email would die**, replaced by more modern communication tools. Instead, it evolved and persisted, becoming the backbone of digital identity and business communication.
+
+
+
+## What I've Learned About Crystal Balls
+
+Predicting the future feels random because it partly is. Technology doesn't evolve in isolation. It is shaped by human psychology, economic forces, cultural trends, and pure chance. All good or bad.
+
+It seems I am better with predicting which technology is good or bad. Not so much with human behaviour.
+
+So when I say that Model Context Protocol is good, it is likely to be the case. When I say that Generative AI will reshape how we experience software, take it with appropriate skepticism. I've been wrong before, and I'll be wrong again.
+
+But I'm willing to bet my career on this. Because sometimes, the future surprises us all, and because it does feel like the right choice.
