@@ -21,7 +21,7 @@ But before you take my word for it, let me tell you about all the times I got it
 
 ### Bitcoin
 
-In the early 2010s, I read that someone bought a pizza with numbers. "Bitcoin," they called it. I had read about it before, which made me more amused at the "absurdity" of the whole thing. A bitcoin was $0.0041 at the time. I thought it was $0.0041 too much. Now it's 30 million times more. What an expensive pizza that was.
+In the early 2010s, I read that someone bought a pizza with numbers[^8]. "Bitcoin," they called it. I had read about it before, which made me more amused at the "absurdity" of the whole thing. A bitcoin was $0.0041 at the time. I thought it was $0.0041 too much. Now it's 30 million times more. What an expensive pizza that was.
 
 I still think Bitcoin and blockchain represents a wonderful mathematical model, an elegant cryptography wrapped in economic and social theory. But I also believe it might be one of the greatest scams humanity has ever constructed, never-mind the environmental damage.
 
@@ -43,7 +43,7 @@ I was right about my own future, but catastrophically wrong about everyone else'
 
 I envisioned a service like Spotify, but for books. Unlimited reading for a monthly fee. Authors getting paid per page read. The perfect model.
 
-Amazon launched Kindle Unlimited, but it's like Spotify with none of the greatest hits. I tried it twice, it lacks in value. While Spotify struggles to fairly compensate musicians, at least musicians have concerts and merchandise sales. Writers have... their words.
+Amazon launched _Kindle Unlimited_[^9], but it's like Spotify with none of the greatest hits. I tried it twice, it lacks in value. While Spotify struggles to fairly compensate musicians, at least musicians have concerts and merchandise sales. Writers have... their words.
 
 This is also why book piracy cuts deeper than music piracy. Both are bad, but when you steal a song, the artist might recoup some losses through live performances. When you steal a book, you steal the writer's only significant revenue stream.
 
@@ -55,7 +55,7 @@ I spent nearly a decade programming educational apps for children, and crafting 
 
 Children's iPad apps do offer value, but the price we pay (i.e. screen time for developing minds) is too much. These apps are better than mindless, junk cartoons, but that's setting the bar too low.
 
-Digital textbooks, when done well, possess many advantages over their paper versions. At Read Forward, we created textbooks but included with a primitive assistant, too. We called it "the cat" or "the avatar" and it helped children learn, by giving them tips and helping them focus. It was a mini-agent, and the concept still amazes me, but the technology to make it useful wasn't there.
+Digital textbooks, when done well, possess many advantages over their paper versions. At Read Forward[^2], we created textbooks but included with a primitive assistant, too. We called it "the cat" or "the avatar" and it helped children learn, by giving them tips and helping them focus. It was a mini-agent, and the concept still amazes me, but the technology to make it useful wasn't there.
 
 I would revisit digital textbooks a few years into the AI era. They could potentially be generated entirely on the fly, personalised for each learner style and pace.
 
@@ -77,9 +77,9 @@ This idea might deserve revisiting in our age of generative AI. After "ingesting
 
 Not every crystal ball was faulty. A few of my intuitions were right. The ones that are more about good technology and less about humans. 
 
-### Linux
+### Linux[^4]
 
-My parents made enormous sacrifices to buy my first 486 PC in 1996. A few weeks before it arrived, I ordered a computer magazine that came with two CDs—Slackware 2.2 and 3.0. The magazine was in German, which I couldn't understand, but it had pictures of the interface and some commands. That operating system and its principles cast a spell on me—a spell I’ve been under ever since, with no desire to break free.
+My parents made enormous sacrifices to buy my first 486 PC in 1996. A few weeks before it arrived, I ordered a computer magazine that came with two CDs—Slackware[^3] 2.2 and 3.0. The magazine was in German, which I couldn't understand, but it had pictures of the interface and some commands. That operating system and its principles cast a spell on me—a spell I’ve been under ever since, with no desire to break free.
 
 I wiped the DOS and Windows 3.1 partition and installed Slackware immediately.
 
@@ -87,7 +87,7 @@ For practical reasons, I eventually reinstalled Windows, but every machine I've 
 
 ### The Web
 
-This prediction felt easy in retrospect. It was 1997, and I read about a program called "Netscape." I managed to find the installation kit on a CD, saved money to buy a 14.4 kbps modem (I couldn't afford faster) and connected to a dial-up Internet Service Provider in my hometown.
+This prediction felt easy in retrospect. It was 1997, and I read about a program called "Netscape." I managed to find the installation kit on a CD, saved money to buy a 14.4 kbps modem (I couldn't afford faster) and connected to a dial-up ISP[^7] in my hometown.
 
 Loading my first webpage was pure magic. I called my mother to witness this miracle. "Mom, it only took one minute to get the latest news!" We were all in awe.
 
@@ -123,7 +123,7 @@ This innovation transformed how we build and deploy software, making application
 
 Some predictions landed in that gray area between success and failure:
 
-I thought **Mercurial** was superior to Git for version control. Perhaps it was more elegant, but it wasn't created by Linus Torvalds. Git won through network effects and timing.
+I thought **Mercurial**[^5] was superior to Git[^6] for version control. Perhaps it was more elegant, but it wasn't created by Linus Torvalds. Git won through network effects and timing.
 
 I believed **WebAssembly**, a technology that allows high-performance applications to run in web browsers—would revolutionise web development. It found some niches but never achieved the dominance I predicted. It might have been too little, as it can't do much and too late, as it arrived after the community had to optimise everything, which makes it not so useful.
 
@@ -142,3 +142,13 @@ It seems I am better with predicting which technology is good or bad. Not so muc
 So when I say that Model Context Protocol is good, it is likely to be the case. When I say that Generative AI will reshape how we experience software, take it with appropriate skepticism. I've been wrong before, and I'll be wrong again.
 
 But I'm willing to bet my career on this. Because sometimes, the future surprises us all, and because it does feel like the right choice.
+
+[^1]: [Model Context Protocol](https://modelcontextprotocol.io/) is a protocol for connecting large language models (LLMs) to structured data sources, enabling real-time, conversational interactions.
+[^2]: _Read Forward_ was a project and a company in Bucharest, Romania focused on creating innovative digital textbooks with interactive features, including primitive AI assistants.
+[^3]: [Slackware](https://www.slackware.com/) is one of the oldest Linux distributions, known for its simplicity and adherence to Unix principles.
+[^4]: [Linux](https://www.linux.org/) is an open-source operating system kernel that powers a wide range of devices, from servers to smartphones.
+[^5]: [Mercurial](https://www.mercurial-scm.org/) is a distributed version control system known for its simplicity and performance, often compared to Git.
+[^6]: [Git](https://git-scm.com/) is a distributed version control system, usually for software code, but also for anything text, created by Linus Torvalds, widely used for tracking changes in source code during software development.
+[^7]: ISP stands for _Internet Service Provider_, a company that provides individuals and organizations access to the Internet.
+[^8]: The "Bitcoin Pizza" refers to the first known commercial transaction using Bitcoin, where 10,000 BTC were exchanged for two pizzas in 2010. [Read more](https://en.bitcoin.it/wiki/Laszlo_Hanyecz).
+[^9]: [Kindle Unlimited](https://www.amazon.com/kindleunlimited) is a subscription service by Amazon that offers unlimited access to a selection of eBooks for a monthly fee.

@@ -1,0 +1,151 @@
+---
+title: "De la Bitcoin la AI: 9 Predicții ale mele care au îmbătrânit prost (și câteva care nu)"
+title-block-banner: true
+date: "2025-07-29"
+toc: true
+categories: [AI & Tehnologie]
+image: "../../posts/2025-07-predictions/canva-failed-predictions.jpg"
+description: "Am făcut predicții despre tehnologie; unele foarte precise, altele complet ridicole: de la a râde de Bitcoin la a paria pe Linux. Se pare că uneori sunt bun la a identifica tehnologia solidă, dar slab la a prezice cum se comportă oamenii. Următorul meu pariu? Inteligența artificială generativă + Model Context Protocol vor redefini software-ul."
+---
+
+Am greșit înainte. De multe ori, de fapt. Unul dintre avantajele de a avea mult „trecut” pe care poți să-l privești în urmă este că pot să îmi revăd predicțiile îndrăznețe și să văd cum au rezistat ele în timp. Unele au fost „profetice”, altele pur și simplu ridicole. Majoritatea s-au așezat undeva între o intuiție bună și o eroare jenată.
+
+Fac acum o altă predicție. Mare, și în acord cu șefii companiilor din Silicon Valley: cred că suntem pe punctul de a intra într-o nouă eră în modul în care construim și experimentăm software-ul. Nu doar aplicații sau unelte mai rapide, ci o schimbare în ceea ce este software-ul și în modul în care interacționăm cu el. Butoanele pe care le apăsăm, codul pe care îl scriem, modul în care calculatoarele ne răspund.
+
+Dar înainte să mă credeți pe cuvânt, lasați-mă însă să vă povestesc despre acele momentele în care am greșit minunat, complet.
+
+![]({{< meta image >}} "Titlu: Predicții neclare. Sursă: Canva, generat de AI"){fig-alt="Ilustrație abstractă vectorială, stil concept‑art. Culori calde și optimiste: albastru cer, chihlimbar auriu, alb moale. Un glob de cristal ușor crăpat, strălucind cald, cu forme abstracte în interior sugerând pixeli, pagini, monede și circuite" width="80%" fig-align="center"}
+
+## Cele greșite
+
+### Bitcoin
+
+La începutul anilor 2010, am citit că cineva a cumpărat o pizza cu niște numere. „Bitcoin” îi spuneau. Citisem despre el, ceea ce m-a făcut să mă amuze și mai tare „absurditatea” întregii idei. Un bitcoin valora atunci 0,0041 dolari. Credeam că este cu 0,0041 dolari prea mult. Acum valorează de 30 de milioane de ori mai mult. Oh, ce pizza scumpă a fost.
+
+Sunt încă de părere că Bitcoin și blockchain-ul reprezintă un model matematic minunat, o criptografie elegantă îmbinată perfect în teorie economică și socială. Dar cred și că ar putea fi una dintre cele mai mari escrocherii create vreodată de omenire, ca să nu mai vorbim de daunele certe pe care le are asupra mediului.
+
+Bitcoin promis democrație și libertate, dar a livrat nu numai mai multă inegalitate, dar a creat canale de plată pentru activități de crimă organizată. Eram convins că va dispărea în câteva luni, consumat de propriile contradicții. Prețul Bitcoin de azi arată că am greșit spectaculos [^8].
+
+### Cărțile electronice
+
+Am declarat cu voce tare că volumele tipărite vor deveni artefacte de vândut în anticariate și buticuri elegante. Cine are nevoie de copaci morți când există text rearanjabil, redimensionabil, livrat instant și toate cărțile în buzunar?
+
+Pentru mine, predicția asta s-a împlinit minunat. Aproape tot ceea ce citesc este de pe un ecran: literatură și texte lungi pe ecrane e-ink clare, articole web pe orice dispozitiv îmi este la îndemână. Biblioteca din sufragerie adună praf, în timp ce cea digitală crește.
+
+Dar restul lumii? A continuat să cumpere cărți tipărite. Librăriile independente au înflorit, iar lanțurile mari la fel. Oamenii au descoperit că mirosul paginilor noi și greutatea unui hardcover încă au o magie pe care pixelii nu o pot înlocui pentru ei.
+
+Am avut dreptate despre viitorul meu, dar am greșit serios despre viitorul tuturor celorlalți. Și sunt fericit că a fost așa.
+
+### Spotify pentru cărți (abonament nelimitat la ebook-uri)
+
+Mi-am imaginat un serviciu ca Spotify, dar pentru cărți. Lectură nelimitată pentru o taxă lunară. Autorii plătiți per pagină citită. Modelul perfect.
+
+Amazon a lansat _Kindle Unlimited_[^9], dar e ca Spotify fără marile hituri. L-am încercat de două ori, nu n-a reușit să arate că are valoare. Dacă Spotify se luptă să plătească corect muzicienii, măcar muzicienii au concerte și produse de vânzare. Scriitorii au doar... cuvintele lor.
+
+De aceea pirateria de cărți rănește mai tare decât cea de muzică. Ambele sunt rele, dar când furi un cântec, artistul poate recupera o parte din pierderi prin concerte. Când furi o carte, îi iei scriitorului singura sursă semnificativă de venit.
+
+Predicția mea a eșuat pentru nu ar fi funcționat economic. Ori ar fi fost incorectă pentru autori, ori, dacă ar fi fost corect, ar fi fost prea scump. Sunt fericit că această „predicție” a eșuat.
+
+### Aplicații pentru copii și manuale digitale
+
+Am petrecut aproape un deceniu programând aplicații educaționale pentru copii și creând manuale digitale. Potențialul părea nelimitat: experiențe de învățare interactive, adaptate fiecărui elev.
+
+Aplicațiile bune pentru copii pe iPad au valoare educațională, dar prețul pe care îl plătim (adică timpul petrecut în fața ecranului pentru minți în formare) este prea mare. Sunt mai puțin nocive decât desenele animate de duzină, dar ștacheta e deja prea joasă.
+
+Manualele digitale, când sunt făcute bine, au multe avantaje. La Read Forward[^2], am creat manuale cu un mic asistent primitiv inclus. Îi spuneam „pisica” sau „avatarul” și îi ajuta pe copii să învețe, oferindu-le sfaturi și ajutându-i să se concentreze. Era ca un mini-agent prea rudimentar, pentru că tehnologia de a-l face util nu exista.
+
+Aș reveni la manuale digitale peste câțiva ani, în era AI. Ar putea fi generate complet dinamic, personalizate pentru stilul și ritmul fiecărui elev.
+
+Predicția mea a eșuat atunci, și pe bună dreptate. Tehnologia nu era gata, iar profesorii sunt prea ocupați ca să o pună în practică.
+
+### Ficțiune interactivă: Povestea care nu a fost
+
+La începutul anilor 2000 îmi imaginam cititorii nu ca martori pasivi, ci ca co-autori ai unor povești vii. Cărți care se scriu singure pe măsură ce le citești. Personaje care se schimbă după alegerile tale. Răsturnări de situație generate de comenzile tale. Eram fermecat de ficțiunea interactivă și convins că va revoluționa spusul poveștilor.
+
+Dar am ratat ceva esențial: autorii petrec o viață construind arcuri narative care arată cum evoluează personajele, conducând spre puncte culminante care oferă emoție și transmit teme importante.
+
+Nu poți face asta cu narațiuni ramificate. Fiecare alegere strâmbă și crapă arcul, iar cu cât povestea devine mai interactivă, cu atât pierde din impact.
+
+Poate că ideea ar merita revizitată în epoca AI generativ. După ce „înghit” (hai să fim sinceri — fură) toată literatura umană, aceste mașini ar putea crea povești convingătoare plecând din orice punct le pui.
+
+
+## Predicții care chiar s-au împlinit
+
+Nu toate globurile mele de cristal a fost defocalizate. Câteva dintre intuiții au fost corecte. Mai ales cele despre tehnologie, nu despre ce vor face oamenii.
+
+### Linux[^4]
+
+Părinții mei au făcut sacrificii uriașe ca să îmi cumpere primul PC 486, în 1996. Cu câteva săptămâni înainte să ajungă, am comandat o revistă de calculatoare (o ediție specială a CHIP, pentru cei care țin minte) care venea cu două CD-uri – Slackware Linux[^3] 2.2 și 3.0. Revista era în germană, limbă pe care nu înțeleg, dar avea poze cu interfața și câteva comenzi. Sistemul acela de operare și principiile lui m-au pus sub o vrajă sub care am rămas până astăzi, fără nicio dorință de a scăpa.
+
+Am șters partiția cu DOS și Windows 3.1 și am instalat Linux pe loc.
+
+Din motive practice, am reinstalat ulterior Windows, dar de atunci fiecare computer pe care l-am avut a avut și Linux. Toate serverele mele rulează Linux. Sistemul acela ciudat, cu mascota un pinguin, a cucerit lumea treptat, alimentând totul, de la telefoanele Android la infrastructura care susține viața noastră digitală.
+
+### Web-ul
+
+Această predicție pare acum evidentă. Era 1997 și am citit despre un program numit „Netscape”. Am găsit kitul de instalare pe un CD, am strâns bani pentru un modem de 14,4 kbps (nu îmi permiteam altul mai rapid) și m-am conectat la un furnizor local de internet prin dial-up ISP[^7].
+
+Încărcarea primei pagini web a fost pură magie. Am chemat-o pe mama să vadă minunea: ,Uite, a durat doar un minut să aflu ultimele știri!” Am fost cu toții uimiți.
+
+O lună mai târziu, după ce am terminat Bacalaureatul, am creat prima mea pagină web pentru acel furnizor de servicii internet. Nu era grozavă, dar mi-a adus câteva ore gratuite de dial-up.
+
+Web-ul nu doar că a schimbat lumea, ci a devenit lumea. Astăzi trăim de-facto în el.
+
+### PHP și React
+
+Am rămas cu gura căscată când mi-am dat seama ce pot face PHP: să creez de pagini web din mers, conținut dinamic care răspunde la acțiunile utilizatorului! Azi pare banal, dar atunci era o altă vrajă.
+
+PHP este un limbaj de programare care rulează pe servere web și generează pagini internet în timp real, în funcție de cereri sau de date dintr-o bază de date. Înainte de PHP, paginile web erau documente statice. După PHP, au devenit aplicații vii.
+
+Zece ani mai târziu, web-ul se pregătea de o altă transformare. Mai multe tehnologii concurau pentru supremație. Când am descoperit React – o bibliotecă de programare JavaScript pentru interfețe – am înțeles că urma să putem face mult mai mult și mult mai repede.
+
+React le-a permis dezvoltatorilor să creeze aplicații complexe și interactive care se simțeau ca software-ul instalat, ca aplicațiile, dar rulau în browser. A schimbat modul în care construim experiențe digitale.
+
+Nu am mai folosit PHP de ani buni, există opțiuni superioare. Toate aceste opțiuni însă vor fi afectate de AI generativ optimizat, capabil să creeze interfața de la zero în timp real, fără prea multă nevoie de programare tradițională.
+
+### Docker: Calculatoare în interiorul calculatoarelor
+
+Ca piesa de teatru din piesa de teatru Hamlet, calculatoarele pot rula în interiorul lor alte calculatoare. Mașinile virtuale au început această revoluție. Cred că VMware a fost pionierul ideii de a rula mai multe sisteme de operare pe aceeași mașină fizică.
+
+Mașinile virtuale (VM) sunt calculatoare complete care rulează în alt calculator, fiecare cu propriul sistem de operare, aplicații și resurse. „Host OS”-ul este sistemul principal, care rulează direct pe hardware – fie un server dintr-un datacenter, fie un laptop de pe birou.
+
+Deși VM-urile au fost extrem de utile, cineva și-a dat seama că multe părți ale „host OS”-ului pot fi reutilizate, în loc să fie duplicate. Așa a apărut Docker, ca o alternativă mai ușoară și mai rapidă – împachetând aplicațiile doar cu componentele de care au nevoie, folosind în comun sistemul de operare de bază.
+
+Această inovație a schimbat felul în care construim și distribuim software, făcând aplicațiile mai portabile și mai eficiente.
+
+---
+
+## Cele mici și zonele gri
+
+Unele predicții au aterizat undeva între succes și eșec:
+
+Am crezut că **Mercurial**[^5] este superior lui Git[^6] pentru controlul versiunilor. Poate era mai elegant, dar nu fusese creat de Linus Torvalds. Git a câștigat prin efect de rețea și sincronizare perfectă.
+
+Am crezut că **WebAssembly** – tehnologia care permite rularea aplicațiilor performante direct în browser – va revoluționa dezvoltarea web. A găsit câteva nișe, dar nu a devenit dominant. Poate a fost prea puțin, pentru că nu poate face foarte mult, și prea târziu, pentru că a venit după ce comunitatea optimizase deja totul.
+
+Eram convins că **Wikipedia** nu poate exista. Nu credeam că poți cere oamenilor să scrie voluntar și să obții calitate și fiabilitate. Sunt bucuros că m-am înșelat despre natura umană și cunoașterea colaborativă.
+
+Am crezut că **emailul va muri**, înlocuit de instrumente moderne de comunicare. În schimb, cu bune și cu (multe rele) a evoluat și a rămas coloana vertebrală a identității digitale și a comunicării online.
+
+---
+
+## Ce am învățat despre globurile de cristal
+
+Să prezici viitorul pare o inițiativă cu succes aleatoriu – și este, parțial. Tehnologia nu evoluează în neant; este modelată de psihologie, economie, cultură și pură întâmplare. În bine sau în rău.
+
+Per ansamblu istoria spune că mă pricep mai bine să evaluez tehnologia decât comportamentul uman.
+
+Așa că atunci când spun că *Model Context Protocol*[^1] este bun, probabil chiar este. Când spun că AI-ul generativ va schimba felul în care experimentăm software-ul, luați-o cu scepticism. Am mai greșit și o voi mai face.
+
+Dar sunt dispus să îmi pariez cariera pe asta. Pentru că uneori viitorul ne ia prin surprindere și pentru că simt că este direcția corectă.
+
+[^1]: [Model Context Protocol](https://modelcontextprotocol.io/) este un protocol pentru conectarea modelelor lingvistice mari (LLMs) la surse de date structurate, permițând interacțiuni conversaționale în timp real.
+[^2]: _Read Forward_ a fost un proiect și o companie din București, România, axată pe crearea de manuale digitale inovatoare cu funcții interactive, inclusiv asistenți AI primitivi.
+[^3]: [Slackware](https://www.slackware.com/) este una dintre cele mai vechi distribuții Linux, cunoscută pentru simplitatea sa și respectarea principiilor Unix.
+[^4]: [Linux](https://www.linux.org/) este un nucleu de sistem de operare open-source care alimentează o gamă largă de dispozitive, de la servere la smartphone-uri.
+[^5]: [Mercurial](https://www.mercurial-scm.org/) este un sistem de control al versiunilor distribuit, cunoscut pentru simplitatea și performanța sa, adesea comparat cu Git.
+[^6]: [Git](https://git-scm.com/) este un sistem de control al versiunilor distribuit, creat de Linus Torvalds, utilizat pe scară largă pentru urmărirea modificărilor în codul sursă în timpul dezvoltării software-ului.
+[^8]: "Bitcoin Pizza" se referă la prima tranzacție comercială cunoscută folosind Bitcoin, în care 10.000 BTC au fost schimbați pentru două pizza în 2010. [Citește mai mult](https://en.bitcoin.it/wiki/Laszlo_Hanyecz).
+[^9]: [Kindle Unlimited](https://www.amazon.com/kindleunlimited) este un serviciu de abonament oferit de Amazon care oferă acces nelimitat la o selecție de eBook-uri pentru o taxă lunară.
+
+
