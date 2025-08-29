@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Cristian Dinu</title>
+<link>https://cdi.nu/posts-2010s/</link>
+<atom:link href="https://cdi.nu/posts-2010s/index.xml" rel="self" type="application/rss+xml"/>
+<description>Cristian Dinu is a Senior Research Software Engineer at UCL, building human-centred data systems for climate and energy research, including SERL and EDOL.</description>
+<image>
+<url>https://cdi.nu/images/favicon.jpg</url>
+<title>Cristian Dinu</title>
+<link>https://cdi.nu/posts-2010s/</link>
+</image>
+<generator>quarto-1.7.34</generator>
+<lastBuildDate>Tue, 15 Dec 2015 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Monitorizarea și Controlul Proiectelor</title>
+  <link>https://cdi.nu/posts-2010s/135248789608.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Procesele din grupul de monitorizare și control au un rol esențial în desfășurarea proiectului. Deși deseori lumea numește acest grup “fază” – pentru că inițierea, planificarea, execuția și încheierea sunt faze. Monitorizarea și controlul nu este propriu-zis o “fază” a proiectului, pentru că ea începe în prima secundă a proiectului și se finalizează în ultima.</p>
+<p>Desigur, ponderea efortului de monitorizare și control diferă în funcție de momentul în care proiectul se află, dar acest efort este permanent. Implicarea managerului de proiect este mare, efortul total fiind mai mic însă decât cel de planificare de exemplu.</p>
+<figure class="tmblr-full figure" data-orig-height="588" data-orig-src="https://crossderry.files.wordpress.com/2008/12/processgroups_pmbok.png" data-orig-width="971">
+<img src="https://cdi.nu/posts-2010s/media/135248789608_0.png" style="max-width: 100%; width: 100%" data-orig-height="588" data-orig-src="https://crossderry.files.wordpress.com/2008/12/processgroups_pmbok.png" data-orig-width="971" alt="Effort per process group" class="figure-img">
+</figure>
+<p><br>
+<a href="https://crossderry.files.wordpress.com/2008/12/processgroups_pmbok.png" target="_blank">Sursa web</a></p>
+<p>Prima întrebare care apare de obicei este aceea legată de motivele PMI de a folosi și “monitorizare” și “control” în denumirea acestui grup de procese.</p>
+<p>Motivul este simplu: sunt concepte separate și complementare. Cel mai ușor este să ne gândim la ce se întâmplă când conduci o mașină.</p>
+<p><strong>Monitorizarea</strong> este reprezentată de activitatea de observare și culegere de informații: suntem pe șosea, drumul o ia la dreapta puternic, vitezometrul indică 84 km/h, există un indicator cu depășirea interzisă și altul cu restricție de viteză la 50 km/h.</p>
+<p>Monitorizarea este esențială pentru reușita călătoriei, dar este evident insuficientă. Dacă șoferul face monitorizare și atât, ajunge în primul șanț. Mai este nevoie de încă o activitate, aceea de a lua măsurile preventive și corective astfel încât mașina să rămână pe drum, și să ajungă în siguranță la destinație, conform planului.</p>
+<p>Folosind datele din monitorizare, comparându-le cu cele din planificare, șoferul <strong>controlează</strong> lucrurile: apasă pe frână, pentru a corecta viteza, se pregătește să rotească volanul spre dreapta atunci când drumul o cere.</p>
+<ul>
+<li>Acțiuni corective: frânarea, schimbatul unei roți cu pană</li>
+<li>Acțiuni preventive: micșorarea vitezei pe drum umed, semnalizarea</li>
+<li>Metrici de calitate: consumul maxim de 7.5 l / 100 km</li>
+<li>Organisational Process Assets: Regulile de trafic (indicatoare, marcaje, etc.)</li>
+<li>Integrated change control: Un telefon consultativ: “drumul este foarte aglomerat, dacă rămân pe traseul stabilit, întârzii două ore, dacă merg pe drumuri ocolitoare întârzii mai puțin, dar consum mai mult, ce să fac?”</li>
+</ul>
+<p>Întodeauna monitorizarea dă informațiile legate de starea prezentă, în engleză <strong>actual</strong> (diferit total ca sens de cuvântul <code>actual</code> din română); <em>actual</em> se traduce de cele mai multe ori folosind termenul ‘efectiv’.</p>
+<p>Aceste informații legate de parametrii efectivi sunt necesare pentu a compara acești parametri cu valorile lor planificate.</p>
+<p>Fără această comparație nu poți să spui dacă un parametru are valoarea acceptabilă. În proiecte comparația se face relativ la un singur reper: valoarea planificată. Această valoare poate fi planificată direct, în forma unei estimări, reguli sau constrângeri trecute în plan, ori indirect în forma unui standard sau a a unei reglementări de companie sau legislativă.</p>
+<p>Variațiile, pozitive sau negative față de planificare se numesc <em>abateri</em>, abateri care trebuie cel puțin cunoscute, dacă nu și adresate.</p>
+<p>Faptul că mașina merge cu 70 km/h nu spune în sine nimic. Doar comparația cu planificarea în care stabilisem că mergem cu 90 km/h pentru a ajunge la o anumită oră la destinație ne spune dacă viteza este bună sau nu.</p>
+<p>Această observație ajută la înțelegerea tuturor proceselor de monitorizare și control ale PMBoK: fundamental fiecare dintre ele compară planul cu realizările proiectului, în domeniul procesului respectiv.</p>
+<p>Procesele au ca origine ariile de cunoaștere (<em>knowledge areas</em>) din PMBoK, similar cu grupul de planificare, există procese de monitorizare și control pentru conținut, timp, cost, calitate etc.</p>
+<p>Față de corespondența 1:1 între <em>knowledge areas</em> și procesele de monitorizare sunt câteva excepții:</p>
+<ul>
+<li>Pentru conținutul proiectului (<em>project scope</em>) există două procese. Motivul existenței celui de-al doilea, <em>Validate Scope</em> este acela că de fapt în inima monitorizării și controlului se află măsurarea și inspectarea livrabilelor proiectelor. Dacă activitățile celorlalte procese sunt efectuate preponderent de către echipa de proiect, cele de verificare a conținutului proiectului sunt făcute de către client.</li>
+<li>Partea referitoare la monitorizarea și controlul resurselor umane este dusă în execuție.</li>
+</ul>
+<p>Există un proces “umbrelă”, <em>Monitor &amp; Control Project Work</em> care are drept rol coordonarea celorlalte procese, respectiv un proces, extrem de important (din cauză că atunci când nu este urmat problemele sunt mari), <em>Perform Integrated Change Control</em>, proces care gestionează cererile de schimbare.</p>
+<p>Lista proceselor de monitorizare și control este (cu denumirile lor în engleză):</p>
+<ul>
+<li>Monitor &amp; Control Project Work</li>
+<li>Perform Integrated Change Control</li>
+<li>Validate Scope</li>
+<li>Control Scope</li>
+<li>Control Schedule</li>
+<li>Control Costs</li>
+<li>Control Quality</li>
+<li>Control Communications Control Risks</li>
+<li>Control Procurements</li>
+<li>Control Stakeholder Engagement</li>
+</ul>
+<p>(vezi <a href="https://www.project-management-prepcast.com/pmbok-knowledge-areas-and-pmi-process-groups" target="_blank">matricea completă</a>)</p>
+<p>Există un model generic al unui proces de monitorizare și control. La intrarea într-un asfel de proces se află planul de management al proiectului (sau secțiunea relevantă din acesta), cererile de schimbare aprobate – care împreună ne dau starea dorită a proiectului, respectiv informațiile <em>actual</em>, care ne dau starea reală.</p>
+<p>La ieșire se află rezultatele comparațiilor, sub forma abaterilor calculate (<em>work performance information</em>), previziuni legate de evoluția proiectului (<em>forecasts</em>), acțiuni preventive și corective sub formă de cereri de schimbare (neaprobate încă), actualizări ale documentelor proiectului (<em>issue logs</em>, actualizări de plan), respectiv propuneri de actualizare a proceselor și procedurilor din organizație.</p>
+<p>Fiecare proces are particularitățile sale, dar ideea generală este cea de mai sus.</p>
+<p>Merită reținut de asemenea faptul că PMI / PMBoK nu numai că permit, ci chiar sugerează adaptarea proceselor (toate, nu numai cele de monitorizare și control) la situația de fapt din organizația care realizează proiectul. PMI oferă practic template-uri din care să scoatem ce nu considerăm necesar și în care să adăugăm ce ne este specific (<em>peer-reviews</em> pe cod în cazul în care suntem o firmă de software, aprobări de mediu în cazul în care suntem o firmă care se ocupă de energie, etc.).</p>
+<p>de <a href="https://twitter.com/cdinu" target="_blank">Cristian Dinu</a>, decembrie 2015. <a href="http://creativecommons.org/licenses/by/4.0/" rel="license" target="_blank"></a></p>
+<figure data-orig-height="31" data-orig-src="https://i.creativecommons.org/l/by/4.0/88x31.png" data-orig-width="88" class="figure">
+<img src="https://cdi.nu/posts-2010s/media/134786440188_0.png" style="border-width:0; width: auto;" data-orig-height="31" data-orig-src="https://i.creativecommons.org/l/by/4.0/88x31.png" data-orig-width="88" alt="Creative Commons License" class="figure-img">
+</figure>
+<p><br>
+This work is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/" rel="license" target="_blank">Creative Commons Attribution 4.0 International License</a>.</p>
+
+
+
+ ]]></description>
+  <guid>https://cdi.nu/posts-2010s/135248789608.html</guid>
+  <pubDate>Tue, 15 Dec 2015 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Managementul execuției proiectelor</title>
+  <link>https://cdi.nu/posts-2010s/134786440188.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Execuția, sau <em>Direcționarea și managementul execuției proiectelor</em> – <em>“Direct and Manage Project Execution”</em> – este o fază a proiectului (sau un <em>grup de procese</em>, cf.&nbsp;PMBoK) destul de stranie; ca timp este cea mai laborioasă din proiect, însă are asociate doar câteva procese. Motivul este că, din punct de vedere al managementului de proiect, execuția este o fază relativ clară – se pune în practică ce s-a stabilit în planul de management al proiectului, chiar dacă efortul brut este foarte mare.</p>
+<p>Despre orice fel de proiect ar fi vorba, execuția generează livrabilele efective, acesta fiind și principalul rol al acesteia. Este important să înțelegem că proiectul este o inițiativă iterativă și drept urmare execuția apare în diverse forme de mai multe ori în timpul proiectului.</p>
+<p>Un alt rol al fazei de execuție este acela de a genera informațiile necesare managerului de proiect și echipei pentru a supraveghea proiectul.</p>
+<p>Deși oficial ne putem începe lucrul doar atunci când planificarea este gata, de cele mai multe ori acest lucru nu este practic; se pornește frecvent cu execuția înainte de finalizarea planificării, ideal când o parte cât mai mare din ipoteze au fost clarificate, respectiv o parte cât mai mare dintre planuri au fost realizate.</p>
+<p>Standardul definește execuția proiectului ca fiind <em>coordonarea oamenilor și resurselor, gestionarea așteptărilor părților interesate, integrarea și efectuarea activităților din proiect în concordanță cu planul de management al proiectului.</em></p>
+<p>Cheia acestei definiții este conceptul de <em>plan de management al proiectului</em>. Nu numai în viziunea PMI acest plan este o un document de căpătâi a managerului de proiect, sursa de informare pentru toate activitățile proiectului, administrative sau operaționale. Modul în care se recrutează oamenii în proiect, finanțele proiectului, bugete de rezervă, acțiunile ca răspuns la riscuri, procesul de tratat cererile de schimbare, specificațiile livrabilelor, modul în care acestea sunt acceptate, toate acestea sunt doar câteva exemple ale componentelor planului.</p>
+<p>Or, când ai un așa plan – care în cazul organizațiilor mature se poate întinde pe sute sau mii de pagini – execuția este destul de previzibilă.</p>
+<p>Chiar și într-o lume ideală, cum este aceea folosită de PMI ca referință a standardelor sale există incertitudini care afectează proiectul, în bine și în rău. De aceea, deseori este nevoie de <em>replanificări și refaceri ale planurilor de referință</em>, ca urmare a schimbărilor din mediul de lucru sau a inexactităților de planificare (de ex. un specialist este mai puțin productiv decât s-a estimat, pământul pe care trebuie să se construiască este peste un sit arheologic, subcontractorul nu livrează la timp, șeful clientului este mereu plecat și nu semnează acceptanțele, etc.)</p>
+<p>Imaginea mentală pe care eu am avut-o în ceea ce privește planurile de proiect a fost aceea de documente tipărite pe hâtie, sau PDF-uri, pe care le iei ca atare și le respecți. Că planurile, odată puse la punct nu le mai modifici. Că modifici realitatea astfel încât să se adapteze la ele. Or acest lucru este complet greșit. Sfera de control chiar a celor mai puternici manageri de proiect din cele mai puternice organizații este tot limitată. Dacă zeii greci aveau surprize este probabil ca muritorii să nu aibă. Lucruri se vor modifica mereu și cea mai mare greșeală este să lași realitatea să nu fie reflectată în planuri.</p>
+<p>Imaginea de document static a fost deci greșită: planurile proiectului sunt vii. Reprezentarea lor mentală trebuie să fie ca niște documente Word sau Google Docs, nu ca PDF-uri sau ca dosare statice. Dacă a fost primit materialul de la client, îl bifezi primit; când echipa a terminat un livrabil, îl marchezi făcut. În momentul în care subcontractorul întârzie, mergi și actualizezi zona relevantă din plan – cea de management al timpului, respectiv celelalte zone afectate (este rar ca impactul să fie singular, o întârziere are impact și în costuri și în resurse umane samd). La fel trebuie făcut, când unul dintre programatori descoperă o modalitate de automatizare a importului de date care îți scutește două săptămâni de așteptare.</p>
+<p>În situația în care planurile se modifică, este însă nevoie de control, de aceea există <em>versiuni de referință</em> (<em>baseline</em>). Planul de referință este acea versiune a planului care este semnată de sponsor și față de ea se fac calculele de abateri, pozitive sau negative. Referințele (<em>baselines</em>) se schimbă doar cu aprobarea sponsorului.</p>
+<p>Execuția proiectului are ca scop conducerea, supravegherea și ajustarea execuției lucrurilor definite în procesele de planificare, respectiv a cererilor de schimbare aprobate. Este formată din opt procese, primul “umbrelă”, celelalte împărțite în diverse domenii (calitate, resurse umane, comunicare…). Aceste procese sunt:</p>
+<ul>
+<li>Direct and Manage Project Work (4.3)</li>
+<li>Perform Quality Assurance (8.2)</li>
+<li>Acquire Project Team (9.2)</li>
+<li>Develop Project Team (9.3)</li>
+<li>Manage Project Team (9.4)</li>
+<li>Manage Communications (10.2)</li>
+<li>Conduct Procurements (12.2)</li>
+<li>Manage Stakeholder Engagement (13.3)</li>
+</ul>
+<p>Numărul din paranteză este capitolul din standardul PMBoK în care procesul este descris pe larg.</p>
+<p>De remarcat apariția în prim plan a ideii de “cerere de schimbare”. Acesta este un lucru excelent, pentru că cererile de schimbare, respectiv modul deficient de tratare al acestora reprezintă o sursă importantă de eșec al proiectelor.</p>
+<p>Cele mai importante aspecte legate de cererile de schimbare sunt:</p>
+<ul>
+<li>Cererile de schimbare trebuie gestionate cu atenție. Ele trebuie aprobate de sponsor (care poate să delege o parte din puterea sa managerului de proiect) devenind <em>cereri de schimbare aprobate</em>.</li>
+<li>Cererile de schimbare trebuie evaluate serios, pentru că de cele mai multe ori afectează mai multe aspecte ale proiectului (timp, cost, conținut, parametri de calitate, satisfacție, motivare etc.)</li>
+<li>Cererile de schimbare aprobate sunt considerate parte din plan și reprezintă singura modalitate prin care se poate modifica versiunea de referință <em>baseline</em>.</li>
+</ul>
+<p>De asemenea, ce este comun majorității proceselor de execuție este stuctura:</p>
+<ul>
+<li>la intrare au planul de magement al proiectului sau fragmentele relevante din acesta, documentele relevante generate de proiect, respectiv două concepte ceva mai generale (descrise mai jos): <em>EEF</em> și <em>OPA</em>.</li>
+<li>la ieșire, generează livrabile sau documente, respectiv cereri de schimbare (ca rezultat al problemelor sau oportunităților apărute)</li>
+<li>ca unelte și tehnici apar des alte două concpte: <em>Raționament expert</em> și <em>PMIS</em></li>
+</ul>
+<p>Conceptele generale:</p>
+<ul>
+<li><p><strong>EEF – Enterprise Environmental Factors / factori de mediu organizațional</strong> EEF reprezintă “atmosfera”, cultura companiei în care proiectul se planifică, execută, monitorizează și controlează. Acești factori influențează serios modul în care proiectul are loc, chiar dacă sunt abstracți. O bancă de exemplu are un nivel de adversitate față de riscuri mult mai mare decât al unui start-up, drept urmare deciziile din proiect sunt luate într-un anume fel. Responsabilitatea personală, motivarea, calitatea așteptată, nivelul de documentare a livrabilelor, obsesia pentru termenele limită sunt câteva dintre exemplele de factori de mediu organizațional care afectează proiectul.</p></li>
+<li><p><strong>OPA – Organisational Process Assets</strong> OPA reprezintă procesele, procedurile de lucru, istoricul înregistrat al organizației în care se execută proiectul. Cu cât organizația este mai matură, cu atât OPA sunt mai puternici. OPA influențează pozitiv proiectul pentru că oferă un cadru de lucru previzibil, dar pot fi și constrângeri în ceea ce privește anumite aspecte (nevoia de a obține X aprobări pe un livrabil, verificări dure de calitate, obligativitatea de a obține resurse prealocate). Avantajul de a porni un proiect având istoria și datele altor proiecte anterioare asemănătoare este însă evident.</p></li>
+<li><p><strong>Expert Judgement / Raționament expert</strong> În România ideea de “expert” a fost denaturată de buletinele de știri când după evenimente sunt invitați să-și dea cu părerea “experți” în cutremure, manuale digitale, sociologie șamd. În PMBoK expertul este persoana sau grupul de persoane, de cele mai multe ori din echipa de proiect. <em>Expert judgement</em> drept urmare nu trebuie citit “un ins pe care îl plătim să-și dea cu părerea despre X”, ci “omul sau oamenii de la noi din organizație care sunt cei mai potriviți să analizeze și să ne sfătuiacă în legătură cu subiectul X”</p></li>
+<li><p><strong>PMIS – Project Management Information System</strong> Project Managementul este o activitate care implică preoponderent interacțiunile cu oamenii, însă chiar și în acest caz este o activitate care poate să se bucure de ajutorul dat de avansul tehnologiei, în special în domeniul comunicatiilor. <em>PMIS</em> se referă în general la software de management de proiect, software mastodont precum <em>Microsoft Project</em>, <em>Primavera</em> dar și la unelte <em>normale</em> cum ar fi tabele Excel, foldere în Google Drive ori soluții online cum ar fi <a href="https://trello.com" target="_blank">Trello</a>, <a href="https://timelyapp.com" target="_blank">Timely</a></p></li>
+</ul>
+<p>de <a href="https://twitter.com/cdinu" target="_blank">Cristian Dinu</a>, decembrie 2015. <a href="http://creativecommons.org/licenses/by/4.0/" rel="license" target="_blank"></a></p>
+<figure data-orig-height="31" data-orig-src="https://i.creativecommons.org/l/by/4.0/88x31.png" data-orig-width="88" class="figure">
+<img src="https://cdi.nu/posts-2010s/media/134786440188_0.png" style="border-width:0; width: auto;" data-orig-height="31" data-orig-src="https://i.creativecommons.org/l/by/4.0/88x31.png" data-orig-width="88" alt="Creative Commons License" class="figure-img">
+</figure>
+<p><br>
+This work is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/" rel="license" target="_blank">Creative Commons Attribution 4.0 International License</a>.</p>
+
+
+
+ ]]></description>
+  <guid>https://cdi.nu/posts-2010s/134786440188.html</guid>
+  <pubDate>Tue, 08 Dec 2015 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>William Golding: Împăratul Muștelor</title>
+  <link>https://cdi.nu/posts-2010s/128596494373.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><img src="http://www.blanchard2k.nildram.co.uk/mark/pics/lotf.jpg" class="img-fluid"> Deși este un roman serios de două sute de pagini, simt încă un miros de nuvelă, probabil mai ales din cauza lipsei îmbărligăturilor și întoarcerilor în loc ale acțiunii, acțiune care curge aparent destul de ușor. O curgere înșelătoare însă, care te duce pe nesimțite într-o stare pe care nu o așteptai atât de repede.</p>
+<p>Cvasi-liniaritatea evoluției este un pic plictisitoare și este posibil să fie doar o impresie greșită, efect colateral al modului în care am citit cartea.</p>
+<p>Cititul ei în limba engleză este un dezavantaj. Știu că se zice că e bine să citești opera în original, atunci când ai ocazia; în acest caz engleza romanului este însă un pic cam pretențioasă și m-a făcut ori să mă opresc la câteva cuvinte (să mai caut ce înseamnă una-alta), ori să trec peste pasaje fără să le înțeleg unele finețuri. Ceea ce a făcut ca lectura să semene mai degrabă cu condusul pe Magheru la șase seara, în loc să fie agreabilă și să mă lase să contemplu alegoriile care fac “Împăratul muștelor” să fie o carte de top, așa cum ar fi trebuit.</p>
+<p>Alegoriile sunt clare, mai ales privite în retrospectivă. Nu aș vrea să stric involuntar plăcerea descoperirii pentru cei care nu au citit cartea, de aceea nu intru în prea multe detalii; Golding analizează societatea umană eșantionând-o cu ajutorul unui grup de adolescenți pe o insulă. Deși m-aș fi așteptat la mai mult robinson-crusoe-nism, n-are; detaliile supraviețuirii sunt secundare; pe primul loc se află o luptă.</p>
+<p>O luptă între setea de putere și dorința de siguranță pe care, deși autorul și le-a planificat ca o paralelă a societății, eu am văzut-o mai degrabă ca o descriere a modului în care se strică mediul dintr-o organizație – firmă, ONG, partid, din păcate o parte dintre exemple fiind în locuri în care eu eram mai mult sau mai puțin protagonist. Poate cu diferența că în viața non-ficțională, bestia este uneori și exterioară.</p>
+<p>Este o carte pe care sunt bucuros că am citit-o; nu aș putea totuși spune că este din categoria celor care mi-au schimbat viața – apropo de frenezia topurilor cu cărți de acum un an. Este dintre cele care se topesc în subconștient și se desfășoară în moduri neștiute.</p>
+<p><span class="small">Sursă imagine: <a href="http://www.blanchard2k.nildram.co.uk/mark/" target="_blank">http://www.blanchard2k.nildram.co.uk/mark/</a></span></p>
+
+
+
+ ]]></description>
+  <guid>https://cdi.nu/posts-2010s/128596494373.html</guid>
+  <pubDate>Tue, 08 Sep 2015 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Feedback is fifty</title>
+  <link>https://cdi.nu/posts-2010s/107019418258.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<figure class="tmblr-full figure" data-orig-height="333" data-orig-src="" data-orig-width="500">
+<img src="https://cdi.nu/posts-2010s/media/107019418258_0.png" style="min-width:100%" data-orig-height="333" data-orig-src="" data-orig-width="500" class="figure-img">
+</figure>
+<p>În ultimele săptămâni mi s-a accentuat o mică aversiune față de un obicei din ce în ce mai întâlnit: limba engleză amestecată în proporție serioasă cu cea română, în discuțiile între români.</p>
+<p>Știu că este un obicei de sute de ani; străbunicii își condimentau frazele cu franțuzismele vremii. Doar că a crescut alarmant procentul de cuvinte englezești din vocabularul de uz cotidian al celor cu care interacționez. Iar deranjul pe care îl simt nu vine de la patriotism, ci de la lipsa de igienă a acestor exprimări. Atunci când ai cuvinte perfect potrivite în limba proprie este nerezonabil și inacceptabil să folosești altceva în locul lor. Ca și cum ai pune asfalt printre piatră cubică.</p>
+<p>Chiar și atunci când sunt cuvinte care nu au traducere directă în românește (“feedback”, “brainstorming” de exemplu), poți să găsești un echivalent care să păstreze curățenia și esteticul.</p>
+<p>Sigur, țara și limba trebuie să accepte importuri chiar dacă nu exportă mare lucru. Așa crești, așa evoluezi. Dar simt că trebuie să înlocuiesc ceea ce este stricat sau nepotrivit, nu ceea ce este deja bun.</p>
+<p>Îmi place limba engleză; o vorbesc des și o voi vorbi și mai des. În afară de limbile artificiale, cred că este greu să găsești o limbă mai simplă și mai potrivită pentru a fi mediatorul de comunicare al unei planete în convergență. Mi se pare însă politicos să țin separate cele două limbi.</p>
+<p>Acest lucru în contrast cu neo-româna vorbită la mine pe insulă, unde lucrurile numai separate nu sunt. Iată o traducere a unui fragment din textul de mai sus în neo-românește, ca să mă înțelegeți mai bine:</p>
+<p><em>Lately, mi se pare că s-a născut un trend de un-easiness în mine: e un mix nesănătos de engleză cu română. Este total uncool ce se întâmplă, if you know what I mean.</em></p>
+<p><em>E clar că poți să-ți spice-up limba cu cuvinte străine, străbunicii o făceau și ei. Franceza e too vintage, a fost între timp înlocuită de engleză. Doar că e strange cât de multe cuvinte englezești sun folosite daily. Sentimentul de dislike nu-l am de la patriotism, ci de la lipsa de igienă a acestor cuvinte și idioame. So, dacă am cuvinte echivalente în limba mea, e nerezonabil și hardly acceptabil să folosesc altceva în locul lor. If it ain’t broke, don’t fixit!</em></p>
+<p><em>Sper că fac sens. Probabil majoritatea sunteți in-between, ca și mine. Doar sunteți pe insulă, vă uitați la seriale americane fără subtitrare, citiți Daily Mail, Ars Technica, New Yorker.</em> Îmi mai scapă câte un “shit” și câte “un fuck” în afară de contexte profund românești cum ar fi condusul și ANAF-ul unde “futu-i” e de neînlocuit.</p>
+<p>Nu încep o luptă; mi-ar plăcea doar ca cei care vorbesc cu mine să își arate respectul folosind limba fără petice.</p>
+<p>P.S. Pentru cei care nu au avut televiozoare, titlul este preluat din acest videoclip.</p>
+
+
+
+ ]]></description>
+  <guid>https://cdi.nu/posts-2010s/107019418258.html</guid>
+  <pubDate>Sat, 03 Jan 2015 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Filmele și cărțile remarcabile ale lui 2014</title>
+  <link>https://cdi.nu/posts-2010s/106256957688.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<figure class="tmblr-full figure" data-orig-height="201" data-orig-width="500">
+<img src="https://64.media.tumblr.com/04fc60f6878baf03ab1d51054a8ab8a5/d893261cec18b0e3-05/s540x810/7b2df141da7e1cae1257e3c2cc354a53c7af80db.jpg" style="min-width:100%" data-orig-height="201" data-orig-width="500" class="figure-img">
+</figure>
+<p><br>
+</p>
+<p>Fiecare an îmi agață în memorie reperele sale: proiecte începute, prieteni noi, pasiuni redescoperite, despărțiri, călătorii, clienți, vești, evenimente istorice. 2014 a fost și liniștit și tulburat în același timp; bun în ansamblu, deși nu excesiv de vesel.</p>
+<p>Printre lucrurile așternute cu mult mai mare discreție de un an care trece se află însă filme și cărți, care modifică permanent mintea, în acest caz a mea. Muzica, pictura și celelalte arte sunt omniprezente, dar mai degrabă sunt reflecții decât declanșatoare.</p>
+<p>Iată cadrele și a paragrafele care au făcut ca 2014 să fie unic. Într-o selecție aleatoare.</p>
+<section id="filmele-și-serialele-bune-ale-lui-2014" class="level3">
+<h3 class="anchored" data-anchor-id="filmele-și-serialele-bune-ale-lui-2014">Filmele și serialele bune ale lui 2014</h3>
+<p><strong>Closer</strong> m-a prins nepregătit. A fost destul de neplăcut să îmi pună în față atât de tranșant ideea că ceea ce văd și simt ar putea fi (și confirm că deseori este) atât de diferit față de ce simte și face cel de lângă mine. A fost însă revelator și care m-a pus pe gânduri, adică fix ce trebuie să facă un film bun. A fost prima oară când, după un film, am zis că mai trebuie să-l văd de două ori cel puțin.</p>
+<p><strong>The 7:39</strong> este un mini-serial de două episoade produs de BBC, căruia nu i-aș zice dramă romantică, ci mai degrabă un eseu despre etica adulterului pe care îl pune într-o altă perspectivă față de cea pe care o aveam înaintea lui. Ca bonus, m-a învațat să înțeleg un pic accentele sclifosite ale londonezilor. Prietenii mi-au spus (și evident, nu am cum să vă confirm) că filmul se poate vedea în <em>Popcorn Time</em>, la TV Series, mini-series, respectiv pe canalele clasice de împrumut.</p>
+<p><strong>True detective</strong> arată că modul în care spui o poveste este mai important decât povestea în sine. M-a lipit de ecran și m-a ținut acolo până la sfârșit, apoi încă zece minute, ca să rumeg ce tocmai am văzut. Cel mai bine ar fi fost să mă uit la episodul întâi știind că am o sâmbătă întreagă la dispoziție, pentru că începându-l marți, am cam pierdut vreo patru nopți. E curat, fără tulburări la inimă, dar a cerut niște introspecții destul de adânci și m-a pregătit să accept eventuale schimbări spirituale serioase în viață. Iar <em>Far From Any Road</em>, melodia de generic, a ajuns în playlist la favorite.</p>
+<p><strong>Entre le murs</strong> mi-a confirmat ca școala este nasoală peste tot, nu numai în România. Tot angoasant, dar total într-un alt mod față de <em>Closer</em>. M-a împins și mai puternic înspre ideea că trebuie să fac ceva în educație, unde sper să pun umărul la schimbarea situației preponderent triste pentru elevii de peste tot.</p>
+<p><strong>American Beauty</strong> mi-a întărit ideea că bunăstarea și fericirea nu sunt corelate decât infim, că societatea te poate împinge la demență dacă o lași în pace. Mă gândesc din când în când la el, și cauza nu este dată de petalele de trandafiri.</p>
+<p><strong>Dr.&nbsp;Zhivago</strong> este în listă pentru vastitatea sa și pentru că m-a învățat istorie. Pentru că este frumos povestit, spectaculos ca producție și că mi-a arătat că poți să pierzi totul, fără ca de fapt să pierzi esențialul. Este printre acele filme care îți pune necazurile în perspectiva corectă.</p>
+<p>Mai sunt câteva filme notabile, care mi-au rămas în cap, fără să-l modifice însă radical. Sunt <strong>California Dreaming</strong>, pentru că l-am văzut lângă un cetățean american, <strong>Portocala mecanică</strong>, pentru că este exotic, interzis și am avut cu cine să-l comentez frumos, <strong>Charlie Countryman</strong>, pentru că deși este prost cu spume, pune Bucureștiul într-o ipostază inedită – scenă a unui film american de acțiune cu împușcături.</p>
+</section>
+<section id="cărțile-remarcabile-din-2014" class="level3">
+<h3 class="anchored" data-anchor-id="cărțile-remarcabile-din-2014">Cărțile remarcabile din 2014</h3>
+<p>Surprinzător, lista de cărți remarcabile citite în acest an este formată numai din cărți de ficțiune. Nu am participat în vară acesta la leapșa “cărților esențiale” de pe Facebook, iată o mică revanșă.</p>
+<p><strong><a href="72679894033.html" target="_blank">“Idiotul”</a></strong> a fost prima întâlnire cu Dostoievski. După ce am citit această carte am început să le spun tuturor că bucuria adusă de lectura unei cărți poate să o întreacă pe cea de a avea o mașină nouă. Romanul lui Dostoievski a fost printre lucrările care mi-au adus o astfel de bucurie.</p>
+<p>Apoi, după două-trei SF-uri (pentru <em><a href="http://en.wikipedia.org/wiki/Rebound_%28dating%29" target="_blank">rebound</a></em>), am dat de <strong><a href="83301835125.html" target="_blank">“Insuportabila ușurătate a ființei”</a></strong> a lui Milan Kundera. Văzusem filmul deja, nu m-am așteptat ca romanul să mă troznească atât de tare. Nu este vorba numai de stil, de atmosferă, ci și de modul în care Kundera mi-a răsturnat niște repere morale de care mă țineam bine. După ce am terminat cartea, am rămas tăcut în scaun, fără să pot să mă mișc sau să fac altceva. Nu m-am uitat la ceas, dar cred că a durat cel puțin un sfert de oră.</p>
+<p><strong><a href="89082481263.html" target="_blank">„De veghe în lanul de secară”</a></strong> era o datorie mai veche, dar mă bucur că am amânat-o. Mi-a plăcut mult traducerea. Nici tema cărții nu este rea, iar stilul este excelent; fiecare frază este gândită, meșteșugită și pusă corect la locul ei, pentru efect maxim.</p>
+<p>A fost prima (și până acum singura dată) când, preluând un obicei din lumea digitală (iată că se poate), am subliniat text-ul și am scris pe impresii marginea lui. Apoi am împrumutat cartea următorului, iar când am primit-o înapoi am împărtășit sublinierile și comentariile. Social media, ce mai! Oricum, este o experiență nemaipomenită, mai ales dacă persoana este pe măsură.</p>
+<p><strong>Europolis</strong> de Jean Bart a fost motivul pentru care am îndrăgit Sulina mult înainte să o vizitez în 2014. Iar micul voiaj din august m-a determinat să re-cunosc romanul după mai bine de zece ani.</p>
+<p>Așa cum zicea și o caricatură din <em>Dilema Veche</em>, în care un turist se uita la un indicator decrepit pe care scria numele orașului, <em>Sulina nu este aici, ci <strong>atunci</strong>!</em>. Or, cartea vorbește fix despre acel “atunci”. Și, deși o face într-un stil literar destul de stângaci, textul este demn de citit, iar Eugeniu Botez (omul din spatele pseudonimului) m-a impresionat deseori cu observații și mesaje foarte fine. Atmosfera creată este excelentă, acțiunea nu prea face pauze, micile drame sunt întrețesute într-una mai mare, a comunității și a orașului a cărui letargie deja începuse a se instala.</p>
+<p>Am petrecut doar paisprezece ore în Sulina, cu somn cu tot, dar sentimentul că respir același aer și călc pe aceleași drumuri prăfuite ca și personajele pe care simțeam ca le-am cunoscut cândva, a făcut orele să fie cu totul speciale. Romanul este disponibil <a href="http://ro.wikisource.org/wiki/Europolis" target="_blank">online gratis</a>; dacă îl vrea cineva în format Kindle, dau legal.</p>
+<p>Deși învățasem la școală că se poate și altfel, până la <strong>Zenobia</strong> lui Gellu Naum am fost convins că poezia este cu versuri, că se scrie în strofe, și că rimează, măcar așa cât de cât.</p>
+<p>Iată însă că poezie se poate și în paragrafe, în dialoguri. Că poezie înseamnă senzația pe care o primești citind, nu textul pe care îl citești. Mi-a luat luni bune să citesc cartea; a trebuit feliată, n-a intrat totul din prima. Căci Zenobia trebuie citită, subliniată, drăgostită și revizitată des. Pe carte scrie că e “roman” – e doar mică farsă simpatică. Nu știu ce anume este Zenobia, poate o călătorie în vis și dinspre vis, plină de sensuri și polisemantism. Un voiaj diferit pentru fiecare.</p>
+<p>Prin contrast, cu <strong><a href="87517882268.html" target="_blank">1Q84</a></strong> Haruki Murakami a dovedit ca mă poate prelua bou și, după o mie două sute de pagini, și să mă predea vacă. Dar trebuie să recunosc, este o lectură care m-a ținut în priză; iar din iunie încoace, de fiecare dată când văd Luna, mă gândesc la Aomame.</p>
+<p>Gogol mi-a oferit o după-amiază și o seară foarte plăcute cu <strong>Mantaua</strong>, <strong>Nasul</strong> și <strong>Insemările unui nebun</strong>, Jean-Claude Carrière a cules (și) pentru mine o mulțime de povestioare interesante ale umanității în “Cercul mincinoşilor”, iar Asimov și Clarke mi-au oferit o curățare a intestinului literar între cărți mai greu de digerat.</p>
+<p>Îi iubesc pe toți autorii. Căci acum o parte din ei sunt eu.</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://cdi.nu/posts-2010s/106256957688.html</guid>
+  <pubDate>Fri, 26 Dec 2014 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Să votezi e responsabilitate. Să nu votezi e complicitate!</title>
+  <link>https://cdi.nu/posts-2010s/101415121238.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<figure class="tmblr-full figure" data-orig-height="336" data-orig-src="" data-orig-width="500">
+<img src="https://cdi.nu/posts-2010s/media/101415121238_0.png" style="min-width:100%" data-orig-height="336" data-orig-src="" data-orig-width="500" class="figure-img">
+</figure>
+<p><em>Foto: Standul României la Târgul Internațional de Carte de la Frankfurt, cel mai mare din lume, în 2013 (înainte de scandalul în presă provocat de numai 2-3 voci) și în 2014 (după).</em></p>
+<p><br>
+Încă îmi este greu să cred că lucrurile mici pot genera impact mare, deși am făcut sume și integrale la școală. Din când în când însă primesc o dovadă: contează. Dacă nimeni nu spunea nimic și nu face nimic, nu ai cum să te aștepți că lucrurile să se îmbunătățească.</p>
+<p>Anul trecut eu și încă cățiva am semnalat ceea ce s-a întâmplat la Frankfurt cu standul României. Ca urmare anul acesta lucrurile s-au schimbat. Dacă tăceam, era la fel.</p>
+<p>În 2014 am urmărit pas cu pas ceea ce face Ministerul Educației și, așa mici cum suntem, nu l-am lăsat să fure tot – am reușit să determinăm canu numai cei care erau planificați să iasă să poată să vândă manuale copiiilor noștri. E o victorie mică, incompletă, dar impactul ei este enorm. Dacă stăteam cuminți, așa cum am fost sfătuiți, copiii învățău de pe cele mai proaste manuale.</p>
+<p>Duminică merg să votez. Nu știu dacă Macovei va reuși să treacă în turul doi. Dar gândiți-vă în ce fel m-aș simți dacă ar pierde lupta fără ca eu să-i fi dat votul. Ar trebui să tac și să îndur cinci ani, pe bună dreptate.</p>
+<p>Duminică merg la vot și o votez pe Monica Luisa Macovei﻿! Pentru că de aici înainte vreau să mă lupt pentru România, nu împotriva oamenilor ei.</p>
+
+
+
+ ]]></description>
+  <guid>https://cdi.nu/posts-2010s/101415121238.html</guid>
+  <pubDate>Fri, 31 Oct 2014 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>În rând cu lumea și uneori chiar peste ea: România la Frankfurt Book Fair, 2014</title>
+  <link>https://cdi.nu/posts-2010s/100734756083.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Ar fi o nedreptate să nu povestesc despre standul României la Salonul de Carte de la Frankfurt. Anul trecut, în 2013, am fost atât de dezamăgit de ceea ce s-a întâmplat acolo, încât mi s-a făcut rău fizic când am văzut cum arăta.</p>
+<p>Anul acesta însă schimbarea în bine este enormă – standul este elegant și modern. Personalizat, fără călușari, fără roți de căruță. Se vede că în spatele lui se află designeri buni – arată bine, îți place să stai în el. Drept urmare lumea vine, se uită, întreabă. În cele treizeci de minute pe care le-am petrecut în stand am văzut sute de oameni admirând punerea în operă și conținutul.</p>
+<figure class="tmblr-full figure" data-orig-height="600" data-orig-src="https://farm4.staticflickr.com/3937/15523587391_276f7bf3fb_c.jpg" data-orig-width="800">
+<img src="https://cdi.nu/posts-2010s/media/100734756083_0.jpg" style="min-width: 100%" data-orig-height="600" data-orig-src="https://farm4.staticflickr.com/3937/15523587391_276f7bf3fb_c.jpg" data-orig-width="800" class="figure-img">
+</figure>
+<p>Cărțile nu mai sunt în țiplă – le poți lua de pe raft și răsfoi în liniște în stand la una din mesele cu scaune. Selecția este bună – benzi desenate, Vișniec, Naum. Chiar și cățelul invalid al lui Farago pare optimist în acest stand.</p>
+<p>Aproape mă simt gazdă – atunci când o nemțoaică se apropie curioasă să vadă ce e pe la stand, iau un catalog cu scriitorii români contemporani (redactat în engleză și conținând extrase din lucrărie fiecăruia) și i-l ofer zicându-i: “Here, you can have one!”</p>
+<p>Iar ea, intr-o românească cu gramatică și pronunție impecabilă: “Mulțumesc, am deja unul. M-am întors să văd ce cărți în românește pot găsi, pentru că am citit ce am”. Doar înfățișarea și un pic de accent în propoziție trădează că nu s-a născut în Carpați.</p>
+<p>Aflu că tocmai s-a întors din București, unde și-a petrecut un an pentru a învăța să vorbească limba română. A reușit total. Își alege niște cărți și decide să rămână la evenimentul de după.</p>
+<p>Chiar și cei care nu sunt neapărat interesați de cărțile țării vin și primesc o ciocolățică românească sau două trei caramele tricolore. Nu e un truc ieftin, are efect – dulcele atrage – cască puțin gura, văd al cui este standul, dau dun cap aprobator și merg mai departe.</p>
+<p>Felicitări deci echipei de la Ministerul Culturii care s-a ocupat în acest an de participarea României la târgul de carte. A făcut o treabă excelentă!</p>
+<p><a href="https://www.flickr.com/photos/cristiandinu/sets/72157648719981202/" target="_blank" title="Albumul cu mai multe fotografii, pe Flikr">Vezi și alte fotografii în albumul Flikr</a></p>
+<figure class="tmblr-full figure" data-orig-height="271" data-orig-src="https://farm4.staticflickr.com/3950/15526742785_f73aef7918_c.jpg" data-orig-width="800">
+<img src="https://cdi.nu/posts-2010s/media/100734756083_1.jpg" style="min-width: 100%" data-orig-height="271" data-orig-src="https://farm4.staticflickr.com/3950/15526742785_f73aef7918_c.jpg" data-orig-width="800" class="figure-img">
+</figure>
+
+
+
+ ]]></description>
+  <guid>https://cdi.nu/posts-2010s/100734756083.html</guid>
+  <pubDate>Thu, 23 Oct 2014 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Ioana, brânza și fermierii</title>
+  <link>https://cdi.nu/posts-2010s/97803335583.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<figure class="tmblr-full figure" data-orig-height="345" data-orig-src="media/97803335583_0.jpg" data-orig-width="460">
+<img src="https://cdi.nu/posts-2010s/media/97803335583_0.jpg" data-orig-height="345" data-orig-src="media/97803335583_0.jpg" data-orig-width="460" class="figure-img">
+</figure>
+<p>Ioana merge la piață să cumpere brânză pentru copii. Știe că pețul normal e undeva în jur de 15-18 lei, dar pentru că le-a promis că va cumpăra numai de la ei patru ani acea brânză, iar Ioana are patru copii, fermierii sunt dispuși să vândă brânza cu 8 lei pe kilogram.</p>
+<p>Doi dintre fermieri au însă brânza la 4 lei. Ioana nu prea vrea să cumpere de la ei. De ce ziceți că n-ar cumpăra? Poate pentru că știți că numai laptele din acea brânză face 6 lei și este suspect? Că probabil sunt costuri și interese ascunse? Că cei doi fermieri încearcă să-i facă pe ceilalți să renunțe la lactate, pentru ca numai ei să poată apoi să vândă și sana și smântână și unt Ioanei, atunci captivă? Ori că apoi va trebui să cumpere tot de la ei pâinea și cuțitul? Probabil că asta ați crede și ați avea dreptate. Ioana ar vrea să cumpere brânza la 8 lei.</p>
+<p>Numai că nici asta nu poate: pentru a se asigura că nu cumva Ioana se gândește să refuze brânza de patru lei, pentru cealaltă brânză s-au găsit niște binevoitori de la Consiliul de Evaluare a Produselor Lactate care să declare că toți ceilalți 17 fermieri, cu prețul normal, au brânza neconformă și această brânză nu poate fi mâncată. Motivele adevărate ale neconformității nu sunt comunicate, pentru că nici nu ar avea cum – brânza de opt lei este mai bună decât cea de patru.</p>
+<p><strong>Fapte</strong></p>
+<p>Acest lucru s-a întâmplat în licitația de manuale. 17 fermieri au avut prețuri între 7 și 9 lei, doi dintre ei, de 4 și 5 lei. Singura brânză bună a fost declarată cea ieftină, cealaltă fiind descalificată. Compoziția brânzei ieftine este declarată confidențială.</p>
+<p><a href="http://agrointel.ro/4028/de-ce-e-branza-bulgareasca-asa-ieftina-doua-dintre-ingredientele-secrete-sunt-uleiul-de-palmier-si-untura-de-balena/" target="_blank">Sursă foto</a></p>
+
+
+
+ ]]></description>
+  <guid>https://cdi.nu/posts-2010s/97803335583.html</guid>
+  <pubDate>Thu, 18 Sep 2014 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Din nou la manualul unic - Incapacitatea și reaua-voinţă unui minister</title>
+  <link>https://cdi.nu/posts-2010s/94074065213.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><img src="https://cdi.nu/posts-2010s/media/94074065213_0.png" class="img-fluid" style="min-width:100%"></p>
+<p>Pe scurt - licitația pentru manualele fizice și digitale a luat o turnură odioasă. Nu intru în prea multe detalii, pentru ca le-ați citit probabil deja în presă. Articolul HotNews (link-ul este la final) este relevant.</p>
+<p>TVR și Digi 24 au și ele reportaje speciale despre neregulile legate de achiziția manualelor pentru clasele I și a II-a. Este un subiect relevant nu numai pentru noi, ci pentru toți, pentru că miza este mult mai mare decât pare. Nu este o miză comercială, cum poate s-ar putea crede, valoarea totală a licitației este mai mică decât bugetul Bucureștiului pentru panseluțe și palmieri.</p>
+<p>Sunt mai multe lucruri care depind de corectitudinea acestei achiziții:</p>
+<ul>
+<li><p>Învățătorii, părinții și copiii vor fi privați de posibilitatea de a alege. Adio manuale alternative.</p></li>
+<li><p>Tot ei vor fi privați de manuale bune din punct de vedere al conținutului. Niciunul dintre motivele de descalificare nu a menționat calitatea conținutului; participanții au fost flit-uiți pe criterii ridicole și legate doar de aspecte non-funcționale ale manualelor digitale, fără măcar o urmă de analiză a conținutului. Oricât m-aș bucura că manualelor digitale li se dă așa importanță, să fim serioși – acestea sunt doar o curiozitate deocamdată, prea exotică pentru majoritate</p></li>
+<li><p>Moralul celor care produc manuale – dacă semnalul este că poți fi furat, că evaluarea nu se face corect, la anul nu mai investi nimeni într-un proiect pierzător. Fiecare dintre cei care au participat au investit cel puțin câteva zeci de mii de euro pentru a produce un astfel de manual.</p></li>
+</ul>
+<p><a href="http://www.hotnews.ro/stiri-esential-17832913-federatia-editorilor-din-romania-cere-anularea-licitatiei-pentru-manualele-digitale-rezultatele-licitatiei-manuale-pentru-clasele-sunt-viciate-evaluarea-eronata.htm" target="_blank">HotNews: Editorii cer anularea licitatiei pentru manualele digitale si sustin ca rezultatele sunt gresite / Care sunt firmele care au participat la licitatie si preturile manualelor</a></p>
+<p><a href="http://www.digi24.ro/Stiri/Digi24/Actualitate/Educatie/Scandal+pe+manualele+scolare+de+la+clasele+I+si+a+II-a+Editori+C" target="_blank">Digi24: Scandal pe manualele școlare de la clasele I și a II-a. Editori: Câștigătorii licitației au avut prețuri de dumping</a></p>
+<p><a href="http://stiri.tvr.ro/manuale-digitale-unice-pentru-clasele-i-si-a-ii-a--licitatia-ar-putea-fi-reluata_48385.html" target="_blank">TVR: Manuale digitale unice pentru clasele I şi a II-a. Licitaţia ar putea fi reluată</a></p>
+
+
+
+ ]]></description>
+  <guid>https://cdi.nu/posts-2010s/94074065213.html</guid>
+  <pubDate>Thu, 07 Aug 2014 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>1999. Scurt ghid al călătorului în timp - partea 1</title>
+  <link>https://cdi.nu/posts-2010s/90093271288.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><em>Iubit călător sau emigrant în lumea lui 1999,</em></p>
+<p>Ai luat două decizii foarte bune alegând acest ghid: acela de a călători în 1999 și respectiv de a nu pleca nepregătit. Astfel, șederea ta va fi mai plăcută și adaptarea la acest an cu totul special îți va fi mai ușoară. Vei afla ce se întâmplă important aici, cum sunt noușnolenii, ce le place, de ce se tem și pentru ce se bucură ei. Vei afla de asemenea lucruri despre tehnologia pe o au și pe care o poți folosi, respectiv despre cum poți să eviți să-i jinești, spunându-le poate că este primitivă.</p>
+<p>Dacă ai primit acest ghid pe dischetă în format RTF sau DOC, îți recomand să îl tipărești chiar acum, pentru a-l avea mereu la îndemână. Nu uita că în acest an nu ai încă posibilitatea să citești de pe ecran mai mult decât câteva rânduri, așa că fă bine și poartă-l cu tine pe hârtie.</p>
+<p>Sau poate că nu ești un călător, ci trăiești legitim în 1999, fără să fi călătorit niciodată în 2014. Ai avut noroc deja de vremuri interesante. Următorii ani nu vor fi mai prejos, cu bune și cu rele. Acest ghid îți este util pentru a te pregăti și a te face să a te bucuri de drumul tău invevitabil spre 2014. Dacă nu-ți plac <em>spoiler</em>-ele, ori vrei să fii pesimist, caz în care mai bine nu citești — te va bucura și nu vrei asta.</p>
+<section id="despreloculncareurmeazsajungi" class="level2">
+<h2 class="anchored" data-anchor-id="despreloculncareurmeazsajungi">Despre locul în care urmează să ajungi</h2>
+<figure class="tmblr-full figure" data-orig-height="342" data-orig-src="" data-orig-width="500">
+<img src="https://cdi.nu/posts-2010s/media/90093271288_0.png" style="min-width:100%" data-orig-height="342" data-orig-src="" data-orig-width="500" class="figure-img">
+</figure>
+<p>Nouășnounia este o țară plină de speranțe, dar și de dezamăgiri. A ieșit acum zece ani dintr-o dictatură odioasă care i-a distrus fața și sufletul, iar ceea ce a urmat după i-a speriat și i-a nemulțumit pe toți.</p>
+<p>Locuitorii îi spun tot “România”, deși văzută dinspre 2014, Nouășnounia este evident o altă țară. Cu toate că cei din 2014 sunt nemulțumiți de multe lucruri din viața lor — bani, străzi, slujbe, nu există niciun termen de comparație, aproape totul este mai bun decât acolo.</p>
+<p>Noușnolenii și-au dat seama însă că locul lor este într-o democrație, care, chiar imperfectă, este mult mai sigură și îmbelșugată decât ce au avut oricând până acum. Chiar dacă în anul lor lucrurile sunt mai degrabă la nivel de idealuri închipuite. Conducătorii lor recenți au cerut intrarea țării în NATO, se uită cu invidie inclusiv la Uniunea Europeană în care nu cred că au șanse să intre în mai puțin de douăzeci de ani.</p>
+<p>Pentru că au cam ratat ultimii zece ani. Principalele erori au fost făcute chiar la început. Nu aveau încă simțul politic format și și-au ales un președinte care i-a ținut în aceeași sferă morală bolnavă. Nu te grăbi să-i judeci: atunci când au pus prima oară ștampila pe un buletin de vot, nouășnolenii erau ca niște maidanezi ajunși liberi după ce câțiva dintre ei au alungat conducerea adăpostului în care trăiau între gratii. I-au ales pe aceia care vorbeau și arătau ca vechii stăpâni.</p>
+<p>Din fericire același șef al noilor stăpâni, care a făcut ca țara, în loc să plece către vest cu ceilalți, să stea în gașca foștilor prieteni, același șef deci, tocmai va publica în 1999 o scrisoare la Washington Post în care se va lepăda, măcar formal, de cei cărora le-a fost atât de loial dintodeauna. Sunt și niște vești proaste legate acest personaj, mai precis legate de ce funcție i se pregătește, dar nu vreau să-ți stric sejurul, dragă turist.</p>
+<p>Oamenii nu sunt mai răbdători decât în 2014. Par doar mai liniștiți pentru că încă nu au curajul să-și exprime cu adevărat opiniile și în plus, fără social media, e greu să te faci auzit.</p>
+<p>Adulți educați total în democrație nu prea există. Și mai ales nu există profesori educați în democrație. În loc să aducă oameni din străinătate și să-i facă profesori și direcori, nouășnolenii au strigat ani de zile “nu ne vindem țara”. Acum își dau seama că au fost proști și că imbecilitatea îi costă bunăstarea pe care nu o au acum. Nebunia a mai trecut și iată că azi avem câteva firme interesante deja — Connex, Dialog, ProTV, companii care ne arată cum se face treaba.</p>
+<p>Dacia încă este o ruină, nu pentru mult timp, la fel Sidex. Nouășnolenii încep să nu mai țină cu dinții de toate rablamentele industriale. Și-au dat seama că ele nu sunt valoroase nici măcar în nostalgie.</p>
+<figure class="tmblr-full figure" data-orig-height="195" data-orig-src="" data-orig-width="500">
+<img src="https://cdi.nu/posts-2010s/media/90093271288_1.jpg" style="min-width:100%" data-orig-height="195" data-orig-src="" data-orig-width="500" class="figure-img">
+</figure>
+</section>
+<section id="pregtiriledecltorie" class="level2">
+<h2 class="anchored" data-anchor-id="pregtiriledecltorie">Pregătirile de călătorie</h2>
+<p>Deși 1999 este un loc democratic și destul de tolerant, sunt anumute lucruri pe care nu poți să le iei cu tine, mai ales pentru că acolo n-au fost inventate. Îți poți folosi intuiția sau și mai bine poți verifica anexa de la sfârșitul acestui ghid.</p>
+<p>Nu ai ce căuta cu iPhone, Samsung Galaxy sau orice “telefon” care poate altceva în afară de telefon, alarmă și SMS. E mai bine să-ți cumperi chiar de acasă ceva compatibil cu rețeaua de acolo, pentru că în 2014 costă între 69 și 85 de lei. Nu le spune nouășnolenilor că poți cumpăra un telefon cu prețul a 15 litri de motorină. Se vor supăra că la ei e atât de scump un telefon și evident se vor speria de cât a ajuns să coste să mergi până la Brașov cu mașina.</p>
+<p>Îți poți lua de exemplu un Nokia 105. E ceva mai deștept decât 3310-le, dar nu semnificativ. Și e făcut pentru Africa subsahariană, unde ecranul color e de formă, în scchimb “lanterna”, radioul FM și bateria sunt importante.</p>
+<p>Cel mai probabil ai nano sau micro-SIM – un SIM care acum e cât o unghie de bebeluș. E prea mic pentru telefoanele de atunci, dar poți rezolva și singur: tăie un dreptunghi în formă de SIM mare dintr-o carte de vizită cartonată. După niște tăieturi istețe, cu rol de proptea, și un strop de plastilină lipicioasă, telefonul tău de cetățean în curs de dezvoltare va fi perfect funcțional.</p>
+<p>După ce rezolvi cu SIM-ul, setează data și ora (pentru că nu și le ia automat), apoi introdu de mână două-trei numere importante în agendă, ca să ai pe cine suna în caz de nevoie. Restul numerelor le poți salva după ce te sună cineva. Nu uita că nu vei avea net mobil de niciun fel, așa că ia-ți la tine informațiile de care ai nevoie.</p>
+<p>E bine de asemenea să-ți cumperi și un pix sau stilou, împreună cu un carnet și câteva coli. După ce treci granița n-ai mereu la tine aparat foto sau orice cu tastatură reală sau pe ecran.</p>
+<p>Intră pe Facebook și pune un mesaj, cum că pleci, ca să știe lumea ce-i cu tine. Dacă trec câteva zile fără să miști online, vor suspecta că ai pățit ceva grav. Vor suna la spitale și la poliție, pentru că telefonul cel mai probabil nu ți-l mai știu, de când nu prea mai e nevoie. După ce termini cu postarea, dă log-out din Facebook. E un buton ascuns în meniul din dreapta sus.</p>
+<p>Pune MP3-urile pe un hard disk, iar filmele și serialele șterge-le. Știi doar că le poți descărca oricând, tot de acolo de unde le-ai luat prima oară. Ia-ți baterii pentru telecomanda de la TV, pentru radio și pentru MP3-ul sau CD-player-ul portabil.</p>
+<p>Oprește WiFi-ul și trage cablul de internet direct în laptop, care în acest fel va deveni un fel de desktop. Scoate decodorul de HD și lasă doar 5–6 posturi românești, restul nemțești și italiene.</p>
+<p>Smartphone-ul mai ține-l totuși cu tine (ascuns, evident), în cazul în care ai nevoie musai de un număr de telefon cât ești în No’ș’nia.</p>
+<p><br>
+</p>
+<hr>
+</section>
+<section id="anexa1-listadeverificarepentrubagaje" class="level2">
+<h2 class="anchored" data-anchor-id="anexa1-listadeverificarepentrubagaje">Anexa 1 - Lista de verificare pentru bagaje</h2>
+</section>
+<section id="lucruripermise" class="level2">
+<h2 class="anchored" data-anchor-id="lucruripermise">Lucruri permise</h2>
+<p>(În paranteză sunt anii trecuți din ’99 până să se inventeze sau să prindă forță)</p>
+<ul>
+<li>Aparat foto digital (~3 ani)</li>
+<li>Smartphone (~6 ani)</li>
+<li>MP3 (~1 an)</li>
+<li>MP3 player</li>
+<li>DVD-uri (~4–5 ani, inutile oricum azi)</li>
+<li>TV plat (~10 ani)</li>
+<li>FaceBook, social media (~12 ani)</li>
+<li>YouTube, Vimeo (~10 ani)</li>
+<li>Non-stop online (~9 ani)</li>
+<li>Broadband (&gt;1 Mbps ~9 ani)</li>
+<li>WiFi (~6 ani)</li>
+<li>Google Maps (~10 ani)</li>
+<li>Google Translate (~10 ani)</li>
+<li>Magazine online (~5 ani)</li>
+<li>Skype, FaceTime (~10 ani)</li>
+<li>Arduino, Raspberry Pi (~6 ani, ~13 ani)</li>
+<li>Radio pe Internet (~10 ani)</li>
+<li>Plăți online (~6 ani)</li>
+</ul>
+<p>Ai voie totuși cu:</p>
+<ul>
+<li>Telefon fără Internet. Atenție însă – tarifele sunt mari și mai puțin de o 750 de mii de oameni au telefon mobil (de treizeci de ori mai puțini decât în 2014)</li>
+<li>20–30 de minute pe zi de online. Internetul e pe modem acasă sau la sălile special amenajate.</li>
+<li>Calculator acasă (desktop, monitor cu tub sau laptop de cinci kilograme)</li>
+<li>Casete, casetofon, radio FM. Se găsesc CD-uri, dar sunt rare și destul de scumpe. Ai voie, dacă n-ai prea multe, cât să bată la ochi.</li>
+<li>Chat de pe desktop – Yahoo Messenger sau ICQ. Fără Skype</li>
+<li>Dischete – 1.44 Mb (de cinci mii de ori mai puțin decât un stick de 8 gigabytes)</li>
+<li>Cărți fizice (poți să ascunzi niște ediții mai noi de ’99, dar să le pui o supracopertă urâtă, așa cum erau atunci, ca să nu le vadă locuitorii de acolo)</li>
+</ul>
+<p><br>
+</p>
+<hr>
+<section id="din-episodul-viitor" class="level3">
+<h3 class="anchored" data-anchor-id="din-episodul-viitor">Din episodul viitor</h3>
+<p><strong>Mici șocuri de adaptare</strong></p>
+<p>Primele zile experimentul este distractiv – este inedit și abia a început. Nu vei vedea efecte, dar vei avea deja câteva mici șocuri. Cel mai important va fi înțelegerea faptului că din buzunar scoți un telefon, nu o extensie globală a capului. Că acolo ești tu și cei prezenți fizic acolo, nu toată globul cu oameni și informații cu tot.</p>
+<p>Vor fi unele momente în care te vei simți invalid – că ți s-a amputat un organ senzorial și de comunicare: că nu mai poți vezi ce se întâmplă în rețeaua socială, că nu mai poți să pălăvrăgești nimicuri online, dar mai ales nu poți să evadezi dintr-o situație crunt de plictisitoare. Telefonul cu Facebook, mail și știri în buzunar îți dă pretextul perfect să fugi de ceea ce nu-ți place sau nu te satisface și să te duci într-o lume comodă și aparent incitantă.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <guid>https://cdi.nu/posts-2010s/90093271288.html</guid>
+  <pubDate>Sat, 28 Jun 2014 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>J.D. Salinger: „De veghe în lanul de secară”</title>
+  <link>https://cdi.nu/posts-2010s/89082481263.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<figure class="tmblr-full figure" data-orig-height="622" data-orig-src="" data-orig-width="500">
+<img src="https://cdi.nu/posts-2010s/media/89082481263_0.png" style="margin: 0 0 1em 1em;width:50.0%" data-align="right" data-orig-height="622" data-orig-src="" data-orig-width="500" class="figure-img">
+</figure>
+<p>Este printre cărțile clasice pe care le ratasem, dar nu-mi pare rău. La un moment dat am avut regrete că nu n-am citit chestiile astea la timp la timp. Am citit mereu, dar prostii de management și de calculatoare. N-are nimic, acum mă pot bucura mai tare de ele. Și mai am atâtea pe listă…</p>
+<p>Pe aceasta am terminat-o în două zile. Prea repede, dar nu s-a putut altfel. Deși este densă, stilul nu te lasă să o citești agale. Poate și din cauza vitezei, nu este la fel de răscolitoare ca altele ca <em>Insuportabila ușurătate</em>; a lui Kundera, dar <em>De veghe în lanul de secară</em> este cu siguranță o bornă esențială între lecturile pe care un om trebuie să le aibă. Și nu neapărat înainte de douăzeci de ani. În procesul de înfulecare a paginilor nu ai timp să percepi fiecare ingredient, ci doar să îți dai seama la sfârșit că ceea ce este acolo este bun. Trece prin ochi ca o nălucă și rămâne.</p>
+<p>Ediția pe care am citit-o este una specială: o minune a traducerii, traducătorul fiind Cristian Ionescu. Ceea ce a reușit dl. Ionescu să facă este incredibil – traducerea să fie mai bună decât originalul. Deși are cincizeci de ani, romanul este proaspăt de zici că a fost scris ieri și limbajul este folosit excelent ca suport pentru sarcasmul și umorul sec pe care nu prea le-am gustat în ediția americănească, deși mă descurc suficient de bine cu limba engleză. Protagonistul își spune la un moment dat:&nbsp;„Ce mă dă pe spate e o carte care, după ce ai terminat-o de citit, te face să-ți dorești ca autorul să-ți fie prieten la cataramă și să poți să-l suni ori de câte ori ai chef să stai de vorbă cu el.” Lui Cristian Ionescu aș vrea măcar să-i strâng mâna pentru curajul de a-l interpreta pe Salinger în acest fel atât de îndrăzneț.</p>
+<p>Cartea lui Salinger este fără îndoială una a adolescenței, dar acest lucru nu înseamnă că problemele pe care le are un Holden la 17 ani nu ar fi în semăna cu cele de la 35+. Gândurile de a fugi în lume, dorința de a nu fi la fel ca ceilalți, scârba față de ipocrizia, blazara și viața insipidă a majorității nu dispar, ci cu timpul se accentuează la unii oameni. Printre care mă aflu.</p>
+<p>În plus este de departe cea mai sarcastică lucrare pe care am citit-o, ceea ce o face și hazlie și amară în același timp, cam cum este viața așa.</p>
+<p>O am numai pe hârtie și o pot împrumuta, cu mâzgăliturile de pe ea cu tot. Numai că am să o vreau înapoi, tocmai pentru acele mâzgălituri.</p>
+<hr>
+<p>Câteva citate, pentru a vă face o idee despre tonul cărții:</p>
+<p>Primul paragraf: “Și dacă vreți cu adevărat să aflați ce și cum, presupun c-o să vreți să știți din capul locului unde m-am născut, cam ce copilărie nasoală am avut, cât de ocupați erau ai mei până să mă facă, toate aiurelile gen David Copperfield, dar, ca s-o zic pe-aia dreaptă, n-am nici un chef să intru-n chestii de-astea”</p>
+<p>Prin primele pagini: “De fapt, adevăratul motiv pentru care mai bănăbăiam pe acolo e că încercam să mă obișnuiesc cu senzația de rămas bun. Mi s-a întâmplat să plec din școli sau case fără să am cea mai vagă senzație că plec. Urăsc treaba asta. Nu-mi pasă dacă e o despărțire tristă sau o despărțire proastă, dar când plec de undeva îmi place să simt că plec.”</p>
+<p>La sfârșit: “Caracteristica definitorie a omului imatur e că vrea să moară în mod nobil pentru o cauză, în timp ce caracteristica definitorie a omului matur e că vrea să trăiască umil pentru una.”</p>
+<figure class="tmblr-full figure" data-orig-height="457" data-orig-src="" data-orig-width="500">
+<img src="https://cdi.nu/posts-2010s/media/89082481263_1.jpg" style="min-width:100%" data-orig-height="457" data-orig-src="" data-orig-width="500" class="figure-img">
+</figure>
+<p>P.S. Poate aveți impresia că am trișat și am plecat din 1999. M-am interesat și aproape aveți aproape dreptate: “Blogger was started by a tiny company in San Francisco called Pyra Labs in August of 1999.” Sper ca totuși să scap – termenul ‘blog’ a apărut în 1997. Iar BBS-ul a fost și mai devreme :)</p>
+<p><span class="small"><a href="http://www2.potsdam.edu/fortiemm192/210webquest/Index1.html" target="_blank">Sursa foto</a></span></p>
+
+
+
+ ]]></description>
+  <guid>https://cdi.nu/posts-2010s/89082481263.html</guid>
+  <pubDate>Tue, 17 Jun 2014 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Maleficent</title>
+  <link>https://cdi.nu/posts-2010s/88109748278.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Pentru că nu am putut suporta presiunea de a mă plictisi la o finală de Roland Garros cu o miză atât de mare, am ocupat unul dintre de locurile lăsate libere de eurosportivi în fața celui mai mare ecran de cinema din București.</p>
+<p><span id="start"></span></p>
+<p>Am văzut Maleficent, pe care îl așteptam încă de dinainte ca Lana del Rey să-mi zică <em>I know you</em> în <a href="http://www.youtube.com/watch?v=8waJ7W3QcJc" target="_blank">Once Upon a Dream</a> (pe melodia lui <a href="http://www.youtube.com/watch?v=2Sb8WCPjPDs" target="_blank">Ceaikovski</a> aleasă deloc întâmplător).</p>
+<p>Deși este făcut de Disney, duceți-vă cu copiii doar dacă știu că nu i-a adus barza. Filmul nu are nimic deocheat, doar că nivelul de violență și complexitatea decorurilor va face ca unii din cei mici să exclame <em>Îmi este frică de toți, mai bine rămâneam acasă…</em>.</p>
+<p>Nu vă așteptați însă ca povestea să fie mai complexă decât un Grimm adaptat la retorica de secol curent. Pentru vibrații emoționale ai carțile, teatrul sau cinemateca. Te duci la mall la 3D pentru spectacol, pac-pac și vertijul zborului cu fundul pe scaun. Toate, lucruri la care Maleficent excelează și probabil crează noi standarde.</p>
+<p>De fapt majoritatea trăirii mi-a fost creată nu de la evoluția previzibilă a poveștii, ci de la admirația fără rezerve pentru scenografii, pentru cei care au făcut storyboarding-ul și cei au realizat randările lumilor din film. N-am putut să mă gândesc la saltul uriaș de la Mikey Mouse fluierând la timonă în <a href="http://www.youtube.com/watch?v=BBgghnQF6E4" target="_blank">Steamboat Willie</a> acum 85 de ani la perfecțiunea punerii pe ecran a unui basm în 2014. Purpuriul ființelor luminescente se reflectă perfect pe fețele celor din jur, la fel metamorfozele personajelor este peste imaginația din timpul lecturii. Mă întreb optimist unde vom fi ca specie peste încă 85 de ani.</p>
+<p>Pe scurt, mi s-a părut un film de top la efecte vizuale și coloană sonoră, care stă excelent la capitolul divertisment, fără mari răscoliri emoționale, potrivit pentru 12+ ani. Mă bucur că l-am văzut, dar de revăzut l-aș revedea doar într-un loc în care să pot pune pauză și să derulez pentru a admira perfecțiunea micilor detalii.</p>
+<p>[[MORE]]</p>
+
+
+
+ ]]></description>
+  <guid>https://cdi.nu/posts-2010s/88109748278.html</guid>
+  <pubDate>Sun, 08 Jun 2014 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Haruki Murakami: 1Q84</title>
+  <link>https://cdi.nu/posts-2010s/87517882268.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>După ce i-am terminat cele mai mult de 1200 de pagini, nu-mi dau seama dacă sunt mai bine sau la fel față de înaintea citirii lui <strong>1Q84</strong>. La început m-a iritat pentru că mi s-a părut că este scrisă telegrafic, dar m-am învățat cu stilul. Apoi m-a enervat că mi se părea că personajele deși excelent create sunt cam tâmpițele, dar m-am obișnuit cu ele. M-a agasat că diverse linii epice au fost abandonate, și multe întrebări au rămas fără răspunsuri pe care am încetat să le mai caut de la un moment încolo.</p>
+<p>Dar Murakami a reușit totuși ceva special. Să mă facă să citesc o cantitate de informații mai mare decât jumătate de DEX de pe 4 mai până la 1 iunie. Povestea, deși imperfectă ține, stilul este bun, imaginația de admirat (și respectiv de invidiat, în ceea ce mă privește). M-a cufundat într-o lume a lui, un pic mai supra-realistă decât a mea și care nu m-a plictisit decât rar. Mi-a plăcut că avea referințe muzicale și literare care m-au făcut să ascult sau să reascult muzică bună și nouă (pentru mine).<br>
+<br>
+Cine vrea o teleportare din cotidian, poate să se urce în trenul 1Q84. Un tren cu un drum cam lung, totuși, dar care trece repede.</p>
+<p><img src="https://cdi.nu/posts-2010s/media/87517882268_0.png" class="img-fluid"></p>
+
+
+
+ ]]></description>
+  <guid>https://cdi.nu/posts-2010s/87517882268.html</guid>
+  <pubDate>Sun, 01 Jun 2014 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>“Simboluri ale democrației”</title>
+  <link>https://cdi.nu/posts-2010s/85403546558.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Ridicam degetul acum câteva săptămâni spre Ministerul Educației și Centrul Naţional de Evaluare şi Examinare (C.N.E.E.), aflat în subordinea sa. Acuzam CNEE că a organizat o licitație proastă, nedreaptă, întârziată.</p>
+<p>Iată însă că această licitație nu numai că are atributele de mai sus, ci se pare că este și ilegală. Federația Editorilor din România, respectiv două companii private au contestat licitația, iar Consiliul National de Solutionare a Contestatiilor a decis suspendarea acesteia (<a href="http://www.hotnews.ro/stiri-esential-17189308-licitatia-pentru-manuale-digitale-fost-suspendata-consiliul-national-solutionare-contestatiilor.htm" target="_blank">detalii</a>).</p>
+<p>Ca de obicei. Ministerul Educației nu a reacționat în vreun fel. Pe site-ul edu.ro, azi, la patru zile după suspendare, singurul comunicat de presă nou este că domnul Pricopie confirmă Biblioteca Centrală Universitară ca fiind un simbol al democrației românești. Atât.</p>
+<p>Mă aștept însă să reacționeze și cred că modul în care o vor face va fi previzibil și caragialesc, în modul cel mai îngrozitor al acestuia. Ministrul sau directorul CNEE vor ieși public declarând, cu lacrimi în ochi, că <em>Baronii manualelor ne-au învins… Am încercat să facem totul pentru propășirea educațională a aceste națiuni, pentru acest popor unic, pentru acești copii minunați [suspin], dar ei iată că ei au reușit să ne blocheze inițiativa în ciuda eforturilor noastre supraomenești de reformare.</em></p>
+<p>Vor continua: <em>interesele lor sunt comerciale, ei vor bani, nu să fie bine pentru copii. Am încercat să facem totul așa cum trebuie, dar ei nu ne lasă.</em>. Desigur. Doar nu ne așteptăm la <em>Este vina noastră ca Minister și ca CNEE pentru că n-am pus pe cine trebuie să organizeze treaba, pentru că nu ne-am consultat în fapt cu nimeni, pentru că am încercat să ne păstrăm relațiile cu cine știe cine. Ne este rușine, avem un plan și încercăm sincer să facem lucrurile mai bine de aici înainte</em>. Dar nu.</p>
+<p>Dacă și CNEE sau Ministerul Educației ar fi simboluri ale democrației, ar trebui să explice ce se întâmplă, nu să tacă în sfidare, făcându-se că nu s-a întâmplat nimic.</p>
+<p>Dacă ar fi simboluri ale democrației, ar trebui să ne anunțe cine este responsabil pentru această grozăvie și respectiv cum procedează cu el, respectiv cum fac să rezolve problema acum astfel încât așa ceva să nu se mai întâmple vreodată.</p>
+<p>Cine sunt în fapt cei care gestionează introducerea acestor tehnologii noi în școală? E simplu de aflat: uitați-vă la site-ul lor, <a href="http://www.rocnee.eu/," target="_blank">http://www.rocnee.eu/,</a> și vedeți cum arată, cum se navighează, ori cum sunt puse imaginile în acest site. Ei, cei care nu sunt în stare să aibă un site mai bun decât al băcăniei din colț, decid soarta manualelor digitale (care au majoritatea ADN-ului lor comun cu un site), manuale digitale care vor fi folosite de milioane de elevi, mulți ani de aici înainte.</p>
+<p>Sunt incompetenți, ne consumă banii din taxe degeaba și, cu toate acestea, rămân acolo primindu-și lefurile. N-a fost nimeni dat afară, n-a fost nimeni avertizat. Nimeni nu este responsabil pentru acest fiasco.</p>
+<p>E genul de nedreptate la care ți se face rău fizic dacă te gândești la ea. Într-o companie privată, pentru a zecea parte din ce au făcut ei cu această inițiativă, ești concediat instantaneu și deseori urmărit penal pentru pagubele produse. La MEN ori CNEE, însă nu. Acolo e bine. Vivat democrația și beneficiarii dânsei. Deloc simbolici.</p>
+
+
+
+ ]]></description>
+  <guid>https://cdi.nu/posts-2010s/85403546558.html</guid>
+  <pubDate>Sun, 11 May 2014 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>“Tu ce faci fă, Școală, aicea? Aveai chef de niște manuale?”</title>
+  <link>https://cdi.nu/posts-2010s/83706430888.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<figure class="tmblr-full figure" data-orig-height="375" data-orig-src="" data-orig-width="500">
+<img src="https://cdi.nu/posts-2010s/media/83706430888_0.jpg" style="width:400px; margin: 0 0 1em 2em" data-align="right" data-orig-height="375" data-orig-src="" data-orig-width="500" class="figure-img">
+</figure>
+<p>Ceea ce se întâmplă în aceste zile nu mă surprinde, era previzibil, la fel ca scuipatul pe jos al unui mitocan sau parcatul cu botul pe trotuar al unui Audi.</p>
+<p>Ministerul Educației a publicat în Vinerea Mare, la ora două noaptea documentele care pornesc oficial licitația pentru manualele pentru clasele I-a și a II-a, română și matematică.</p>
+<p>Cu cât mă gândesc mai mult, cu atât simt că îmi fierbe mai tare sângele. S-au chinuit un an și ceva să facă niște nenorocite de specificații și când le-au publicat, specificațiile sunt proaste.</p>
+<p>Nu că au lucrat un an și jumătate să facă manualele, așa cum lasă să se înțeleagă, ci să scrie specificațiile pentru ele. Nu e ca și cum ar fi construit de la zero o mașinărie, ci doar să scrie ce caracteristici ar avea una pe care ei să o considere acceptabilă.</p>
+<p>În partea digitală a acestei licitații, cea pe care pot să o judec mai de aproape, au lăsat descoperite zone vaste: modul de distribuție, contorizarea utilizărilor, copyright-ul. Au pus niște condiții draconice de participare – cifre de afaceri medii de milioane de euro, în condițiile în care întreaga piață de carte nu are mai mult de câteva zeci de milioane pe an. Cei care licitează trebuie să dovedească experiență similară, în condițiile în care manualele digitale acum se nasc oficial. Ofertanții trebuie să aibă o mulțime de specialiști angajați, în condițiile în care oricum rezultatul va fi evaluat de Minister.</p>
+<p>Criteriile de evaluare sunt incomplete, preponderent cantitative și aproape deloc calitative – se evaluează numărul (enorm) de giumbușlucuri multimedia, nu modul în care acestea ajută la învățare. Dar funcționarii sunt mulțumiți: legea le permite să o facă și nu trebuie să-și bată capul.</p>
+<p>Au ales un model care, în loc să încurajeze inovația, o ucid. În cursurile de management de proiect una dintre primele axiome pe care le înveți este că dacă vrei repede și pe bani puțini, atunci cu siguranță rezultatul va fi prost.</p>
+<p>Întreaga licitație are o valoare de 6 milioane de euro. De două ori mai puțin decât suplimentarea bugetară pentru reconstrucțiile digurilor prost făcute pe cursurile de apă pârâul Câinelui oferită ieri Ministerului Mediului.</p>
+<p>Prețul rezultat pentru un manual (perechea fizic și digital) este de 8 lei. Timpul de livrare a produsului digital final: 6 săptămâni. Ce poți să faci în 31 de zile lucrătoare și pe care să-l vinzi la prețul unei cafele? Cum poți să faci reinterpretarea și readaptarea pentru un nou mediu a unor manuale într-un timp de cincisprezece ori mai scurt decât cel care le-a fost lor necesar să scrie un caiet de sarcini deplorabil? Ce șanse le dai copiilor?</p>
+<p>Speram ca, fiind vorba de copii, să nu o facă. Chiar și barbarii cei mai cruzi i-au cruțat mereu. Ministerului Educației nu pare să-i pese, deși ei sunt motivul principal al existenței sale. Le îneacă viitorul în incompetența lor. Îl vinde pe câțiva arginți luați de la companii care au interese și acționari. În orice context, să pui în pericol șansele atâtor sute de mii de copii ar putea fi considerat drept genocid. Un piețar intră la pușcărie dacă cineva face toxiinfecție de la mâncarea vândută de el. Dar nimeni nu răspunde dacă un milion de oameni vor spăla WC-uri. Nu este retorică ieftină, este parcursul probabil al unor oameni care nu vor avea majoritar și previzibil acces la tehnologiile și la informațiile relevante lumii în care urmează să trăiască.</p>
+<p>O mișcare inteligentă, pornită de la aceste manuale ar fi putut să producă o reformă care în 20 ani sa facă România să fie alfel. Să nu mai auzim afirmații de genul “nu știm câți oameni pot fi mobilizați în caz de urgență de apărare, pentru că milioane sunt plecați”. Dar iată că mai facem ceva ca să ne aflăm în treabă și să mai bifăm la Bruxelles că facem ce zic ei, dar așa cum vrem noi. Este încă un dig care să se surpe la prima ploaie.</p>
+
+
+
+ ]]></description>
+  <guid>https://cdi.nu/posts-2010s/83706430888.html</guid>
+  <pubDate>Thu, 24 Apr 2014 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Milan Kundera, “Insuportabila ușurătate a ființei”</title>
+  <link>https://cdi.nu/posts-2010s/83301835125.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<figure class="tmblr-full figure" data-orig-height="515" data-orig-src="" data-orig-width="500">
+<img src="https://cdi.nu/posts-2010s/media/83301835125_0.png" data-orig-height="515" data-orig-src="" data-orig-width="500" class="figure-img">
+</figure>
+<p>Aceasta e una dintre acele cărți care îmi trag o brazdă în creier, amestecă lucruri pe acolo și produc un fel de traumă ce nu se vindecă vreodată.</p>
+<p>Nu știu de ce oamenii scriu recenzii detaliate la cărțile pe care le-au citit. Adică știu, le place să se vadă scriind și fiind citiți, dar nu-mi dau seama dacă folosește cuiva. Până când nu o voi găsi o utilitate, mă voi rezuma la câteva citate (aleatoare).</p>
+<p>“Fiul lui Stalin și-a jertfit viața pe altarul căcatului. A muri pentru căcat nu înseamnă o moarte păgubită de semificații. Nemții care și-au sacrificat viața pentru a extinde cât mai departe spre răsărit granițele imperiului lor, rușii care au murit pentru a face ca puterea lor să ajungă cât mai departe spre apus, da, aceștia au murit, într-adevăr, jertifnu-se pe altarul unei prostii, iar moartea lor e lipsită de sens și de orice valoare generală. În schimb, moartea odraslei lui Stalin a fost singura metaforă în toiul univesalei imbecilități a răsboiului mondial.”</p>
+<p>“*Einmal ist keinmal*, o dată nu însemnă nimic, e ca și cum nu s-ar fi întâmplat niciodată. Dacă nu poți trăi decât o singură viață e ca și când n-ai trăi deloc.”</p>
+<p>“Tomáš nu-și dădea seama, atunci că metaforele sunt un lucru primejdios. Cu metaforele nu-i de joacă! Dragostea se poate naște dintr-o singură metaforă.”</p>
+<p>“– Pentru că a iubi înseamnă a renunța la forță, îi răspunse Franz, cu blândețe în glas.</p>
+<p>Sabina își dădea seama de două lucruri: în primul rând că această frază era frumoasă și veridică. În al doilea rând, că, rostinf această frază, Franz se descalifica în viața sa erotică.”</p>
+
+
+
+ ]]></description>
+  <guid>https://cdi.nu/posts-2010s/83301835125.html</guid>
+  <pubDate>Sun, 20 Apr 2014 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Bestia</title>
+  <link>https://cdi.nu/posts-2010s/82328859496.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><em>Bestia mă ia în brațe pe dinăuntru<br>
+îmi stânge plămânii, se împinge de ficat<br>
+intră în glezne unde toarnă smoală pe tendoane<br>
+urcă și îmi agită stomacul, usucă gâtul,<br>
+țipă la inimă, îi zice că nu-i treaba ei să bată așa<br>
+face ochii să mute aproapele departe.<br>
+ce bine că nu există decât în cap la mine</em></p>
+<p>Este ceea ce mâzgăleam pe telefon, acum șase săptămâni, antrenându-mă pentru primul cros, mic dar important. Pe marginea unei alei din Tineretului, rupt de picioare, după doar doi kilometri. Mi-a fost rușine să mă așez pe bancă, pentru că nu mi s-a părut că merit; m-am sprijinit de un copac; crosul pentru care mă pregăteam avea trei kilometri.</p>
+<p>Bestia nu s-a lăsat ucisă ușor, trăiește chiar bine mersi. Nu cred de fapt că poate fi ucisă. Am reușit doar să o micșorez suficient încât să muște mai puțin dureros.</p>
+<p>Nu scriu pentru a mă lăuda – performanțele mele sunt foarte slabe în continuare. Sunt evoluțiile acestor rezultate și mai degrabă a atitudinii pe care vreau să le împărtășesc. Și, dacă n-ar ploua cu spume, aș fi afară.</p>
+<section id="dece" class="level1">
+<h1>De ce?</h1>
+<p>Nu există un motiv precis, ci un amestec de cauze bune și rele. Frustrare, pentru că am fost mereu cel mai prost la sport. Determinare, pentru că am vrut să-mi schimb stilul de viață, orgoliu, pentru că am vrut să îmi testez limitele și trag de ele. Curiozitate, pentru că îmi place să văd că și picioarele învață, nu numai mintea.</p>
+<p>Am început pentru a acoperi frustrarea. Done. Am continuat pentru a îmi hrăni orgoliul. Hrănit. Acum este un fel de terapie amestecată cu descoperire și curiozitate. Probabil voi distruge câteva tendoane și încheieturi, dar merită. Poate o pereche de pantofi adevărați de alegat va diminua problema.</p>
+</section>
+<section id="cumicnd" class="level1">
+<h1>Cum și când?</h1>
+<p>Era în ianuarie la minus cinci grade, nu ninsese încă. Tocmai îmi luasem un fes care îmi era cam mic dar îmi acoperea urechile. Burlanul elastic pe post de fular încălzea aerul și aburea ochelarii pe care se făceau flori de gheață. Pantalonii de sport i-am folosit pe post de izmene pe sub niște blugi care îmi erau largi de pe atunci.</p>
+<p>Am ieșit pentru că nu mai voiam să stau în casă. Am reușit să merg/alerg trei kilometri în 36 de minute îndemnat de Zombies Run (varianta 5K). Apoi un pic mai bine, după care a venit pauza dată de cele trei săptămâni de zăpadă cât gardul. Am început din nou, tot cu Zombies Run, apoi cu Nike+ Running.</p>
+<p><em>Zombies Run</em> este o aplicație simpatică. Un joc de rol motivant în care ești <em>Runner 5</em>, alergător într-o lume post-apocaliptică în care fugi la proproi de strigoi virtuali. A avut meritul să mă distreze suficient încât să trec peste gâfâiala care mă apuca după 30 de secunde de alergat. Nici acum nu este mult diferit, doar că știu că pot continua chiar atunci pare că nu mai pot.</p>
+<p>Mai încercasem faza cu alegatul prin 2011, când m-a ținut vreo două săptămâni și 30 de kilometri. Pentru a micșora șansa unui nou abandon, pe la începutul lui martie m-am înscris și la un cros de trei kilometri (și 430 de metri), pe vremea când puteam să alerg doar vreo doi (de aici și mica poveste cu bestia).</p>
+<p>Scopul era să fac cei 3.43 km în cele 30 de minute pe care mi le permiteau organizatorii. Îmi doream să termin și atât. M-am antrenat. Am alergat traseul de patru ori, cu rezultate între 26 și 28 de minute.</p>
+<p>Neașteptat, la cros a fost mai bine decât în antrenamente: tot alergat amestecat cu mers, dar o combinație mai bună, de 23 de minute. Recunosc, am avut emoții. Nu mă supăra când mă depășeau alții; toată lumea deși crispată de efort își zâmbea încurajator. Probabil alergătorii de top își trăgeau ghionturi acolo în pole position, dar noi, gloata, eram prieteni și ne chinuiam să ajungem mai repede pentru noi, nu împotriva altora.</p>
+<figure class="tmblr-full figure" data-orig-height="207" data-orig-src="" data-orig-width="500">
+<img src="https://cdi.nu/posts-2010s/media/82328859496_0.jpg" style="min-width:100%" data-orig-height="207" data-orig-src="" data-orig-width="500" class="figure-img">
+</figure>
+<p>Am fost mai mulți care am urmat propunerea organizatorilor de veni îmbrăcați în pijamale – e foarte amuzant, deși poate nu pare. Mai ales după ce se termină, când te plimbi prin parc liniștit și stai pe bancă. Lumea în general ignoră ciudații, dar de dragul celor care s-au uitat totuși mirați că sunt în parc în pijamale, am căscat, m-am întins, ca și cum totul ar fost perfect normal.</p>
+</section>
+<section id="cu-ce-am-rămas" class="level1">
+<h1>Cu ce am rămas</h1>
+<p>Am observat este că este perseverența mai degrabă decât efortul care contează. Nu a trebuit să scuip fiere sau să cad pe jos cu rupturi muscular. Am tras de fiecare dată tare, rezonabil, cât să doară plus încă o sută de membri. Iată o medie a timpilor în cele trei luni:</p>
+<ul>
+<li>ianuarie - 12:26 min/km</li>
+<li>februarie - 10:10 min/km</li>
+<li>martie - 9:36 min/km</li>
+<li>martie sfârșit - 6:45 min/km în competiție</li>
+<li>aprilie început - 6:19 min/km la 1km, 7:20 min/km 1–4 km, 7:50 min/km pe distanțe peste 4 km</li>
+</ul>
+</section>
+<section id="uneltele" class="level1">
+<h1>Uneltele</h1>
+<p><em>A fool with a tool is still a fool</em> zicea un proverb de prin corporație. De data aceasta nu s-a aplicat. Uneltele folosite m-au ajutat. Fără ele m-aș fi păcălit serios. De exemplu mi s-a părut mereu că primul kilometru este cel mai rapid, dar nu este așa. Sau că seara sunt mai rapid decât de dimineața. Unele unelte sunt mai simple, alteme mai complicate. Iată-le:</p>
+<section id="offline-sport-cu-profesor" class="level2">
+<h2 class="anchored" data-anchor-id="offline-sport-cu-profesor"><strong>Offline – Sport cu profesor</strong></h2>
+<p>Mai precis sportul ce ar fi trebuit să facem în școală. <a href="http://fitness.jcc.ro/" target="_blank">JCC</a> are un astfel program excelent pentru orice etnie și vârstă, unde Liliana se descurcă de minune și cu cei ce pot și cu cei ce încă nu pot. Fără aparate scumpe, dar foarte eficient. Încerc să merg de două ori pe săptămână, dar sunt săptămâni în care nu pot. Ședințele de după absențe sunt crunte – mușchii sunt mult mai rapizi la regreses decât la progres.</p>
+</section>
+<section id="jucărelele-electronice-inestimabile" class="level2">
+<h2 class="anchored" data-anchor-id="jucărelele-electronice-inestimabile"><strong>Jucărelele electronice inestimabile:</strong></h2>
+<p>Fără ele n-aș fi făcut mare lucru. Măsoară progresul, te încurajează să continui, te întrețin și te distrează:</p>
+<ul>
+<li><a href="https://www.zombiesrungame.com" target="_blank">Zombies Run</a> – aplicație pe iPhone, Android și Win Mo, cu realitate augmentată. Pentru a scăpa de strigoi virtuali, fugi pe bune în viața reală. Super distractiv. Varianta 5K are inclus antrenamentul care te scoală de pe canapea și te duce la 5 kilometri.</li>
+<li>Nike+ Running – pe iOS, e un fel de briceag de alergat. Statistici, share, social network de alergat. Plus un gamification subtil care te împinge să nu-l abandonezi.</li>
+</ul>
+</section>
+<section id="motivație" class="level2">
+<h2 class="anchored" data-anchor-id="motivație"><strong>Motivație</strong></h2>
+<ul>
+<li><a href="http://theoatmeal.com/comics/running" target="_blank">The Blerch, by the Oatmeal</a> (mulțumesc Sabrina pentru pont)</li>
+</ul>
+</section>
+<section id="playlist-ul-de-alergat" class="level2">
+<h2 class="anchored" data-anchor-id="playlist-ul-de-alergat">Playlist-ul de alergat:</h2>
+<ul>
+<li>Massive Attack - Unfinished Sympathy</li>
+<li>Gnarls Barkley - Crazy</li>
+<li>The Prodigy - Omen</li>
+<li>The Prodigy - Smack My Bitch Up</li>
+<li>Moby - James Bond Theme</li>
+<li>Moby - Natural Blues</li>
+<li>Moby - Sunday</li>
+<li>Star Trek Movie [2009] Main Theme</li>
+<li>Star Trek Into Darknes Main Theme</li>
+<li>Survivor - Eye Of The Tiger :)</li>
+<li>Moby Feat. Mylene Farmer - Slipping Away (Crier La Vie)</li>
+<li>Rob Dougan, Kurayamino - Clubbed To Death (Matrix OST)</li>
+<li>Daft Punk - Derezzed (TRON: Legacy)</li>
+</ul>
+<p>Cam atât. Pentru că niște binevoitori fiind de părere pesemne că bicicleta dezvoltă neechilibrat musculatura, tocmai m-au lăsat fără ea, e foarte probabil să continui această mică aventură pedestră. Următorul jalon: un sfert de semi-maraton, 5.27 km în mai și poate The Color Run, dacă mai am când să mă înscriu. Aici nu mai sunt emoții :)</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <guid>https://cdi.nu/posts-2010s/82328859496.html</guid>
+  <pubDate>Fri, 11 Apr 2014 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Care ți-e insula, amice?</title>
+  <link>https://cdi.nu/posts-2010s/78994855986.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<figure class="tmblr-full figure" data-orig-height="369" data-orig-src="" data-orig-width="500">
+<img src="https://cdi.nu/posts-2010s/media/78994855986_0.png" style="width:40%; margin: 0 0 0.2em 2em" data-align="right" data-orig-height="369" data-orig-src="" data-orig-width="500" class="figure-img">
+</figure>
+<p>Acum câteva zile am auzit o părere care m-a intrigat, pentru că pare (și poate este) perfect adevărată: <em>“Cei care nu sunt născuți în București, dar trăiesc în București au ca prieteni oameni care sunt veniți tot din afara Bucureștiului”</em>.</p>
+<p>Mi-a rămas în cap și, pentru a mări confuzia, am trecut la treabă și am făcut o statistică având la bază prietenii de pe Facebook. Situația de acolo reflectă destul de precis ceea ce se întâmplă în off-line:</p>
+<p>Numărul de prieteni: două sute și un pic<br>
+Eșantionul total: 134 de persoane (cu hometown declarat și care nu sunt ceainării sau făbricuțe hand-made)</p>
+<p>Din cei 134 de oameni:</p>
+<ul>
+<li>Trăiesc în București: 98 (~75%)</li>
+<li>Trăiesc în București și sunt născuți în București: 32 (~33% din cei 98)</li>
+<li>Trăiesc în București, născuți în altă parte: 66 (~67% din cei 98)</li>
+<li>Bucureșteni fugiți: 8 (în Elveția, America, Transilvania)</li>
+</ul>
+<p>Printre naturalizații capitalei orașele sursă cele mai populare sunt:</p>
+<ul>
+<li>Brașov: 7</li>
+<li>Galați: 4</li>
+<li>Suceava, Câmplung, Constanța, Bacău, Pitești: 3 (fiecare)</li>
+<li>Roșiorii de Vede, Giurgiu, Ploiești: 2 (fiecare)</li>
+</ul>
+<p><strong>Concluzii:</strong></p>
+<p>Analizând cazul meu (care este totuși destul de tipic) pare adevărat că nativii sunt o insurlp și non-nativii trăiesc într-o altă insulă. Dar cred că ar fi o judecată superficială.</p>
+<p>Aș lega mai degrabă cauza acestei aparente segregări nu de locul de origine, ci de cultura și de stilul de viață pe care îl avem. Oamenii cu preocupări similare – cei care îți formează societatea – au în general studii universitare sau mai mult, iar universitățile sunt locuri care strâng un procent chiar mai mare de non-localnici în rândul studenților. O parte din studenți se întoarce acasă, dar o parte și mai mare rămâne cu slujbe, prieteni și oportunități în capitală. Iar în această pătură subțirică, compoziția este ușor diferită.</p>
+<hr>
+<p>Dacă sunteți interesați de making-of-ul statisticii, lăsați un mesaj și dac fac un tutorial. Vă puteți face o idee între timp <a href="https://gist.github.com/cdinu/9440102" target="_blank">citind sursele</a>. (am folosit Facebook Query Language, search-repace-uri cu expresii regulate și JavaScript)</p>
+<p><span class="small">Foto: Maltese Falcon, 1941, Warner Bros.</span></p>
+
+
+
+ ]]></description>
+  <guid>https://cdi.nu/posts-2010s/78994855986.html</guid>
+  <pubDate>Sun, 09 Mar 2014 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>N-o să mai facă…</title>
+  <link>https://cdi.nu/posts-2010s/74539148984.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Azi, când pare că nimic nu merge în România, iată o poveste adevărată, care dovedește că unele lucruri merg bine. De data aceasta la Poliție și la Justiție</p>
+<p>Nu spun foarte multe, pentru a nu vă strica plăcerea descoperirii. Este o poveste mai veche; a început acum aproape doi ani și am scris la ea pe măsură ce s-a întâmplat. Am păstrat-o până acum pentru că lipsea un ingredient important: Zăpada.</p>
+<p><span id="start"></span></p>
+<figure class="tmblr-full figure" data-orig-height="238" data-orig-src="" data-orig-width="500">
+<img src="https://cdi.nu/posts-2010s/media/74539148984_0.jpg" style="min-width:100%; margin: 1em 0" data-orig-height="238" data-orig-src="" data-orig-width="500" class="figure-img">
+</figure>
+<section id="furtulfebruarie2012" class="level1">
+<h1>Furtul, Februarie 2012</h1>
+<p>București, iarnă. Nu mai ninge, dar zăpada acoperă încă totul. Printre stâlpi, câte o movilă albă ascunde fie câte o mașină, fie gheața strânsă după o lună de iarnă adevărată. Când mi se smulge iPad-ul din mână cred că cineva mi-a făcut o glumă, însă nu e așa. Văd doi adolescenți că o iau la fugă și din reflex arunc rucsacul de 10 kilograme și fug după ei. Unul face stânga, celălalt îl urmează. Încă o dată stânga, după blocuri, eu după ei. Fugim toți trei cât putem de repede, cu toate că pe jos este gheață.</p>
+<p>Se despart, îl alerg pe cel din urmă, deși sunt sigur că tableta e la primul. Am mai multe șanse și, dacă îl prind pe cel slab, aflu cine este și cel iute. Nu îl prind. Antrenamentul și motivația lui sunt mult mai puternice decât ale mele. Îi pierd pe amândoi printre mașini, blocuri și zăpadă.</p>
+<p>Îmi dau însă repede seama că pot găsi iPad-ul: are 3G-ul și GPS-ul pornite. După ce recuperez rucsacul, fug în casă să văd unde au ajuns cu el. Hoții n-au fost suficient de isteți să oprească localizarea, aflu că în 5 minute au reușit să ajungă de la Pieptănari la Tineretului. Sun la 112, unde mi se spune să cobor în fața blocului că vine un echipaj de poliție cât poate de repede. Pun aplicația de localizare și pe telefon și cobor. Polițiștii mă așteaptă deja.</p>
+<p>Imediat ce află că pot localiza hoții, mă suie în mașină și cer bazei permisiunea să părăsească obiectivul. Începe o urmărire care mie mi se pare că este scoasă din <em>Mission Impossible</em>. Se vede că se bucură și ei. În mașina de poliție le spun că <em>“tableta se află la 350 de metri spre nord, după traseu cel mai probabil în tramvaiul 1. Acum stânga pe Echinocțiului”</em>. Puștanii fac greșeala să coboare din tramvai și să o ia pe o stradă lungă și pustie, unde sunt singuri. Polițiștii, deși mulțumiți că au spațiu de manevră, cer totuși întăriri.</p>
+<p>Urmăriții văd mașina de poliție și grăbesc pasul, fără să fugă, pentru a nu trezi suspiciuni. Îi prindem din urmă, dar la perchiziție, nimic – sunt curați. La capătul străzii sunt deja alte două mașini de poliție. N-aveau cum să scape.</p>
+<p>Localizarea îmi arată însă că iPad-ul este la maxim 10 metri de ei. Îi văzusem din mașină că au făcut un ocol pe trotuar, dar nu fac pe moment legătura. Folosesc în sfârșit funcția de alarmă a tabletei. Numai că nu se aude nimic…</p>
+<p>Fac spirale în jurul celor doi, până când aud un bip-bip-bip înfundat dinspre o movilă de zăpadă. Mă apropii de locul respectiv și aud sunetul tabletei dintr-o fantă care arăta ca și cum ar fi fost înfiptă și scoasă o lopată. Dau să-mi iau iPad-u, dar polițistul mă oprește, scoțându-l cu grijă.</p>
+<p>Nimănui nu îi venea să creadă că la 18:35 a fost recuperat iPad-ul furat la 18:07.</p>
+</section>
+<section id="declaraiireconstituiri" class="level1">
+<h1>Declarații, reconstituiri</h1>
+<p>La secție, oamenii sunt simpatici și profesioniști. Își dau seama că n-am mai fost niciodată într-o asemenea postură și mă ajută. Sunt fericiți că le-a reușit atât de repede să rezolve un caz care altfel părea de nerezolvat. Apar detectivi, ofițeri, tot tacâmul, deși este duminică seara. E clar că fiecare știe ce are de făcut; acum sunt într-un sistem, mă las în grija lui:</p>
+<p>– Acum trebuie să scrieți exact ce s-a întâmplat, uite aici foile, îmi zice polițistul. Aveți pix?</p>
+<p>Am. E impresionat că îndoi A4-ul astfel încât să poată să-l îndosarieze.</p>
+<p>– Bun, deci scrieți acolo ce s-a întâmplat.</p>
+<p>– Narativ, sau cum? îl întreb.</p>
+<p>– Dom’le vrei să îi condamne sau nu?</p>
+<p>– Vreau, bineînțeles, data viitoare cei de la care fură poate nu au așa noroc.</p>
+<p>– Atunci, scrie cum îți zic eu!</p>
+<p>Și scriu cuminte ce s-a întâmplat cu stilul lui. Povestind mai întâi, apoi îmi dictează traducerea în polițienește:</p>
+<p><em>Domnule Comandant,</em></p>
+<p><em>Subsemnatul Dinu Cristian, posesor al CI seria numărul, fiu al și al, cod numeric, domiciliat în, declar următoarele …</em></p>
+<p><em>La orele , aflându-mă pe , îmi este smulsă, nu reușesc să, sun la 112, împreună cu echipajul, îi recunosc pe cei doi,</em></p>
+<p><em>Data și Semnătura</em></p>
+<p>Două pagini, aceeași poveste, cam de cinci ori. În afară de câteva examene, n-am mai scris niciodată atât de mult de mână într-o singură zi.</p>
+<p>Împreună cu doi polițiști, merg să facem și “reconstituiri”: la locul furtului și la cel al prinderii. Sunt pozat arătând cu degetul, jenat și mândru, modul în care s-a petrecut grozăvia. “Așa este procedura”, îmi zic ei calmi.</p>
+<p>Aflu cu tristețe că cei doi au crezut că fură un ceas mai mare și erau mulțumiți să-l vândă cu o sută de lei. Au mărturisit totul detectivilor deja.</p>
+<p>În cinci ore totu-i gata. Nu pot să nu mă întreb cum de a putut să dureze o jumătate de oră ca să rezolve problema și de zece ori mai mult să o documenteze. Sunt însă mulțumit că în plicul fără bule primit de la criminalist am iPad-ul, înnegrit de praful de luat amprente, funcționând perfect.</p>
+<p>Îmi promit să îl țin mereu încărcat, cu parolă și cu abonamentul la 3G plătit.</p>
+<p>Peste vreo două săptămâni primesc o citație, lipită obsesiv compulsiv de poștaș cu nouă panglici de scoci pe ușă. Să mă prezint la Judecătorie, ca parte vătămată. Îmi pun în calendar și îmi promit că mă duc.</p>
+</section>
+<section id="primaoarlatribunalmartie28" class="level1">
+<h1>Prima oară la tribunal, martie, 28</h1>
+<p><strong>Judecata primului</strong></p>
+<p>Mă duc. Este prima experiență cu justiția din România:</p>
+<p><strong>8:30</strong> Ajung alergând la Judecătorie, unde fusesem chemat fix la această oră odioasă. Jandarmii de la poartă ridică părintește sprâncenele când, după ce observ un detector de metale, încep gâfâind să imi scot fisele, telefonul și cheile din buzunare. Mi-au spus amuzați că nu e nevoie să îmi scot și cureaua. E clar că nu sunt la aeroport…</p>
+<p><strong>8:35</strong> Caut sala 203 (fostă C2, cum scrie pe citație) și intru, stresat de întârziere. În față o doamnă cu robă gri. În prima bancă doi tineri cu robe negre, distrați de postura în care erau. Aflu mai târziu că sunt avocații din oficiu.</p>
+<p><strong>8:45</strong> <em>Sală în picioare!</em> Intră judecătorul. Cum nu vede pe nimeni înăuntru in afară de mine și de niște avocați din plictisiți, declară ședința deschisă, o suspendă și zice că se întoarce peste o oră, la 9 jumate. Sala trebuie eliberată așa că sunt rugat obligatoriu să ies pe hol.</p>
+<p><strong>8:47</strong> Din fericire pe hol găsesc o masă lângă o priză, poate mai muncesc ceva până când se apucă ei de judecat.</p>
+<p><strong>9:15</strong> Așteptarea continuă. Încep să mă gândesc că e păcat că n-am citit “Procesul” lui Kafka, fără vreo legătură. Lângă mine vorbește o tanti la telefon tare: “Io sînt femeie cu frica lu’ Dumnezeu!! Ei nu i-aș face nimic, dar la restul oamenilor și capurile le-aș tăia că merită, pe cuvântu’ meu!”</p>
+<p><strong>9:40</strong> Ședința se de-suspendă, de data aceasta cu mai multă lume în sală. Sunt 37 de cazuri de judecat, majoritatea eliberări condiționate. Durează cam trei minute o audiere care influențează niște ani de viață a celor în cauză. O viață care pare să nu conteze prea mult nici pentru ei nici pentu cei care îi decid viitorul.</p>
+<p><strong>9:50</strong> Arta te scoate din pușcărie… “Domnule judecător, Mateescu Georgel a participat la numeroase activități recreative, de educație civică, a efectuat numeroase vizite la obiective culturale, a făcut parte din trupa de teatru a penitenciarului… Solicităm eliberarea acestuia.”</p>
+<p><strong>10:15</strong> Pe al meu încă nu l-au luat. Deținuții din boxă sunt calmi. Se fac multe “contopiri”, ce-or fi alea.</p>
+<p><strong>10:35</strong> Ajunge și rândul meu. Nu trebuie să fac decât să dau buletinul. Tomescu, hoțul, este acolo cu niște ochi sticloși, ca de animal. Este clar că i se pare că este nedrept ce i se întâmplă. Mie nu îmi dă importanță, sunt parte din decor. Nu se uită la mine, ci aiurea, în același timp încrâncenat și indiferent. Nu e prima oară aici și știe ce i se va întâmpla. Este o formalitate în care este actor fără voie și n-are chef să-și joace rolul. Sunt întrebat dacă mai am ceva de adăugat, spun că nu, că prejudiciul a fost recuperat. Răspund cu “nu” și la a doua întrebare, dacă doresc să mă constitui în parte civilă. Las legea să își urmeze cursul.</p>
+<p>Sunt informat după ceva vreme că Tomescu, recidivist fiind, a primit 2,8 ani închisoare cu executare.</p>
+</section>
+<section id="tribunaladouaoarnoiembrie8" class="level1">
+<h1>Tribunal, a doua oară, noiembrie 8</h1>
+<p><strong>Judecata celui de-al doilea</strong></p>
+<p>Iată-mă a doua oară la tribunal, Judecătoria sectorului patru, de fapt. De data aceasta cu toate electronicele încărcate și pregătite pentru o jumătate de zi de muncă de la distanță. Lejer, la ora nouă și un sfert, ședința tocmai ce a început. O administratoră de bloc este dată în judecată de supușii săi pentru că proiectul de anvelopare al blocului a depășit bugetul inițial de vreo șase ori. Senzația de circ persistă. A urmat un calup de eliberări condiționate. Și deținuții au făcut parte din cluburi și din trupe de teatru. Cultura înflorește în penintenciar. Au muncit și sunt singurii susținători ai mamelor lor acasă. Emoționant, s-ar putea zice. Păcat că nu arată și ce s-a întâmplat cu victimele lor între timp.</p>
+<p>Timpul trece greu. Mă mai uit la robele celor din sală, și încerc să-mi dau seama dacă fiecare înseamnă ceva. Mă dezamăgește că majoritatea și le-au aruncat pur și simplu pe umeri în scârbă. Nici măcar nu și le-au încheiat cu un nasture. Sunt grăbiți și nepăsători cu ce se întâmplă acolo. Citesc prin dosare și trag cu urechea când le vine rândul să recite neimplicat numere de articole din Codul Penal, în timp ce impactul în destinele celor ce i-au plătit sunt la fel de importante ca reușita operației unui chirurg.</p>
+<p>Roba grefierei arată cel mai bine. Este gri și călcată. Iar cel mai răbdător este judecătorul. Este incredibil cum poate să reziste la toate prostiile pe care le aude și la genul de oameni pe care îi vede. Judecătoria Sectorului 4 este un fel de colon gros al orașului, iar el trebuie să-i supravegheze tractul.</p>
+<p>Îmi văd de treabă, cu urechile ciulite după numele meu. <em>“La ce noroc am, o să fiu ultimul iar”</em>, îmi zic. <em>“Noroc că pe la unu-două se termină, că n-au nici ei chef să se lungească cu prostiile”</em>. Am avut dreptate, mai aveam de așteptat.</p>
+<p>Noroc că am bateriile pline, la propriu, nu la figurat. Scriu e-mail-uri, mai programez ceva, până când mă vizitează polițistul sălii. Vigilent, îmi spune șoptit că nu am voie să am laptop deschis în sală. L-am întrebat de ce, și a zis că pentru că așa este regulamentul. M-am uitat urât și l-am închis. L-am pus în rucsac, de unde am scos iPad-ul. Polițistul, atent asigurator al disciplinei în circu, îndepărtat între timp s-a întors și mai iritat. Îi zic în șoaptă, având în fundal povestea unei bătăi în penitenciar a unuia dintre doritorii de eliberare condiționată, că n-a zis nimic de tabletă, ci doar că nu am voie cu laptop.</p>
+<p>Îmi face semn că trebuie să discutăm afară. Ies și îl ascult activ. Îmi zice, vădit mulțumit că poate să vorbească cu voce tare:</p>
+<p>– N-ai voie cu nimic acolo. Uite regulamentul, dacă nu înțelegi.</p>
+<p>Pe ușă sunt două foi, la fel de vechi ca tabletele lui Moise, au câteva zeci bullet-uri cu porunci pe care nu am răbdare să le citesc.</p>
+<p>– Aveți vreun motiv? Deranjez pe cineva?</p>
+<p>– Dom’le, matale nu înțelegi care e regulamentul? N-ai voie cu aparate și cu ziare.</p>
+<p>– M-ați chemat la opt jumate și acum e un’șpe, îi zic, revoltat. Dacă vroiați să respect regulile pe care <strong>voi</strong> le-ați pus aici, trebuia să mă chemați la ora când e bucata mea, la care oricum n-am ce face. Practic voi mă sechestrați acolo, cu toate că nu eu sunt acuzatul.</p>
+<p>– Să nu te văd cu altceva, auzi? se face că nu mă înțelege.</p>
+<p>De fapt nu mă înțelege.</p>
+<p>– Lucrez afară, dar mă chemați dumneavoastră când mă strigă în sală, așa e bine?</p>
+<p>– Nu.</p>
+<p>Renunț, înainte de a zice ceva care să mă bage prin vreun arest, amintindu-mi că mai am vreo patru coli și două pixuri în geantă. Celuloza are voie în sala de judecată judecată dacă nu este tipărită.</p>
+<p>Mă întorc și scriu vreo trei pagini despre mine și despre alții, până când aud că “pe Iancu îl lăsăm la urmă, pentu că e minor”. Mă uit în sală să văd cine reacționează. Îl văd pe Iancu, scund, uscățiv și negru – a venit mai devreme, dar nu l-am recunoscut.</p>
+<p>Este cu mamă-sa, tot scundă, dar spre deosebire de el grasă, îmbrăcată într-un contrastant trening alb. Depășiți de ce se întâmplă, se vede că s-au îmbrăcat cu ce aveau mai bun, sunt curați și aranjați.</p>
+<p>În douăzeci de minute ne vine rândul, după ce aflu despre povestea unor vecini de vilă care se judecă pentru își închid răutăcios gazele și apa unul altuia.</p>
+<p>Sunt chemat în față, alături de ceilalți implicați. Judecătorul mă întreabă dacă mențin ce am declarat. Da, mențin. Doresc să mă constitui parte civilă? Nu, nu doresc.</p>
+<p>Iancu este apărat din oficiu. Doamna așezată în dreapta judecătorului, la biroul ei perpendicular, citește o propunere:</p>
+<p><em>Iancu să fie condamnat cu pedeapsa minimă, cu suspendare, pentru că inițiativa infracțiunii i-a aparținut lui Tomescu, celălalt. Situația familială este specială, se află la prima abatere, nu este un pericol dacă pedeapsa este primită cu suspendare.</em></p>
+<p>Când termină de citit judecătorul întoarce capul spre mine și mă întreabă eu ce propunere am. Îi spun onorat și stângaci că sunt de acord cu ceea ce a spus doamna…</p>
+<p>– Doamna Procuror, îmi zice, cu un ton care m-a făcut să mă aștept să-mi facă și cu ochiul.</p>
+<p>Își îndreaptă apoi privirea spre copilul acuzat și îi zice:</p>
+<p>– Dacă recunoști ce ai făcut, poți să primești o reducere de o treime din cât ai primi în mod obișnuit. Vrei?</p>
+<p>Acuzatul dă din cap că da. Nu are curaj să vorbească, este prea emoționat. Grefiera tipărește harnic o declarație pe care Iancu o semnează fără să o citească. Nici el în negru, nici mamă-sa în alb nu știu ce li se întâmplă. Judecătorul continuă:</p>
+<p>– Ai avut noroc de data asta, dar data viitoare, dacă mai faci ceva, sigur nu scapi.</p>
+<p>Declară sesiunea închisă. Îmi iau rucsacul de pe una din bănci, gândindu-mă dacă ceea ce s-a întâmplat a fost bine. A fost. Unul, cel care merită să fie departe, e departe, iar copilul e speriat acum. Sistemul funcționează. Îi zic liniștitor puștiului care, ieșind, trece cu frică pe lângă mine:</p>
+<p>– Are dreptate judecătorul, să știi, de data asta ai scăpat ușor. Lui Tomescu i-au dat 2 ani și 8 luni…</p>
+<p>Se uită nedumeriți la mine, și el și maică-sa care apăruse între timp. Mi-am dat seama că habar nu aveau nici ce a zis judecătorul, nici ce s-a întâmplat cu Tomescu.</p>
+<p>– Pe Tomescu l-au băgat la pușcărie, le zic din nou. Ție ți-au dat “<em>cu suspendare</em>”, adică ai scăpat de pușcărie, nu te trimit acolo.</p>
+<p>Fața li s-a luminat instantaneu, nu știau ce este aceea pedeapsă cu suspendare. Continui:</p>
+<p>– Numai că vezi că dacă mai faci ceva intri sigur și cu doi ani mai mult.</p>
+<p>– Nu mai fac nimic…</p>
+<p>Mă aplec să-mi descui bicicleta, atent fiind în jur să văd dacă vreun urmăritor așteaptă să-mi dea pedeapsa și mie. Nu este. Îi spun și maică-s-ii:</p>
+<p>– Dacă mai face ceva, e foarte rău. O să fie pedepsit cu acea pedeapsă plus închisoarea de care a fost iertat acum.</p>
+<p>Îmi răspunde recunoscătoare:</p>
+<p>– Am înțeles, Domnu’! Mulțumim mult! N-o să mai facă…</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://cdi.nu/posts-2010s/74539148984.html</guid>
+  <pubDate>Sun, 26 Jan 2014 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Dragă Românie - Episodul 4</title>
+  <link>https://cdi.nu/posts-2010s/73820314873.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Unii își trimit scrisori către propria persoană din viitor. Dar azi îmi trimit o scrisoare către mine din trecut.</p>
+<p>Este scrisoarea pe care mi-aș fi dorit-o la 15 ani, dacă i-aș fi avut azi. Deși a fost bine că am descoperit totul pe propria piele, n-ar fi stricat :)</p>
+<figure class="tmblr-full figure" data-orig-height="20" data-orig-src="" data-orig-width="500">
+<img src="https://cdi.nu/posts-2010s/media/72802412400_0.jpg" style="min-width:100%; border-radius:0" data-orig-height="20" data-orig-src="" data-orig-width="500" class="figure-img">
+</figure>
+<p>Draga elevule,</p>
+<p>Să știi că mulți dintre cei pe care îi vezi la televizor sunt mincinoși, ratați și sunt plătiți nu ca să-ți facă bine ție, ci patronilor lor. Pentru audiență, încearcă să te convingă că nu e nevoie de carte ca să ai succes și să fii fericit. Te fac să crezi că poți să câștigi ușor bani și faimă și că aceste lucruri se fac peste noapte.</p>
+<p>Numai că, să știi, cei care fac bani repede sunt foarte puțini și de cele mai multe ori îi fac ilegal. Dorm cu frica poliției, a celorlalți interlopi, ai complicilor care întodeauna îi trădează. Sunt mereu într-o stare stresantă de fugă și de luptă, iar inima le zvâcnește în piept de fiecare dată când aud bătăi în ușă. Nu merită o așa viață pentru câțiva ani de mers cu o mașină scumpă.</p>
+<p>Becali e la pușcărie. Năstase e la pușcărie. Vântu e la pușcărie. Patriciu are abonamente la Parchet, la procesul cu fosta nevastă și la psihiatru. Vedetele îmbogățite straniu sfârșec prost, fie de mâna poliției, fie de mâna alor lor, chiar dacă televizorul și filmele spun altfel. La ce bun că au palate și avioane private?</p>
+<p>Medicina avansează, vei trăi cel mai probabil o sută de ani. Ar fi păcat să ratezi optzeci dintre ei pentru că la tinerețe ai făcut o prostie și ai fost prins. Sau pentru că ai crezut că un mic tun afacerist se va repeta. E păcat să trăiești în ignoranță pentru că nu te-ai ocupat de tine.</p>
+<p>Dacă nu te pregătești acum, temeinic și în multe domenii, vei pierde. Sunt șanse mari că vei spăla WC-ul românului care stie sa programeze un robot, că îi vei pune masa americanului care specialist în domeniul financiar, că vei culege afine in loc sa faci design vestimentar.</p>
+<p>Învață nu numai la matematică și la română. Viața ta înseamnă mai mult decât două materii și exemelele lor. Prietenii pe care ți-i câștigi având o cultură bogată sunt de zeci de ori mai buni și îți aduc infinit mai multă satisfacție decât prietenii care te apreciază pentru bani.</p>
+<p>Îți aduci aminte cum erai la cinci ani? Credeai că știi totul, nu că ai nevoie să afli mai multe. Apoi la nouă ani știai să citești, să spui cât este ceasul, să faci adunări și scăderi, știai ce sunt stelele și petrolul. La paisprezece ani, știi (sau vei ști) de ce Luna nu cade pe Pământ și de ce aluneci pe gheață. Ce vreau să spun este că de ficare dată ți se pare că nu mai ai nevoie să înveți, de fapt mai ai. Și nu numai la școală. Este o minciună că cei ignoranți sunt mai fericiți. Și chiar dacă ar fi, n-ai vrea să fii unul dintre ei, ai doar o singură viață.</p>
+<p>În spatele majorității succeselor stau ani de muncă și perseverență. Nu se văd, pentru că reporterii rareori îi întreabă interlocutori cum și cât s-au pregătit. Andra cântă de la 7 ani, The Beatles au cântat ani buni în baruri. Fotbaliștii se antrenează în fiecare zi câteva ore, actorii fac repetiții în fiecare zi, pianiștii cântă și ei câteva ore la pian în fiecare zi. La meci, la spectacol sau la concert îi vezi doar de câteva ori și nu îți dai seama că pentru cele 45 de minute ei s-au pregătit câteva luni sau ani La remarca unui reporter “Ați avut mult noroc în ultima perioadă” un tenisman a spus “Cu cât mă antrenez mai mult, cu atât mai mult noroc am!”</p>
+<p>E posibil ca școala să nu-ți placă și ai dreptate. Majoritatea profesorilor pe care i-am avut eu îmi dictau manualul pe caiet și umpleau table cu lucruri care nu explicau de ce sunt utile, pentru că probabil nici ei nu știau. Presupun că nu s-au schimbat prea mult lucrurile de atunci.</p>
+<p><br>
+<br>
+Bucură-te însă de cei câțiva profesori buni pe care îi ai, iar la restul materiilor găsește-ți alte surse. Ai la îndemână Internetul cu toată matematica la Khan Academy, cu toată istoria pe Wikipedia, cu răspunsul la orice întrebare pe Google și cu rezolvarea oricărei ecuații pe Wolfram Alpha. Ai grupuri de discuții pe care poți să le creezi chiar tu, unde poți să discuți despre orice interes ai avea.</p>
+<p>Școala este însă principala sursă de învățătură și, foarte important, vei avea nevoie de diplomele pe care ți le dă. Nu vei putea fi medic și să vindeci oameni fără diplomă, nici mecanic, nici învățător. Diplomele nu îți oferă prea mult, dar lipsa lor îți dăunează serios.</p>
+<p>Școala e grea; vestea proastă e că nu e mai grea decât ce urmează după. Vestea bună este că oamenii care trebuie să lupte sunt mai sănătoși, cel puțin la cap. Cei care huzuresc se plictisec foarte repede, au mai multe depresii decât ceilalți. Câștigătorii la Loto sunt un astfel de exemplu, pentru că, după o perioadă de glorie, majoritatea sfârșesc în fapt mizerabil – fără prieteni, cu nevroze, cu datorii (!) și cu sentimentul că nu mai au niciun rost pe lumea asta. Mulți declară că ar vrea să se întoarcă în timp și să uite câștigurile. La fel se întâmplă și cu cei care primesc moșteniri prea mari. Lupta te pregătește pentru bună-stare și atunci când bogăția vine fără luptă nu știi cum să te comporți, chiar dacă ești cel mai bun om. Bunică-mea când auzea de vreunul că a pierdut bani câștigați ușor: “Așa au venit, așa s-au dus” și a aut ocazia să o zică de multe ori.</p>
+<p>Banii vin și pleacă. Noi suntem câteva generații norocoase, dar înaintea noastră aproape toți și-au pierdut cel puțin odată totul: la “reformele” monetare și confiscările de la venirea comuniștilor, în al doilea război, în primul război, în revoluții și răscoale. Nici noi nu suntem complet feriți, istoria se joacă deseori așa cum nu te aștepți. Și chiar dacă nu este istoria, sunt cutremurele, inundațiile, incendiile, furturile, divorțurile, falimentele băncilor, crizele econimice, erorile judiciare.</p>
+<p>Fii pregătit să rămâi la un moment dat fără multe sau fără niciuna dintre posesiunile tale materiale.</p>
+<p>Dacă nu vrei ca viața să ți se termine în acel moment, investește în ceva ce nu ți se poate lua: ce știi, ce simți, ce ești, ce gândești. Acesta sunt lucruri pe care odată câștigate nu mai ai cum să le pierzi. Și, deși nu pare, sunt la fel de importante ca o mașină, ca o casă sau ca o haină frumoasă.</p>
+<p>Averea, bogăția includ nu numai proprietățile ci și învățătura, înțelepciunea (care vine din învățătură), cultura, sănătatea, prietenii.</p>
+<p>Am avut câțiva ani, destul de mulți, în care am crezut că “a avea” înseamnă succesul ca la televizorul de manele: vile, mașini, cont în bancă. Eram înconjurat de oameni care credeau aceleași lucruri și începusem cu ei un fel de cursă subconștientă: cine are cea mai bună mașină, case mai multe, ceas mai scump, excursie mai exotică, chiar cu prețul de a fi sclavii băncilor până la sfârșitul vieții.</p>
+<p>La un moment dat, simțind că trăiesc o viață artificială, am ieșit din sistem. Am înțeles abia apoi ce important a fost pasul. O însemnare scrisă la un an și jumătate de la acel salt este relevantă pentru ce s-a întâmplat:</p>
+<p><em>“Eram protagonistul vieţii ideale de middle-class românesc: familie, casă personală, a doua casă care producea venituri fără mari bătăi de cap, o slujbă excelentă într-un bloc de sticlă și cu birou la bulevard, un statut social în creștere, vacanţe în străinătate și cam tot ce își putea dori un om normal și ambiţios de la viaţă, mai ales când toate cele de mai sus au loc înainte de 30 de ani.</em></p>
+<p><em>Intrasem într-o rutină pe care ceilalţi o numesc succes, într-un motor de viaţă confortabilă la care cei mulţi râvnesc. Intrasem într-un cerc virtuos pentru lume, dar vicios pentru integritatea mea psihică. Un cerc în care am intrat benevol și am trăit ani buni într-o mulţumire ignorantă. Ceva m-a făcut însă să vreau să ies. Să renunţ la tot acel vis, care acum mi se pare de carton. Totul în favoarea unei vieţi mai dure, dar mai adevărate, lipsită de laţurile de mătase ale corporaţiei și ale conformităţii sociale.</em></p>
+<p><em>[…]</em></p>
+<p><em>În mai puţin de doi ani am distrus aproape tot ce obţinusem în fosta viaţă. Am rămas însă cu satisfacția că am avut puterea să evadez și cu speraţa că de această dată sunt pe drumul corect.”</em></p>
+<p>Pentru mine acesta este drumul corect.</p>
+<p>Fiecare persoană este ca o grădină. Trebuie udată, îngrijită, plivită, admirată. Dar spre deosebire de grădină, câteodată persoana se poate îngriji și singură de sine. Totul trebuie se întâmple însă pas cu pas. Acolo unde am fost constant și perseverent am reușit. Acolo unde am așteptat ca lucrurile să vină de la sine, am dat greș.</p>
+<p>Iar școala nu a încercat să mă învețe în primul rând perseverența ci mai degrabă obediența. Am perceput școala ca și cum ea ar fi stăpânul și eu sclavul. Dar nu este așa, la școală tu ești stăpânul: ai drepturi și trebuie să ți le ceri atunci când nu ți se dau.</p>
+<p>Așa că atunci când profesorul nu te invață bine, pâraște-l. Cand te lasă să treci mai departe fără să fi înțeles totul, fii suparat pe el, nu fericit că ai scăpat. Dacă te duci la concert și artistul lipsește sau cântă prost, te superi, dacă te duci la restaurant și ospătarul nu vine sau e impertinent, te superi. Supără-te și la școală când cei de acolo nu-și fac treaba.</p>
+<p>Când un profesor la școală este nepoliticos cu tine – te face prost, te umilește – înregistrează-l cu telefonul și mergi la director împreună cu părinții tăi. Dacă se acoperă unii pe alții, mai ai presa sau Internet-ul. N-ai lăsa un hoț pe stradă să fugă cu rucsacul rău, nu lăsa nici un profesoară sau învățător nemernic să îți ucidă șansele. Se joacă cu viitorul tău: incompetența și nesimțirea lor înseamnă un liceu mai prost pentru tine, indolența și violența lor înseamnă că vei rămâne găuri în cap pe care poate nu le vei acoperi niciodată. Eu am câteva și nici nu prea pot să le acopăr, pentru că nu știu care sunt toate.</p>
+<p>(va urma)</p>
+<p>UPDATE 20.01.2014: Am primit din mai multe părți observații legate de ultima parte a textului, cea cu înregistrarea și mersul la director sau la presă.</p>
+<p>Mă refer la situațiile în care profesorii își fac copiii proști, idioți, îi umilesc în diverse feluri. Nu este vorba despre turnătorie, ci despre a lua inițiativă și a denunța abuzurile atunci când drepturile îți sunt încălcate. Iar în cazul discuțiilor față în față, cuvântul copilului sau al părintelui fără o probă nu valorează nimic în fața cuvântului unui profesor. Nu pot să descriu ce pățeam la sport în generală și în liceu. Dar toți îmi ziceau “taci din gură, nu rezolvi nimic!”</p>
+<p>Fără înregistrări, doamna Blându de la Şcoala nr. 10 ar fi scăpat foarte ușor. La fel și alții ca ea.</p>
+
+
+
+ ]]></description>
+  <guid>https://cdi.nu/posts-2010s/73820314873.html</guid>
+  <pubDate>Sun, 19 Jan 2014 00:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

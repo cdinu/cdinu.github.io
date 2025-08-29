@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.34">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2014-01-26">
+
+<title>N-o să mai facă… – Cristian Dinu</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../images/favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-befe23ebd2f54d8af2c8a89d1a1611f1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a29d1743aadc17bbc547d31407a77241.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-562bf422e3869b207a8581e8f000ceb5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-a29d1743aadc17bbc547d31407a77241.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="Cristian Dinu, Building Research Software for a Decarbonised Future">
+<meta property="og:description" content="Research Software Engineer at UCL working at the intersection of energy, data, and climate. Leading development of SERL and EDOL platforms.">
+<meta property="og:image" content="https://cdi.nu/posts-2010s/media/74539148984_0.jpg">
+<meta property="og:site_name" content="Cristian Dinu">
+<meta name="twitter:title" content="Cristian Dinu, Research Software Engineer">
+<meta name="twitter:description" content="I build data platforms for energy and climate research. Currently working on SERL and EDOL at UCL.">
+<meta name="twitter:image" content="https://cdi.nu/posts-2010s/media/74539148984_0.jpg">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Cristian Dinu</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../posts/index.html"> 
+<span class="menu-text">Articles</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../2025-07-ARC-Festival/"> 
+<span class="menu-text">MCP Talk</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">N-o să mai facă…</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 26, 2014</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Azi, când pare că nimic nu merge în România, iată o poveste adevărată, care dovedește că unele lucruri merg bine. De data aceasta la Poliție și la Justiție</p>
+<p>Nu spun foarte multe, pentru a nu vă strica plăcerea descoperirii. Este o poveste mai veche; a început acum aproape doi ani și am scris la ea pe măsură ce s-a întâmplat. Am păstrat-o până acum pentru că lipsea un ingredient important: Zăpada.</p>
+<p><span id="start"></span></p>
+<figure class="tmblr-full figure" data-orig-height="238" data-orig-src="" data-orig-width="500">
+<img src="media/74539148984_0.jpg" style="min-width:100%; margin: 1em 0" data-orig-height="238" data-orig-src="" data-orig-width="500" class="figure-img">
+</figure>
+<section id="furtulfebruarie2012" class="level1">
+<h1>Furtul, Februarie 2012</h1>
+<p>București, iarnă. Nu mai ninge, dar zăpada acoperă încă totul. Printre stâlpi, câte o movilă albă ascunde fie câte o mașină, fie gheața strânsă după o lună de iarnă adevărată. Când mi se smulge iPad-ul din mână cred că cineva mi-a făcut o glumă, însă nu e așa. Văd doi adolescenți că o iau la fugă și din reflex arunc rucsacul de 10 kilograme și fug după ei. Unul face stânga, celălalt îl urmează. Încă o dată stânga, după blocuri, eu după ei. Fugim toți trei cât putem de repede, cu toate că pe jos este gheață.</p>
+<p>Se despart, îl alerg pe cel din urmă, deși sunt sigur că tableta e la primul. Am mai multe șanse și, dacă îl prind pe cel slab, aflu cine este și cel iute. Nu îl prind. Antrenamentul și motivația lui sunt mult mai puternice decât ale mele. Îi pierd pe amândoi printre mașini, blocuri și zăpadă.</p>
+<p>Îmi dau însă repede seama că pot găsi iPad-ul: are 3G-ul și GPS-ul pornite. După ce recuperez rucsacul, fug în casă să văd unde au ajuns cu el. Hoții n-au fost suficient de isteți să oprească localizarea, aflu că în 5 minute au reușit să ajungă de la Pieptănari la Tineretului. Sun la 112, unde mi se spune să cobor în fața blocului că vine un echipaj de poliție cât poate de repede. Pun aplicația de localizare și pe telefon și cobor. Polițiștii mă așteaptă deja.</p>
+<p>Imediat ce află că pot localiza hoții, mă suie în mașină și cer bazei permisiunea să părăsească obiectivul. Începe o urmărire care mie mi se pare că este scoasă din <em>Mission Impossible</em>. Se vede că se bucură și ei. În mașina de poliție le spun că <em>“tableta se află la 350 de metri spre nord, după traseu cel mai probabil în tramvaiul 1. Acum stânga pe Echinocțiului”</em>. Puștanii fac greșeala să coboare din tramvai și să o ia pe o stradă lungă și pustie, unde sunt singuri. Polițiștii, deși mulțumiți că au spațiu de manevră, cer totuși întăriri.</p>
+<p>Urmăriții văd mașina de poliție și grăbesc pasul, fără să fugă, pentru a nu trezi suspiciuni. Îi prindem din urmă, dar la perchiziție, nimic – sunt curați. La capătul străzii sunt deja alte două mașini de poliție. N-aveau cum să scape.</p>
+<p>Localizarea îmi arată însă că iPad-ul este la maxim 10 metri de ei. Îi văzusem din mașină că au făcut un ocol pe trotuar, dar nu fac pe moment legătura. Folosesc în sfârșit funcția de alarmă a tabletei. Numai că nu se aude nimic…</p>
+<p>Fac spirale în jurul celor doi, până când aud un bip-bip-bip înfundat dinspre o movilă de zăpadă. Mă apropii de locul respectiv și aud sunetul tabletei dintr-o fantă care arăta ca și cum ar fi fost înfiptă și scoasă o lopată. Dau să-mi iau iPad-u, dar polițistul mă oprește, scoțându-l cu grijă.</p>
+<p>Nimănui nu îi venea să creadă că la 18:35 a fost recuperat iPad-ul furat la 18:07.</p>
+</section>
+<section id="declaraiireconstituiri" class="level1">
+<h1>Declarații, reconstituiri</h1>
+<p>La secție, oamenii sunt simpatici și profesioniști. Își dau seama că n-am mai fost niciodată într-o asemenea postură și mă ajută. Sunt fericiți că le-a reușit atât de repede să rezolve un caz care altfel părea de nerezolvat. Apar detectivi, ofițeri, tot tacâmul, deși este duminică seara. E clar că fiecare știe ce are de făcut; acum sunt într-un sistem, mă las în grija lui:</p>
+<p>– Acum trebuie să scrieți exact ce s-a întâmplat, uite aici foile, îmi zice polițistul. Aveți pix?</p>
+<p>Am. E impresionat că îndoi A4-ul astfel încât să poată să-l îndosarieze.</p>
+<p>– Bun, deci scrieți acolo ce s-a întâmplat.</p>
+<p>– Narativ, sau cum? îl întreb.</p>
+<p>– Dom’le vrei să îi condamne sau nu?</p>
+<p>– Vreau, bineînțeles, data viitoare cei de la care fură poate nu au așa noroc.</p>
+<p>– Atunci, scrie cum îți zic eu!</p>
+<p>Și scriu cuminte ce s-a întâmplat cu stilul lui. Povestind mai întâi, apoi îmi dictează traducerea în polițienește:</p>
+<p><em>Domnule Comandant,</em></p>
+<p><em>Subsemnatul Dinu Cristian, posesor al CI seria numărul, fiu al și al, cod numeric, domiciliat în, declar următoarele …</em></p>
+<p><em>La orele , aflându-mă pe , îmi este smulsă, nu reușesc să, sun la 112, împreună cu echipajul, îi recunosc pe cei doi,</em></p>
+<p><em>Data și Semnătura</em></p>
+<p>Două pagini, aceeași poveste, cam de cinci ori. În afară de câteva examene, n-am mai scris niciodată atât de mult de mână într-o singură zi.</p>
+<p>Împreună cu doi polițiști, merg să facem și “reconstituiri”: la locul furtului și la cel al prinderii. Sunt pozat arătând cu degetul, jenat și mândru, modul în care s-a petrecut grozăvia. “Așa este procedura”, îmi zic ei calmi.</p>
+<p>Aflu cu tristețe că cei doi au crezut că fură un ceas mai mare și erau mulțumiți să-l vândă cu o sută de lei. Au mărturisit totul detectivilor deja.</p>
+<p>În cinci ore totu-i gata. Nu pot să nu mă întreb cum de a putut să dureze o jumătate de oră ca să rezolve problema și de zece ori mai mult să o documenteze. Sunt însă mulțumit că în plicul fără bule primit de la criminalist am iPad-ul, înnegrit de praful de luat amprente, funcționând perfect.</p>
+<p>Îmi promit să îl țin mereu încărcat, cu parolă și cu abonamentul la 3G plătit.</p>
+<p>Peste vreo două săptămâni primesc o citație, lipită obsesiv compulsiv de poștaș cu nouă panglici de scoci pe ușă. Să mă prezint la Judecătorie, ca parte vătămată. Îmi pun în calendar și îmi promit că mă duc.</p>
+</section>
+<section id="primaoarlatribunalmartie28" class="level1">
+<h1>Prima oară la tribunal, martie, 28</h1>
+<p><strong>Judecata primului</strong></p>
+<p>Mă duc. Este prima experiență cu justiția din România:</p>
+<p><strong>8:30</strong> Ajung alergând la Judecătorie, unde fusesem chemat fix la această oră odioasă. Jandarmii de la poartă ridică părintește sprâncenele când, după ce observ un detector de metale, încep gâfâind să imi scot fisele, telefonul și cheile din buzunare. Mi-au spus amuzați că nu e nevoie să îmi scot și cureaua. E clar că nu sunt la aeroport…</p>
+<p><strong>8:35</strong> Caut sala 203 (fostă C2, cum scrie pe citație) și intru, stresat de întârziere. În față o doamnă cu robă gri. În prima bancă doi tineri cu robe negre, distrați de postura în care erau. Aflu mai târziu că sunt avocații din oficiu.</p>
+<p><strong>8:45</strong> <em>Sală în picioare!</em> Intră judecătorul. Cum nu vede pe nimeni înăuntru in afară de mine și de niște avocați din plictisiți, declară ședința deschisă, o suspendă și zice că se întoarce peste o oră, la 9 jumate. Sala trebuie eliberată așa că sunt rugat obligatoriu să ies pe hol.</p>
+<p><strong>8:47</strong> Din fericire pe hol găsesc o masă lângă o priză, poate mai muncesc ceva până când se apucă ei de judecat.</p>
+<p><strong>9:15</strong> Așteptarea continuă. Încep să mă gândesc că e păcat că n-am citit “Procesul” lui Kafka, fără vreo legătură. Lângă mine vorbește o tanti la telefon tare: “Io sînt femeie cu frica lu’ Dumnezeu!! Ei nu i-aș face nimic, dar la restul oamenilor și capurile le-aș tăia că merită, pe cuvântu’ meu!”</p>
+<p><strong>9:40</strong> Ședința se de-suspendă, de data aceasta cu mai multă lume în sală. Sunt 37 de cazuri de judecat, majoritatea eliberări condiționate. Durează cam trei minute o audiere care influențează niște ani de viață a celor în cauză. O viață care pare să nu conteze prea mult nici pentru ei nici pentu cei care îi decid viitorul.</p>
+<p><strong>9:50</strong> Arta te scoate din pușcărie… “Domnule judecător, Mateescu Georgel a participat la numeroase activități recreative, de educație civică, a efectuat numeroase vizite la obiective culturale, a făcut parte din trupa de teatru a penitenciarului… Solicităm eliberarea acestuia.”</p>
+<p><strong>10:15</strong> Pe al meu încă nu l-au luat. Deținuții din boxă sunt calmi. Se fac multe “contopiri”, ce-or fi alea.</p>
+<p><strong>10:35</strong> Ajunge și rândul meu. Nu trebuie să fac decât să dau buletinul. Tomescu, hoțul, este acolo cu niște ochi sticloși, ca de animal. Este clar că i se pare că este nedrept ce i se întâmplă. Mie nu îmi dă importanță, sunt parte din decor. Nu se uită la mine, ci aiurea, în același timp încrâncenat și indiferent. Nu e prima oară aici și știe ce i se va întâmpla. Este o formalitate în care este actor fără voie și n-are chef să-și joace rolul. Sunt întrebat dacă mai am ceva de adăugat, spun că nu, că prejudiciul a fost recuperat. Răspund cu “nu” și la a doua întrebare, dacă doresc să mă constitui în parte civilă. Las legea să își urmeze cursul.</p>
+<p>Sunt informat după ceva vreme că Tomescu, recidivist fiind, a primit 2,8 ani închisoare cu executare.</p>
+</section>
+<section id="tribunaladouaoarnoiembrie8" class="level1">
+<h1>Tribunal, a doua oară, noiembrie 8</h1>
+<p><strong>Judecata celui de-al doilea</strong></p>
+<p>Iată-mă a doua oară la tribunal, Judecătoria sectorului patru, de fapt. De data aceasta cu toate electronicele încărcate și pregătite pentru o jumătate de zi de muncă de la distanță. Lejer, la ora nouă și un sfert, ședința tocmai ce a început. O administratoră de bloc este dată în judecată de supușii săi pentru că proiectul de anvelopare al blocului a depășit bugetul inițial de vreo șase ori. Senzația de circ persistă. A urmat un calup de eliberări condiționate. Și deținuții au făcut parte din cluburi și din trupe de teatru. Cultura înflorește în penintenciar. Au muncit și sunt singurii susținători ai mamelor lor acasă. Emoționant, s-ar putea zice. Păcat că nu arată și ce s-a întâmplat cu victimele lor între timp.</p>
+<p>Timpul trece greu. Mă mai uit la robele celor din sală, și încerc să-mi dau seama dacă fiecare înseamnă ceva. Mă dezamăgește că majoritatea și le-au aruncat pur și simplu pe umeri în scârbă. Nici măcar nu și le-au încheiat cu un nasture. Sunt grăbiți și nepăsători cu ce se întâmplă acolo. Citesc prin dosare și trag cu urechea când le vine rândul să recite neimplicat numere de articole din Codul Penal, în timp ce impactul în destinele celor ce i-au plătit sunt la fel de importante ca reușita operației unui chirurg.</p>
+<p>Roba grefierei arată cel mai bine. Este gri și călcată. Iar cel mai răbdător este judecătorul. Este incredibil cum poate să reziste la toate prostiile pe care le aude și la genul de oameni pe care îi vede. Judecătoria Sectorului 4 este un fel de colon gros al orașului, iar el trebuie să-i supravegheze tractul.</p>
+<p>Îmi văd de treabă, cu urechile ciulite după numele meu. <em>“La ce noroc am, o să fiu ultimul iar”</em>, îmi zic. <em>“Noroc că pe la unu-două se termină, că n-au nici ei chef să se lungească cu prostiile”</em>. Am avut dreptate, mai aveam de așteptat.</p>
+<p>Noroc că am bateriile pline, la propriu, nu la figurat. Scriu e-mail-uri, mai programez ceva, până când mă vizitează polițistul sălii. Vigilent, îmi spune șoptit că nu am voie să am laptop deschis în sală. L-am întrebat de ce, și a zis că pentru că așa este regulamentul. M-am uitat urât și l-am închis. L-am pus în rucsac, de unde am scos iPad-ul. Polițistul, atent asigurator al disciplinei în circu, îndepărtat între timp s-a întors și mai iritat. Îi zic în șoaptă, având în fundal povestea unei bătăi în penitenciar a unuia dintre doritorii de eliberare condiționată, că n-a zis nimic de tabletă, ci doar că nu am voie cu laptop.</p>
+<p>Îmi face semn că trebuie să discutăm afară. Ies și îl ascult activ. Îmi zice, vădit mulțumit că poate să vorbească cu voce tare:</p>
+<p>– N-ai voie cu nimic acolo. Uite regulamentul, dacă nu înțelegi.</p>
+<p>Pe ușă sunt două foi, la fel de vechi ca tabletele lui Moise, au câteva zeci bullet-uri cu porunci pe care nu am răbdare să le citesc.</p>
+<p>– Aveți vreun motiv? Deranjez pe cineva?</p>
+<p>– Dom’le, matale nu înțelegi care e regulamentul? N-ai voie cu aparate și cu ziare.</p>
+<p>– M-ați chemat la opt jumate și acum e un’șpe, îi zic, revoltat. Dacă vroiați să respect regulile pe care <strong>voi</strong> le-ați pus aici, trebuia să mă chemați la ora când e bucata mea, la care oricum n-am ce face. Practic voi mă sechestrați acolo, cu toate că nu eu sunt acuzatul.</p>
+<p>– Să nu te văd cu altceva, auzi? se face că nu mă înțelege.</p>
+<p>De fapt nu mă înțelege.</p>
+<p>– Lucrez afară, dar mă chemați dumneavoastră când mă strigă în sală, așa e bine?</p>
+<p>– Nu.</p>
+<p>Renunț, înainte de a zice ceva care să mă bage prin vreun arest, amintindu-mi că mai am vreo patru coli și două pixuri în geantă. Celuloza are voie în sala de judecată judecată dacă nu este tipărită.</p>
+<p>Mă întorc și scriu vreo trei pagini despre mine și despre alții, până când aud că “pe Iancu îl lăsăm la urmă, pentu că e minor”. Mă uit în sală să văd cine reacționează. Îl văd pe Iancu, scund, uscățiv și negru – a venit mai devreme, dar nu l-am recunoscut.</p>
+<p>Este cu mamă-sa, tot scundă, dar spre deosebire de el grasă, îmbrăcată într-un contrastant trening alb. Depășiți de ce se întâmplă, se vede că s-au îmbrăcat cu ce aveau mai bun, sunt curați și aranjați.</p>
+<p>În douăzeci de minute ne vine rândul, după ce aflu despre povestea unor vecini de vilă care se judecă pentru își închid răutăcios gazele și apa unul altuia.</p>
+<p>Sunt chemat în față, alături de ceilalți implicați. Judecătorul mă întreabă dacă mențin ce am declarat. Da, mențin. Doresc să mă constitui parte civilă? Nu, nu doresc.</p>
+<p>Iancu este apărat din oficiu. Doamna așezată în dreapta judecătorului, la biroul ei perpendicular, citește o propunere:</p>
+<p><em>Iancu să fie condamnat cu pedeapsa minimă, cu suspendare, pentru că inițiativa infracțiunii i-a aparținut lui Tomescu, celălalt. Situația familială este specială, se află la prima abatere, nu este un pericol dacă pedeapsa este primită cu suspendare.</em></p>
+<p>Când termină de citit judecătorul întoarce capul spre mine și mă întreabă eu ce propunere am. Îi spun onorat și stângaci că sunt de acord cu ceea ce a spus doamna…</p>
+<p>– Doamna Procuror, îmi zice, cu un ton care m-a făcut să mă aștept să-mi facă și cu ochiul.</p>
+<p>Își îndreaptă apoi privirea spre copilul acuzat și îi zice:</p>
+<p>– Dacă recunoști ce ai făcut, poți să primești o reducere de o treime din cât ai primi în mod obișnuit. Vrei?</p>
+<p>Acuzatul dă din cap că da. Nu are curaj să vorbească, este prea emoționat. Grefiera tipărește harnic o declarație pe care Iancu o semnează fără să o citească. Nici el în negru, nici mamă-sa în alb nu știu ce li se întâmplă. Judecătorul continuă:</p>
+<p>– Ai avut noroc de data asta, dar data viitoare, dacă mai faci ceva, sigur nu scapi.</p>
+<p>Declară sesiunea închisă. Îmi iau rucsacul de pe una din bănci, gândindu-mă dacă ceea ce s-a întâmplat a fost bine. A fost. Unul, cel care merită să fie departe, e departe, iar copilul e speriat acum. Sistemul funcționează. Îi zic liniștitor puștiului care, ieșind, trece cu frică pe lângă mine:</p>
+<p>– Are dreptate judecătorul, să știi, de data asta ai scăpat ușor. Lui Tomescu i-au dat 2 ani și 8 luni…</p>
+<p>Se uită nedumeriți la mine, și el și maică-sa care apăruse între timp. Mi-am dat seama că habar nu aveau nici ce a zis judecătorul, nici ce s-a întâmplat cu Tomescu.</p>
+<p>– Pe Tomescu l-au băgat la pușcărie, le zic din nou. Ție ți-au dat “<em>cu suspendare</em>”, adică ai scăpat de pușcărie, nu te trimit acolo.</p>
+<p>Fața li s-a luminat instantaneu, nu știau ce este aceea pedeapsă cu suspendare. Continui:</p>
+<p>– Numai că vezi că dacă mai faci ceva intri sigur și cu doi ani mai mult.</p>
+<p>– Nu mai fac nimic…</p>
+<p>Mă aplec să-mi descui bicicleta, atent fiind în jur să văd dacă vreun urmăritor așteaptă să-mi dea pedeapsa și mie. Nu este. Îi spun și maică-s-ii:</p>
+<p>– Dacă mai face ceva, e foarte rău. O să fie pedepsit cu acea pedeapsă plus închisoarea de care a fost iertat acum.</p>
+<p>Îmi răspunde recunoscătoare:</p>
+<p>– Am înțeles, Domnu’! Mulțumim mult! N-o să mai facă…</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/cdi\.nu");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Copyright 2025, Cristian Dinu</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/cdinu/cdinu.github.io">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
