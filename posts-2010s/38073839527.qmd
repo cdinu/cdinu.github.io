@@ -1,0 +1,18 @@
+---
+date: "2011-05-08"
+time: "07:00"
+tags:
+  - "business"
+  - "pm"
+  - "prezentari"
+  - "risk management"
+---
+
+::: {style="margin-bottom:5px"}
+**[TRN-07 PMI Global Congress EMEA - TRN07 - Risk Governance -Creating a Risk Super Structure for the Projects (Cristian Dinu)](http://www.slideshare.net/cristiandinuinfoideea/trn07-pmi-global-congress-emea-risk-governance-paper "TRN-07 PMI Global Congress EMEA - TRN07 - Risk Governance -Creating a Risk Super Structure for the Projects (Cristian Dinu)"){target="_blank"}** from **[Cristian Dinu](http://www.slideshare.net/cristiandinuinfoideea){target="_blank"}**
+:::
+
+::: caption
+"Risk Governance -Creating a Risk Super Structure for the Projects",\
+Prezentare la Dublin, Irlanda, Global Congress EMEA
+:::

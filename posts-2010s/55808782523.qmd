@@ -1,0 +1,32 @@
+---
+title: "Biții și școala"
+date: "2013-07-19"
+time: "00:06"
+tags:
+  - "Romania"
+  - "educație"
+  - "opinie"
+---
+Un lucru aparent mărunt care se întâmplă în aceste zile în România, pierdut între știri despre MCV și corupție, pune bazele la ceva ce poate schimba serios în bine soarta acestei țări.
+
+Este vorba despre alegerea formatului HTML pentru viitoarele manuale digitale create pentru elevii români. Aceeași tehnologie care i-a permis Intenetului să devină ceea ce este astăzi, va fi folosită în clasele și în casele care până acum aveau manuale atât de vechi încât pe hărți apare Iugoslavia și în tabelele cu valute apare marca germană.
+
+De ce este acest format cea mai bună opțiune? Sunt multe motive. În primul rând pentru că îi lasă pe copii să învețe folosind ceea ce au: dacă au tabletă, învață de pe tabletă, dacă au calculator cu monitor cu tub, învață de pe acela. La fel cum pot să învețe de pe telefonul mobil. Conținutul, adică informația din manual, se va adapta la ecran, nu invers.
+
+Apoi interactivitatea: graficele prind viață, exercițiile îți spun singure dacă le-ai rezolvat corect. Asculți muzica lui Porumbescu în manualul de muzică și miști o lentilă pe ecran în manualul de optică. De pe calculator acasă, pe un ecran mare, sau de pe telefon, în microbuzul care te duce la școală.
+
+HTML nu depinde de vreun furnizor, este un format public, deschis și gratuit. Îl folosim în fiecare zi atunci când citim știrile online, căutăm pe Google, sau ne scriem gândurile pe Facebook. Există o mare bază de programatori, designeri și experți care știu deja cum să-l folosească. Este parte a unei tehnologii mature și a cărei evoluție nu te surprinde decât plăcut.
+
+Tehnologia a făcut și altceva minunat: s-a așezat omniprezent în viețile românilor. Internetul nostru are viteză de câteva ori mai mare decât cel din Europa de Vest. Un calculator la mâna a doua care să acceseze acest Internet rapid costă cât două damigene de rachiu. Școlile au calculatoare, bibliotecile au calculatoare, RDS-ul dă 3G gratis, și cel plătit costă, cu tot cu cablu, cam cât o cafea cu un sandwich la Starbucks.
+
+Iar tendința este în continuare de ieftinire. În martie, când am lansat "Lecția verde", o jurnalistă a ținut să mă certe că ceea ce facem noi se adresează unor elite și că să zic de tablete că se vor ieftini este o utopie. Dar iată că după trei luni sunt tablete care costă 199 de lei. Poate că nu sunt foarte bune, dar nici proaste nu sunt. Le-am atins ecranul și răspund destul de voios; au WiFi și cameră, iar prețul de bază fără taxe și fără profitul retailer-ului este probabil undeva în jur de 30 de euro.
+
+Nu cred să scadă vreodată prețul vreunei tablete sub această sumă, în schimb bunătățile care îți vor fi oferite în pachet vor fi din ce în ce mai multe și calitatea lor din ce în ce mai mare.
+
+Și chiar dacă tabletele nu vor scădea poate sub 100 de lei, cu siguranță telefoanele inteligente o vor face. Operatorii dau deja gratis cu abonamente de câțiva euro telefoane la care acum câțiva ani puteai doar visa.
+
+Sunt convins că pentru încă câteva zeci de ani copiii vor merge cu vaca la păscut în această țară -- obiceiurile sunt mult mai greu de schimbat decât aparatura. Însă o vor putea face cu tableta sau telefonul la ei, citind lucruri și rezolvând exerciții pentru școală.
+
+Desigur, simpla alegere a unui format bun pentru manuale nu va face singură toate aceste minuni. Manualele trebuie create, profesorii instruiți, părinții convinși, tot tacâmul. Este însă un prim pas necesar și un catalizator al întregului program de îmbunătățire.
+
+Și când copii vor termina școala în 2025 cu toate aceste lucruri pe care le pregătim pentru ei, vor ști ce să facă. Mai bine decât părinții lor, decât bunicii lor, poate mai bine chiar decât profesorii lor. Pentru că ei nu vor fi imigranți în acea lume, ca noi, ci locuitori cu drepturi depline.

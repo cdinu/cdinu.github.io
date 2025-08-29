@@ -1,0 +1,18 @@
+---
+date: "2011-05-03"
+time: "07:00"
+tags:
+  - "business"
+  - "pm"
+  - "prezentari"
+  - "risk management"
+---
+
+::: {style="margin-bottom:5px"}
+**[TRN07 - Risk Governance -Creating a Risk Super Structure for the Projects](http://www.slideshare.net/cristiandinuinfoideea/trn07-risk-governance-creating-a-risk-super-structure-for-the-projects "TRN07 - Risk Governance -Creating a Risk Super Structure for the Projects"){target="_blank"}** from **[Cristian Dinu](http://www.slideshare.net/cristiandinuinfoideea){target="_blank"}**
+:::
+
+::: caption
+Risk Governance -Creating a Risk Super Structure for the Projects, powerpoint,\
+Dublin, Irlanda, Mai 2011
+:::

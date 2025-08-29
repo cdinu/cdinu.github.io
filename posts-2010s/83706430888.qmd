@@ -1,0 +1,33 @@
+---
+title: "\"Tu ce faci fă, Școală, aicea? Aveai chef de niște manuale?\""
+date: "2014-04-24"
+time: "13:11"
+tags:
+  - "opinie"
+  - "Romania"
+---
+<figure class="tmblr-full" data-orig-height="375" data-orig-src="" data-orig-width="500">
+<img src="media/83706430888_0.jpg" style="width:400px; margin: 0 0 1em 2em" data-align="right" data-orig-height="375" data-orig-src="" data-orig-width="500" />
+</figure>
+
+Ceea ce se întâmplă în aceste zile nu mă surprinde, era previzibil, la fel ca scuipatul pe jos al unui mitocan sau parcatul cu botul pe trotuar al unui Audi.
+
+Ministerul Educației a publicat în Vinerea Mare, la ora două noaptea documentele care pornesc oficial licitația pentru manualele pentru clasele I-a și a II-a, română și matematică.
+
+Cu cât mă gândesc mai mult, cu atât simt că îmi fierbe mai tare sângele. S-au chinuit un an și ceva să facă niște nenorocite de specificații și când le-au publicat, specificațiile sunt proaste.
+
+Nu că au lucrat un an și jumătate să facă manualele, așa cum lasă să se înțeleagă, ci să scrie specificațiile pentru ele. Nu e ca și cum ar fi construit de la zero o mașinărie, ci doar să scrie ce caracteristici ar avea una pe care ei să o considere acceptabilă.
+
+În partea digitală a acestei licitații, cea pe care pot să o judec mai de aproape, au lăsat descoperite zone vaste: modul de distribuție, contorizarea utilizărilor, copyright-ul. Au pus niște condiții draconice de participare -- cifre de afaceri medii de milioane de euro, în condițiile în care întreaga piață de carte nu are mai mult de câteva zeci de milioane pe an. Cei care licitează trebuie să dovedească experiență similară, în condițiile în care manualele digitale acum se nasc oficial. Ofertanții trebuie să aibă o mulțime de specialiști angajați, în condițiile în care oricum rezultatul va fi evaluat de Minister.
+
+Criteriile de evaluare sunt incomplete, preponderent cantitative și aproape deloc calitative -- se evaluează numărul (enorm) de giumbușlucuri multimedia, nu modul în care acestea ajută la învățare. Dar funcționarii sunt mulțumiți: legea le permite să o facă și nu trebuie să-și bată capul.
+
+Au ales un model care, în loc să încurajeze inovația, o ucid. În cursurile de management de proiect una dintre primele axiome pe care le înveți este că dacă vrei repede și pe bani puțini, atunci cu siguranță rezultatul va fi prost.
+
+Întreaga licitație are o valoare de 6 milioane de euro. De două ori mai puțin decât suplimentarea bugetară pentru reconstrucțiile digurilor prost făcute pe cursurile de apă pârâul Câinelui oferită ieri Ministerului Mediului.
+
+Prețul rezultat pentru un manual (perechea fizic și digital) este de 8 lei. Timpul de livrare a produsului digital final: 6 săptămâni. Ce poți să faci în 31 de zile lucrătoare și pe care să-l vinzi la prețul unei cafele? Cum poți să faci reinterpretarea și readaptarea pentru un nou mediu a unor manuale într-un timp de cincisprezece ori mai scurt decât cel care le-a fost lor necesar să scrie un caiet de sarcini deplorabil? Ce șanse le dai copiilor?
+
+Speram ca, fiind vorba de copii, să nu o facă. Chiar și barbarii cei mai cruzi i-au cruțat mereu. Ministerului Educației nu pare să-i pese, deși ei sunt motivul principal al existenței sale. Le îneacă viitorul în incompetența lor. Îl vinde pe câțiva arginți luați de la companii care au interese și acționari. În orice context, să pui în pericol șansele atâtor sute de mii de copii ar putea fi considerat drept genocid. Un piețar intră la pușcărie dacă cineva face toxiinfecție de la mâncarea vândută de el. Dar nimeni nu răspunde dacă un milion de oameni vor spăla WC-uri. Nu este retorică ieftină, este parcursul probabil al unor oameni care nu vor avea majoritar și previzibil acces la tehnologiile și la informațiile relevante lumii în care urmează să trăiască.
+
+O mișcare inteligentă, pornită de la aceste manuale ar fi putut să producă o reformă care în 20 ani sa facă România să fie alfel. Să nu mai auzim afirmații de genul "nu știm câți oameni pot fi mobilizați în caz de urgență de apărare, pentru că milioane sunt plecați". Dar iată că mai facem ceva ca să ne aflăm în treabă și să mai bifăm la Bruxelles că facem ce zic ei, dar așa cum vrem noi. Este încă un dig care să se surpe la prima ploaie.

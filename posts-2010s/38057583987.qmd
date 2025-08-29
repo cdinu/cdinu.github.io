@@ -1,0 +1,57 @@
+---
+title: "Aviația ovină —Traducere din scenariul Monty Python"
+date: "2012-11-17"
+time: "11:18"
+tags:
+  - "monty python"
+  - "traduceri"
+---
+:::::: iframe
+::: {#player}
+:::
+
+:::: player-unavailable
+# An error occurred. {#an-error-occurred. .message}
+
+::: submessage
+[Try watching this video on www.youtube.com](https://www.youtube.com/watch?v=VSK0hqAB070){target="_blank"}, or enable JavaScript if it is disabled in your browser.
+:::
+::::
+::::::
+
+*O parte mică a unei porți de țarc, având în spate un câmp. Un țăran autentic cu salopetă și pălărie de paie se sprijină pe poartă, legănându-se ușor. Un domn de la oraș în vacanță apare lângă el. Se aud behăieli în fundal.*
+
+**Orășeanul** Ziua bună!\
+**Țăranul** 'Ziua!
+
+**Orășeanul** Ce zi frunoasă, nu-i așa?\
+**Țăranul** Îhî, așa e.
+
+**Orășeanul** Sunteți în vacanță sau ... ?\
+**Țăranul** Nu, nu, aici locuiesc.
+
+**Orășeanul** Oh, minunat *(se uită atent în jur și pare mirat)*. Auziți, acelea *sunt* oi, așa-i?\
+**Țăranul** Îhî.
+
+**Orășeanul** Da, da, desigur. Îmi imaginam... numai că.... hmmm... de ce sunt sus în copaci?\
+**Țăranul** O întrebare foarte firească, ce într-adevăr în săptămânile recente mi-a stăruit în minte. În opinia mea mea atent analizată, oile își construiesc cuiburi.
+
+**Orășeanul** Cuiburi ?!\
+**Țăranul** Îhî.
+
+**Orășeanul** Așa ca păsările?\
+**Țăranul** Îhî. Exact! Păsările sunt cheia întregii probleme. Este convingerea mea că aceste oi trudesc având la bază înțelegerea eronată că sunt păsări. Observați-le comportamentul. Să luăm pentru început tendința oilor de a sări pe picioarele din spate. *(behăieli în fundal)* Acum fiți martor la încercările lor de a sări din copac în copac. Puteți constata că ele nu reușesc să facă asta, ci mai degrabă se prăbușesc ca niște bolovani. *(sunet de oi prăbușindu-se)* Observați spre exemplu acea oaie din stejar. Este clar că înceacă să își învețe mielul să zboare *(baaaaaa.... buf!)* Iată cum orbul îi conduce pe orbi.
+
+**Orășeanul** Dar de ce li se pare că sunt păsări?\
+**Țăranul** O altă întrebare foarte firească. Un lucru este cert; oaia nu este o ființă a aerului. Are o dificultate enormă în simplul act al statului pe creangă. *(buf de cădere)* Așa cum vedeți. Cât despre zbor, corpul său este total neadaptat la problemele impuse de acesta. Numai că oile sunt destul de îngrămădite. Odată ce le intră în cap o idee, nu mai este cale să le-o schimbi.
+
+**Orășeanul** Dar ideea de unde le-a venit?\
+**Țăranul** De la Harold, oaia de acolo, de sub ulm. Cel mai periculos dintre animale --- o oaie deșteaptă. Este liderul turmei. Și-a dat seama că viața oii însemnă să stai degeaba câteva luni și apoi să fii mâncat. Și acesta este într-adevăr o perspectivă descurajantă pentru o oaie ambițioasă. Este vădit lovit de ideea de a evada.
+
+**Orășeanul** Păi, și de ce nu scăpați pur și simplu de Harold?\
+**Țăranul** Din cauza enormelor oportunități comerciale în cazul în care acesta ar reuși...
+
+------------------------------------------------------------------------
+
+Traducere de: Cristian Dinu\
+Sursa în limba engleză: \[The Complete Monty Python's Flying Circus; All the Words Volume One\] ([http://www.amazon.com/dp/0679726470](http://www.amazon.com/dp/0679726470){target="_blank"}), pp. 15-16 Episod: Sezonul 1, Episodul 2

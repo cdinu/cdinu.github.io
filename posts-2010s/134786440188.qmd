@@ -1,0 +1,75 @@
+---
+title: "Managementul execuției proiectelor"
+date: "2015-12-08"
+time: "13:49"
+tags:
+  - "pm"
+  - "pmi"
+---
+Execuția, sau *Direcționarea și managementul execuției proiectelor* -- *"Direct and Manage Project Execution"* -- este o fază a proiectului (sau un *grup de procese*, cf. PMBoK) destul de stranie; ca timp este cea mai laborioasă din proiect, însă are asociate doar câteva procese. Motivul este că, din punct de vedere al managementului de proiect, execuția este o fază relativ clară -- se pune în practică ce s-a stabilit în planul de management al proiectului, chiar dacă efortul brut este foarte mare.
+
+Despre orice fel de proiect ar fi vorba, execuția generează livrabilele efective, acesta fiind și principalul rol al acesteia. Este important să înțelegem că proiectul este o inițiativă iterativă și drept urmare execuția apare în diverse forme de mai multe ori în timpul proiectului.
+
+Un alt rol al fazei de execuție este acela de a genera informațiile necesare managerului de proiect și echipei pentru a supraveghea proiectul.
+
+Deși oficial ne putem începe lucrul doar atunci când planificarea este gata, de cele mai multe ori acest lucru nu este practic; se pornește frecvent cu execuția înainte de finalizarea planificării, ideal când o parte cât mai mare din ipoteze au fost clarificate, respectiv o parte cât mai mare dintre planuri au fost realizate.
+
+Standardul definește execuția proiectului ca fiind *coordonarea oamenilor și resurselor, gestionarea așteptărilor părților interesate, integrarea și efectuarea activităților din proiect în concordanță cu planul de management al proiectului.*
+
+Cheia acestei definiții este conceptul de *plan de management al proiectului*. Nu numai în viziunea PMI acest plan este o un document de căpătâi a managerului de proiect, sursa de informare pentru toate activitățile proiectului, administrative sau operaționale. Modul în care se recrutează oamenii în proiect, finanțele proiectului, bugete de rezervă, acțiunile ca răspuns la riscuri, procesul de tratat cererile de schimbare, specificațiile livrabilelor, modul în care acestea sunt acceptate, toate acestea sunt doar câteva exemple ale componentelor planului.
+
+Or, când ai un așa plan -- care în cazul organizațiilor mature se poate întinde pe sute sau mii de pagini -- execuția este destul de previzibilă.
+
+Chiar și într-o lume ideală, cum este aceea folosită de PMI ca referință a standardelor sale există incertitudini care afectează proiectul, în bine și în rău. De aceea, deseori este nevoie de *replanificări și refaceri ale planurilor de referință*, ca urmare a schimbărilor din mediul de lucru sau a inexactităților de planificare (de ex. un specialist este mai puțin productiv decât s-a estimat, pământul pe care trebuie să se construiască este peste un sit arheologic, subcontractorul nu livrează la timp, șeful clientului este mereu plecat și nu semnează acceptanțele, etc.)
+
+Imaginea mentală pe care eu am avut-o în ceea ce privește planurile de proiect a fost aceea de documente tipărite pe hâtie, sau PDF-uri, pe care le iei ca atare și le respecți. Că planurile, odată puse la punct nu le mai modifici. Că modifici realitatea astfel încât să se adapteze la ele. Or acest lucru este complet greșit. Sfera de control chiar a celor mai puternici manageri de proiect din cele mai puternice organizații este tot limitată. Dacă zeii greci aveau surprize este probabil ca muritorii să nu aibă. Lucruri se vor modifica mereu și cea mai mare greșeală este să lași realitatea să nu fie reflectată în planuri.
+
+Imaginea de document static a fost deci greșită: planurile proiectului sunt vii. Reprezentarea lor mentală trebuie să fie ca niște documente Word sau Google Docs, nu ca PDF-uri sau ca dosare statice. Dacă a fost primit materialul de la client, îl bifezi primit; când echipa a terminat un livrabil, îl marchezi făcut. În momentul în care subcontractorul întârzie, mergi și actualizezi zona relevantă din plan -- cea de management al timpului, respectiv celelalte zone afectate (este rar ca impactul să fie singular, o întârziere are impact și în costuri și în resurse umane samd). La fel trebuie făcut, când unul dintre programatori descoperă o modalitate de automatizare a importului de date care îți scutește două săptămâni de așteptare.
+
+În situația în care planurile se modifică, este însă nevoie de control, de aceea există *versiuni de referință* (*baseline*). Planul de referință este acea versiune a planului care este semnată de sponsor și față de ea se fac calculele de abateri, pozitive sau negative. Referințele (*baselines*) se schimbă doar cu aprobarea sponsorului.
+
+Execuția proiectului are ca scop conducerea, supravegherea și ajustarea execuției lucrurilor definite în procesele de planificare, respectiv a cererilor de schimbare aprobate. Este formată din opt procese, primul "umbrelă", celelalte împărțite în diverse domenii (calitate, resurse umane, comunicare...). Aceste procese sunt:
+
+-   Direct and Manage Project Work (4.3)
+-   Perform Quality Assurance (8.2)
+-   Acquire Project Team (9.2)
+-   Develop Project Team (9.3)
+-   Manage Project Team (9.4)
+-   Manage Communications (10.2)
+-   Conduct Procurements (12.2)
+-   Manage Stakeholder Engagement (13.3)
+
+Numărul din paranteză este capitolul din standardul PMBoK în care procesul este descris pe larg.
+
+De remarcat apariția în prim plan a ideii de "cerere de schimbare". Acesta este un lucru excelent, pentru că cererile de schimbare, respectiv modul deficient de tratare al acestora reprezintă o sursă importantă de eșec al proiectelor.
+
+Cele mai importante aspecte legate de cererile de schimbare sunt:
+
+-   Cererile de schimbare trebuie gestionate cu atenție. Ele trebuie aprobate de sponsor (care poate să delege o parte din puterea sa managerului de proiect) devenind *cereri de schimbare aprobate*.
+-   Cererile de schimbare trebuie evaluate serios, pentru că de cele mai multe ori afectează mai multe aspecte ale proiectului (timp, cost, conținut, parametri de calitate, satisfacție, motivare etc.)
+-   Cererile de schimbare aprobate sunt considerate parte din plan și reprezintă singura modalitate prin care se poate modifica versiunea de referință *baseline*.
+
+De asemenea, ce este comun majorității proceselor de execuție este stuctura:
+
+-   la intrare au planul de magement al proiectului sau fragmentele relevante din acesta, documentele relevante generate de proiect, respectiv două concepte ceva mai generale (descrise mai jos): *EEF* și *OPA*.
+-   la ieșire, generează livrabile sau documente, respectiv cereri de schimbare (ca rezultat al problemelor sau oportunităților apărute)
+-   ca unelte și tehnici apar des alte două concpte: *Raționament expert* și *PMIS*
+
+Conceptele generale:
+
+-   **EEF -- Enterprise Environmental Factors / factori de mediu organizațional** EEF reprezintă "atmosfera", cultura companiei în care proiectul se planifică, execută, monitorizează și controlează. Acești factori influențează serios modul în care proiectul are loc, chiar dacă sunt abstracți. O bancă de exemplu are un nivel de adversitate față de riscuri mult mai mare decât al unui start-up, drept urmare deciziile din proiect sunt luate într-un anume fel. Responsabilitatea personală, motivarea, calitatea așteptată, nivelul de documentare a livrabilelor, obsesia pentru termenele limită sunt câteva dintre exemplele de factori de mediu organizațional care afectează proiectul.
+
+-   **OPA -- Organisational Process Assets** OPA reprezintă procesele, procedurile de lucru, istoricul înregistrat al organizației în care se execută proiectul. Cu cât organizația este mai matură, cu atât OPA sunt mai puternici. OPA influențează pozitiv proiectul pentru că oferă un cadru de lucru previzibil, dar pot fi și constrângeri în ceea ce privește anumite aspecte (nevoia de a obține X aprobări pe un livrabil, verificări dure de calitate, obligativitatea de a obține resurse prealocate). Avantajul de a porni un proiect având istoria și datele altor proiecte anterioare asemănătoare este însă evident.
+
+-   **Expert Judgement / Raționament expert** În România ideea de "expert" a fost denaturată de buletinele de știri când după evenimente sunt invitați să-și dea cu părerea "experți" în cutremure, manuale digitale, sociologie șamd. În PMBoK expertul este persoana sau grupul de persoane, de cele mai multe ori din echipa de proiect. *Expert judgement* drept urmare nu trebuie citit "un ins pe care îl plătim să-și dea cu părerea despre X", ci "omul sau oamenii de la noi din organizație care sunt cei mai potriviți să analizeze și să ne sfătuiacă în legătură cu subiectul X"
+
+-   **PMIS -- Project Management Information System** Project Managementul este o activitate care implică preoponderent interacțiunile cu oamenii, însă chiar și în acest caz este o activitate care poate să se bucure de ajutorul dat de avansul tehnologiei, în special în domeniul comunicatiilor. *PMIS* se referă în general la software de management de proiect, software mastodont precum *Microsoft Project*, *Primavera* dar și la unelte *normale* cum ar fi tabele Excel, foldere în Google Drive ori soluții online cum ar fi [Trello](https://trello.com){target="_blank"}, [Timely](https://timelyapp.com){target="_blank"}
+
+de [Cristian Dinu](https://twitter.com/cdinu){target="_blank"}, decembrie 2015. [](http://creativecommons.org/licenses/by/4.0/){rel="license" target="_blank"}
+
+<figure data-orig-height="31" data-orig-src="https://i.creativecommons.org/l/by/4.0/88x31.png" data-orig-width="88">
+<img src="media/134786440188_0.png" style="border-width:0; width: auto;" data-orig-height="31" data-orig-src="https://i.creativecommons.org/l/by/4.0/88x31.png" data-orig-width="88" alt="Creative Commons License" />
+</figure>
+
+\
+This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/){rel="license" target="_blank"}.

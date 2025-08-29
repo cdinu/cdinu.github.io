@@ -1,0 +1,16 @@
+---
+title: "Cum să convertești automat din € în lei în Google Spreadsheets"
+date: "2013-01-02"
+time: "14:49"
+tags:
+  - "tips"
+---
+Dacă aveți nevoie să faceți transformări din lei în euro sau invers atunci când lucrați în Google Apps, puteți folosi funcțiile de la Google Finance. Mai jos un exemplu:
+
+`=C18*GoogleFinance("EURRON") +B18`
+
+În loc de EURRON se pot pune alte lucruri. De exemplu
+
+`=GoogleFinance("AAPL", "price")` ia prețul acțiunilor Apple.
+
+P.S. Dacă primiți eroare, încercați cu ";" în loc de ",", adică `GoogleFinance("AAPL"; "price")`

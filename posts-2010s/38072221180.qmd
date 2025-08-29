@@ -1,0 +1,16 @@
+---
+date: "2008-05-15"
+time: "07:00"
+tags:
+  - "pm"
+  - "prezentari"
+  - "business"
+---
+
+::: {style="margin-bottom:5px"}
+**[PM Vision - Project Management 2.0, Bucharest, 2008 \[Romanian\]](http://www.slideshare.net/cristiandinuinfoideea/pm-vision-cristian-dinu-pm20 "PM Vision - Project Management 2.0, Bucharest, 2008 [Romanian]"){target="_blank"}** from **[Cristian Dinu](http://www.slideshare.net/cristiandinuinfoideea){target="_blank"}**
+:::
+
+::: caption
+Prezentarea ținută în 2008 la conferința PM Vision din București.
+:::

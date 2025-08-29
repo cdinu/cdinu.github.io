@@ -1,0 +1,16 @@
+---
+date: "2011-11-07"
+time: "19:51"
+tags:
+  - "business"
+  - "cursuri"
+  - "pm"
+---
+
+::: {style="margin-bottom:5px"}
+**[Management de proiect - prezentare suport de curs (partea 1)](http://www.slideshare.net/cristiandinuinfoideea/management-de-proiect-prezentare-suport-de-curs-partea-1 "Management de proiect - prezentare suport de curs (partea 1)"){target="_blank"}** from **[Cristian Dinu](http://www.slideshare.net/cristiandinuinfoideea){target="_blank"}**
+:::
+
+::: caption
+Management de proiect - prezentare suport de curs (partea 1)
+:::

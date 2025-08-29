@@ -1,0 +1,16 @@
+---
+date: "2010-02-19"
+time: "02:00"
+tags:
+  - "business"
+  - "prezentari"
+  - "pm"
+---
+
+::: {style="margin-bottom:5px"}
+**[Presentation on Infoideea in Feb 2009 \[Romanian\]](http://www.slideshare.net/cristiandinuinfoideea/2010-1012-pmi-monthly-meeting-la-infoideea "Presentation on Infoideea in Feb 2009 [Romanian]"){target="_blank"}** from **[Cristian Dinu](http://www.slideshare.net/cristiandinuinfoideea){target="_blank"}**
+:::
+
+::: caption
+Prezentarea companiei Infoideea la PMI Monthly Meeting Februarie 2010
+:::

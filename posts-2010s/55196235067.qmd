@@ -1,0 +1,27 @@
+---
+title: "Processing fun"
+date: "2013-07-11"
+time: "23:11"
+tags:
+  - "programming"
+  - "processing"
+---
+Regula, nu numai în programare, este că pentru fiecare treabă pe care o ai de făcut ai nevoie de un tip de unealtă. Magazin online? Magento. Manuale electronice? HTML5. Aplicații mobile rapide? Xcode. Cuie? Ciocan. Și așa mai departe.
+
+Mai întâi apare sarcina, apoi unealta. Pe unele le știi de la început, pe alele le cauți până le găsești. Și de multe ori alegerea uneltei poate determina succesul sau eșecul proiectului. Sigur că poți să tai unghii cu cutter-ul sau cu patentul, dar e mai bine să folosești forfecuța (nu dinții :) ).
+
+Se poate întâmpla însă și fenomenul invers. Să descoperi o unealtă și brusc să îți dai seama de un univers de probleme pe care vrei să începi să le rezolvi cu ea.
+
+Ori asta mi s-a întâmplat alarteieri, răsfoind niște cărți scoase de revista *Make:* una dintre ele se chema *Getting Started with Processing*. Am dat de ea întâmplător, căutând niște informații despre Arduino (am să povestesc altă dată și despre el).
+
+Pe scurt: *Processing*, în ciuda numelui aparent neinspirat, este un limbaj de programare foarte matur care, spre deosebire de altele, vine și cu un mediu propriu foarte prietenos în care poți să scrii ușor programe, chiar dacă nu ești expert. Se instalează instant pe Windows, Linux sau Mac și în câteva minute deja poți experimenta. În plus, minune, merge pus ușor și pe web, dacă nu folosești periferice speciale ale calculatorului (camera video, porturi USB sau microfon).
+
+Ce are însă cu totul special față de celelalte este că poți să te apuci imediat să desenezi sau să prelucrezi imagini ori sunete. O satisfacție instantanee -- *instant gratification*, cum zic prietenii anglofoni -- pe care n-am mai primit-o de ceva ani, de pe vremea PLOT-ului și DRAW-ului din Basic S.
+
+Are suport și accelerare 3D, o tonă de biblioteci deja scrise și în plus ai acces la cod deja scris în Java dacă rulezi pe desktop ori Javascript dacă rulezi în web. Toată lumea câștigă, deci.
+
+Merită încercat, măcar de dragul de a rula tutorialele. Mi-a luat cam o jumătate de oră să instalez OpenCV, bibliotecile Processing de OpenCV și să adaptez puțin aplicația de detectat fețe de pe webcam încât să pună un zâmbet galben pe oricine. Apoi alte câteva jumătăți (mai multe) de oră de distrat cu colegii. [Processing.org](http://www.processing.org){target="_blank"} te așteaptă. :)
+
+[![Captură de ecran 2013-07-10 la 10.37.58 PM](http://farm8.staticflickr.com/7284/9262425439_e1b0f0c56d_o.png){height="394" width="296"}](http://www.flickr.com/photos/cristiandinu/9262425439/ "Captură de ecran 2013-07-10 la 10.37.58 PM by Cristian Dinu, on Flickr"){target="_blank"}
+
+*Autorul programului care rulează mai sus este Ira Greenberg și se găsește explicat temeinic la: [http://processing.org/tutorials/trig/](http://processing.org/tutorials/trig/){target="_blank"}*

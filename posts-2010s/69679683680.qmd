@@ -1,0 +1,10 @@
+---
+title: "Prezentare despre management de proiect și tehnologie"
+date: "2013-12-11"
+time: "12:12"
+---
+Aceastea sunt slide-urile pentru prezentarea pe care o voi ține azi la Business Days București, în cadrul panel-ului în care sunt invitat.
+
+[link direct](http://cristiandinu.info/business-days-bucuresti-2013-12){target="_blank"}
+
+Sursele prezentării sunt de asemenea pe [GitHub](https://github.com/cdinu/business-days-bucuresti-2013-12){target="_blank"}

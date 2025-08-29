@@ -1,0 +1,32 @@
+---
+date: "2013-01-29"
+time: "22:47"
+tags:
+  - "ted"
+  - "opinie"
+---
+
+:::::: iframe
+::: {#player}
+:::
+
+:::: player-unavailable
+# An error occurred. {#an-error-occurred. .message}
+
+::: submessage
+[Try watching this video on www.youtube.com](https://www.youtube.com/watch?v=k2hQL9Zrokk){target="_blank"}, or enable JavaScript if it is disabled in your browser.
+:::
+::::
+::::::
+
+::: caption
+În momentul în care realizezi că niște scene intense precum cele povestite de Janine di Giovanni sunt și adevărate, impactul lor rațional și mai ales cel emoțional este cu câteva ordine de mărime mai mare. Realizezi imensitatea răului naturii umane.
+
+Ascultând-o pe jurnalistă, am înțeles cu noduri în stomac cât de fragile sunt echilibrul și pacea de care ne bucurăm. Cât de mici în valoare absolută, deși aparent mari în valoare relativă sunt frustrările și problemele pe care le avem. Noi ne supărăm că ne crește cu 5% TVA-ul, oamenii din Sarajevo își dădeau copii străinilor numai să îi salveze din orașul asediat. O decizie bună, pentru că o mie cinci sute de copii și-au pierdut viața în timpul celor trei ani agonizanți de asediu.
+
+În timp ce eu eram supărat că e închis la chioșcul de la scară și trebuia să traversez pentru pâine, cineva la câteva sute de kilometri își risca viața târând expus spre adăpost o victimă a lunetiștilor.
+
+În București când auzim o bubuitură îl înjurăm pe nemernicul care se distrează cu petarde printre blocuri, în Siria, în același an, în același moment, cineva ce aude același sunet tresare îngrijorat, sperând că nu a pierdut pe cineva drag.
+
+Video: Janine di Giovanni: What I saw in the war
+:::

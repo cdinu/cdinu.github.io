@@ -1,0 +1,21 @@
+---
+date: "2013-04-17"
+time: "16:18"
+tags:
+  - "paul"
+  - "readfwd"
+---
+
+:::: iframe
+[](https://player.vimeo.com/video/64222878)
+
+::: {#crawler_player}
+Play
+
+![Vimeo](https://f.vimeocdn.com/p/images/crawler_logo.png){.logo}
+:::
+::::
+
+::: caption
+În fiecare an sărbătorim nu anul, ci ceea ce am reușit să facem în acel an. Pentru Paul Balogh a fost un an plin. Primul an al lui cu [Read Forward](http://readfwd.com "Read Forward"){target="_blank"}-ul.
+:::

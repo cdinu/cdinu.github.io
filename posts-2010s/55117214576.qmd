@@ -1,0 +1,43 @@
+---
+title: "Omagiu pentru ZX Spectrum"
+date: "2013-07-11"
+time: "00:55"
+tags:
+  - "ce am mai scris"
+  - "nonfictiune"
+---
+Primul calculator l-am avut în 1992, aventură ce i-a costat pe părinții mei 12 mii de lei, adică vreo patru salarii românești din acea vreme. Era clonă de ZX Spectrum, numită CIP-02 (asamblată la Electonica București), ce mi-a oferit aproape patru ani de distracție și de învățare, ani al căror impact pozitiv îi simt și acum.
+
+[![Captură de ecran 2013-07-10 la 11.30.13 PM](http://farm8.staticflickr.com/7318/9258279278_bbfe82a2f5_c.jpg)](http://www.flickr.com/photos/cristiandinu/9258279278/ "Captură de ecran 2013-07-10 la 11.30.13 PM by Cristian Dinu, on Flickr"){target="_blank"}
+
+Limbajul în care poți să programezi un astfel de calculator se numește Basic și este o aplicație de 16 kilobytes , ceea ce îți mai lăsa liberi 48 de kilobytes din cei 64 ca că te destrăbălezi. Ca termen de comparație, 64 de kilobiți sunt cam a suta parte dintr-un MP3 de cinci minute.
+
+Nu are funcții, nu are clase, *closures* sau *convention over configuration*. Cert este însă că în ciuda tuturor acestor constrângeri, creativitatea în cadrul acestei platformei avea cote asemănătoare cu cea de astăzi pe mobile. Se făceau jocuri, se distribuiau jocuri (pe casete audio, și într-un moment de efervescență nebună a pirateriei chiar prin TV pe postul național), erau cluburi de informatică într-o lumea era la fel de open-source ca și astăzi. Numai că ne scriam programele pe caiet, nu pe stick.
+
+Mi-am dat deci o mică provocare și am căutat un [emulator](http://torinak.com/qaop "Emulator Basic ZX Spectrum"){target="_blank"} pe care am scris programul meu preferat de atunci. N-a fost prea greu. Am avut dificultăți pentru că nu mai știam pe de rost chiar toate combinațiile celor 40 de butoane de pe tastatura cu trei shift-uri, în rest (evident) nimic schimbat.
+
+Programul se execută în vreo 20 de secunde, lăsându-ți plăcerea să anticipezi rezultatul. :)
+
+[![Captură de ecran 2013-07-10 la 11.22.07 PM](http://farm8.staticflickr.com/7368/9258279254_8259e98d3b_c.jpg)](http://www.flickr.com/photos/cristiandinu/9258279254/ "Captură de ecran 2013-07-10 la 11.22.07 PM by Cristian Dinu, on Flickr"){target="_blank"} 
+
+Mai jos este o captură a aceluiași program, rescris într-un mediu modern, pe laptop de 2013. Execuția este evident instananee și se vede dimensiunea de 255x192 a ecranului de Spectrum. 
+
+[![Captură de ecran 2013-07-10 la 11.45.37 PM](http://farm3.staticflickr.com/2849/9255500339_a977c442dc_c.jpg)](http://www.flickr.com/photos/cristiandinu/9255500339/ "Captură de ecran 2013-07-10 la 11.45.37 PM by Cristian Dinu, on Flickr"){target="_blank"} 
+
+**Nume**: Electronica CIP-02 \
+**Tip**: Clonă ZX Spectrum, Românească \
+**Apărut în**: 1988 \
+**Memorie**: 64 kb \
+**Tastatură**: 40 de taste mecanice \
+**Procesor**: Clonă est-europeană de Z80-A \
+**Frecvență procesor**: 3.5 MHz
+
+**Rezoluție ecran**: 266 x 192 x 16 culori \
+**Sunet**: 0.5W, Beeper \
+**Alimentare**: 5V, 3A
+
+**Preț**: 12000 lei (\~400 de dolari)
+
+Mulțumiri deci pentru cei care au creat acele computere, mulțumiri pentru cei care le-au transformat în ceea ce există astăzi.
+
+**P.S.:** Acel limbaj modern de care ziceam se numește *Processing* și are și o versiune în browser. Programul este adaptat puțin pentru a reacționa la mouse (mișcare și click). Enjoy:

@@ -1,0 +1,18 @@
+---
+date: "2011-10-23"
+time: "22:20"
+tags:
+  - "business"
+  - "prezentari"
+  - "ebooks"
+---
+
+::: {style="margin-bottom:5px"}
+**[2011-01-27 Jules Verne despre viitorul cartii, Bucuresti](http://www.slideshare.net/cristiandinuinfoideea/20110127-jules-verne-despre-viitorul-cartii-bucuresti "2011-01-27 Jules Verne despre viitorul cartii, Bucuresti"){target="_blank"}** from **[Cristian Dinu](http://www.slideshare.net/cristiandinuinfoideea){target="_blank"}**
+:::
+
+::: caption
+Jules Verne despre viitorul cartii, Bucuresti.
+
+Am folosit această prezentare pentru a împărtăși opiniile mele pe viitor de cărți în octombrie 2011
+:::

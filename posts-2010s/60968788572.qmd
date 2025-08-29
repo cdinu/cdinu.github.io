@@ -1,0 +1,42 @@
+---
+title: "Homo ex machina: Orange și orchestra turcilor mecanici"
+date: "2013-09-12"
+time: "01:33"
+tags:
+  - "ce am mai scris"
+  - "opinie"
+  - "orange"
+---
+**sau Inteligența Artificială Artificială**
+
+\
+![](http://static.guim.co.uk/sys-images/Technology/Pix/pictures/2009/5/20/1242833143338/Mechanical-Turk-001.jpg)
+
+În dimineața în care am aflat că Orange va monta în pasaj Universitate o instalație automată de dirijat n-am mai fost în stare de nimic. M-am uitat pe pereți două ore, încercând să-mi sting demn furia. Le propusesem chiar lor (via Read Forward) fix acest giumbușluc, la începutul anului, în cadrul unui pachet mai mare de sponsorizare a părții digitale a Festivalului Enescu. Au zis că nu-i interesează. Dar iată că s-au răzgândit.
+
+După câteva telefoane terapeutice și o promisiune către sine că altă dată voi fi mai atent cu cine vorbesc, m-am calmat și m-am întors la treabă. În fond contează cine pune în practică o idee bună, nu care este paternitatea ei.
+
+Ceea ce am descoperit citind (peste câteva zile) comunicatul Orange mi-a arătat că perplexitatea, amuzamentul și amarul pot exista împreună: în text scrie, așa, en-passant, că *Aplicaţia are la bază tehnologia Kinect de interacţiune prin gesturi şi oferă un repertoriu de 4 arii cunoscute, interpretate în timp real de către **o orchestră aflată într-un alt spaţiu din Bucureşti**.*
+
+**"O orchestră aflată într-un alt spaţiu din Bucureşti"...**!!! Am râs singur câteva minute. Adică, dragilor, chestiunea este în felul următor: ai un cameră web la Universitate și o altă cameră spre orchestră (da, orchestră de cameră). Muzicanții se uită la un TV la omul care gesticulează. Orchestra reacționează (eventual) la cum dă omul din mâini. Este cam la fel de interactiv ca aruncatul unei pietre în baltă.
+
+Comunicarea de la echipa de cinspreceze oameni ce a făcut posibilă magia (paisprezece account manageri, direcotori și un *specialist IT*) este pe măsură. Am avut un deja-vù parcă de la lansarea Siri a lui Jobs: *„Ne-am dorit să oferim o experienţă plăcută şi relaxantă, care să îi aducă pe oameni mai aproape de muzica clasică într-o manieră interactivă, demonstrând încă o dată că tehnologia poate să ne ofere experienţe memorabile."* ne spune Mirela Bosoi, Head of Brand and Communication de la Orange Romania. Mai urmează câteva polonice cu aprecieri și de la celalte entități implicate.
+
+Lăsând la o parte latura hazlie, aceea că ditamai firma, cu unele inițiative excelente în rest, lansează un webcam căruia îi spune "orchestră interactivă", există o problemă destul de serioasă aici, aceea a dezinformării.
+
+Nu suspectez că este o dezinformare din prostie. Deși cel mai probabil mulți din echipa respectivă nu știu prea multe despre tehnologie și ce poate ea, în structura unei companii precum aceasta există puncte de control care să semnaleze astfel de absurdități.
+
+Este deci o dezinformare cu intenție (adică o minciună). Una care ascunde cel mai probabil un proiect ratat al contractorilor sau rezultatul unui aparat de comunicare supra-dimensionat în fața lipsei obiectului tehnic de lucru.
+
+Acestea sunt însă explicații, nu scuze pentru acest fiasco. Oamenii, chiar și unii dintre cei tehnologic educați, vor crede că "orchestra interactivă" este interactivă, când de fapt nu este. Vor crede că Orange sau Senior Hyper au tehnologia care să facă posibilă o astfel de aplicație, când de fapt nu o au. Vor crede că interacționează cu o mașină, când de fapt interacționează cu alți oameni. Este ca și cum ai anunța o mașinărie automată de jucat șah, în interiorul căreia se află un om care mută piesele.
+
+Hopa! De fapt acest lucru s-a întâmplat deja. Fix așa în 1770, când ungurul Johann Wolfgang von Kempelen a prezentat tuturor un automaton (robot mecanic) care era capabil să joace șah împotriva adversarilor umani. Abia în 1854 s-a descoperit că totul a fost de fapt o farsă și că în interiorul mașinăriei era de fapt un operator secret care i-a bătut pe Franklin și pe Bonaparte. Păstrând proporțiile, la noi orchestra i-a învins doar pe Măruță.
+
+Intrăm acum în sesiunea de restanțe când Orange va lansa probabil Interactive Exam Booster, automatul de făcut meditații, tot în pasaj Universitate. :)
+
+Surse:
+
+-   ["The Turk Automaton", în românește](http://www.trecut.wellcome.ro/?p=1687){target="_blank"}
+-   [Mechanical Turk, Wikipedia](http://en.wikipedia.org/wiki/The_Turk){target="_blank"}
+-   [Comunicatul Orange](http://www.orange.ro/newsroom/index.php?option=com_content&view=article&id=699%3Aorange-te-invit-s-dirijezi-orchestra-interactiv-din-pasajul-de-la-universitate&catid=195%3Aseptembrie&Itemid=200){target="_blank"}
+-   [Foto](http://www.theguardian.com/technology/2009/may/21/answering-services){target="_blank"}

@@ -1,0 +1,46 @@
+---
+title: "Care ți-e insula, amice?"
+date: "2014-03-09"
+time: "01:20"
+tags:
+  - "ce am mai scris"
+  - "opinie"
+  - "București"
+  - "Romania"
+---
+<figure class="tmblr-full" data-orig-height="369" data-orig-src="" data-orig-width="500">
+<img src="media/78994855986_0.png" style="width:40%; margin: 0 0 0.2em 2em" data-align="right" data-orig-height="369" data-orig-src="" data-orig-width="500" />
+</figure>
+
+Acum câteva zile am auzit o părere care m-a intrigat, pentru că pare (și poate este) perfect adevărată: *"Cei care nu sunt născuți în București, dar trăiesc în București au ca prieteni oameni care sunt veniți tot din afara Bucureștiului"*.
+
+Mi-a rămas în cap și, pentru a mări confuzia, am trecut la treabă și am făcut o statistică având la bază prietenii de pe Facebook. Situația de acolo reflectă destul de precis ceea ce se întâmplă în off-line:
+
+Numărul de prieteni: două sute și un pic\
+Eșantionul total: 134 de persoane (cu hometown declarat și care nu sunt ceainării sau făbricuțe hand-made)
+
+Din cei 134 de oameni:
+
+-   Trăiesc în București: 98 (\~75%)
+-   Trăiesc în București și sunt născuți în București: 32 (\~33% din cei 98)
+-   Trăiesc în București, născuți în altă parte: 66 (\~67% din cei 98)
+-   Bucureșteni fugiți: 8 (în Elveția, America, Transilvania)
+
+Printre naturalizații capitalei orașele sursă cele mai populare sunt:
+
+-   Brașov: 7
+-   Galați: 4
+-   Suceava, Câmplung, Constanța, Bacău, Pitești: 3 (fiecare)
+-   Roșiorii de Vede, Giurgiu, Ploiești: 2 (fiecare)
+
+**Concluzii:**
+
+Analizând cazul meu (care este totuși destul de tipic) pare adevărat că nativii sunt o insurlp și non-nativii trăiesc într-o altă insulă. Dar cred că ar fi o judecată superficială.
+
+Aș lega mai degrabă cauza acestei aparente segregări nu de locul de origine, ci de cultura și de stilul de viață pe care îl avem. Oamenii cu preocupări similare -- cei care îți formează societatea -- au în general studii universitare sau mai mult, iar universitățile sunt locuri care strâng un procent chiar mai mare de non-localnici în rândul studenților. O parte din studenți se întoarce acasă, dar o parte și mai mare rămâne cu slujbe, prieteni și oportunități în capitală. Iar în această pătură subțirică, compoziția este ușor diferită.
+
+------------------------------------------------------------------------
+
+Dacă sunteți interesați de making-of-ul statisticii, lăsați un mesaj și dac fac un tutorial. Vă puteți face o idee între timp [citind sursele](https://gist.github.com/cdinu/9440102){target="_blank"}. (am folosit Facebook Query Language, search-repace-uri cu expresii regulate și JavaScript)
+
+[Foto: Maltese Falcon, 1941, Warner Bros.]{.small}

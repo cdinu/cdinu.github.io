@@ -1,0 +1,87 @@
+---
+title: "Monitorizarea și Controlul Proiectelor"
+date: "2015-12-15"
+time: "14:39"
+tags:
+  - "pm"
+  - "pmi"
+---
+Procesele din grupul de monitorizare și control au un rol esențial în desfășurarea proiectului. Deși deseori lumea numește acest grup "fază" -- pentru că inițierea, planificarea, execuția și încheierea sunt faze. Monitorizarea și controlul nu este propriu-zis o "fază" a proiectului, pentru că ea începe în prima secundă a proiectului și se finalizează în ultima.
+
+Desigur, ponderea efortului de monitorizare și control diferă în funcție de momentul în care proiectul se află, dar acest efort este permanent. Implicarea managerului de proiect este mare, efortul total fiind mai mic însă decât cel de planificare de exemplu.
+
+<figure class="tmblr-full" data-orig-height="588" data-orig-src="https://crossderry.files.wordpress.com/2008/12/processgroups_pmbok.png" data-orig-width="971">
+<img src="media/135248789608_0.png" style="max-width: 100%; width: 100%" data-orig-height="588" data-orig-src="https://crossderry.files.wordpress.com/2008/12/processgroups_pmbok.png" data-orig-width="971" alt="Effort per process group" />
+</figure>
+
+\
+[Sursa web](https://crossderry.files.wordpress.com/2008/12/processgroups_pmbok.png){target="_blank"}
+
+Prima întrebare care apare de obicei este aceea legată de motivele PMI de a folosi și "monitorizare" și "control" în denumirea acestui grup de procese.
+
+Motivul este simplu: sunt concepte separate și complementare. Cel mai ușor este să ne gândim la ce se întâmplă când conduci o mașină.
+
+**Monitorizarea** este reprezentată de activitatea de observare și culegere de informații: suntem pe șosea, drumul o ia la dreapta puternic, vitezometrul indică 84 km/h, există un indicator cu depășirea interzisă și altul cu restricție de viteză la 50 km/h.
+
+Monitorizarea este esențială pentru reușita călătoriei, dar este evident insuficientă. Dacă șoferul face monitorizare și atât, ajunge în primul șanț. Mai este nevoie de încă o activitate, aceea de a lua măsurile preventive și corective astfel încât mașina să rămână pe drum, și să ajungă în siguranță la destinație, conform planului.
+
+Folosind datele din monitorizare, comparându-le cu cele din planificare, șoferul **controlează** lucrurile: apasă pe frână, pentru a corecta viteza, se pregătește să rotească volanul spre dreapta atunci când drumul o cere.
+
+-   Acțiuni corective: frânarea, schimbatul unei roți cu pană
+-   Acțiuni preventive: micșorarea vitezei pe drum umed, semnalizarea
+-   Metrici de calitate: consumul maxim de 7.5 l / 100 km
+-   Organisational Process Assets: Regulile de trafic (indicatoare, marcaje, etc.)
+-   Integrated change control: Un telefon consultativ: "drumul este foarte aglomerat, dacă rămân pe traseul stabilit, întârzii două ore, dacă merg pe drumuri ocolitoare întârzii mai puțin, dar consum mai mult, ce să fac?"
+
+Întodeauna monitorizarea dă informațiile legate de starea prezentă, în engleză **actual** (diferit total ca sens de cuvântul `actual` din română); *actual* se traduce de cele mai multe ori folosind termenul 'efectiv'.
+
+Aceste informații legate de parametrii efectivi sunt necesare pentu a compara acești parametri cu valorile lor planificate.
+
+Fără această comparație nu poți să spui dacă un parametru are valoarea acceptabilă. În proiecte comparația se face relativ la un singur reper: valoarea planificată. Această valoare poate fi planificată direct, în forma unei estimări, reguli sau constrângeri trecute în plan, ori indirect în forma unui standard sau a a unei reglementări de companie sau legislativă.
+
+Variațiile, pozitive sau negative față de planificare se numesc *abateri*, abateri care trebuie cel puțin cunoscute, dacă nu și adresate.
+
+Faptul că mașina merge cu 70 km/h nu spune în sine nimic. Doar comparația cu planificarea în care stabilisem că mergem cu 90 km/h pentru a ajunge la o anumită oră la destinație ne spune dacă viteza este bună sau nu.
+
+Această observație ajută la înțelegerea tuturor proceselor de monitorizare și control ale PMBoK: fundamental fiecare dintre ele compară planul cu realizările proiectului, în domeniul procesului respectiv.
+
+Procesele au ca origine ariile de cunoaștere (*knowledge areas*) din PMBoK, similar cu grupul de planificare, există procese de monitorizare și control pentru conținut, timp, cost, calitate etc.
+
+Față de corespondența 1:1 între *knowledge areas* și procesele de monitorizare sunt câteva excepții:
+
+-   Pentru conținutul proiectului (*project scope*) există două procese. Motivul existenței celui de-al doilea, *Validate Scope* este acela că de fapt în inima monitorizării și controlului se află măsurarea și inspectarea livrabilelor proiectelor. Dacă activitățile celorlalte procese sunt efectuate preponderent de către echipa de proiect, cele de verificare a conținutului proiectului sunt făcute de către client.
+-   Partea referitoare la monitorizarea și controlul resurselor umane este dusă în execuție.
+
+Există un proces "umbrelă", *Monitor & Control Project Work* care are drept rol coordonarea celorlalte procese, respectiv un proces, extrem de important (din cauză că atunci când nu este urmat problemele sunt mari), *Perform Integrated Change Control*, proces care gestionează cererile de schimbare.
+
+Lista proceselor de monitorizare și control este (cu denumirile lor în engleză):
+
+-   Monitor & Control Project Work
+-   Perform Integrated Change Control
+-   Validate Scope
+-   Control Scope
+-   Control Schedule
+-   Control Costs
+-   Control Quality
+-   Control Communications Control Risks
+-   Control Procurements
+-   Control Stakeholder Engagement
+
+(vezi [matricea completă](https://www.project-management-prepcast.com/pmbok-knowledge-areas-and-pmi-process-groups){target="_blank"})
+
+Există un model generic al unui proces de monitorizare și control. La intrarea într-un asfel de proces se află planul de management al proiectului (sau secțiunea relevantă din acesta), cererile de schimbare aprobate -- care împreună ne dau starea dorită a proiectului, respectiv informațiile *actual*, care ne dau starea reală.
+
+La ieșire se află rezultatele comparațiilor, sub forma abaterilor calculate (*work performance information*), previziuni legate de evoluția proiectului (*forecasts*), acțiuni preventive și corective sub formă de cereri de schimbare (neaprobate încă), actualizări ale documentelor proiectului (*issue logs*, actualizări de plan), respectiv propuneri de actualizare a proceselor și procedurilor din organizație.
+
+Fiecare proces are particularitățile sale, dar ideea generală este cea de mai sus.
+
+Merită reținut de asemenea faptul că PMI / PMBoK nu numai că permit, ci chiar sugerează adaptarea proceselor (toate, nu numai cele de monitorizare și control) la situația de fapt din organizația care realizează proiectul. PMI oferă practic template-uri din care să scoatem ce nu considerăm necesar și în care să adăugăm ce ne este specific (*peer-reviews* pe cod în cazul în care suntem o firmă de software, aprobări de mediu în cazul în care suntem o firmă care se ocupă de energie, etc.).
+
+de [Cristian Dinu](https://twitter.com/cdinu){target="_blank"}, decembrie 2015. [](http://creativecommons.org/licenses/by/4.0/){rel="license" target="_blank"}
+
+<figure data-orig-height="31" data-orig-src="https://i.creativecommons.org/l/by/4.0/88x31.png" data-orig-width="88">
+<img src="media/134786440188_0.png" style="border-width:0; width: auto;" data-orig-height="31" data-orig-src="https://i.creativecommons.org/l/by/4.0/88x31.png" data-orig-width="88" alt="Creative Commons License" />
+</figure>
+
+\
+This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/){rel="license" target="_blank"}.

@@ -1,0 +1,8 @@
+---
+title: "Slide-urile pentru atelierul de marketing online @ Exec-Edu"
+date: "2013-12-12"
+time: "16:19"
+---
+[link direct](http://cdinu.github.io/exec-edu-marketing-online-bucuresti-2013-12/){target="_blank"}
+
+Sursele prezentării sunt de asemenea pe [GitHub](https://github.com/cdinu/exec-edu-marketing-online-bucuresti-2013-12){target="_blank"}
