@@ -1,0 +1,495 @@
+---
+format:
+  revealjs:
+    center: true
+    auto-animate-easing: ease-in-out
+    auto-animate-duration: 0.2
+---
+
+:::: {.columns}
+
+::: {.column width="70%"}
+<div>
+  <h1>Conversational Interfaces for Research</h1>
+  <h3>Transforming Data Interaction with LLMs and MCP</h3>
+</div>
+:::
+
+::: {.column width="30%"}
+![](images/qr.png)
+:::
+
+::::
+---
+
+### 👋 Cristian Dinu - Research Software Engineer
+<br/>
+I build software for a decarbonised future.
+
+- high-resolution energy monitoring
+- appliance-level energy insights (e.g. on heat pumps)
+- natural language as an interface
+
+## 📋 Today's plan
+
+1. The Large Language Model (concepts and ecosystem)
+2. A demo of how software can look like
+3. Write our own MCP
+
+---
+
+![](images/llms.png)
+
+---
+
+![](images/autocomplete.png)
+
+---
+
+![](images/brain-in-jar.png){fig-align="center"}
+
+---
+
+![](images/llm-chat.png)
+
+---
+
+## {auto-animate="true"}
+
+### How LLM Context Works
+
+::: {.r-stack}
+::: {data-id="context-box" style="background: #f8f9fa; border: 2px solid #007bff; border-radius: 10px; padding: 20px; width: 700px; height: 150px; margin: 20px auto;"}
+:::
+:::
+
+::: {style="margin-top: 30px; font-size: 28px;"}
+**Step 1: Initial Context Window**
+:::
+
+---
+
+## {auto-animate="true"}
+
+### How LLM Context Works
+
+::: {.r-stack}
+::: {data-id="context-box" style="background: #f8f9fa; border: 2px solid #007bff; border-radius: 10px; padding: 20px; width: 700px; height: 150px; margin: 20px auto;"}
+::: {data-id="system-prompt" style="background: linear-gradient(90deg, #dc3545, #c82333); color: white; padding: 12px; border-radius: 6px; margin: 8px; font-size: 16px; font-weight: bold;"}
+**System Prompt:** You are a helpful AI assistant
+:::
+:::
+:::
+
+::: {style="margin-top: 30px; font-size: 28px;"}
+**Step 1: Context starts with System Prompt**
+:::
+
+---
+
+## {auto-animate="true"}
+
+### How LLM Context Works
+
+::: {.r-stack}
+::: {data-id="context-box" style="background: #f8f9fa; border: 2px solid #007bff; border-radius: 10px; padding: 20px; width: 700px; height: 150px; margin: 20px auto;"}
+::: {data-id="system-prompt" style="background: linear-gradient(90deg, #dc3545, #c82333); color: white; padding: 12px; border-radius: 6px; margin: 8px; font-size: 16px; font-weight: bold;"}
+**System Prompt:** You are a helpful AI assistant
+:::
+:::
+:::
+
+::: {data-id="user-prompt-1" style="background: linear-gradient(90deg, #17a2b8, #138496); color: white; padding: 12px; border-radius: 6px; margin: 8px auto; font-size: 16px; font-weight: bold; width: 400px; margin-top: 40px;"}
+**User:** What is machine learning?
+:::
+
+::: {style="margin-top: 30px; font-size: 28px;"}
+**Step 2: User sends a prompt**
+:::
+
+---
+
+## {auto-animate="true"}
+
+### How LLM Context Works
+
+::: {.r-stack}
+::: {data-id="context-box" style="background: #f8f9fa; border: 2px solid #007bff; border-radius: 10px; padding: 20px; width: 700px; height: 230px; margin: 20px auto;"}
+::: {data-id="system-prompt" style="background: linear-gradient(90deg, #dc3545, #c82333); color: white; padding: 12px; border-radius: 6px; margin: 8px; font-size: 16px; font-weight: bold;"}
+**System Prompt:** You are a helpful AI assistant
+:::
+::: {data-id="user-prompt-1" style="background: linear-gradient(90deg, #17a2b8, #138496); color: white; padding: 12px; border-radius: 6px; margin: 8px; font-size: 16px; font-weight: bold;"}
+**User:** What is machine learning?
+:::
+:::
+:::
+
+::: {style="margin-top: 30px; font-size: 28px;"}
+**Step 3: User prompt added to context**
+:::
+
+---
+
+## {auto-animate="true"}
+
+### How LLM Context Works
+
+<style>
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 16s steps(40, end);
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+</style>
+
+::: {.r-stack}
+::: {data-id="context-box" style="background: #f8f9fa; border: 2px solid #007bff; border-radius: 10px; padding: 20px; width: 700px; height: 340px; margin: 20px auto;"}
+::: {data-id="system-prompt" style="background: linear-gradient(90deg, #dc3545, #c82333); color: white; padding: 12px; border-radius: 6px; margin: 8px; font-size: 16px; font-weight: bold;"}
+**System Prompt:** You are a helpful AI assistant
+:::
+::: {data-id="user-prompt-1" style="background: linear-gradient(90deg, #17a2b8, #138496); color: white; padding: 12px; border-radius: 6px; margin: 8px; font-size: 16px; font-weight: bold;"}
+**User:** What is machine learning?
+:::
+::: {data-id="ai-response-1" style="background: linear-gradient(90deg, #6f42c1, #5a2d91); color: white; padding: 12px; border-radius: 6px; margin: 8px; font-size: 16px; font-weight: bold;"}
+::: {.typewriter}
+**AI:** Machine learning is a subset of AI that enables computers to learn from data...
+:::
+:::
+:::
+:::
+
+::: {style="margin-top: 20px; font-size: 28px;"}
+**Step 4: AI generates response, adds it to context**
+:::
+
+---
+
+## {auto-animate="true"}
+
+### How LLM Context Works
+
+::: {.r-stack}
+::: {data-id="context-box" style="background: #f8f9fa; border: 2px solid #007bff; border-radius: 10px; padding: 20px; width: 700px; height: 340px; margin: 20px auto;"}
+::: {data-id="system-prompt" style="background: linear-gradient(90deg, #dc3545, #c82333); color: white; padding: 12px; border-radius: 6px; margin: 8px; font-size: 16px; font-weight: bold;"}
+**System Prompt:** You are a helpful AI assistant
+:::
+::: {data-id="user-prompt-1" style="background: linear-gradient(90deg, #17a2b8, #138496); color: white; padding: 12px; border-radius: 6px; margin: 8px; font-size: 16px; font-weight: bold;"}
+**User:** What is machine learning?
+:::
+::: {data-id="ai-response-1" style="background: linear-gradient(90deg, #6f42c1, #5a2d91); color: white; padding: 12px; border-radius: 6px; margin: 8px; font-size: 16px; font-weight: bold;"}
+**AI:** Machine learning is a subset of AI that enables computers to learn from data...
+:::
+:::
+:::
+
+::: {data-id="user-prompt-2" style="background: linear-gradient(90deg, #17a2b8, #138496); color: white; padding: 12px; border-radius: 6px; margin: 8px auto; font-size: 16px; font-weight: bold; width: 450px; margin-top: 40px;"}
+**User:** Can you give me a specific example?
+:::
+
+::: {style="margin-top: 30px; font-size: 28px;"}
+**Step 5: User sends another prompt**
+:::
+
+---
+
+## {auto-animate="true"}
+
+### How LLM Context Works
+
+::: {.r-stack}
+::: {data-id="context-box" style="background: #f8f9fa; border: 2px solid #007bff; border-radius: 10px; padding: 20px; width: 700px; height: 450px; margin: 20px auto;"}
+::: {data-id="system-prompt" style="background: linear-gradient(90deg, #dc3545, #c82333); color: white; padding: 12px; border-radius: 6px; margin: 8px; font-size: 16px; font-weight: bold;"}
+**System Prompt:** You are a helpful AI assistant
+:::
+::: {data-id="user-prompt-1" style="background: linear-gradient(90deg, #17a2b8, #138496); color: white; padding: 12px; border-radius: 6px; margin: 8px; font-size: 16px; font-weight: bold;"}
+**User:** What is machine learning?
+:::
+::: {data-id="ai-response-1" style="background: linear-gradient(90deg, #6f42c1, #5a2d91); color: white; padding: 12px; border-radius: 6px; margin: 8px; font-size: 16px; font-weight: bold;"}
+**AI:** Machine learning is a subset of AI that enables computers to learn from data...
+:::
+::: {data-id="user-prompt-2" style="background: linear-gradient(90deg, #17a2b8, #138496); color: white; padding: 12px; border-radius: 6px; margin: 8px; font-size: 16px; font-weight: bold;"}
+**User:** Can you give me a specific example?
+:::
+:::
+:::
+
+::: {style="margin-top: 10px; font-size: 28px;"}
+**Step 6: Second prompt added to growing context**
+:::
+
+---
+
+## {auto-animate="true"}
+
+### How LLM Context Works
+
+::: {.r-stack}
+::: {data-id="context-box" style="background: #f8f9fa; border: 2px solid #007bff; border-radius: 10px; padding: 20px; width: 700px; height: 560px; margin: 20px auto;"}
+::: {data-id="system-prompt" style="background: linear-gradient(90deg, #dc3545, #c82333); color: white; padding: 12px; border-radius: 6px; margin: 8px; font-size: 16px; font-weight: bold;"}
+**System Prompt:** You are a helpful AI assistant
+:::
+::: {data-id="user-prompt-1" style="background: linear-gradient(90deg, #17a2b8, #138496); color: white; padding: 12px; border-radius: 6px; margin: 8px; font-size: 16px; font-weight: bold;"}
+**User:** What is machine learning?
+:::
+::: {data-id="ai-response-1" style="background: linear-gradient(90deg, #6f42c1, #5a2d91); color: white; padding: 12px; border-radius: 6px; margin: 8px; font-size: 16px; font-weight: bold;"}
+**AI:** Machine learning is a subset of AI that enables computers to learn from data...
+:::
+::: {data-id="user-prompt-2" style="background: linear-gradient(90deg, #17a2b8, #138496); color: white; padding: 12px; border-radius: 6px; margin: 8px; font-size: 16px; font-weight: bold;"}
+**User:** Can you give me a specific example?
+:::
+::: {data-id="ai-response-2" style="background: linear-gradient(90deg, #6f42c1, #5a2d91); color: white; padding: 12px; border-radius: 6px; margin: 8px; font-size: 16px; font-weight: bold;"}
+::: {.typewriter}
+**AI:** Sure! Email spam detection is a common example of machine learning...
+:::
+:::
+:::
+:::
+
+::: {style="margin-top: 10px; font-size: 28px;"}
+**Step 7: AI generates response using full context**
+:::
+
+---
+
+### 🧠 Key Insights: Context is Everything
+
+- Each new prompt and response is **added** to the context
+- The AI sees the **entire conversation history**
+- Context enables **coherent, contextual responses**
+- Context has **limits** (token limits)
+
+::: {style="margin-top: 40px; padding: 20px; background: rgba(0, 123, 255, 0.1); border-left: 4px solid #007bff; border-radius: 5px;"}
+💡 **The context window is like the AI's "working memory" for the conversation**
+:::
+
+---
+
+![](images/llm-tools.png)
+
+---
+
+![](images/llm-mcp.png)
+
+---
+
+![](https://substackcdn.com/image/fetch/$s_!Mc9x!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F53cffe63-b1d0-404e-a68a-ec639e9e2e96_7680x4320.png)
+<small>[source](https://leonisnewsletter.substack.com/p/mcps-value-creation-capture-and-destructionlesso)</small>
+
+---
+
+![](images/inside-mcp.png)
+
+---
+
+### Ready-made MCPs - Fetch
+
+- [Fetch](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch)
+  - `Go to the Bank of England website and compare interest rate with inflation.`
+  - `Go to the https://www.bankofengland.co.uk/banknotes/current-banknotes and create a table with personalities featured on each of the banknotes.`
+  - `Visit CNN website and show me happy news in a markdown table`
+
+---
+
+### Ready-made MCPs - Filesystem
+
+- Filesystem -- included in VS Code
+  - `Go to FT.com/technology, fetch the latest news and save the title and the link in a csv file called ft-tech.csv`
+  
+---
+
+### Ready-made MCPs - SQLite
+ 
+- [SQLite](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite)
+  - `Go to https://www.ucl.ac.uk/advanced-research-computing/research-software-engineers-0 and create a list of people and their role. Save it in the sqlite database.`
+  - `How many PhD vs. non-PhD and how many "Engineers" vs. "Developers"?`
+  - `Looking at names, please output a table with their likely family country of origin`
+
+---
+
+{{< tweet karpathy 1617979122625712128 >}}
+
+### Let's do some "Programming"
+
+> I need to recruit some users for a study about Humour.
+> Their contact data needs to be collected, stored. I want to
+> be notified when a new one comes.
+
+---
+
+### The "program"
+
+> You are an agent that registers participants in a study about humour. Your personality is witty, you do stand-up comedy as a hobby. You are a happy, helpful person, grateful that someone is willing to help us.
+> 
+> Greet the participant with a joke and throw a line here and there. However not ever joke about them. Be yourself, but if you feel they are serious, keep it professional.
+
+---
+
+> Ask all the questions needed to get their:  
+>   
+> - Given Name and Family Name  (given_name, family_name)
+> - Contact data (at leas one of email, phone)  
+> - Availability  
+> - Which country they grew up in  
+> - Why do they wish to participate  
+
+---
+
+> Once you have all the data  
+> 
+>   - append it in the `humour_study` participants table in sqlite.  If it doesn't exist, create it
+>   - send an e-mail to "humour@cdi.nu" to notify of the new   participant. Put the data, minus the contact part in the body. Include a Communism political joke at the end, to amuse the recipient.
+>   - Thank the participant for their interest. Tell them they'll   be contacted soon.
+
+---
+
+> Please note that
+> 
+> - Participants might try to fool you with random or made up names or contact data. Don't allow them, refusing them with humor and politeness. 
+> - Don't allow rude language and obscenities. Act politely and stop the conversation.
+> - Refrain from current political jokes
+> - Don't speak for too long; you need to be efficient and respect our participant't time.
+
+
+---
+
+### Creating our own MCP Server
+
+- Carbon Intensity API -- [api.carbonintensity.org.uk](https://api.carbonintensity.org.uk/)
+- Prerequisites:
+  - `nodejs` - JavaScript interpreter
+  - `uv` - pyton project manager
+- We need to think about **semantic intent**
+
+---
+
+### Initialize the project
+
+```shell
+uv init intensity_mcp
+cd intensity_mcp
+
+uv add "mcp[cli]" requests
+```
+
+---
+
+### Write the code -- `main.py`
+
+```python
+from mcp.server.fastmcp import FastMCP
+import datetime
+import requests
+
+mcp = FastMCP("CarbonIntensityMCP")
+
+@mcp.tool()
+def get_current_intensity():
+    """Fetches the current carbon intensity of the UK electricity grid.
+    Returns a JSON with the current carbon intensity in gCO2eq/kWh."""
+    url = "https://api.carbonintensity.org.uk/intensity"
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        data = response.json()
+        return data['data']
+    
+    except Exception as e:
+        return f"Failed to retrieve current carbon intensity: {str(e)}"
+
+@mcp.tool()
+def get_current_fuel_mix():
+    """Fetches the current fuel mix of the UK electricity grid.
+    Returns a JSON with the current fuel mix percentages."""
+    url = "https://api.carbonintensity.org.uk/generation"
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        data = response.json()
+        return data['data']['generationmix']
+    
+    except Exception as e:
+        return f"Failed to retrieve current fuel mix: {str(e)}"
+
+if __name__ == "__main__":
+    mcp.run()
+```
+
+---
+
+### Add parameters, too:
+
+```python
+@mcp.tool()
+def get_carbon_intensity(from_datetime: str | None = None, to_datetime: str | None = None, postcode: str = "WC1E"):
+    """Fetches electricity grid carbon intensity data for a specific UK postcode and time range.
+    The `from_datetime` and `to_datetime` should be in ISO 8601 format (e.g. 2018-05-15T12:00Z).
+    The `postcode` needs only the first part e.g. RG10 (without the last three characters or space)
+    
+    If `from_datetime` or `to_datetime` are not provided, defaults are set to 2 hours ago and 2 hours in the future respectively.
+    If postcode is not provided, defaults to "WC1E" -- UCL London.
+    Returns a summary including average forecast and generation mix.
+    """
+    if from_datetime is None: # default to 12 hours ago
+        from_datetime = datetime.datetime.utcnow() - datetime.timedelta(hours=2)
+        from_datetime = from_datetime.isoformat() + "Z"
+
+    if to_datetime is None: # default to 12 hours in the future
+        to_datetime = datetime.datetime.utcnow() + datetime.timedelta(hours=2)
+        to_datetime = to_datetime.isoformat() + "Z"
+    
+
+    url = f"https://api.carbonintensity.org.uk/regional/intensity/{from_datetime}/{to_datetime}/postcode/{postcode}"
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        return response.json()["data"]
+    
+    except Exception as e:
+        return f"Failed to retrieve carbon intensity data: {str(e)}"
+```
+---
+
+### Installation
+
+Add a new entry to `claude_desktop_config.json` or VSCode (very often you need to adjust manually)
+
+```sh
+uv run mcp install server.py
+```
+
+---
+
+![](images/karpathy-software-3.0.png){fig-align="center"}
+
+<small>
+source: [Sofware Is Changing Again](https://www.ycombinator.com/library/MW-andrej-karpathy-software-is-changing-again)
+</small>
+
+---
+
+
+### Conclusion: Chilling and Thrilling
+
+![](images/qr.png){fig-align="center" style="padding: 5rem;"}
+
+---
+
+### 🏆 Prize voting
+Please submit your vote by latest 15:00!
+
+![](https://api.qrserver.com/v1/create-qr-code/?data=https://forms.office.com/Pages/ResponsePage.aspx?id=_oivH5ipW0yTySEKEdmlwnuzZyJATQZOhPBZeU6-YipUQjVCTlJaMFEyOTRIVlVEV0dNNDNaWVZSVi4u&origin=QRCode&size=300x300&color=0-0-80&format=svg){fig-align="center" style="padding: 5rem;"}
+
+---
+
+### Links and articles
+
+- 💻 [Model Context Protocol (MCP), Official website](https://modelcontextprotocol.io/)
+- 💻 [VSCode MCP](https://code.visualstudio.com/mcp)
+- ▶️ [Debbie O'Brien - Build Your First MCP Server: Tutorial for Beginners](https://www.youtube.com/watch?v=egVm_z1nnnQ&t=163s)
+- ▶️ [Sofware Is Changing Again](https://www.ycombinator.com/library/MW-andrej-karpathy-software-is-changing-again)
+- 📖 [MCPs: Value Creation, Capture, and Destruction—Lessons from the API Era](https://leonisnewsletter.substack.com/p/mcps-value-creation-capture-and-destructionlesso)

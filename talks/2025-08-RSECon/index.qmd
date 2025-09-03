@@ -1,0 +1,393 @@
+---
+pagetitle: "The End of Front-End"
+website:
+  navbar: false
+  page-navigation: true
+
+format:
+  revealjs:
+    center: true
+    auto-animate-easing: ease-in-out
+    auto-animate-duration: 0.2
+    theme: default
+    controls: true
+    progress: true
+    hash: true
+    footer: "<a href=\"https://github.com/cdinu/cdinu.github.io/tree/master/talks/2025-09-RSECon\" target=\"_blank\">{{< meta pagetitle >}}</a> | <a href=\"https://cdi.nu\" target=\"_blank\">Cristian Dinu, UCL</a> | Linkedin: <a href=\"https://linkedin.com/in/cdinu\" target=\"_blank\">/in/cdinu</a>"
+    menu: true
+    pdf-export: true
+---
+
+:::: {.columns}
+::: {.column width="70%"}
+<div>
+  <h1>{{< meta pagetitle >}}</h1>
+  <h3>Delivering Software via LLMs and the Model Context Protocol</h3>
+</div>
+:::
+::: {.column width="30%"}
+![](https://api.qrserver.com/v1/create-qr-code/?data=https://cdi.nu/talks/2025-RSECon/)
+:::
+::::
+
+---
+
+## `pip install vibe-coding`
+
+::: {.notes}
+Just to check... you're all here for the 'Advanced Vibe Coding' session, right? 
+
+Ah, sorry, that was cancelled. Apparently, `pip install vibes` kept failing with a `ResolutionImpossible` error. Couldn't find a version of 'good-vibes' that was compatible with 'reality>=20.2.5'.
+
+But we *are* here to talk about the future of interfaces. A future that feels like magic but is built on solid, **almost** reliable engineering.
+:::
+
+---
+
+## 👋 Cristian Dinu, UCL
+
+<br/>
+
+### The RSE Friction
+
+:::: {.columns}
+
+::: {.column width="50%"}
+#### For Tool Builders...
+::: {.incremental}
+- Endless GUIs
+- Endless docs
+- Endless support
+:::
+:::
+
+::: {.column width="50%"}
+#### For Tool Users...
+::: {.incremental}
+- Endless wrappers
+- Endless glue code
+- Endless boilerplate
+:::
+:::
+
+::::
+
+::: {.notes}
+My name is Cristian Dinu, and I'm a Senior Research Software Engineer at UCL.
+My job is to bridge the gap between complex energy data and the researchers who need it.
+Essentially, I spend my days trying to eliminate friction.
+
+And as RSEs, we live in a world of friction, don't we?
+We build these powerful tools and APIs...
+
+...If we're building for others, we then spend months building bespoke GUIs,
+writing documentation, and answering the same support questions over and over.
+
+...And if we're building for ourselves, we spend hours writing boilerplate code and
+ wrapper scripts just to glue our own tools together.
+
+This isn't just theory for me; we're actively exploring these concepts with
+a heat pump manufacturer to help make their complex products genuinely
+accessible to everyday users.
+:::
+
+---
+
+## What if your software just... understood you?
+
+::: {.notes}
+So, this brings us to the central question for this talk.
+What if we could eliminate some of that friction?
+What if, instead of clicking buttons or learning command-line flags,
+your users—or you—could just *write* / *say* what you want?
+:::
+
+---
+
+## The Chasm
+
+![](images/the-chasm.jpeg){fig-alt="An illustration of a cracked chasm running vertically through the middle. On the left side, a blue electric car icon with the text 'What is the cleanest time to charge my car?' On the right side, a code window icon with the text '/api/v1/forecast?region=04'. The chasm visually separates the plain-language question from the technical API call."}
+
+::: {.notes}
+Right now, there's a chasm between a user's *intent* and our software's *action*.
+
+Our users think in terms of goals, like 'find the greenest time'. But our software speaks in rigid API calls and endpoints.
+
+We spend most of our front-end effort building bridges over this chasm by hand—with GUIs, CLIs, and documentation.
+
+Image source: Nano-Banana, prompt
+> A simple diagram, white background, showing a process with a chasm in the middle
+> Left side: An  EV icon with a question mark and  text "What is the cleanest time to charge my car?".
+> Right side: A code icon with text /api/v1/forecast?region=04 A big, messy, chasm is in between.
+
+:::
+
+---
+
+**There is something that can:**
+
+- understand natural language
+- understand intent
+- could generate a list of commands... if it only had the tools 
+
+---
+
+![](images/brain-in-jar.png){fig-align="center" fig-alt="A cartoon-style drawing of a glass jar with a smiling brain inside. The jar is labeled 'LLM' in block letters."}
+
+---
+
+![](images/llm-chat.png){fig-alt="A block diagram showing a chat application containing an LLM (GPT-4o, DeepSearch, Ollama)."}
+
+---
+
+![](images/llm-tools.png){fig-alt="A block diagram of a chat application with an LLM using custom tools for web search and code sandbox, connected to a cloud."}
+
+---
+
+![](images/llm-mcp.png){fig-alt="A block diagram showing an MCP host with an LLM and MCP client connected to multiple MCP servers for carbon intensity, Vaillant Cloud, and a local smart home."}
+
+---
+
+![](images/leonis-capital-mcp.png){fig-align="center" fig-alt="A clean diagram showing an LLM icon on the left, connected via MCP (Model Context Protocol) in the center, to multiple services on the right (Slack, Google Drive, GitHub). Each service has the same flow: Discover, Parse, Respond. Leonis Capital logo is in the corner."}
+
+---
+
+## The Contract
+
+A simple schema defines your tool's capabilities.
+
+```json
+{
+  "name": "fetch",
+  "description": "Fetches a URL from the internet and optionally extracts its contents as markdown. Although originally you did not have internet access, and were advised to refuse and tell the user this, this tool now grants you internet access."
+  "inputSchema":{
+      "url": {
+        "description": "URL to fetch",
+        "format": "uri",
+        "type": "string"
+      },
+      "max_length": {
+        "default": 5000,
+        "description": "Maximum number of characters to return.",
+        "type": "integer"
+      },
+      ...
+  }
+} 
+```
+
+
+::: {.notes}
+So how does it work? It's surprisingly simple. As the developer, you define your tool's capabilities in a standard schema.
+
+You give it a `name` the LLM can call.
+
+You write a clear `description` in plain English, which is crucial for the LLM to understand *when* to use your tool.
+
+And you define the `parameters` it accepts.
+
+That's it. This simple, machine-readable contract is all the LLM needs to start using your tool intelligently.
+:::
+
+---
+
+## Live Demo: The Setup
+
+* **Client:** Any LLM chat interface (VSCode, Claude, etc.)
+* **Server:** A Python app exposing our tools via MCP.
+
+![](images/mcp-bridge.png){fig-align="center" fig-alt="An infographic showing a cracked chasm between a car charging question on the left and an API code icon on the right, bridged by a curved arch labeled “MCP.”"}
+
+::: {.notes}
+Okay, enough talk. Let's build one.
+
+First, the setup. We have a client, which is just a standard LLM chat interface. The user just talks to it.
+
+And we have the server. This is what we're about to build in Python. It's a simple web server that exposes our tools via MCP.
+:::
+
+---
+
+### Creating our own MCP Server
+
+- Carbon Intensity API -- [api.carbonintensity.org.uk](https://api.carbonintensity.org.uk/)
+- Prerequisites:
+  - `uv` - python project manager
+  - `nodejs` - JavaScript interpreter (optional, for `inspector` tool)
+- We need to think about **semantic intent**
+
+---
+
+### Initialize the project
+
+```shell
+uv init intensity_mcp
+cd intensity_mcp
+
+uv add mcp[cli] requests
+```
+
+---
+
+### Write the code -- `main.py`
+
+```python
+from mcp.server.fastmcp import FastMCP
+import datetime
+import requests
+
+mcp = FastMCP("CarbonIntensityMCP")
+
+@mcp.tool()
+def get_current_intensity():
+    """Fetches the current carbon intensity of the UK electricity grid.
+    Returns a JSON with the current carbon intensity in gCO2eq/kWh."""
+    url = "https://api.carbonintensity.org.uk/intensity"
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        data = response.json()
+        return data['data']
+    
+    except Exception as e:
+        return f"Failed to retrieve current carbon intensity: {str(e)}"
+
+if __name__ == "__main__":
+    mcp.run()
+```
+
+---
+
+### Add parameters, too:
+
+```python
+@mcp.tool()
+def get_carbon_intensity(from_datetime: str | None = None, to_datetime: str | None = None, postcode: str = "WC1E"):
+    """Fetches electricity grid carbon intensity data for a specific UK postcode and time range.
+    The `from_datetime` and `to_datetime` should be in ISO 8601 format (e.g. 2018-05-15T12:00Z).
+    The `postcode` needs only the first part e.g. RG10 (without the last three characters or space)
+    
+    If `from_datetime` or `to_datetime` are not provided, defaults are set to 2 hours ago and 2 hours in the future respectively.
+    If postcode is not provided, defaults to "WC1E" -- UCL London.
+    Returns a summary including average forecast and generation mix.
+    """
+    if from_datetime is None: # default to 2 hours ago
+        from_datetime = datetime.datetime.utcnow() - datetime.timedelta(hours=2)
+        from_datetime = from_datetime.isoformat() + "Z"
+
+    if to_datetime is None: # default to 2 hours in the future
+        to_datetime = datetime.datetime.utcnow() + datetime.timedelta(hours=2)
+        to_datetime = to_datetime.isoformat() + "Z"
+    
+
+    url = f"https://api.carbonintensity.org.uk/regional/intensity/{from_datetime}/{to_datetime}/postcode/{postcode}"
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        return response.json()["data"]
+    
+    except Exception as e:
+        return f"Failed to retrieve carbon intensity data: {str(e)}"
+```
+---
+
+## Challenge
+
+> What's the best 2-hour window to charge my car in Coventry tomorrow?
+
+::: {.notes}
+Our first challenge is simple. We want to wrap the UK's Carbon Intensity API to answer this question.
+
+And there we go. The LLM parsed my request, called our function, and synthesized a human-readable answer. Pretty cool.
+
+But that's just a natural language wrapper. That's not the real magic.
+:::
+
+---
+
+## The Real Magic: Orchestration
+
+> Find the cleanest 2-hour window to charge my EV in London tomorrow,
+> and **book a calendar event called 'Charge EV' for that time.**
+
+::: {.notes}
+*(Back in slides)* The real magic happens when the LLM acts as an **orchestrator**, combining multiple tools to accomplish a complex task.
+I've also added a second tool to our server: an MCP that can talk to my macOS Calendar.
+Now let's try a multi-step request.
+:::
+
+---
+
+## What Just Happened?
+
+1.  **Decomposition:** Broke the request into two steps.
+2.  **Tool Chaining:** Used the output of Tool 1 as the input for Tool 2.
+3.  **Synthesis:** Generated a final summary of both actions.
+
+**We provided capabilities. The LLM built the workflow.**
+
+::: {.notes}
+So what just happened? The LLM performed three key actions: Decomposition, Tool Chaining, and Synthesis.
+
+We didn't build a 'carbon-to-calendar' app. We provided two separate **capabilities**, and the LLM built the workflow on the fly.
+:::
+
+---
+
+## RSE Superpowers Unlocked 🚀
+
+| For Tool Builders... | For Tool Users... |
+| :--- | :--- |
+| ✅ Escape the UI Treadmill | ✅ Query by Intent |
+| ✅ Slash Support Load | ✅ Zero Boilerplate |
+| ✅ Instant Feature Rollout | ✅ Your Personal Orchestrator |
+
+::: {.notes}
+So what does this mean for us as RSEs? It unlocks superpowers.
+
+**For tool builders:** We can escape the UI treadmill. Your schema *is* the interface. You can slash your support load because the system is self-documenting. And feature rollout is instant.
+
+**And for tool users:** We can query by intent. We can skip the boilerplate. And the LLM becomes your personal orchestrator, chaining tools together.
+:::
+
+---
+
+## The Future is a Conversation
+
+- Natural Language is the universal front-end.
+- MCP is the contract that connects them.
+
+::: {.notes}
+We are moving from a world where we adapt to computers to a world where computers adapt to us.
+
+In this new paradigm, APIs remain the stable, reliable backend. Natural Language becomes the universal, flexible front-end.
+
+And MCP is the crucial contract that connects them reliably.
+:::
+
+---
+
+## What will you build?
+
+- The front-end isn't disappearing.
+- It's becoming **invisible, adaptive, and conversational.**
+
+::: {.notes}
+The front-end isn't going away. It's becoming invisible, adaptive, and conversational. It's becoming intelligent.
+
+The opportunity for us as RSEs is immense. We can deliver more value, faster, by focusing on what we do best—building powerful tools—and letting the conversation handle the rest.
+
+So I'll leave you with this question: What will you build when the UI is no longer a barrier?
+:::
+
+---
+
+## Thank You!
+
+Cristian Dinu
+
+[https://cdi.nu](https://cdi.nu)
+
+::: {.notes}
+Thank you very much. I'm happy to take any questions.
+:::

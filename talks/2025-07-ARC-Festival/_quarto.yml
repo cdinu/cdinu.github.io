@@ -1,0 +1,16 @@
+project:
+  type: website
+
+website:
+  title: "MCP Workshop July 2025"
+  navbar: false
+  page-navigation: true
+
+format:
+  revealjs:
+    theme: default
+    controls: true
+    progress: true
+    hash: true
+    footer: "<a href=\"https://github.com/cdinu/cdinu.github.io/tree/master/talks/2025-07-ARC-Festival\" target=\"_blank\">Conversational Interfaces for Research</a> | <a href=\"https://cdi.nu\" target=\"_blank\">Cristian Dinu</a> | Linkedin: <a href=\"https://linkedin.com/in/cdinu\" target=\"_blank\">/in/cdinu</a>"
+    menu: true
