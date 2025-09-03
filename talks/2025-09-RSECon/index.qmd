@@ -26,7 +26,7 @@ format:
 </div>
 :::
 ::: {.column width="30%"}
-![](https://api.qrserver.com/v1/create-qr-code/?data=https://cdi.nu/talks/2025-09-RSECon/)
+![](https://api.qrserver.com/v1/create-qr-code/?data=https%3A%2F%2Fcdi.nu%2Ftalks%2F2025-09-RSECon)
 :::
 ::::
 
