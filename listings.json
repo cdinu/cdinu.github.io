@@ -1,18 +1,5 @@
 [
   {
-    "listing": "/posts/index.html",
-    "items": [
-      "/posts/2025-07-predictions/index.html",
-      "/posts/2025-07-23-dashes/index.html",
-      "/posts/2025-07-power-shift/index.html",
-      "/posts/2025-06-28-chilling-thrilling/index.html",
-      "/posts/2025-06-27-light-under-fire/index.html",
-      "/posts/2025-06-26-green-transition/index.html",
-      "/posts/2025-06-20-rsecon/index.html",
-      "/posts/2025-01-15-edol-update/index.html"
-    ]
-  },
-  {
     "listing": "/posts-2010s/index.html",
     "items": [
       "/posts-2010s/135248789608.html",
@@ -131,6 +118,19 @@
       "/posts-2010s/38072692715.html",
       "/posts-2010s/38072975066.html",
       "/posts-2010s/38072221180.html"
+    ]
+  },
+  {
+    "listing": "/posts/index.html",
+    "items": [
+      "/posts/2025-07-predictions/index.html",
+      "/posts/2025-07-23-dashes/index.html",
+      "/posts/2025-07-power-shift/index.html",
+      "/posts/2025-06-28-chilling-thrilling/index.html",
+      "/posts/2025-06-27-light-under-fire/index.html",
+      "/posts/2025-06-26-green-transition/index.html",
+      "/posts/2025-06-20-rsecon/index.html",
+      "/posts/2025-01-15-edol-update/index.html"
     ]
   },
   {
