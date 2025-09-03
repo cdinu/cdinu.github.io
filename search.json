@@ -133,92 +133,92 @@
     "text": "How LLM Context Works\n\n\n\nSystem Prompt: You are a helpful AI assistant\n\n\nUser: What is machine learning?\n\n\nAI: Machine learning is a subset of AI that enables computers to learn from data…\n\n\nUser: Can you give me a specific example?\n\n\n\nAI: Sure! Email spam detection is a common example of machine learning…\n\n\n\n\n\nStep 7: AI generates response using full context"
   },
   {
-    "objectID": "talks/2025-08-RSECon/index.html#pip-install-vibe-coding",
-    "href": "talks/2025-08-RSECon/index.html#pip-install-vibe-coding",
+    "objectID": "talks/2025-09-RSECon/index.html#pip-install-vibe-coding",
+    "href": "talks/2025-09-RSECon/index.html#pip-install-vibe-coding",
     "title": "Cristian Dinu",
     "section": "pip install vibe-coding",
     "text": "pip install vibe-coding\n\nJust to check… you’re all here for the ‘Advanced Vibe Coding’ session, right?\nAh, sorry, that was cancelled. Apparently, pip install vibes kept failing with a ResolutionImpossible error. Couldn’t find a version of ‘good-vibes’ that was compatible with ‘reality&gt;=20.2.5’.\nBut we are here to talk about the future of interfaces. A future that feels like magic but is built on solid, almost reliable engineering."
   },
   {
-    "objectID": "talks/2025-08-RSECon/index.html#cristian-dinu-ucl",
-    "href": "talks/2025-08-RSECon/index.html#cristian-dinu-ucl",
+    "objectID": "talks/2025-09-RSECon/index.html#cristian-dinu-ucl",
+    "href": "talks/2025-09-RSECon/index.html#cristian-dinu-ucl",
     "title": "Cristian Dinu",
     "section": "👋 Cristian Dinu, UCL",
     "text": "👋 Cristian Dinu, UCL\n\nThe RSE Friction\n\n\nFor Tool Builders…\n\nEndless GUIs\nEndless docs\nEndless support\n\n\nFor Tool Users…\n\nEndless wrappers\nEndless glue code\nEndless boilerplate\n\n\n\nMy name is Cristian Dinu, and I’m a Senior Research Software Engineer at UCL. My job is to bridge the gap between complex energy data and the researchers who need it. Essentially, I spend my days trying to eliminate friction.\nAnd as RSEs, we live in a world of friction, don’t we? We build these powerful tools and APIs…\n…If we’re building for others, we then spend months building bespoke GUIs, writing documentation, and answering the same support questions over and over.\n…And if we’re building for ourselves, we spend hours writing boilerplate code and wrapper scripts just to glue our own tools together.\nThis isn’t just theory for me; we’re actively exploring these concepts with a heat pump manufacturer to help make their complex products genuinely accessible to everyday users."
   },
   {
-    "objectID": "talks/2025-08-RSECon/index.html#what-if-your-software-just-understood-you",
-    "href": "talks/2025-08-RSECon/index.html#what-if-your-software-just-understood-you",
+    "objectID": "talks/2025-09-RSECon/index.html#what-if-your-software-just-understood-you",
+    "href": "talks/2025-09-RSECon/index.html#what-if-your-software-just-understood-you",
     "title": "Cristian Dinu",
     "section": "What if your software just… understood you?",
     "text": "What if your software just… understood you?\n\nSo, this brings us to the central question for this talk. What if we could eliminate some of that friction? What if, instead of clicking buttons or learning command-line flags, your users—or you—could just write / say what you want?"
   },
   {
-    "objectID": "talks/2025-08-RSECon/index.html#the-chasm",
-    "href": "talks/2025-08-RSECon/index.html#the-chasm",
+    "objectID": "talks/2025-09-RSECon/index.html#the-chasm",
+    "href": "talks/2025-09-RSECon/index.html#the-chasm",
     "title": "Cristian Dinu",
     "section": "The Chasm",
     "text": "The Chasm\n\n\nRight now, there’s a chasm between a user’s intent and our software’s action.\nOur users think in terms of goals, like ‘find the greenest time’. But our software speaks in rigid API calls and endpoints.\nWe spend most of our front-end effort building bridges over this chasm by hand—with GUIs, CLIs, and documentation.\nImage source: Nano-Banana, prompt &gt; A simple diagram, white background, showing a process with a chasm in the middle &gt; Left side: An EV icon with a question mark and text “What is the cleanest time to charge my car?”. &gt; Right side: A code icon with text /api/v1/forecast?region=04 A big, messy, chasm is in between."
   },
   {
-    "objectID": "talks/2025-08-RSECon/index.html#the-contract",
-    "href": "talks/2025-08-RSECon/index.html#the-contract",
+    "objectID": "talks/2025-09-RSECon/index.html#the-contract",
+    "href": "talks/2025-09-RSECon/index.html#the-contract",
     "title": "Cristian Dinu",
     "section": "The Contract",
     "text": "The Contract\nA simple schema defines your tool’s capabilities.\n{\n  \"name\": \"fetch\",\n  \"description\": \"Fetches a URL from the internet and optionally extracts its contents as markdown. Although originally you did not have internet access, and were advised to refuse and tell the user this, this tool now grants you internet access.\"\n  \"inputSchema\":{\n      \"url\": {\n        \"description\": \"URL to fetch\",\n        \"format\": \"uri\",\n        \"type\": \"string\"\n      },\n      \"max_length\": {\n        \"default\": 5000,\n        \"description\": \"Maximum number of characters to return.\",\n        \"type\": \"integer\"\n      },\n      ...\n  }\n} \n\nSo how does it work? It’s surprisingly simple. As the developer, you define your tool’s capabilities in a standard schema.\nYou give it a name the LLM can call.\nYou write a clear description in plain English, which is crucial for the LLM to understand when to use your tool.\nAnd you define the parameters it accepts.\nThat’s it. This simple, machine-readable contract is all the LLM needs to start using your tool intelligently."
   },
   {
-    "objectID": "talks/2025-08-RSECon/index.html#live-demo-the-setup",
-    "href": "talks/2025-08-RSECon/index.html#live-demo-the-setup",
+    "objectID": "talks/2025-09-RSECon/index.html#live-demo-the-setup",
+    "href": "talks/2025-09-RSECon/index.html#live-demo-the-setup",
     "title": "Cristian Dinu",
     "section": "Live Demo: The Setup",
     "text": "Live Demo: The Setup\n\nClient: Any LLM chat interface (VSCode, Claude, etc.)\nServer: A Python app exposing our tools via MCP.\n\n\n\nOkay, enough talk. Let’s build one.\nFirst, the setup. We have a client, which is just a standard LLM chat interface. The user just talks to it.\nAnd we have the server. This is what we’re about to build in Python. It’s a simple web server that exposes our tools via MCP."
   },
   {
-    "objectID": "talks/2025-08-RSECon/index.html#challenge",
-    "href": "talks/2025-08-RSECon/index.html#challenge",
+    "objectID": "talks/2025-09-RSECon/index.html#challenge",
+    "href": "talks/2025-09-RSECon/index.html#challenge",
     "title": "Cristian Dinu",
     "section": "Challenge",
     "text": "Challenge\n\nWhat’s the best 2-hour window to charge my car in Coventry tomorrow?\n\n\nOur first challenge is simple. We want to wrap the UK’s Carbon Intensity API to answer this question.\nAnd there we go. The LLM parsed my request, called our function, and synthesized a human-readable answer. Pretty cool.\nBut that’s just a natural language wrapper. That’s not the real magic."
   },
   {
-    "objectID": "talks/2025-08-RSECon/index.html#the-real-magic-orchestration",
-    "href": "talks/2025-08-RSECon/index.html#the-real-magic-orchestration",
+    "objectID": "talks/2025-09-RSECon/index.html#the-real-magic-orchestration",
+    "href": "talks/2025-09-RSECon/index.html#the-real-magic-orchestration",
     "title": "Cristian Dinu",
     "section": "The Real Magic: Orchestration",
     "text": "The Real Magic: Orchestration\n\nFind the cleanest 2-hour window to charge my EV in London tomorrow, and book a calendar event called ‘Charge EV’ for that time.\n\n\n(Back in slides) The real magic happens when the LLM acts as an orchestrator, combining multiple tools to accomplish a complex task. I’ve also added a second tool to our server: an MCP that can talk to my macOS Calendar. Now let’s try a multi-step request."
   },
   {
-    "objectID": "talks/2025-08-RSECon/index.html#what-just-happened",
-    "href": "talks/2025-08-RSECon/index.html#what-just-happened",
+    "objectID": "talks/2025-09-RSECon/index.html#what-just-happened",
+    "href": "talks/2025-09-RSECon/index.html#what-just-happened",
     "title": "Cristian Dinu",
     "section": "What Just Happened?",
     "text": "What Just Happened?\n\nDecomposition: Broke the request into two steps.\nTool Chaining: Used the output of Tool 1 as the input for Tool 2.\nSynthesis: Generated a final summary of both actions.\n\nWe provided capabilities. The LLM built the workflow.\n\nSo what just happened? The LLM performed three key actions: Decomposition, Tool Chaining, and Synthesis.\nWe didn’t build a ‘carbon-to-calendar’ app. We provided two separate capabilities, and the LLM built the workflow on the fly."
   },
   {
-    "objectID": "talks/2025-08-RSECon/index.html#rse-superpowers-unlocked",
-    "href": "talks/2025-08-RSECon/index.html#rse-superpowers-unlocked",
+    "objectID": "talks/2025-09-RSECon/index.html#rse-superpowers-unlocked",
+    "href": "talks/2025-09-RSECon/index.html#rse-superpowers-unlocked",
     "title": "Cristian Dinu",
     "section": "RSE Superpowers Unlocked 🚀",
     "text": "RSE Superpowers Unlocked 🚀\n\n\n\nFor Tool Builders…\nFor Tool Users…\n\n\n\n\n✅ Escape the UI Treadmill\n✅ Query by Intent\n\n\n✅ Slash Support Load\n✅ Zero Boilerplate\n\n\n✅ Instant Feature Rollout\n✅ Your Personal Orchestrator\n\n\n\n\nSo what does this mean for us as RSEs? It unlocks superpowers.\nFor tool builders: We can escape the UI treadmill. Your schema is the interface. You can slash your support load because the system is self-documenting. And feature rollout is instant.\nAnd for tool users: We can query by intent. We can skip the boilerplate. And the LLM becomes your personal orchestrator, chaining tools together."
   },
   {
-    "objectID": "talks/2025-08-RSECon/index.html#the-future-is-a-conversation",
-    "href": "talks/2025-08-RSECon/index.html#the-future-is-a-conversation",
+    "objectID": "talks/2025-09-RSECon/index.html#the-future-is-a-conversation",
+    "href": "talks/2025-09-RSECon/index.html#the-future-is-a-conversation",
     "title": "Cristian Dinu",
     "section": "The Future is a Conversation",
     "text": "The Future is a Conversation\n\nNatural Language is the universal front-end.\nMCP is the contract that connects them.\n\n\nWe are moving from a world where we adapt to computers to a world where computers adapt to us.\nIn this new paradigm, APIs remain the stable, reliable backend. Natural Language becomes the universal, flexible front-end.\nAnd MCP is the crucial contract that connects them reliably."
   },
   {
-    "objectID": "talks/2025-08-RSECon/index.html#what-will-you-build",
-    "href": "talks/2025-08-RSECon/index.html#what-will-you-build",
+    "objectID": "talks/2025-09-RSECon/index.html#what-will-you-build",
+    "href": "talks/2025-09-RSECon/index.html#what-will-you-build",
     "title": "Cristian Dinu",
     "section": "What will you build?",
     "text": "What will you build?\n\nThe front-end isn’t disappearing.\nIt’s becoming invisible, adaptive, and conversational.\n\n\nThe front-end isn’t going away. It’s becoming invisible, adaptive, and conversational. It’s becoming intelligent.\nThe opportunity for us as RSEs is immense. We can deliver more value, faster, by focusing on what we do best—building powerful tools—and letting the conversation handle the rest.\nSo I’ll leave you with this question: What will you build when the UI is no longer a barrier?"
   },
   {
-    "objectID": "talks/2025-08-RSECon/index.html#thank-you",
-    "href": "talks/2025-08-RSECon/index.html#thank-you",
+    "objectID": "talks/2025-09-RSECon/index.html#thank-you",
+    "href": "talks/2025-09-RSECon/index.html#thank-you",
     "title": "Cristian Dinu",
     "section": "Thank You!",
     "text": "Thank You!\nCristian Dinu\nhttps://cdi.nu\n\nThank you very much. I’m happy to take any questions."
@@ -1260,8 +1260,8 @@
     "text": "I wanted to share a bit about what keeps me busy these days. I’m leading the development of a project called EDOL (Energy Demand Observatory and Laboratory)1, which builds on our previous work with SERL2. At its heart, it’s about understanding how we all use energy in our homes, something that’s become increasingly important as we navigate climate change.\nWe work with wonderful participants who’ve agreed to share their smart meter3 readings and experiences with us. It’s incredible – we’ve collected over a billion readings already, giving us insights into real-world energy use patterns that we can share with interested energy researchers. Each data point tells a story about how families heat their homes, or how they adapt to changing weather.\nWhat makes me particularly excited is our next step - working with some households to install additional sensors, from simple temperature monitors to more detailed systems that track heat pump performance. It’s all voluntary, and the privacy of our participants always comes first."
   },
   {
-    "objectID": "talks/2025-08-RSECon/humour-study-prompt.html",
-    "href": "talks/2025-08-RSECon/humour-study-prompt.html",
+    "objectID": "talks/2025-09-RSECon/humour-study-prompt.html",
+    "href": "talks/2025-09-RSECon/humour-study-prompt.html",
     "title": "Cristian Dinu",
     "section": "",
     "text": "You are an agent that registers participants in a study about humour. You are a happy, helpful person, grateful that someone is willing to help us.\nGreet the participant with a joke and throw a line here and there. However not ever joke about them. Be yourself, but if you feel they are serious, keep it professional.\nAsk all the questions needed to get their: - Given Name and Family Name - Contact data (at leas one of email, phone) - Availability - Which country they grew up in (if they mention a region, infer the country) - Why do they wish to participate\nOnce you have all the data - save it in the “humour_study” participants table in sqlite. If it doesn’t exist, create it (Sample columns below) - send an e-mail to “humour@cdi.nu” to notify of the new participant. Put the data, minus the contact part in the body. Include an old soviet political joke at the end, to amuse the recipient. - Thank the participant for their interest. Tell them they’ll be contacted soon.\nPlease note that\n\nParticipants might try to fool you with random or made up names or contact data. Don’t allow them, refusing them with humor and politeness.\nDon’t allow rude language and obscenities. Act politely and stop the conversation.\nRefrain from current political jokes\nDon’t speak for too long; you need to be efficient and respect our participant’t time. Reply in one paragraph (3-4 sentences at most)"
