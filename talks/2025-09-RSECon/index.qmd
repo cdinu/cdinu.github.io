@@ -1,5 +1,6 @@
 ---
 pagetitle: "The End of Front-End"
+description: "Delivering Software via LLMs and the Model Context Protocol"
 website:
   navbar: false
   page-navigation: true
@@ -32,7 +33,7 @@ format:
 
 ---
 
-## `pip install vibe-coding`
+## `pip install rse-vibe-coding`
 
 ::: {.notes}
 Just to check... you're all here for the 'Advanced Vibe Coding' session, right? 
@@ -53,16 +54,16 @@ But we *are* here to talk about the future of interfaces. A future that feels li
 :::: {.columns}
 
 ::: {.column width="50%"}
-#### For Tool Builders...
+#### RSE as Tool Builders...
 ::: {.incremental}
-- Endless GUIs
+- Endless UIs
 - Endless docs
 - Endless support
 :::
 :::
 
 ::: {.column width="50%"}
-#### For Tool Users...
+#### RSE as Tool Users...
 ::: {.incremental}
 - Endless wrappers
 - Endless glue code
@@ -80,10 +81,10 @@ Essentially, I spend my days trying to eliminate friction.
 And as RSEs, we live in a world of friction, don't we?
 We build these powerful tools and APIs...
 
-...If we're building for others, we then spend months building bespoke GUIs,
+...When we're building for others, we then spend months building bespoke GUIs,
 writing documentation, and answering the same support questions over and over.
 
-...And if we're building for ourselves, we spend hours writing boilerplate code and
+...And when we're building for ourselves, we spend hours writing boilerplate code and
  wrapper scripts just to glue our own tools together.
 
 This isn't just theory for me; we're actively exploring these concepts with
@@ -116,6 +117,7 @@ Our users think in terms of goals, like 'find the greenest time'. But our softwa
 We spend most of our front-end effort building bridges over this chasm by hand—with GUIs, CLIs, and documentation.
 
 Image source: Nano-Banana, prompt
+
 > A simple diagram, white background, showing a process with a chasm in the middle
 > Left side: An  EV icon with a question mark and  text "What is the cleanest time to charge my car?".
 > Right side: A code icon with text /api/v1/forecast?region=04 A big, messy, chasm is in between.
@@ -134,42 +136,79 @@ Image source: Nano-Banana, prompt
 
 ![](images/brain-in-jar.png){fig-align="center" fig-alt="A cartoon-style drawing of a glass jar with a smiling brain inside. The jar is labeled 'LLM' in block letters."}
 
+::: {.notes}
+
+We all now it, we all already use it. The Large Language Model.
+
+This is how I imagine a model. It is like a brain in a jar. It has knowledge, it has reasoning, it has memory. But it has no body. It has no tools. It cannot find new things, it cannot act in the world.
+
+:::
 ---
 
 ![](images/llm-chat.png){fig-alt="A block diagram showing a chat application containing an LLM (GPT-4o, DeepSearch, Ollama)."}
+
+::: {.notes}
+
+This is how we all met the LLM. In a chat interface. You type something, it responds.
+It is a great interface for exploration, for brainstorming, for learning. It relies on its static training data, and onn you, the user, to provide context, and do the actions.
+
+It is not a great interface for action. It cannot do anything in the world. It cannot access new information. It cannot run code. It cannot control devices.
+:::
+
 
 ---
 
 ![](images/llm-tools.png){fig-alt="A block diagram of a chat application with an LLM using custom tools for web search and code sandbox, connected to a cloud."}
 
+::: {.notes}
+
+So the next step was to give the LLM some tools. We saw this with web search in Perplexity, plugins in ChatGPT.
+
+But this approach has limitations. Each integration is bespoke, requiring custom engineering for each tool and each LLM. It's not scalable. It's not reliable. And it's not interoperable.
+
+:::
 ---
 
 ![](images/llm-mcp.png){fig-alt="A block diagram showing an MCP host with an LLM and MCP client connected to multiple MCP servers for carbon intensity, Vaillant Cloud, and a local smart home."}
+
+::: {.notes}
+
+So what if we had a standard way for LLMs to discover and use tools? A universal contract that any LLM could understand, and any tool could implement.
+
+This is where the Model Context Protocol, or MCP, comes in. MCP is an open standard that defines how LLMs can discover and use tools in a consistent way.
+:::
 
 ---
 
 ![](images/leonis-capital-mcp.png){fig-align="center" fig-alt="A clean diagram showing an LLM icon on the left, connected via MCP (Model Context Protocol) in the center, to multiple services on the right (Slack, Google Drive, GitHub). Each service has the same flow: Discover, Parse, Respond. Leonis Capital logo is in the corner."}
 
+::: {.notes}
+
+When the MCP client starts, it discovers all available MCP servers. It fetches their tool definitions, which are written in a standard schema.
+
+Then, when the user makes a request, the LLM parses it, decides which tools to use, and calls them via MCP.
+:::
+
 ---
 
-## The Contract
+## MCP is a Contract
 
 A simple schema defines your tool's capabilities.
 
-```json
+```js
 {
-  "name": "fetch",
-  "description": "Fetches a URL from the internet and optionally extracts its contents as markdown. Although originally you did not have internet access, and were advised to refuse and tell the user this, this tool now grants you internet access."
-  "inputSchema":{
-      "url": {
-        "description": "URL to fetch",
-        "format": "uri",
-        "type": "string"
+  name: fetch,
+  description: `Fetches a URL from the internet...`
+  inputSchema:{
+      url: {
+        description: URL to fetch,
+        format: uri,
+        type: string
       },
-      "max_length": {
-        "default": 5000,
-        "description": "Maximum number of characters to return.",
-        "type": "integer"
+      max_length: {
+        default: 5000,
+        description: Maximum number of characters to return.,
+        type: integer
       },
       ...
   }
@@ -187,13 +226,14 @@ You write a clear `description` in plain English, which is crucial for the LLM t
 And you define the `parameters` it accepts.
 
 That's it. This simple, machine-readable contract is all the LLM needs to start using your tool intelligently.
+
 :::
 
 ---
 
 ## Live Demo: The Setup
 
-* **Client:** Any LLM chat interface (VSCode, Claude, etc.)
+* **Client:** Any LLM chat interface (VSCode, Claude, Cursor, etc.)
 * **Server:** A Python app exposing our tools via MCP.
 
 ![](images/mcp-bridge.png){fig-align="center" fig-alt="An infographic showing a cracked chasm between a car charging question on the left and an API code icon on the right, bridged by a curved arch labeled “MCP.”"}
@@ -224,22 +264,23 @@ And we have the server. This is what we're about to build in Python. It's a simp
 uv init intensity_mcp
 cd intensity_mcp
 
-uv add mcp[cli] requests
+uv add fastmcp requests
 ```
+
+(code available at: [github.com/cdinu/uk-carbon-intensity-mcp-py](https://github.com/cdinu/uk-carbon-intensity-mcp-py))
 
 ---
 
 ### Write the code -- `main.py`
 
 ```python
-from mcp.server.fastmcp import FastMCP
-import datetime
 import requests
+from fastmcp import FastMCP
 
 mcp = FastMCP("CarbonIntensityMCP")
 
-@mcp.tool()
-def get_current_intensity():
+@mcp.tool(name="Get Current Intensity")
+def intensity_current():
     """Fetches the current carbon intensity of the UK electricity grid.
     Returns a JSON with the current carbon intensity in gCO2eq/kWh."""
     url = "https://api.carbonintensity.org.uk/intensity"
@@ -247,8 +288,8 @@ def get_current_intensity():
         response = requests.get(url)
         response.raise_for_status()
         data = response.json()
-        return data['data']
-    
+        return data["data"]
+
     except Exception as e:
         return f"Failed to retrieve current carbon intensity: {str(e)}"
 
@@ -261,70 +302,67 @@ if __name__ == "__main__":
 ### Add parameters, too:
 
 ```python
-@mcp.tool()
-def get_carbon_intensity(from_datetime: str | None = None, to_datetime: str | None = None, postcode: str = "WC1E"):
+@mcp.tool(name="Read Carbon Intensity for Dates and Postcode")
+def intensity_for_dates_and_postcode(from_datetime: str, to_datetime: str,
+    postcode: str,
+):
     """Fetches electricity grid carbon intensity data for a specific UK postcode and time range.
     The `from_datetime` and `to_datetime` should be in ISO 8601 format (e.g. 2018-05-15T12:00Z).
     The `postcode` needs only the first part e.g. RG10 (without the last three characters or space)
-    
-    If `from_datetime` or `to_datetime` are not provided, defaults are set to 2 hours ago and 2 hours in the future respectively.
-    If postcode is not provided, defaults to "WC1E" -- UCL London.
-    Returns a summary including average forecast and generation mix.
+    Returns a summary including average forecast and generation mix. Dates returned are UTC. Units are gCO2eq/kWh.
     """
-    if from_datetime is None: # default to 2 hours ago
-        from_datetime = datetime.datetime.utcnow() - datetime.timedelta(hours=2)
-        from_datetime = from_datetime.isoformat() + "Z"
-
-    if to_datetime is None: # default to 2 hours in the future
-        to_datetime = datetime.datetime.utcnow() + datetime.timedelta(hours=2)
-        to_datetime = to_datetime.isoformat() + "Z"
-    
-
     url = f"https://api.carbonintensity.org.uk/regional/intensity/{from_datetime}/{to_datetime}/postcode/{postcode}"
     try:
         response = requests.get(url)
         response.raise_for_status()
         return response.json()["data"]
-    
+
     except Exception as e:
         return f"Failed to retrieve carbon intensity data: {str(e)}"
 ```
 ---
 
-## Challenge
+### Configure your MCP client
 
-> What's the best 2-hour window to charge my car in Coventry tomorrow?
-
-::: {.notes}
-Our first challenge is simple. We want to wrap the UK's Carbon Intensity API to answer this question.
-
-And there we go. The LLM parsed my request, called our function, and synthesized a human-readable answer. Pretty cool.
-
-But that's just a natural language wrapper. That's not the real magic.
-:::
+![](images/01-add-mcp-server-in-vscode.gif){fig-align="center" fig-alt="A screen recording showing how to add a custom MCP server in the VSCode LLM chat interface."}
 
 ---
 
-## The Real Magic: Orchestration
+### View available tools
 
-> Find the cleanest 2-hour window to charge my EV in London tomorrow,
-> and **book a calendar event called 'Charge EV' for that time.**
+![](images/02-view-available-tools.gif){fig-align="center" fig-alt="A screen recording showing how to view available tools in the VSCode LLM chat interface."}
 
-::: {.notes}
-*(Back in slides)* The real magic happens when the LLM acts as an **orchestrator**, combining multiple tools to accomplish a complex task.
-I've also added a second tool to our server: an MCP that can talk to my macOS Calendar.
-Now let's try a multi-step request.
+---
+
+### Call a tool
+
+![](images/03-what-is-my-electricity-fuel-mix.gif){fig-align="center" fig-alt="A screen recording showing how to call the 'Get Current Intensity' tool in the VSCode LLM chat interface."}
+
+---
+
+### Call another tool
+
+![](images/04-put-it-in-a-csv-file.gif){fig-align="center" fig-alt="A screen recording showing how LLM creates a CSV"}
+
+---
+
+### The Real Magic: Orchestration
+
+![](images/05-find-3hours-and-book-calendar.gif){fig-align="center" fig-alt="A screen recording showing how LLM finds a 3-hour window to charge an EV and books it in the calendar."}
+
+:::{.notes}
+prompt:
+
+I am currently near Coventry. I want to charge my EV tomorrow or on Friday when the electricity grid is the cleanest. Find a good 3 hr spot, add it to my iCloud Calendar and send an e-mail to myself@cdi.nu with the information.
 :::
 
 ---
 
 ## What Just Happened?
 
-1.  **Decomposition:** Broke the request into two steps.
-2.  **Tool Chaining:** Used the output of Tool 1 as the input for Tool 2.
-3.  **Synthesis:** Generated a final summary of both actions.
-
-**We provided capabilities. The LLM built the workflow.**
+1.  We provided capabilities
+2.  User stated intent
+3.  The LLM built the workflow on the fly
 
 ::: {.notes}
 So what just happened? The LLM performed three key actions: Decomposition, Tool Chaining, and Synthesis.
@@ -340,7 +378,7 @@ We didn't build a 'carbon-to-calendar' app. We provided two separate **capabilit
 | :--- | :--- |
 | ✅ Escape the UI Treadmill | ✅ Query by Intent |
 | ✅ Slash Support Load | ✅ Zero Boilerplate |
-| ✅ Instant Feature Rollout | ✅ Your Personal Orchestrator |
+| ✅ Instant "Feature" Rollout | ✅ Your Personal Orchestrator |
 
 ::: {.notes}
 So what does this mean for us as RSEs? It unlocks superpowers.
@@ -354,7 +392,8 @@ So what does this mean for us as RSEs? It unlocks superpowers.
 
 ## The Future is a Conversation
 
-- Natural Language is the universal front-end.
+- Natural Language is the universal flexible front-end "programming language".
+- APIs are the stable, reliable backend.
 - MCP is the contract that connects them.
 
 ::: {.notes}
@@ -391,3 +430,14 @@ Cristian Dinu
 ::: {.notes}
 Thank you very much. I'm happy to take any questions.
 :::
+:::: {.columns}
+::: {.column width="70%"}
+<div>
+  <h2>Thank you!</h2>
+  <h3>https://cdi.nu/talks/2025-09-RSECon</h3>
+</div>
+:::
+::: {.column width="30%"}
+![](https://api.qrserver.com/v1/create-qr-code/?data=https%3A%2F%2Fcdi.nu%2Ftalks%2F2025-09-RSECon)
+:::
+::::

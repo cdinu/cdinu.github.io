@@ -1,0 +1,18 @@
+---
+title: "Talks"
+---
+
+This page lists my talks at various conferences and events. You can find the slides and other materials linked below.
+
+### RSECon25: The End of Front-End: Delivering Software via LLMs and the Model Context Protocol 
+
+What if the future of software delivery didn’t involve a user interface at all? With the rise of large language models (LLMs), we’re entering a new era where software can be consumed through natural conversation, not clicks. In this walkthrough, I’ll introduce the Model Context Protocol (MCP)—a new way to expose real-time, typed, dynamic data to LLMs, enabling them to act as intelligent, conversational front-ends for research software.
+
+- [Slides](2025-09-RSECon/index.qmd)
+- [Abstract](https://virtual.oxfordabstracts.com/event/75166/submission/96)
+- [Conference Website](https://rsecon25.society-rse.org/)
+
+
+### ARC Festival: Conversational Interfaces for Research: Transforming Data Interaction with LLMs and MCP
+
+[Slides](2025-07-ARC-Festival/narative.qmd)
