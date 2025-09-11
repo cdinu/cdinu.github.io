@@ -1218,6 +1218,34 @@
     "text": "Live Demo: The Setup\n\nClient: Any LLM chat interface (VSCode, Claude, Cursor, etc.)\nServer: A Python app exposing our tools via MCP.\n\n\n\nOkay, enough talk. Let’s build one.\nFirst, the setup. We have a client, which is just a standard LLM chat interface. The user just talks to it.\nAnd we have the server. This is what we’re about to build in Python. It’s a simple web server that exposes our tools via MCP."
   },
   {
+    "objectID": "talks/2025-09-RSECon/index.html#section",
+    "href": "talks/2025-09-RSECon/index.html#section",
+    "title": "Cristian Dinu",
+    "section": "",
+    "text": "import requests\n\ndef intensity_current():\n    \"\"\"Fetches the current carbon intensity of the UK electricity grid.\n    Returns a JSON with the current carbon intensity in gCO2eq/kWh.\"\"\"\n    response = requests.get(\"https://api.carbonintensity.org.uk/intensity\")\n    response.raise_for_status()\n    data = response.json()\n    return data[\"data\"]"
+  },
+  {
+    "objectID": "talks/2025-09-RSECon/index.html#section-1",
+    "href": "talks/2025-09-RSECon/index.html#section-1",
+    "title": "Cristian Dinu",
+    "section": "",
+    "text": "import requests\nfrom fastmcp import FastMCP\n\ndef intensity_current():\n    \"\"\"Fetches the current carbon intensity of the UK electricity grid.\n    Returns a JSON with the current carbon intensity in gCO2eq/kWh.\"\"\"\n    response = requests.get(\"https://api.carbonintensity.org.uk/intensity\")\n    response.raise_for_status()\n    data = response.json()\n    return data[\"data\"]"
+  },
+  {
+    "objectID": "talks/2025-09-RSECon/index.html#section-2",
+    "href": "talks/2025-09-RSECon/index.html#section-2",
+    "title": "Cristian Dinu",
+    "section": "",
+    "text": "import requests\nfrom fastmcp import FastMCP\n\nmcp = FastMCP(\"CarbonIntensityMCP\")\n\ndef intensity_current():\n    \"\"\"Fetches the current carbon intensity of the UK electricity grid.\n    Returns a JSON with the current carbon intensity in gCO2eq/kWh.\"\"\"\n    response = requests.get(\"https://api.carbonintensity.org.uk/intensity\")\n    response.raise_for_status()\n    data = response.json()\n    return data[\"data\"]"
+  },
+  {
+    "objectID": "talks/2025-09-RSECon/index.html#section-3",
+    "href": "talks/2025-09-RSECon/index.html#section-3",
+    "title": "Cristian Dinu",
+    "section": "",
+    "text": "import requests\nfrom fastmcp import FastMCP\n\nmcp = FastMCP(\"CarbonIntensityMCP\")\n\n@mcp.tool(name=\"Get Current Intensity\")\ndef intensity_current():\n    \"\"\"Fetches the current carbon intensity of the UK electricity grid.\n    Returns a JSON with the current carbon intensity in gCO2eq/kWh.\"\"\"\n    response = requests.get(\"https://api.carbonintensity.org.uk/intensity\")\n    response.raise_for_status()\n    data = response.json()\n    return data[\"data\"]\n\nif __name__ == \"__main__\":\n    mcp.run()"
+  },
+  {
     "objectID": "talks/2025-09-RSECon/index.html#what-just-happened",
     "href": "talks/2025-09-RSECon/index.html#what-just-happened",
     "title": "Cristian Dinu",
