@@ -1,8 +1,8 @@
 ---
 title: "Cristian Dinu"
-subtitle: "Building Research Software for a Decarbonised Future"
+subtitle: "Research Software, AI Evaluation and Simulation"
 format: html
-description: "Cristian Dinu is a Senior Research Software Engineer at UCL, building human-centred data systems for climate and energy research, including SERL and EDOL."
+description: "Cristian Dinu is a Senior Research Software Engineer at UCL, developing data systems for energy research through SERL and EDOL. His broader interests include evaluating and testing LLM-based software, understanding its risks, and exploring agent-based simulation."
 about:
   id: hero-heading
   template: jolla

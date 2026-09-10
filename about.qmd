@@ -1,29 +1,38 @@
 ---
 title: "Cristian Dinu"
-subtitle: "Building Research Software for a Decarbonised Future"
+subtitle: "Research Software, Energy Data and AI Evaluation"
 format: html
 ---
 
-I am Cristian Dinu — a software engineer working at the boundary between climate, data, and research. I help make energy data more accessible to researchers through secure, reliable, human-focused software. Currently, I am a Senior Research Software Engineer at [UCL](https://www.ucl.ac.uk), contributing to the [Smart Energy Research Lab (SERL)](https://serl.ac.uk) and [Energy Demand Observatory and Laboratory (EDOL)](https://edol.ac.uk), where I lead the technical development of systems that support energy research at scale.
+I am Cristian Dinu, a software engineer working across energy, data and research, with a growing interest in AI evaluation and agent-based simulation. Currently, I am a Senior Research Software Engineer at [UCL](https://www.ucl.ac.uk), where I lead the technical development of systems supporting the [Smart Energy Research Lab (SERL)](https://serl.ac.uk) and [Energy Demand Observatory and Laboratory (EDOL)](https://edol.ac.uk).
 
 ## Work
 
-I am part of [Advanced Research Computing Centre](https://www.ucl.ac.uk/advanced-research-computing/) and [Smart Energy Research Group](https://www.linkedin.com/company/ucl-smart-energy-research-group/) at the UCL Energy Institute. My work focuses on designing and building data infrastructure to enable UK researchers to access rich energy datasets while maintaining strong privacy protections.
+I am part of the [Advanced Research Computing Centre](https://www.ucl.ac.uk/advanced-research-computing/) and work with the [Smart Energy Research Group](https://www.linkedin.com/company/ucl-smart-energy-research-group/) at the UCL Energy Institute. My work focuses on designing and building data infrastructure that gives UK researchers access to detailed energy datasets while maintaining strong privacy protections.
 
-I lead the technical development of two flagship projects: SERL and EDOL. These platforms securely collect and enrich household energy data from smart meters, environmental sensors, surveys, and IoT devices. They are designed to comply with strict data governance and smart meter regulations while remaining useful to a wide range of researchers.
+SERL and EDOL securely collect and enrich household energy data from smart meters, environmental sensors, surveys and IoT devices. The engineering challenge is to make these data useful to researchers while meeting the requirements of data governance and smart meter regulations.
 
-Before UCL, I co-founded [Hypersay](https://hypersay.com), a platform for online events and real-time presentation engagement. That experience continues to shape my belief that software should be not only functional but intuitive, human-centred, and robust.
+Before UCL, I co-founded [Hypersay](https://hypersay.com), a platform for online events and real-time presentation engagement. Earlier in my career, I worked as a Risk Manager at IBM. Those experiences continue to inform how I build software: understand the problem, consider what could go wrong, and make the result useful to the people working with it.
 
-I'm currently exploring how emerging AI technologies — especially language models (LLMs), diffusion models, and the Model Context Protocol (MCP) — can transform how people interact with computers, moving beyond traditional user interfaces.
+## Current interests
+
+I’m increasingly interested in how we evaluate and test software that contains non-deterministic components, particularly LLMs and agents. How do we establish what “good enough” means, investigate failures, and tell whether a change has actually improved the system?
+
+I have been experimenting with Inspect AI, looking at tool use and how language models respond to unreliable information. My interest is in building repeatable tests and making the findings useful: what happened, under which conditions, what needs changing, and what the tests have yet to establish. This also connects with my earlier experience in risk management.
+
+Model selection is part of the same question. A smaller, cheaper model may be adequate for a particular task, but that needs evidence. I’m interested in comparisons that account for reliability, cost and the consequences of getting something wrong.
+
+I’m also exploring agent-based simulation, including Google DeepMind’s Concordia. I want to investigate how individual decisions and interactions produce wider patterns of behaviour, and how simulated environments can help us test ideas. Understanding what those simulations can tell us about the real world is part of the problem.
+
+These interests build on my earlier exploration of natural-language interfaces and the Model Context Protocol (MCP). Connecting models to tools makes them more useful. It also gives us more behaviour to investigate.
 
 ## Research Interests
 
+- Evaluation and testing of LLM-based software and agents
+- Agent-based simulation and the relationship between individual decisions and collective behaviour
 - Decarbonisation through high-resolution energy monitoring
-- Appliance-level energy insights, with focus on heat pumps
-- Demand flexibility and optimisation via grid-aware protocols (e.g., OpenADR)
-- Human-centred energy data infrastructure, with strong privacy controls
-- Natural language as an interface: LLMs, MCP, and generative UX for research tools
+- Research data infrastructure with strong privacy protections
 
 ## Connect
 
-You can connect with me on [LinkedIn](https://linkedin.com/in/cdinu), or view my [UCL profile](https://profiles.ucl.ac.uk/69550-cristian-dinu). If you want to meet online, [book here](https://outlook.office.com/bookwithme/user/51ab13ffeaa1421c862387ecad39b1db@ucl.ac.uk?anonymous&ismsaljsauthenabled&ep=plink).
+You can connect with me on [LinkedIn](https://linkedin.com/in/cdinu), or view my [UCL profile](https://profiles.ucl.ac.uk/69550-cristian-dinu). For a conversation about my work at UCL, [book a meeting here](https://outlook.office.com/bookwithme/user/51ab13ffeaa1421c862387ecad39b1db@ucl.ac.uk?anonymous&ismsaljsauthenabled&ep=plink).
