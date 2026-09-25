@@ -8,7 +8,7 @@
 <title>Cristian Dinu</title>
 <link>https://cdi.nu/posts/</link>
 <atom:link href="https://cdi.nu/posts/index.xml" rel="self" type="application/rss+xml"/>
-<description>Cristian Dinu is a Senior Research Software Engineer at UCL, building human-centred data systems for climate and energy research, including SERL and EDOL.</description>
+<description>Cristian Dinu is a Senior Research Software Engineer at UCL working on energy data systems, with broader interests in AI evaluation and agent-based simulation.</description>
 <image>
 <url>https://cdi.nu/images/favicon.jpg</url>
 <title>Cristian Dinu</title>
@@ -33,8 +33,8 @@
 <p>This year I have been exploring how I can evaluate and observe these mathematical creatures. I challenged and watched how they react when being fooled into doing nasty things, such as spreading misinformation, or turning off the thermostat in a house with vulnerable people, both simulated, of course.</p>
 <p>I had to build “testbeds” that simulated Russian propaganda websites or naive thermostats. I have been writing “traditional” software, and hence testing it for decades already. But what we are facing now is at a completely different level of complexity. Because an “agent” fails silently, “lies” confidently, more than one way of behaving can be “fine”.</p>
 <p>I am happy that I did not ignore and instead cultivated complementary, non-technical exploration, from a universe we call, probably incorrectly, “humanities”. As code is replaced by natural language and the machine inherits the wonderful but nevertheless flawed human behavioural traits, we need more and more those skills.</p>
-<p>Oh, and in the process I pledged that I would never post anything that was written by AI. I do find that “I told it what to write and I reviewed it carefully” is lame and self-deceiving.</p>
-<p>I tried it in the past and it made me rather ashamed, instead of proud to share something interesting. I owe everyone the respect of not asking them to read what I did not write. And I want to return the favour for those who still write using their neurons, not a data centre. Someone said that “When you use LLMs to author a post […] your intellectual fly is open: lots of people notice — but no one is pointing it out.” So I promise that if I am not able to write something decent, I’ll paste the prompt instead!</p>
+<p><em>Oh, and in the process I pledged that I would never post anything that was written by AI. I do find that “I told it what to write and I reviewed it carefully” is lame and self-deceiving.</em></p>
+<p><em>I tried it in the past and it made me rather ashamed, instead of proud to share something interesting. I owe everyone the respect of not asking them to read what I did not write. And I want to return the favour for those who still write using their neurons, not a data centre. Someone said that “When you use LLMs to author a post […] your intellectual fly is open: lots of people notice — but no one is pointing it out.” So I promise that if I am not able to write something decent, I’ll paste the prompt instead!</em></p>
 
 
 
