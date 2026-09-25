@@ -1,0 +1,25 @@
+---
+title: "What has been keeping me busy, September 2026"
+title-block-banner: true
+date: "2026-09-25"
+categories: [AI & Technology, Writing & Communication, Thoughts]
+description: "AI is at the centre of what I've been doing, unsurprisingly. But testing and evaluating LLMs is only half the story — the other half is why I still insist on writing every word of this myself."
+---
+
+It has been a while since I shared any updates on my work. While my work continued to be mainly energy research projects, I became increasingly interested in different problems: how do we, humans in general and engineers in particular, test the new amazing but quite unpredictable tools we are creating, and how technology impacts us as individuals and groups.
+
+So, unsurprisingly, AI is in the centre, just like for everyone else. However, this is not a cliché, because we do all need to think about what this means for us. It is a monumental change, that even if we wish it had not happen, we need to face it, and we have a duty to deal with it. I think that everyone should contribute, according to their skills and interests.
+
+My skills and interests point towards helping to make the LLMs behave better, by testing and evaluating them (or systems that employ them).
+
+Claude, Gemini, ChatGPT, Kimi, they are all non-deterministic systems, which means that being asked the same thing they do not always respond the same way, and the output itself is rather unpredictable. And so is the software that uses them. Last year I gave some talks and demonstrated how to use a solution (called Model Context Protocol) to allow models to retrieve real data instead of speculating and have some real-world outputs.
+
+This year I have been exploring how I can evaluate and observe these mathematical creatures. I challenged and watched how they react when being fooled into doing nasty things, such as spreading misinformation, or turning off the thermostat in a house with vulnerable people, both simulated, of course.
+
+I had to build "testbeds" that simulated Russian propaganda websites or naive thermostats. I have been writing "traditional" software, and hence testing it for decades already. But what we are facing now is at a completely different level of complexity. Because an "agent" fails silently, "lies" confidently, more than one way of behaving can be "fine".
+
+I am happy that I did not ignore and instead cultivated complementary, non-technical exploration, from a universe we call, probably incorrectly, "humanities". As code is replaced by natural language and the machine inherits the wonderful but nevertheless flawed human behavioural traits, we need more and more those skills.
+
+Oh, and in the process I pledged that I would never post anything that was written by AI. I do find that "I told it what to write and I reviewed it carefully" is lame and self-deceiving.
+
+I tried it in the past and it made me rather ashamed, instead of proud to share something interesting. I owe everyone the respect of not asking them to read what I did not write. And I want to return the favour for those who still write using their neurons, not a data centre. Someone said that "When you use LLMs to author a post [...] your intellectual fly is open: lots of people notice — but no one is pointing it out." So I promise that if I am not able to write something decent, I'll paste the prompt instead!
