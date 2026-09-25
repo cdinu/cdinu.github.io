@@ -20,6 +20,7 @@ I had to build "testbeds" that simulated Russian propaganda websites or naive th
 
 I am happy that I did not ignore and instead cultivated complementary, non-technical exploration, from a universe we call, probably incorrectly, "humanities". As code is replaced by natural language and the machine inherits the wonderful but nevertheless flawed human behavioural traits, we need more and more those skills.
 
-Oh, and in the process I pledged that I would never post anything that was written by AI. I do find that "I told it what to write and I reviewed it carefully" is lame and self-deceiving.
 
-I tried it in the past and it made me rather ashamed, instead of proud to share something interesting. I owe everyone the respect of not asking them to read what I did not write. And I want to return the favour for those who still write using their neurons, not a data centre. Someone said that "When you use LLMs to author a post [...] your intellectual fly is open: lots of people notice — but no one is pointing it out." So I promise that if I am not able to write something decent, I'll paste the prompt instead!
+_Oh, and in the process I pledged that I would never post anything that was written by AI. I do find that "I told it what to write and I reviewed it carefully" is lame and self-deceiving._
+
+_I tried it in the past and it made me rather ashamed, instead of proud to share something interesting. I owe everyone the respect of not asking them to read what I did not write. And I want to return the favour for those who still write using their neurons, not a data centre. Someone said that "When you use LLMs to author a post [...] your intellectual fly is open: lots of people notice — but no one is pointing it out." So I promise that if I am not able to write something decent, I'll paste the prompt instead!_

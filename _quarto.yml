@@ -20,18 +20,19 @@ website:
         text: MCP Talk
   site-url: https://cdi.nu
   repo-url: https://github.com/cdinu/cdinu.github.io
-  description: "Cristian Dinu is a Senior Research Software Engineer at UCL, building human-centred data systems for climate and energy research, including SERL and EDOL."
+  description: "Cristian Dinu is a Senior Research Software Engineer at UCL working on energy data systems, with broader interests in AI evaluation and agent-based simulation."
   open-graph:
-    title: "Cristian Dinu, Building Research Software for a Decarbonised Future"
-    description: "Research Software Engineer at UCL working at the intersection of energy, data, and climate. Leading development of SERL and EDOL platforms."
+    title: "Cristian Dinu — Research Software, AI Evaluation and Simulation"
+    description: "Developing energy research data systems at UCL through SERL and EDOL. Exploring LLM testing, risk and agent-based simulation."
   twitter-card:
-    title: "Cristian Dinu, Research Software Engineer"
-    description: "I build data platforms for energy and climate research. Currently working on SERL and EDOL at UCL."
+    title: "Cristian Dinu — Research Software, AI Evaluation and Simulation"
+    description: "Developing energy research data systems at UCL through SERL and EDOL. Exploring LLM testing, risk and agent-based simulation."
   page-footer:
-    left: "Copyright 2025, Cristian Dinu"
-    right: 
+    left: "Copyright 2025–2026, Cristian Dinu"
+    right:
       - icon: github
         href: https://github.com/cdinu/cdinu.github.io
+
 format:
   html:
     respect-user-color-scheme: true
